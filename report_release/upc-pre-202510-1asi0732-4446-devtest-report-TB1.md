@@ -285,6 +285,7 @@ Visión: Ser la plataforma líder a nivel nacional en el comercio de vehículos 
 |                                                                                                                                                                                                                                                | Miembros del equipo    | Código Estudiante | Carrera                | Conocimientos / Habilidades                                                                                                                                                                                                                                         |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|-------------------|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <img src="../assets/photos-members/Mathias-Kunimoto.jpg" alt="Mathias Kunimoto" style="margin-bottom: 5px;" width="400"/> | Mathias Kunimoto | u202210148        | Ingeniería de software | Tengo experiencia en el desarrollo frontend, trabajando con tecnologías como Tailwind CSS, React y JavaScript. Me considero una persona sociable, organizada y con gran capacidad de adaptación, lo que me permite integrarme fácilmente en equipos de trabajo y aportar al cumplimiento de los objetivos. Siempre busco sacar mi mayor potencial, aprendiendo constantemente y contribuyendo con una actitud proactiva y comprometida. |
+| <img src="../assets/photos-members/Augusto-Pin.jpeg" alt="Augusto Pin" style="margin-bottom: 5px;" width="400"/> | Augusto Pin | u202210257        | Ingeniería de software | Me considero una persona responsable y determinada a cumplir metas, dispuesto a aprender y a practicar en el mundo de la programacion, tengo experiencia desarrollando frontend, usando tailwind y como principal framework VueJs, siempre busco aprender y desarrollarme más como programador para ser mejor. |
 
 ## 1.2. Solution Profile
 
@@ -305,3 +306,13 @@ Para la elaboración de la descripción de la problemática y antecedentes de la
 Finalmente juntamos todo lo que hemos hecho en este proceso y lo agregamos en un Lean UX Canvas (V2) guiandonos del ejemplo que nos proporciona Jeff Gothelf [Anexo 1.1]
 
 <image src ="../assets/lean-ux-canvas/lean-ux-canva.png" alt ="LeanUX Canvas (V2) [implementando lean UX 3]">
+
+### 2.1.2 Estrategias y tácticas frente a competidores
+
+WeCar se posiciona como una plataforma eficiente que conecta compradores y vendedores de autos de manera segura. Para destacarnos de la competencia, implementamos estas estrategias:
+
+<strong>Interfaz Sencilla:</strong> La aplicación es fácil de usar, permitiendo a los usuarios publicar y buscar autos rápidamente, incluso sin experiencia tecnológica.
+
+<strong>Comunicación efectiva:</strong> Proporcionamos el contacto para el contacto directo con el vendedor y asi ponerse de acuerdo con la venta y el producto, tambien se pueden resolver las posibles dudas.
+
+<strong>Autenticación Segura:</strong> Implementamos un sistema de autenticación de verificación de identidad mediante documentos. Esto garantiza que tanto compradores como vendedores estén debidamente verificados, aumentando la seguridad y confianza en las transacciones dentro de la plataforma.
