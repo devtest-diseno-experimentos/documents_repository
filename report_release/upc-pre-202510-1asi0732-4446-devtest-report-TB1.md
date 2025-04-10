@@ -274,7 +274,7 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 
 ### 1.1.1. Descripción de la Startup
 
-Car2Go es una startup fundada en 2024 por un grupo de estudiantes de Ingeniería de Software. Nuestra plataforma busca revolucionar el mercado de autos usados, brindando una alternativa innovadora y accesible para quienes desean comprar o vender vehículos de segunda mano.
+WeCar es una startup fundada en 2024 por un grupo de estudiantes de Ingeniería de Software. Nuestra plataforma busca revolucionar el mercado de autos usados, brindando una alternativa innovadora y accesible para quienes desean comprar o vender vehículos de segunda mano.
 
 Misión: Facilitar el proceso de compra y venta de autos usados a través de una plataforma ágil e intuitiva, ofreciendo a nuestros usuarios todas las herramientas necesarias para garantizar una experiencia sencilla, segura y confiable.
 
@@ -291,3 +291,17 @@ Visión: Ser la plataforma líder a nivel nacional en el comercio de vehículos 
 ### 1.2.1 Antecedentes y problemática
 
 Para la elaboración de la descripción de la problemática y antecedentes de la solución, se ha utilizado el método de las 5 'W's y 2 'H's.
+
+### 1.2.2 Lean UX Process.
+
+#### 1.2.2.1. Lean UX Problem Statement.
+
+#### 1.2.2.2. Lean UX Assumptions
+
+#### 1.2.2.3. Lean UX Hypothesis Statements.
+
+#### 1.2.2.4. Lean UX Canvas.
+
+Finalmente juntamos todo lo que hemos hecho en este proceso y lo agregamos en un Lean UX Canvas (V2) guiandonos del ejemplo que nos proporciona Jeff Gothelf [Anexo 1.1]
+
+<image src ="../assets/lean-ux-canvas/lean-ux-canva.png" alt ="LeanUX Canvas (V2) [implementando lean UX 3]">
