@@ -24,7 +24,7 @@
 <div align="center">
 
 |             Member             |    Code    |
-|:------------------------------:|:----------:|
+|:------------------------ ------:|:----------:|
 | Rodrigo Alejandro Aguilar Castillo      |    u202210584     |
 | Jean Franco Joel Barrionuevo Reto         |    u202219284     |
 | Mathias Tsuneo Kunimoto Watanabe          | u202210148 |
@@ -274,7 +274,11 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 
 ### 1.1.1. Descripción de la Startup
 
-WeCar es una solución................................................................................................................................................................................................................................................................................
+Car2Go es una startup fundada en 2024 por un grupo de estudiantes de Ingeniería de Software. Nuestra plataforma busca revolucionar el mercado de autos usados, brindando una alternativa innovadora y accesible para quienes desean comprar o vender vehículos de segunda mano.
+
+Misión: Facilitar el proceso de compra y venta de autos usados a través de una plataforma ágil e intuitiva, ofreciendo a nuestros usuarios todas las herramientas necesarias para garantizar una experiencia sencilla, segura y confiable.
+
+Visión: Ser la plataforma líder a nivel nacional en el comercio de vehículos usados, promoviendo la confianza y satisfacción en cada operación realizada por nuestros usuarios.
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
