@@ -23,13 +23,13 @@
 
 <div align="center">
 
-|             Member             |    Code    |
-|:------------------------ ------:|:----------:|
-| Rodrigo Alejandro Aguilar Castillo      |    u202210584     |
-| Jean Franco Joel Barrionuevo Reto         |    u202219284     |
-| Mathias Tsuneo Kunimoto Watanabe          | u202210148 |
-| Italo D'alessandro Luna Capuñay    |    u202213375     |
-| Augusto Jose Pin Matallana    |    u202210257     |
+|             Member                        |      Code      |
+|-------------------------------------------|:--------------:|
+| Rodrigo Alejandro Aguilar Castillo        |   u202210584   |
+| Jean Franco Joel Barrionuevo Reto         |   u202219284   |
+| Mathias Tsuneo Kunimoto Watanabe          |   u202210148   |
+| Italo D'alessandro Luna Capuñay           |   u202213375   |
+| Augusto Jose Pin Matallana                |   u202210257   |
 
 </div>
 
