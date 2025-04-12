@@ -760,6 +760,20 @@ A continuación, presentaremos los User Task Matrix de los segmentos objetivos q
 
 Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo se diferencian en ciertas partes técnicas, como el mecánico, y estética, en cuanto a los vendedores y compradores.
 
+### 2.3.3. User Journey Mapping
+
+### Compradores de segunda mano:
+
+<img src="../assets/user-journey-mapping/journey_comprador.png">
+
+### Vendedores de segunda mano:
+
+<img src="../assets/user-journey-mapping/journey_vendedor.png">
+
+### Talleres mecánicos:
+
+<img src="../assets/user-journey-mapping/journey_talleres.png">
+
 
 ### 2.3.5. As-is Scenario Mapping
 ## 2.4. Ubiquitous Language
