@@ -626,6 +626,24 @@ WeCar se posiciona como una plataforma eficiente que conecta compradores y vende
 ### 2.2.2. Registro de entrevistas
 ### 2.2.3. Análisis de entrevistas
 
+## 2.3. Needfinding
+
+### 2.3.1. User Personas
+
+### Compradores de segunda mano:
+
+<img src="../assets/user-personas/UserPersona_Comprador.png">
+
+### Vendedores de segunda mano:
+
+<img src="../assets/user-personas/UserPersona_Vendedor.jpg">
+
+
+
+### Talleres mecánicos:
+
+<img src="../assets/user-personas/UserPersona_Talleres.png">
+<br><br><br><br>
 
 ### 2.3.2 User Task Matrix
 
