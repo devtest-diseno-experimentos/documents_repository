@@ -889,7 +889,9 @@ Link del Miro:
 
 **Segmento Vendedores de Autos de Segunda Mano**
 <img src="../assets/as-is-scenario-mapping/as-is-scenario-mapping-segmento-2.jpg" alt="Segmento 2">
+
 **Segmento Talleres mecánicos encargados de revisiones**
+<img src="../assets/as-is-scenario-mapping/as-is-scenario-mapping-segmento-3.jpg" alt="Segmento 3">
 
 ## 2.4. Ubiquitous Language
 =======
