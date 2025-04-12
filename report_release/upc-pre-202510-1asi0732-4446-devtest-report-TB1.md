@@ -714,6 +714,7 @@ WeCar se posiciona como una plataforma eficiente que conecta compradores y vende
 
 
 ### 2.2.2. Registro de entrevistas
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
@@ -878,6 +879,17 @@ Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo
 <img src="../assets/empathy-mapping/empathy_talleres.png">
 
 ### 2.3.5. As-is Scenario Mapping
+
+As Is representa las fases donde aun no se esta implementando nuestra solución nos sirve para poder plantear escenarios de los cuales abarcaremos en el To Be donde utilizaremos la solución.
+
+Link del Miro: 
+
+**Segmento Compradores de Autos de Segunda Mano**
+<img src="../assets/as-is-scenario-mapping/as-is-scenario-mapping-segmento-1.jpg" alt="Segmento domestico">
+
+**Segmento Vendedores de Autos de Segunda Mano**
+**Segmento Talleres mecánicos encargados de revisiones**
+
 ## 2.4. Ubiquitous Language
 =======
 Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo se diferencian en ciertas partes técnicas, como el mecánico, y estética, en cuanto a los vendedores y compradores.
