@@ -638,6 +638,38 @@ WeCar se posiciona como una plataforma eficiente que conecta compradores y vende
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
+
+**Preguntas generales:**
+
+1. ¿Cuál es su nombre? 
+2. ¿Qué edad tiene? 
+3. ¿A qué se dedica? 
+4. ¿Que navegador usa?
+5. ¿Que dispositivo usa con mas frecuencia y de que marca es?
+6. ¿En que distrito se encuentra?
+
+**Entrevistas usuario segmento (Compradores de Autos de Segunda Mano)**
+1. ¿Has comprado antes un auto de segunda mano? Cuéntame cómo fue esa experiencia.
+
+2. ¿Qué factores consideraste más importantes al momento de decidirte por un auto?
+
+3. ¿Cómo verificaste que la información del auto era verdadera y el vendedor confiable?
+
+4. ¿Tuviste algún problema o inconveniente durante el proceso de compra?
+
+5. ¿Qué tan cómodo te sientes usando plataformas digitales o apps para buscar autos? ¿Por qué?
+
+6. ¿Qué tan importante es para ti que un vehículo tenga historial de revisiones o certificaciones técnicas?
+
+7. ¿Estarías dispuesto a pagar un poco más si el vehículo viene con información verificada por un taller?
+
+8. ¿Preferirías comunicarte directamente con el vendedor o que la plataforma se encargue de todo? ¿Por qué?
+
+9. ¿Qué herramientas te habrían ayudado a tener una mejor experiencia de compra?
+
+10. Si mañana quisieras comprar un auto, ¿por dónde empezarías tu búsqueda y qué esperas encontrar en la plataforma ideal?
+
+
 ### 2.2.2. Registro de entrevistas
 ### 2.2.3. Análisis de entrevistas
 
