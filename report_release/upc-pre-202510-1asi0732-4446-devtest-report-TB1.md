@@ -691,6 +691,27 @@ WeCar se posiciona como una plataforma eficiente que conecta compradores y vende
 
 10. ¿Qué otros servicios o herramientas te gustaría que tenga una plataforma para ayudarte a vender tu vehículo?
 
+**Entrevistas usuario segmento (Talleres mecánicos encargados de revisiones)**
+1. ¿Cuál es tu experiencia realizando inspecciones o revisiones para autos de segunda mano?
+
+2. ¿Qué tipos de revisiones consideras esenciales para asegurar la calidad y seguridad de un vehículo usado?
+
+3. ¿Qué tan interesado estarías en colaborar con una plataforma que te conecte con vendedores que buscan revisiones pagadas?
+
+4. ¿Qué tipo de certificaciones o informes sueles entregar luego de una inspección completa?
+
+5. ¿Cómo aseguras la precisión y objetividad de los datos que entregas sobre un vehículo?
+
+6. ¿Qué otros servicios o tipos de revisión te gustaría ofrecer dentro de una plataforma de compra y venta de autos?
+
+7. ¿Cómo manejarías un aumento en la demanda de inspecciones si se incrementa el número de solicitudes por medio de la plataforma?
+
+8. ¿Qué tan importante es para ti mantener una buena reputación y generar confianza con compradores y vendedores?
+
+9. ¿Cómo valorarías la posibilidad de aumentar tus ingresos ofreciendo revisiones a través de esta plataforma?
+
+10. ¿Qué aspectos tomarías en cuenta antes de integrarte a una plataforma que busca asegurar la credibilidad de los vehículos en venta?
+
 
 ### 2.2.2. Registro de entrevistas
 ### 2.2.3. Análisis de entrevistas
