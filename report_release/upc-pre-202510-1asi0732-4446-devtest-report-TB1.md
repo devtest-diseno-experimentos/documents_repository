@@ -316,3 +316,117 @@ WeCar se posiciona como una plataforma eficiente que conecta compradores y vende
 <strong>Comunicación efectiva:</strong> Proporcionamos el contacto para el contacto directo con el vendedor y asi ponerse de acuerdo con la venta y el producto, tambien se pueden resolver las posibles dudas.
 
 <strong>Autenticación Segura:</strong> Implementamos un sistema de autenticación de verificación de identidad mediante documentos. Esto garantiza que tanto compradores como vendedores estén debidamente verificados, aumentando la seguridad y confianza en las transacciones dentro de la plataforma.
+
+### 2.3.2 User Task Matrix
+
+A continuación, presentaremos los User Task Matrix de los segmentos objetivos que encontramos.
+
+<table>
+ <tr>
+    <th>Task Matrix</th>
+    <th colspan="2">Vendedor de autos</th>
+    <th colspan="2">Comprador de autos</th>
+    <th colspan="2">Talleres Mecánicos</th>
+  </tr>
+  <tr>
+    <th></th>
+    <th>Frecuencia</th>
+    <th>Importancia</th>
+    <th>Frecuencia</th>
+    <th>Importancia</th>
+    <th>Frecuencia</th>
+    <th>Importancia</th>
+  </tr>
+  <tr>
+    <th>Inspeccionar la pintura del vehículo</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Media</th>
+    <th>Media</th>
+  </tr>
+  <tr>
+    <th>Revisar el kilometraje</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+  </tr>
+  <tr>
+    <th>Revisar el historial de mantenimiento</th>
+    <th>Media</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+  </tr>
+  <tr>
+    <th>Evaluar el interior del vehículo</th>
+    <th>Alta</th>
+    <th>Media</th>
+    <th>Alta</th>
+    <th>Media</th>
+    <th>Media</th>
+    <th>Baja</th>
+  </tr>
+  <tr>
+    <th>Verificar el funcionamiento del motor</th>
+    <th>Media</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+  </tr>
+  <tr>
+    <th>Comprobar el sistema de frenos</th>
+    <th>Media</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+  </tr>
+  <tr>
+    <th>Verificar los documentos legales</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+  </tr>
+  <tr>
+    <th>Revisar el estado de la batería</th>
+    <th>Media</th>
+    <th>Media</th>
+    <th>Media</th>
+    <th>Media</th>
+    <th>Alta</th>
+    <th>Alta</th>
+  </tr>
+  <tr>
+    <th>Verificar las llantas y la suspensión</th>
+    <th>Media</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+  </tr>
+  <tr>
+    <th>Revisar posibles fugas de fluidos</th>
+    <th>Baja</th>
+    <th>Media</th>
+    <th>Media</th>
+    <th>Alta</th>
+    <th>Alta</th>
+    <th>Alta</th>
+  </tr>
+</table>
+
+Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo se diferencian en ciertas partes técnicas, como el mecánico, y estética, en cuanto a los vendedores y compradores.
