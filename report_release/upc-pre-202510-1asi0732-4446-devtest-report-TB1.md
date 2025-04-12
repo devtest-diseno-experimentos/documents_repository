@@ -511,7 +511,105 @@ Aquí unos competidores directos que proporcionan servicios similares al nuestro
 
 <br><br>
 
-
+## 2.1.1. Análisis competitivo
+<table>
+ <tr>
+    <th colspan="6">Competitive Analysis Landscape</th>
+  </tr>
+  <tr>
+  <th>¿Por qué llevar a cabo este análisis?</th>
+    <td colspan="6"> Realizaremos un análisis competitivo porque es muy importante identificar oportunidades de diferenciación, entender las fortalezas y debilidades de los competidores, y adaptar la estrategia para posicionar mejor la plataforma en el mercado.</td>
+  </tr>
+  <tr>
+    <th></th>
+    <th></th>
+    <th>WeCar</th>
+    <th>NeoAuto</th>
+    <th>AutoLand Perú</th>
+    <th>Autopia.pe</th>
+  </tr>
+  <tr>
+    <th rowspan="2">Perfil</th>
+    <td><strong>Overview</strong></td>
+    <td>Plataforma de compra y venta de autos de segunda mano con un fuerte énfasis en la verificación y certificación de datos.</td>
+    <td>Plataforma en línea para la compra y venta de autos de segunda mano en Perú, con una sólida presencia en el mercado.</td>
+    <td>Plataforma especializada en la compra y venta de vehículos usados, con un énfasis en la confiabilidad y seguridad de las transacciones.</td>
+    <td>Plataforma digital enfocada en la simplicidad y seguridad de la compra y venta de autos de segunda mano.</td>
+  </tr>
+  <tr>
+    <td><strong>Ventaja competitiva ¿Qué valor ofrece a los clientes?</strong></td>
+    <td>Seguridad y confianza al comprar, sabiendo que todos los datos y fotos están verificados y actualizados regularmente. Ahorran tiempo al evitar pasos adicionales de verificación.</td>
+    <td>Acceso a una gran cantidad de opciones y confianza en una plataforma bien establecida.</td>
+    <td>Tranquilidad al saber que los autos han pasado por un proceso de inspección.</td>
+    <td>Proceso de compra sencillo y seguro, con una selección de vehículos que han sido inspeccionados.</td>
+  </tr>
+  <tr>
+    <th rowspan="2">Perfil de Marketing</th>
+    <td><strong>Mercado objetivo</strong></td>
+    <td>Compradores y vendedores de autos de segunda mano que buscan seguridad y confianza en su adquisición.</td>
+    <td>Consumidores peruanos interesados en comprar o vender autos usados a través de una plataforma confiable.</td>
+    <td>Consumidores peruanos que priorizan la seguridad y confiabilidad en la compra de un auto de segunda mano.</td>
+    <td>Usuarios que buscan una plataforma fácil de usar para comprar o vender autos usados, con énfasis en la transparencia y satisfacción del cliente.</td>
+  </tr>
+  <tr>
+    <td><strong>Estrategias de marketing</strong></td>
+    <td>Campañas focalizadas en redes sociales y Google ads, orientadas a personas que buscan comprar un auto usado.</td>
+    <td>Campañas de branding en televisión, radio y redes sociales para mantener la visibilidad de la marca a nivel nacional.</td>
+    <td>Anuncios en prensa, radio y televisión local que resalten la confiabilidad y las rigurosas inspecciones de los autos en venta.</td>
+    <td>Campañas en redes sociales enfocadas a un público más joven, destacando la facilidad de uso y la transparencia de la plataforma.</td>
+  </tr>
+  <tr>
+    <th rowspan="3">Perfil de Producto</th>
+    <td><strong>Productos & Servicios</strong></td>
+    <td>Autos verificados y certificados mensualmente, con asesoría personalizada.</td>
+    <td>Amplio catálogo de autos usados, con servicios adicionales como financiamiento y seguros.</td>
+    <td>Autos usados con inspecciones rigurosas y garantía limitada.</td>
+    <td>Autos seleccionados con inspección única al momento de la publicación, enfocados en la transparencia.</td>
+  </tr>
+  <tr>
+    <td><strong>Precios & Costos</strong></td>
+    <td>Precios medio-altos debido a las certificaciones mensuales; costos operativos elevados por las inspecciones regulares.</td>
+    <td>Variedad de precios, desde opciones económicas hasta de alta gama; costos moderados por verificación básica.</td>
+    <td>Precios competitivos con un enfoque en el valor a través de la calidad; costos relacionados con inspecciones detalladas.</td>
+    <td>Precios variados con enfoque en la transparencia; costos de mantenimiento digital y una única certificación inicial.</td>
+  </tr>
+  <tr>
+    <td><strong>Canales de distribución (Web y/o Móvil)</strong></td>
+    <td>Distribución digital a través de web y app, con apoyo de talleres asociados.</td>
+    <td>Distribución principal en su sitio web y aplicación móvil, con apoyo de socios financieros.</td>
+    <td>Distribución en línea y en puntos de venta físicos.</td>
+    <td>Distribución digital a través de su sitio web y app, con atención al cliente en línea.</td>
+  </tr>
+  <tr>
+    <th rowspan="4">Análisis SWOT</th>
+    <td><strong>Fortalezas</strong></td>
+    <td>Verificación y certificación mensual de vehículo, lo que garantiza alta confianza y seguridad para el comprador.</td>
+    <td>Amplia oferta de vehículos y sólida presencia en el mercado, con servicios adicionales como financiamiento.</td>
+    <td>Inspecciones rigurosas y garantía limitada que refuerzan la calidad y seguridad de los autos vendidos.</td>
+    <td>Transparencia en la información del vehículo y proceso de compra simplificado.</td>
+  </tr>
+  <tr>
+    <td><strong>Debilidades</strong></td>
+    <td>Costos operativos altos debido a las inspecciones mensuales, lo que puede traducirse en precios más altos para los usuarios.</td>
+    <td>Menor enfoque en la verificación continua de datos, lo que puede generar dudas sobre la autenticidad de la información.</td>
+    <td>Dependencia de puntos de venta físicos puede limitar el alcance y la comodidad en comparación con plataformas digitales puras.</td>
+    <td>Inspección única puede no ofrecer el mismo nivel de garantía continua que la verificación mensual de Wecar.</td>
+  </tr>
+  <tr>
+    <td><strong>Oportunidades</strong></td>
+    <td>Expansión de otros mercados que valoren la verificación continua y el valor añadido de vehículos certificados.</td>
+    <td>Expansión de servicios adicionales como seguros y financiamiento para atraer a más compradores.</td>
+    <td>Potencial para integrar más tecnología y herramientas digitales para mejorar la experiencia del usuario.</td>
+    <td>Ampliar la oferta de servicios adicionales y mejorar la frecuencia de inspección para competir con plataformas que ofrezcan verificación continua.</td>
+  </tr>
+  <tr>
+    <td><strong>Amenazas</strong></td>
+    <td>Competencia de plataformas con menores costos operativos y precios más bajos que no ofrecen verificación continua.</td>
+    <td>Riesgo de pérdida de credibilidad si no se mejora la verificación de datos frente a competidores más transparentes.</td>
+    <td>Competencia creciente de plataformas digitales que ofrecen una experiencia más ágil y moderna.</td>
+    <td>Riesgo de quedar atrás si no se actualizan las prácticas de verificación y certificación para igualar a competidores con procesos más exhaustivos.</td>
+  </tr>
+</table>
 
 ### 2.1.2 Estrategias y tácticas frente a competidores
 
