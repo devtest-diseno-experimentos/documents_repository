@@ -885,9 +885,10 @@ As Is representa las fases donde aun no se esta implementando nuestra solución 
 Link del Miro: 
 
 **Segmento Compradores de Autos de Segunda Mano**
-<img src="../assets/as-is-scenario-mapping/as-is-scenario-mapping-segmento-1.jpg" alt="Segmento domestico">
+<img src="../assets/as-is-scenario-mapping/as-is-scenario-mapping-segmento-1.jpg" alt="Segmento 1">
 
 **Segmento Vendedores de Autos de Segunda Mano**
+<img src="../assets/as-is-scenario-mapping/as-is-scenario-mapping-segmento-2.jpg" alt="Segmento 2">
 **Segmento Talleres mecánicos encargados de revisiones**
 
 ## 2.4. Ubiquitous Language
