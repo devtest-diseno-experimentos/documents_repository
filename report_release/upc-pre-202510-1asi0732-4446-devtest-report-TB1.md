@@ -286,6 +286,7 @@ Visión: Ser la plataforma líder a nivel nacional en el comercio de vehículos 
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|-------------------|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <img src="../assets/photos-members/Mathias-Kunimoto.jpg" alt="Mathias Kunimoto" style="margin-bottom: 5px;" width="400"/> | Mathias Kunimoto | u202210148        | Ingeniería de software | Tengo experiencia en el desarrollo frontend, trabajando con tecnologías como Tailwind CSS, React y JavaScript. Me considero una persona sociable, organizada y con gran capacidad de adaptación, lo que me permite integrarme fácilmente en equipos de trabajo y aportar al cumplimiento de los objetivos. Siempre busco sacar mi mayor potencial, aprendiendo constantemente y contribuyendo con una actitud proactiva y comprometida. |
 | <img src="../assets/photos-members/Augusto-Pin.jpeg" alt="Augusto Pin" style="margin-bottom: 5px;" width="400"/> | Augusto Pin | u202210257        | Ingeniería de software | Me considero una persona responsable y determinada a cumplir metas, dispuesto a aprender y a practicar en el mundo de la programacion, tengo experiencia desarrollando frontend, usando tailwind y como principal framework VueJs, siempre busco aprender y desarrollarme más como programador para ser mejor. |
+| <img src="../assets/photos-members/Rodrigo-Aguilar.png" alt="Rodrigo Aguilar" style="margin-bottom: 5px;" width="400"/> | Rodrigo Aguilar | u202210584        | Ingeniería de software |  Me apasiona la tecnología y los dispositivos electrónicos, y disfruto especialmente programar, lo cual se ha convertido en uno de mis principales pasatiempos. Siempre estoy buscando aprender nuevas herramientas y mejorar mis habilidades en el desarrollo de software. |
 
 ## 1.2. Solution Profile
 
@@ -299,7 +300,124 @@ Para la elaboración de la descripción de la problemática y antecedentes de la
 
 #### 1.2.2.2. Lean UX Assumptions
 
+
+#### 1.2.2.2. Lean UX Assumptions
+
+
+### Business Outcomes
+
+- Lograr un crecimiento mensual del **20%** en el número de usuarios activos de la plataforma, medido por el número de transacciones realizadas a través de WeCar.
+- Tener al menos **200 vehículos vendidos** a través de la plataforma en el primer año de lanzamiento.
+- Alcanzar una **tasa de satisfacción del 85%** entre los usuarios al final del primer año, lo que indicará una alta retención y confianza en la plataforma.
+
+---
+
+### User Assumptions
+
+#### 1. ¿Quién es el usuario?
+- Compradores de autos usados  
+- Vendedores de autos usados  
+- Talleres técnicos
+
+#### 2. ¿Dónde entra nuestro producto en su trabajo o su vida?
+WeCarGo se integra directamente en la vida de los compradores y vendedores al facilitar el proceso de transacción, haciéndolo más seguro y accesible.
+
+#### 3. ¿Cuál es el problema que nuestro producto soluciona?
+- Falta de transparencia y confianza en las transacciones de autos usados.  
+- Dificultades en la verificación del estado del vehículo y la confirmación de pagos.  
+- Complejidad en la comunicación entre compradores, vendedores y talleres técnicos.
+
+#### 4. ¿Cómo y cuándo nuestro producto es usado?
+La plataforma será utilizada durante todo el proceso de compra y venta, desde la búsqueda del vehículo hasta la confirmación del pago. Los talleres técnicos usarán aquella información para ofrecer sus servicios.
+
+#### 5. ¿Qué características son importantes?
+- Sistema de filtrado y verificación de vehículos  
+- Transacciones seguras mediante verificación de pago  
+- Organización y seguimiento del proceso de compra-venta  
+- Información detallada y transparente sobre los vehículos  
+- Comunicación eficiente entre compradores y vendedores
+
+#### 6. ¿Cómo debería nuestro producto verse o comportarse?
+El producto debe verse con una interfaz **simple, interactiva, atractiva e inclusiva**. Debe comportarse de forma fluida, captar la atención del usuario y ofrecer una experiencia innovadora y acogedora.
+
+---
+
+###  User Outcomes
+
+#### Compradores de Autos Usados
+Aumentar la confianza en el proceso de compra de vehículos usados, logrando una **reducción del 30% en el número de incidencias críticas** reportadas durante el primer año de uso de WeCar.
+
+#### Vendedores de Autos Usados
+Mejorar la **tasa de conversión de ventas en un 25%** durante el primer año, asegurando que solo vehículos verificados y aprobados sean listados.
+
+#### Talleres Técnicos
+Incrementar en un **40% el número de inspecciones y certificaciones** realizadas en el primer año, integrando eficientemente sus servicios en la plataforma.
+
+---
+
+### ¿Qué está intentando conseguir el usuario?
+
+- **Compradores:** Quiero encontrar un auto confiable y realizar la compra de manera segura.  
+- **Vendedores:** Quiero vender mis autos de manera rápida y segura.  
+- **Talleres Técnicos:** Quiero ofrecer mis servicios de inspección y certificación de vehículos de manera eficiente y confiable.
+
+---
+
+### ¿Cómo se quiere sentir el usuario?
+
+- **Compradores de autos usados:** Quiero sentir confianza y seguridad al momento de realizar mi compra.  
+- **Vendedores de autos usados:** Quiero sentirme respaldado y protegido durante el proceso de venta.  
+- **Talleres Técnicos:** Quiero sentirme valorado y reconocido por mi trabajo en la plataforma.
+
+---
+
+### ¿Cómo nuestro producto lo acerca a su objetivo?
+
+- **Compradores de autos usados:** Les proporciona una plataforma segura para encontrar y comprar vehículos usados.  
+- **Vendedores de autos usados:** Les facilita el proceso de venta, asegurando la transacción y reduciendo riesgos.  
+- **Talleres Técnicos:** Les conecta con clientes potenciales, incrementando la demanda de sus servicios.
+
+---
+
+### ¿Por qué nuestros usuarios se interesaron por nuestro producto? ¿Qué beneficio podrían obtener?
+
+- **Compradores:** Acceso a una plataforma segura y confiable para comprar autos usados.  
+- **Vendedores:** Capacidad de vender sus vehículos de manera rápida y sin riesgos.  
+- **Talleres Técnicos:** Oportunidad de ofrecer servicios a un mercado específico y creciente.
+
+---
+
+### ¿Qué cambio en su comportamiento veremos que nos dirá que nuestro objetivo ha sido logrado?
+
+#### Compradores y Vendedores
+Uso constante de la plataforma para las transacciones de autos usados. Un incremento en el número de transacciones y una reducción de quejas relacionadas con transparencia y verificación indicarán éxito.
+
+#### Talleres Técnicos
+Aumento en la demanda de servicios ofrecidos por la plataforma. Más inspecciones y certificaciones realizadas indicarán una colaboración exitosa y beneficiosa con WeCar.
+
+---
+
+### Feature Assumptions
+
+- Creemos que el producto debe contar con **planes estándar y premium** adaptados a las necesidades del usuario, ofreciendo flexibilidad y valor agregado.
+- Creemos que el producto debe **proporcionar opciones de valoración y revisión** de autos por parte de talleres técnicos.
+- Creemos que el producto debe ofrecer un **sistema de verificación de pagos y transacciones seguras**.
+- Creemos que el producto debe facilitar la **comunicación directa entre compradores y vendedores** para mejorar la transparencia y la confianza.
+
+
+
+
+
+
+
 #### 1.2.2.3. Lean UX Hypothesis Statements.
+
+
+
+
+
+
+
 
 #### 1.2.2.4. Lean UX Canvas.
 
