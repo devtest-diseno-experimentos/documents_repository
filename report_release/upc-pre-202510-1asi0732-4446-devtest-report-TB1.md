@@ -669,6 +669,28 @@ WeCar se posiciona como una plataforma eficiente que conecta compradores y vende
 
 10. Si mañana quisieras comprar un auto, ¿por dónde empezarías tu búsqueda y qué esperas encontrar en la plataforma ideal?
 
+**Entrevistas usuario segmento (Vendedores de Autos de Segunda Mano)**
+
+1. ¿Cuáles son los principales desafíos que enfrentas al vender un auto de segunda mano?
+
+2. ¿Qué haces actualmente para generar confianza en los compradores sobre la información que brindas?
+
+3. ¿Qué tan dispuesto estarías a llevar tu vehículo a un taller para obtener un reporte técnico verificable?
+
+4. ¿Crees que contar con un historial de revisiones podría ayudarte a vender tu auto más rápido?
+
+5. ¿Qué información consideras clave para captar la atención de un posible comprador?
+
+6. ¿Qué tan cómodo te sentirías compartiendo en una plataforma en línea los datos técnicos y verificados de tu vehículo?
+
+7. ¿Cómo crees que una plataforma que asegure la veracidad de los datos podría influir en tus ventas?
+
+8. ¿Cuánto tiempo suele tomarte vender un vehículo? ¿Qué esperas de una plataforma que busque acelerar ese proceso?
+
+9. ¿Estarías dispuesto a pagar una tarifa adicional si esto aumentara la confianza y seguridad del comprador?
+
+10. ¿Qué otros servicios o herramientas te gustaría que tenga una plataforma para ayudarte a vender tu vehículo?
+
 
 ### 2.2.2. Registro de entrevistas
 ### 2.2.3. Análisis de entrevistas
