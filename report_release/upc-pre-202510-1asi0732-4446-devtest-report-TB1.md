@@ -38,9 +38,9 @@
 <div align="center">
 
 
-| Version |   Fecha    | Autor  | Descripcion de Modificacion |
+| Version |   Fecha    | Autor  | Descripción de Modificación |
 |---------|------------|--------|-----------------------------|
-| 0.0     | 24/05/2025 | Nombre |      Crea documento         |
+| 0.0     | 24/05/2025 | Nombre | Crea documento              |
 
 </div>
 
@@ -333,7 +333,7 @@ y la escasez de herramientas tecnológicas que faciliten transacciones confiable
 -   **Where?**                         
     Este problema es global y afecta a compradores y vendedores en diversas regiones del mundo, tanto en mercados desarrollados como en desarrollo.
     <br><br>
--   **Who?**           
+- **Who?**           
     Los compradores y vendedores de autos usados, desde individuos hasta concesionarios pequeños, están directamente involucrados en estas dificultades,
     ya que son responsables de realizar transacciones seguras y exitosas en un mercado competitivo.
     <br><br>
@@ -341,11 +341,11 @@ y la escasez de herramientas tecnológicas que faciliten transacciones confiable
   Es crucial abordar esta problemática porque la compra y venta de autos de segunda mano es una parte esencial de la economía global, ofreciendo opciones
   asequibles para los consumidores y contribuyendo al desarrollo económico de muchos países.
   <br><br>
--   **How?**                    
+- **How?**                    
     Se necesitan soluciones tecnológicas innovadoras que ayuden a los usuarios a realizar transacciones de manera más segura, eficiente y confiable, optimizando
     la experiencia de compra y venta y garantizando la transparencia en cada paso del proceso.
     <br><br>
--   **How much?**                         
+- **How much?**                         
     El costo de implementar estas soluciones tecnológicas puede variar según la escala de la plataforma y los
     recursos disponibles para la adopción de tecnología en el mercado de autos de segunda mano.
     <br><br>
@@ -468,16 +468,18 @@ Aumento en la demanda de servicios ofrecidos por la plataforma. Más inspeccione
 - Creemos que el producto debe facilitar la **comunicación directa entre compradores y vendedores** para mejorar la transparencia y la confianza.
 
 
-
-
-
-
-
 #### 1.2.2.3. Lean UX Hypothesis Statements.
 
 
+Creemos que al implementar un proceso riguroso de verificación para cada vehículo antes de su inclusión en la plataforma, podemos aumentar la confianza de los compradores en la calidad y la transparencia de las ofertas, lo que resultará en una mayor seguridad en las transacciones y una reducción en las disputas.
 
+- Creemos que al integrar un sistema de inspecciones y certificaciones realizadas por talleres técnicos a través de Car2Go, podemos incrementar la demanda de servicios técnicos, lo que beneficiará a los talleres y garantizará la calidad de los vehículos disponibles en la plataforma.
 
+- Creemos que al ofrecer una plataforma exclusiva sin freemium y con un filtro de calidad para los vehículos, podemos mejorar la eficiencia del proceso de compra-venta, aumentando la satisfacción del cliente y optimizando las transacciones al asegurar que solo los vehículos que cumplen con los estándares de calidad sean mostrados.
+
+- Creemos que al proporcionar una interfaz intuitiva y amigable, podemos mejorar la experiencia general del usuario en la plataforma, resultando en una mayor satisfacción y un aumento en el uso continuo de Car2Go.
+
+- Creemos que al implementar un sistema de verificación de pagos y transacciones seguras, podemos reducir los riesgos de fraude y estafas, lo que aumentará la confianza de los usuarios en la plataforma y fomentará la realización de transacciones seguras y confiables.
 
 
 
@@ -639,7 +641,6 @@ WeCar se posiciona como una plataforma eficiente que conecta compradores y vende
 <img src="../assets/user-personas/UserPersona_Vendedor.jpg">
 
 
-
 ### Talleres mecánicos:
 
 <img src="../assets/user-personas/UserPersona_Talleres.png">
@@ -790,3 +791,26 @@ Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo
 
 ### 2.3.5. As-is Scenario Mapping
 ## 2.4. Ubiquitous Language
+=======
+Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo se diferencian en ciertas partes técnicas, como el mecánico, y estética, en cuanto a los vendedores y compradores.
+
+
+### 2.4. Ubiquitous Language
+- Comprador: Persona que está interesada en adquirir un auto de segunda mano.
+
+- Vendedor: Persona que ofrece su auto para la venta en la plataforma.
+
+- Auto Verificado: Vehículo que ha pasado por una inspección técnica realizada por un taller mecánico asociado.
+
+- Taller Mecánico: Entidad o empresa encargada de revisar y certificar el estado de los autos listados en la plataforma.
+
+- Transacción Segura: Proceso de compra-venta en el que se utiliza el sistema de pagos de la plataforma para asegurar que ambas partes cumplan con sus compromisos.
+
+- Anuncio Destacado: Publicación que aparece en la parte superior de los resultados de búsqueda para mejorar la visibilidad del auto que está en venta.
+
+- Inspección Técnica: Proceso mediante el cual un taller verifica el estado del auto en términos de mecánica, carrocería, y documentación.
+
+- Historial del Auto: Registro de los eventos relevantes asociados al vehículo, como reparaciones, multas o accidentes anteriores.
+
+- Kilometraje: Distancia total recorrida por el auto, un indicador clave del desgaste del vehículo.
+
