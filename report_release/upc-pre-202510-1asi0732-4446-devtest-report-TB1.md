@@ -274,7 +274,7 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 
 ### 1.1.1. Descripción de la Startup
 
-WeCar es una startup fundada en 2024 por un grupo de estudiantes de Ingeniería de Software. Nuestra plataforma busca revolucionar el mercado de autos usados, brindando una alternativa innovadora y accesible para quienes desean comprar o vender vehículos de segunda mano.
+DevTest es una startup fundada en 2024 por un grupo de estudiantes de Ingeniería de Software. Nuestra plataforma busca revolucionar el mercado de autos usados, brindando una alternativa innovadora y accesible para quienes desean comprar o vender vehículos de segunda mano.
 
 Misión: Facilitar el proceso de compra y venta de autos usados a través de una plataforma ágil e intuitiva, ofreciendo a nuestros usuarios todas las herramientas necesarias para garantizar una experiencia sencilla, segura y confiable.
 
@@ -282,21 +282,84 @@ Visión: Ser la plataforma líder a nivel nacional en el comercio de vehículos 
 
 #### 1.1.2. Perfiles de integrantes del equipo
 
-|                                                                                                                                                                                                                                                | Miembros del equipo    | Código Estudiante | Carrera                | Conocimientos / Habilidades                                                                                                                                                                                                                                         |
-|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------|-------------------|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="../assets/photos-members/Mathias-Kunimoto.jpg" alt="Mathias Kunimoto" style="margin-bottom: 5px;" width="400"/> | Mathias Kunimoto | u202210148        | Ingeniería de software | Tengo experiencia en el desarrollo frontend, trabajando con tecnologías como Tailwind CSS, React y JavaScript. Me considero una persona sociable, organizada y con gran capacidad de adaptación, lo que me permite integrarme fácilmente en equipos de trabajo y aportar al cumplimiento de los objetivos. Siempre busco sacar mi mayor potencial, aprendiendo constantemente y contribuyendo con una actitud proactiva y comprometida. |
-| <img src="../assets/photos-members/Augusto-Pin.jpeg" alt="Augusto Pin" style="margin-bottom: 5px;" width="400"/> | Augusto Pin | u202210257        | Ingeniería de software | Me considero una persona responsable y determinada a cumplir metas, dispuesto a aprender y a practicar en el mundo de la programacion, tengo experiencia desarrollando frontend, usando tailwind y como principal framework VueJs, siempre busco aprender y desarrollarme más como programador para ser mejor. |
-| <img src="../assets/photos-members/Rodrigo-Aguilar.png" alt="Rodrigo Aguilar" style="margin-bottom: 5px;" width="400"/> | Rodrigo Aguilar | u202210584        | Ingeniería de software |  Me apasiona la tecnología y los dispositivos electrónicos, y disfruto especialmente programar, lo cual se ha convertido en uno de mis principales pasatiempos. Siempre estoy buscando aprender nuevas herramientas y mejorar mis habilidades en el desarrollo de software. |
+|                                                                                                                                | Miembros del equipo | Código Estudiante | Carrera                | Conocimientos / Habilidades                                                                                                                                                                                                                                        |
+|--------------------------------------------------------------------------------------------------------------------------------|--------------------|-------------------|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <img src="../assets/photos-members/Mathias-Kunimoto.jpg" alt="Mathias Kunimoto" style="margin-bottom: 5px;" width="400"/>      | Mathias Kunimoto | u202210148        | Ingeniería de software | Tengo experiencia en el desarrollo frontend, trabajando con tecnologías como Tailwind CSS, React y JavaScript. Me considero una persona sociable, organizada y con gran capacidad de adaptación, lo que me permite integrarme fácilmente en equipos de trabajo y aportar al cumplimiento de los objetivos. Siempre busco sacar mi mayor potencial, aprendiendo constantemente y contribuyendo con una actitud proactiva y comprometida. |
+| <img src="../assets/photos-members/Augusto-Pin.jpeg" alt="Augusto Pin" style="margin-bottom: 5px;" width="400"/>               | Augusto Pin | u202210257        | Ingeniería de software | Me considero una persona responsable y determinada a cumplir metas, dispuesto a aprender y a practicar en el mundo de la programacion, tengo experiencia desarrollando frontend, usando tailwind y como principal framework VueJs, siempre busco aprender y desarrollarme más como programador para ser mejor. |
+| <img src="../assets/photos-members/Rodrigo-Aguilar.png" alt="Rodrigo Aguilar" style="margin-bottom: 5px;" width="400"/>        | Rodrigo Aguilar | u202210584        | Ingeniería de software |  Me apasiona la tecnología y los dispositivos electrónicos, y disfruto especialmente programar, lo cual se ha convertido en uno de mis principales pasatiempos. Siempre estoy buscando aprender nuevas herramientas y mejorar mis habilidades en el desarrollo de software. |
+| <img src="../assets/photos-members/Franco-Barrionuevo.jpeg" alt="Franco Barrionuevo" style="margin-bottom: 5px;" width="400"/> | Franco Barrionuevo | u202219284        | Ingeniería de software | Soy una persona responsable y comprometida con mis tareas. Me gusta aprender cosas nuevas y siempre busco mejorar mis habilidades. Tengo experiencia en el desarrollo frontend, utilizando tecnologías como React y Tailwind CSS. |
 
 ## 1.2. Solution Profile
+
+En esta sección se detallan los aspectos claves de nuestra solución de software, incluyendo sus
+características distintivas, propuestas de valor y estrategias de monetización.
+
+**Nombre del producto:** WeCar
+
+**Descripción:** WeCar es una plataforma innovadora diseñada para facilitar la compra y
+venta de autos de segunda mano, conectando de manera eficiente a compradores y vendedores.
+La plataforma ofrece una experiencia fluida y sin problemas, permitiendo a los usuarios explorar vehículos,
+gestionar sus publicaciones y comunicarse de manera efectiva. WeCar proporciona herramientas de seguimiento
+en tiempo real para las transacciones y opciones de personalización que garantizan una experiencia óptima y segura.
+
+**Monetización:** WeCar generará ingresos mediante una combinación de planes de suscripción y
+comisiones por venta. Los vendedores podrán elegir entre diferentes planes de suscripción,
+que ofrecen acceso a funciones avanzadas como la destacación de anuncios, herramientas de marketing
+y análisis detallados. Además, se aplicará una comisión básica por cada transacción completada.
+Los compradores realizarán el pago a través de transferencia bancaria, subiendo una captura de pantalla
+del comprobante para que el vendedor confirme la transacción. Esta estrategia mixta asegura que tanto los usuarios que opten por un plan de
+suscripción como aquellos que prefieran pagar por transacción puedan beneficiarse de la plataforma.
 
 ### 1.2.1 Antecedentes y problemática
 
 Para la elaboración de la descripción de la problemática y antecedentes de la solución, se ha utilizado el método de las 5 'W's y 2 'H's.
 
+La industria de compra y venta de autos de segunda mano enfrenta desafíos significativos
+en términos de seguridad, eficiencia y accesibilidad. Los compradores y vendedores se encuentran
+bajo presión debido a la creciente demanda de vehículos usados, pero enfrentan obstáculos como la falta
+de plataformas seguras, la dificultad para verificar la autenticidad de los pagos,
+y la escasez de herramientas tecnológicas que faciliten transacciones confiables y sin fricciones.
+
+
+-   **What?**   
+    La industria automotriz de segunda mano enfrenta desafíos importantes en la
+    gestión eficiente de las transacciones y la seguridad de las mismas,
+    debido a la falta de plataformas tecnológicas adecuadas que garanticen procesos transparentes y seguros.
+    <br><br>
+- **When?**                      
+  Este problema se ha intensificado en los últimos años, especialmente con el crecimiento del mercado de autos usados,
+  impulsado por el aumento de la demanda y la necesidad de opciones más accesibles para los consumidores.
+  <br><br>
+-   **Where?**                         
+    Este problema es global y afecta a compradores y vendedores en diversas regiones del mundo, tanto en mercados desarrollados como en desarrollo.
+    <br><br>
+-   **Who?**           
+    Los compradores y vendedores de autos usados, desde individuos hasta concesionarios pequeños, están directamente involucrados en estas dificultades,
+    ya que son responsables de realizar transacciones seguras y exitosas en un mercado competitivo.
+    <br><br>
+- **Why?**             
+  Es crucial abordar esta problemática porque la compra y venta de autos de segunda mano es una parte esencial de la economía global, ofreciendo opciones
+  asequibles para los consumidores y contribuyendo al desarrollo económico de muchos países.
+  <br><br>
+-   **How?**                    
+    Se necesitan soluciones tecnológicas innovadoras que ayuden a los usuarios a realizar transacciones de manera más segura, eficiente y confiable, optimizando
+    la experiencia de compra y venta y garantizando la transparencia en cada paso del proceso.
+    <br><br>
+-   **How much?**                         
+    El costo de implementar estas soluciones tecnológicas puede variar según la escala de la plataforma y los
+    recursos disponibles para la adopción de tecnología en el mercado de autos de segunda mano.
+    <br><br>
+
 ### 1.2.2 Lean UX Process.
 
-#### 1.2.2.1. Lean UX Problem Statement.
+#### 1.2.2.1. Lean UX Problem Statements
+- En la industria de compra y venta de autos de segunda mano, existe
+  una falta de plataformas tecnológicas integradas que permitan a los compradores y vendedores realizar
+  transacciones de manera segura y eficiente. Este vacío tecnológico dificulta la confianza entre las partes y
+  la optimización del proceso de compra-venta, lo que conduce a una experiencia frustrante y puede limitar el crecimiento de este mercado.
+  Además, mejorar la colaboración entre compradores, vendedores y talleres técnicos es crucial para garantizar transacciones transparentes y
+  satisfactorias para todas las partes involucradas.
+
 
 #### 1.2.2.2. Lean UX Assumptions
 
@@ -425,6 +488,31 @@ Finalmente juntamos todo lo que hemos hecho en este proceso y lo agregamos en un
 
 <image src ="../assets/lean-ux-canvas/lean-ux-canva.png" alt ="LeanUX Canvas (V2) [implementando lean UX 3]">
 
+## 2.1. Competidores
+
+Nuestros competidores abarcan una variedad de empresas en el mercado de autos de segunda mano, que se han ido fortaleciendo a lo largo del tiempo en plataformas digitales. Esto abarca grandes sitios webs de venta de vehículos usados.
+
+Aquí unos competidores directos que proporcionan servicios similares al nuestro:
+
+
+- **NeoAuto**: [NeoAuto](https://neoauto.com/venta-de-autos-usados-en-lima?gad_source=1&gclid=Cj0KCQjw_sq2BhCUARIsAIVqmQtS4NTpmRTLgjG9aqoxczpnBP_zQPfrGnqWX53OOE22ruL_N90cup8aAvHuEALw_wcB)
+
+  NeoAuto es una plataforma en línea disponible para web y dispositivos móviles que facilita la compra y venta de autos de segunda mano. Fundada por un equipo de innovadores peruanos, NeoAuto ha logrado posicionarse como uno de los líderes en el mercado automotriz de segunda mano en Perú. La plataforma permite a los usuarios acceder a una amplia variedad de vehículos usados, todos verificados para garantizar su calidad y confiabilidad. Gracias a su gran aceptación, NeoAuto se ha expandido y ahora es un referente en el sector automotriz en el país, ayudando a miles de peruanos a encontrar su auto ideal.
+
+<br><br>
+- **AUTOLAND Perú**: [AutoLand Perú](https://autoland.com.pe/seminuevos/)
+
+  AutoLand Perú es un portal en línea especializado en la compra y venta de vehículos de segunda mano, accesible tanto desde su sitio web como desde su aplicación móvil. Fundado por un grupo de expertos en el sector automotriz peruano, AutoLand Perú se ha destacado por ofrecer una plataforma confiable y segura para transacciones de autos usados. La plataforma permite a los usuarios explorar una extensa selección de vehículos, todos sometidos a rigurosas inspecciones para asegurar su calidad. Gracias a su enfoque en la satisfacción del cliente, AutoLand Perú se ha consolidado como una de las opciones preferidas en el mercado de autos de segunda mano en el país.
+
+<br><br>
+- **Autopia.pe**: [Autopia.pe](https://www.autopia.pe)
+
+  Autopia.pe es una plataforma digital especializada en la compra y venta de autos de segunda mano, diseñada para brindar a los usuarios una experiencia simple y segura. Fundada por un equipo de emprendedores peruanos apasionados por el sector automotriz, Autopia.pe se ha posicionado rápidamente como una opción confiable para quienes buscan vehículos usados en Perú. La plataforma ofrece una amplia gama de autos, todos inspeccionados y certificados para garantizar su estado y calidad. Gracias a su enfoque en la transparencia y la satisfacción del cliente, Autopia.pe se ha convertido en una referencia clave en el mercado automotriz de segunda mano en el país.
+
+<br><br>
+
+
+
 ### 2.1.2 Estrategias y tácticas frente a competidores
 
 WeCar se posiciona como una plataforma eficiente que conecta compradores y vendedores de autos de manera segura. Para destacarnos de la competencia, implementamos estas estrategias:
@@ -434,6 +522,12 @@ WeCar se posiciona como una plataforma eficiente que conecta compradores y vende
 <strong>Comunicación efectiva:</strong> Proporcionamos el contacto para el contacto directo con el vendedor y asi ponerse de acuerdo con la venta y el producto, tambien se pueden resolver las posibles dudas.
 
 <strong>Autenticación Segura:</strong> Implementamos un sistema de autenticación de verificación de identidad mediante documentos. Esto garantiza que tanto compradores como vendedores estén debidamente verificados, aumentando la seguridad y confianza en las transacciones dentro de la plataforma.
+
+## 2.2. Entrevistas
+### 2.2.1. Diseño de entrevistas
+### 2.2.2. Registro de entrevistas
+### 2.2.3. Análisis de entrevistas
+
 
 ### 2.3.2 User Task Matrix
 
@@ -547,4 +641,9 @@ A continuación, presentaremos los User Task Matrix de los segmentos objetivos q
   </tr>
 </table>
 
+
 Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo se diferencian en ciertas partes técnicas, como el mecánico, y estética, en cuanto a los vendedores y compradores.
+
+
+### 2.3.5. As-is Scenario Mapping
+## 2.4. Ubiquitous Language
