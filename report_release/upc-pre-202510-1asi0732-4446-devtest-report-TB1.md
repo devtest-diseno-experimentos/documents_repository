@@ -491,6 +491,18 @@ Finalmente juntamos todo lo que hemos hecho en este proceso y lo agregamos en un
 
 <image src ="../assets/lean-ux-canvas/lean-ux-canva.png" alt ="LeanUX Canvas (V2) [implementando lean UX 3]">
 
+## 1.3. Segmentos objetivo.
+
+|   | Segmento 1 | Segmento 2 | Segmento 3 |
+|---|------------|------------|------------|
+| Variables     | Compradores de Autos Usados | Vendedores de Autos Usados | Talleres Técnicos |
+| Geográfica    | Diversas ubicaciones urbanas con acceso a vehículos usados. | Cualquier ubicación con acceso a potenciales compradores. | Ubicaciones con alta concentración vehicular o demanda de servicios técnicos. |
+| Demográfica   | Personas jóvenes y adultas, con capacidad económica para adquirir un vehículo. | Propietarios de vehículos, generalmente adultos con conocimiento básico del mercado. | Profesionales técnicos, adultos con experiencia en servicios mecánicos. |
+| Psicológica   | Interés por la seguridad, la transparencia y facilidad en el proceso de compra. | Deseo de una experiencia de venta eficiente y sin complicaciones. | Interés por ampliar su alcance, visibilidad y colaborar dentro del ecosistema de compra-venta. |
+| Función de comportamiento | Búsqueda de vehículos certificados, historial claro y compra segura. | Necesidad de una plataforma que facilite el contacto con compradores y gestione la publicación de su vehículo. | Necesidad de conectarse con más clientes potenciales y certificar vehículos para ventas confiables. |
+
+# Capítulo II: Requirements Elicitation & Analysis
+
 ## 2.1. Competidores
 
 Nuestros competidores abarcan una variedad de empresas en el mercado de autos de segunda mano, que se han ido fortaleciendo a lo largo del tiempo en plataformas digitales. Esto abarca grandes sitios webs de venta de vehículos usados.
