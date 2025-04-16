@@ -917,3 +917,171 @@ Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo
 
 - Kilometraje: Distancia total recorrida por el auto, un indicador clave del desgaste del vehículo.
 
+# Capítulo III: Requirements Specifications
+
+## 3.3. Product Backlog
+
+# Capítulo IV: Product Design
+
+## 4.3. Lading Page UI Design
+
+### 4.3.1. Lading Page Wireframe
+
+<img src="../assets/wireframes-mockups/landing-wireframe.png" alt="landing wireframe" style="margin-bottom: 5px;" width="400"/>
+
+Hero altero 1:
+
+<img src="../assets/wireframes-mockups/landing-wireframe-hero2.png" alt="landing wireframe" style="margin-bottom: 5px;" width="400"/>
+
+Hero altero 2:
+
+<img src="../assets/wireframes-mockups/landing-wireframe-hero3.png" alt="landing wireframe" style="margin-bottom: 5px;" width="400"/>
+
+### 4.3.2. Lading Page Mock-up
+
+<img src="../assets/wireframes-mockups/landing-mock-up.png" alt="landing wireframe" style="margin-bottom: 5px;" width="400"/>
+
+Hero altero 1:
+
+<img src="../assets/wireframes-mockups/landing-mock-up-hero2.png" alt="landing wireframe" style="margin-bottom: 5px;" width="400"/>
+
+Hero altero 2:
+
+<img src="../assets/wireframes-mockups/landing-mock-up-hero3.png" alt="landing wireframe" style="margin-bottom: 5px;" width="400"/>
+
+## 4.8. Domain-Driven Software Architecture
+
+El Domain Driven Design (DDD) tiene como objetivo llegar a un entendimiento compartido del dominio que abarca el espacio del problema. En el caso de Car2Go, este dominio es la gestión de la compra y venta de vehículos de segunda mano y la interacción con los vendedores, compradores y talleres mecánicos. Gracias a la perspectiva brindada por este enfoque, es posible mejorar la colaboración entre los desarrolladores y los expertos del dominio.
+
+### 4.8.1. Software Architecture Context Diagram
+
+El diagrama de contexto muestra una vista de alto nivel de las relaciones entre el sistema de software Car2Go, los usuarios y, si es el caso, de otros sistemas externos.
+
+<img src="../assets/architecture-diagram/context-diagram.png" alt="diagram" style="margin-bottom: 5px;" width="400"/>
+
+### 4.8.2. Software Architecture Container Diagrams
+
+El diagrama de contenedores muestra una vista de alto nivel de las relaciones entre las aplicaciones y fuentes de datos que son parte de la ejecución del sistema de software Car2Go.
+
+<img src="../assets/architecture-diagram/containers-diagram.png" alt="diagram" style="margin-bottom: 5px;" width="400"/>
+
+### 4.8.3. Software Architecture Components Diagrams
+
+Los diagramas de componentes muestran una vista de las relaciones de los componentes principales del sistema de software Car2Go. Estos componentes detallan la implementación de los respectivos módulos en el programa.
+
+- Authentication Bounded Context
+
+<img src="../assets/architecture-diagram/authentication-component-diagram.png" alt="diagram" style="margin-bottom: 5px;" width="400"/>
+
+- Payment Bounded Context
+
+<img src="../assets/architecture-diagram/payment-component-diagram.png" alt="diagram" style="margin-bottom: 5px;" width="400"/>
+
+- User Interaction Bounded Context
+
+<img src="../assets/architecture-diagram/user-interaction-diagram.png" alt="diagram" style="margin-bottom: 5px;" width="400"/>
+
+- Vehicle Management Bounded Context
+
+<img src="../assets/architecture-diagram/vehicle-managment-diagram.png" alt="diagram" style="margin-bottom: 5px;" width="400"/>
+
+# Capítulo V: Product Implementation, Validation & Deployment
+
+## 5.1. Software Configuration Management
+
+A continuación, se describe el proceso por el cual organizamos, gestionamos y controlamos los cambios en el desarrollo de Car2Go.
+
+### 5.1.1. Software Development Environment Configuration
+
+#### Requirements Management
+
+- Trello: Es una herramienta utilizada para gestionar el flujo de trabajo de proyectos principalmente basados en marcos de trabajos ágiles. Será empleado para visualizar y actualizar el estado actual de las tareas e historias de usuario  pertenecientes al sprint a desarrollar.
+  - Ruta de referencia: https://trello.com/es
+
+#### Product UX/UI Design
+
+- Figma: Plataforma de elaboración de prototipos y edición gráfica, principalmente utilizado para el diseño digital. En el caso del proyecto, será utilizado para el prototipado de la aplicación y sus versiones de Desktop y Mobile Web Browser.
+    - Ruta de referencia: https://www.figma.com/login
+
+- Lucidchart: Aplicación para diagramar flujos. Será empleado para el diseño de wireflows, user-flows y el diagrama de clases asociado a la aplicación.
+  - Ruta de referencia: https://www.lucidchart.com/
+
+#### Software Development
+
+- Visual Studio Code: Entorno de desarrollo integrado elegido para la elaboración y compilación del código por motivos de dominio por parte de los integrantes del equipo de trabajo. Utilizar este IDE supone de valor para el desarrollo del proyecto puesto que incluye la posibilidad de agregar extensiones de utilidad, soporte de edición de texto en múltiples lenguajes de programación, disponibilidade en múltiples sistemas operativos, entre otros beneficios.
+    - Ruta de referencia: https://code.visualstudio.com/
+
+- HTML5: HyperText Markup Language, o por sus siglas HTML, es un lenguaje de etiquetado para páginas web. Será empleado en el desarrollo del proyecto para la presentación del contenido en la aplicación.
+    - Ruta de referencia: https://www.w3schools.com/html/html5_syntax.asp
+
+- CSS: Cascading Style Sheets es un lenguaje que maneja el diseño y presentación de las páginas web, el cual va de la mano con HTML.
+    - Ruta de referencia: https://google.github.io/styleguide/htmlcssguide.html
+
+- Bootstrap: Framework CSS que permitirá crear componentes web de manera rápida y eficiente. Bootstrap se utilizará para la creación de la interfaz responsiva, asegurando que la plataforma funcione correctamente en distintos dispositivos.
+     - Ruta de referencia: https://getbootstrap.com/
+
+- Next.js: Este framework basado en React es utilizado para optimizar el desarrollo del frontend. Next.js proporciona funcionalidades como el renderizado del lado del servidor (SSR), rutas dinámicas, y la generación estática de sitios (SSG), lo cual mejora la experiencia del usuario y el SEO de la página.
+    - Ruta de referencia: https://nextjs.org/
+
+#### Software Deployment
+
+- Git: Una herramienta de control de versiones que facilita el registro y la gestión de las distintas versiones del programa. Su propósito es mantener un historial de cambios y simplificar la corrección de errores. Los integrantes del equipo accederán a través de la línea de comandos en sus sistemas locales.
+     - Ruta de referencia: https://git-scm.com/
+
+#### Software Documentation and Project Management
+
+- Github: Una plataforma en la nube que hospedará los repositorios de código del proyecto. Permitirá la colaboración en tiempo real y la revisión de contribuciones de cada miembro del equipo. Los integrantes del equipo podrán acceder a través de sus navegadores web.
+    - Ruta de referencia: https://github.com/
+
+### 5.1.2. Source Code Management.
+El proyecto seguirá las convenciones del flujo de trabajo establecido por el modelo GitFlow para el control de versiones, empleando GitHub como plataforma y sistema de control de versiones. A continuación, se describirá la implementación de GitFlow como un flujo de trabajo para el control de versiones, junto con el enlace del Landing Page.
+
+**Repositorio de GitHub:**
+- Enlace para acceder a la [organización]()
+- Enlace para acceder al repositorio de la [landing page]()
+- Enlace para acceder al repositorio del [informe]()
+
+**Flujo de trabajo GitFlow**
+
+El flujo de trabajo a ser implementado para el desarrollo del proyecto se basará en el modelo propuesto por Vincent Driessen en "A successful Git branching model".
+
+Gitflow es un modelo de ramificación para Git que se centra en la organización de las ramas de un proyecto de software. El modelo de Gitflow define una serie de ramas estándar y reglas para su uso, lo que facilita la colaboración y la gestión del código en un equipo de desarrollo. En UniRider, utilizamos el modelo de Gitflow para organizar y gestionar las ramas de nuestro proyecto, lo que nos permite trabajar de forma eficiente y colaborativa en el desarrollo de nuestra aplicación web.
+
+La rama **main** es la rama principal de nuestro proyecto, que contiene la versión estables, operativas y listas para implementar de UniRider. Estas variantes han sido previamente evaluadas y se ha verificado la total funcionalidad de estas tras su implementación. Emplearemos etiquetas para identificar cada variante estable y lista para implementar, lo que nos permitirá tener un seguimiento preciso de las variantes y simplificar la administración de futuras actualizaciones.
+
+La rama **develop** es la rama de desarrollo de nuestro proyecto, que contiene la versión en desarrollo de UniRider que aún no han sido sometidas a pruebas, aunque están completadas al 100% y contienen todas las características que se esperan hasta ese momento. Este canal se emplea para cargar la versión y llevar a cabo pruebas finales con el fin de corregir cualquier inconveniente antes de la publicación final en la rama main.
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+Para asegurar la coherencia y mantenibilidad del código en **Car2Go**, se seguirán las siguientes convenciones de estilo:
+
+**HTML:**
+- Todos los elementos deben estar correctamente cerrados.
+- Declarar el tipo de documento en la primera línea como `<!DOCTYPE html>`.
+- Utilizar comillas en los atributos que contengan espacios.
+- Especificar los atributos `alt`, `width`, y `height` en las imágenes para garantizar la accesibilidad y el rendimiento de la página.
+
+**CSS:**
+- Sangría de 2 espacios para mantener el código legible.
+- Todo el código en minúsculas.
+- Usar comentarios explicativos y eliminar espacios en blanco innecesarios.
+- Nombres de clase deben ser descriptivos, reflejando la función o propósito del elemento.
+
+**Bootstrap:**
+- Usar las utilidades predefinidas de Bootstrap para componentes y grillas responsivas.
+- Evitar la sobrecarga de estilos personalizados y priorizar el uso de las clases estándar de Bootstrap.
+
+**Next.js:**
+- Seguir las convenciones de componentes funcionales de React.
+- Utilizar hooks cuando sea necesario y modularizar el código en componentes reutilizables.
+
+### 5.1.4. Software Deployment Configuration
+
+Para desplegar la landing page es necesario contar con una serie de requisitos, entre ellos, es necesario contar con una cuenta personal, una organización y un repositorio al cual cargar los documentos. A partir de lo anterior, es posible comenzar el despliegue de la landing page. A continuación se enuncian los pasos a seguir:
+
+1. Crear una carpeta llamada "docs" para alojar la Landing Page.
+2. Asegurarse de que los archivos sigan las nomenclaturas "index.html", para la landing page; "input.css" y "output.css" para poder utilizar Tailwind y una carpeta llamada "img" que contenga las imágenes.
+3. Cargar los archivos al repositorio mediante un commit.
+4. Dirigirse a **Settings > Pages** y seleccionar el branch correspondiente, en nuestro caso es el "main".
+5. Especificar la carpeta "docs" como la fuente de la página.
+6. Esperar a que GitHub realice las comprobaciones necesarias. Una vez culminado el proceso, se obtendrá un enlace que llevará al Landing Page desplegado.
