@@ -715,6 +715,138 @@ WeCar se posiciona como una plataforma eficiente que conecta compradores y vende
 
 ### 2.2.2. Registro de entrevistas
 
+Las entrevistas estan en un video en el siguiente URL: ... [Anexo 2.2.1.1]
+
+**Segmento 1: Compradores de Autos de Segunda Mano** 
+
+Nombre: Janiel Franz Escalante Baygorrea
+<br>
+Edad: 28
+<br>
+Tiempo de la entrevista: 0:00
+<br>
+
+<img src="../assets/interview-photos/entrevista-1-segmento-1.png">
+
+- URL del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210148_upc_edu_pe/EfrWZRJ1K0lBscyzo_RKBEwBzNF4Ai5FvPIKT03N5RwWvg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=EbIUtT 
+
+- Informe de Resumen sobre la entrevista:
+
+Franz Escalante, de 28 años, estudiante de ingeniería de software, prioriza el buen mantenimiento y la transparencia al comprar un auto usado. Verifica antecedentes como papeletas y choques, y lleva un mecánico de confianza para revisarlo. Prefiere autos con reportes técnicos y pagaría más por esa seguridad. Usa plataformas online para buscar opciones, pero prefiere cerrar la compra en persona. Confía más en concesionarios, aunque también considera a vendedores particulares si son transparentes.
+
+<br>
+<br>
+
+Nombre:  Gabriel Martel
+<br>
+Edad: 24
+<br>
+Tiempo de la entrevista: 0:00
+<br>
+
+<img src="../assets/interview-photos/entrevista-2-segmento-1.png">
+
+- URL del video: https://upcedupe-my.sharepoint.com/personal/u202219284_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202219284%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%20TB1%20%2D%20Car2Go%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E75317dcc%2De611%2D4257%2D9159%2D8dce69a6ca2a
+
+- Informe de Resumen sobre la entrevista:
+
+Gabriel Martel, de 24 años, es un estudiante de ingeniería de software interesado en adquirir un auto de segunda mano. Durante la entrevista, mencionó que sus principales preocupaciones al comprar un auto incluyen el estado estético del vehículo, especialmente la pintura, ya que considera que este aspecto refleja el cuidado que el propietario le ha dado al automóvil. También evalúa el kilometraje como un indicador clave del uso del vehículo. Además, Gabriel destacó la importancia de verificar los antecedentes del auto, tales como multas y reparaciones previas, para evitar futuros problemas. Comentó que prefiere comprar un auto que tenga una clara documentación y que haya pasado revisiones técnicas confiables.
+
+<br>
+<br>
+
+Nombre:  Anatoly Noriega
+<br>
+Edad: 22
+<br>
+Tiempo de la entrevista: 0:00
+<br>
+
+<img src="../assets/interview-photos/entrevista-3-segmento-1.png">
+
+- URL del video: https://upcedupe-my.sharepoint.com/personal/u202219284_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202219284%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%20TB1%20%2D%20Car2Go%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E75317dcc%2De611%2D4257%2D9159%2D8dce69a6ca2a
+
+- Informe de Resumen sobre la entrevista:
+
+Anatoly Noriega, de 22 años, es un comprador que ya ha adquirido autos de segunda mano en el pasado. En la entrevista, mencionó que lo más importante para ella al comprar un auto es la transparencia del vendedor, especialmente en cuanto a las reparaciones y el historial de mantenimiento del vehículo. Considera fundamental que el auto haya pasado revisiones técnicas recientes, ya que le proporciona seguridad sobre su estado. También mencionó que preferiría un proceso de compra más digitalizado y que incluya certificaciones verificadas por plataformas o talleres mecánicos de confianza.
+
+
+**Segmento 2: Vendedores de Autos de Segunda Mano** 
+
+Nombre: Mijael Yen
+<br>
+Edad: 22
+<br>
+Tiempo de la entrevista: 0:00
+<br>
+
+<img src="../assets/interview-photos/entrevista-1-segmento-2.png">
+
+- URL del video: https://drive.google.com/file/d/1cH2Qm0MXNg0-eg08rE_p2YE1JoY2oTh0/view?usp=drive_link 
+
+- Informe de Resumen sobre la entrevista:
+
+Mijael Yen, de 22 años, es analista de ciberseguridad y vendedor ocasional de autos junto a su padre. Explicó que uno de los mayores desafíos al vender autos de segunda mano es generar confianza con los compradores, ya que la venta implica una inversión significativa. Por ello, Mijael enfatiza la importancia de proporcionar toda la documentación del auto, incluyendo certificados de revisión técnica y detalles sobre reparaciones. Comentó que un comprador informado y que tiene acceso a los antecedentes del auto es más probable que confíe en la venta, lo que agiliza el proceso.
+
+<br>
+<br>
+
+Nombre: Jefrey Sanchez
+<br>
+Edad: 22
+<br>
+Tiempo de la entrevista: 0:00
+<br>
+
+<img src="../assets/interview-photos/entrevista-2-segmento-2.png">
+
+- URL del video: https://upcedupe-my.sharepoint.com/personal/u202219284_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202219284%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%20TB1%20%2D%20Car2Go%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E75317dcc%2De611%2D4257%2D9159%2D8dce69a6ca2a 
+
+- Informe de Resumen sobre la entrevista:
+
+Jefrey Sanchez, de 22 años, estudiante de ingeniería de software, habló sobre su experiencia al intentar vender su auto de segunda mano. Mencionó que, en su experiencia, la desconfianza de los compradores es el principal obstáculo en la venta de autos usados. Para él, uno de los puntos clave es establecer un precio justo para que el vehículo se venda rápidamente. Jefrey comentó que muchas veces la espera para vender un auto puede ser larga debido a la negociación constante sobre el precio y las preocupaciones de los compradores sobre el estado del vehículo.
+
+<br>
+<br>
+
+**Segmento 3: Talleres Mecánicos** 
+
+Nombre: Maomed Chocce
+<br>
+Edad: 29
+<br>
+Tiempo de la entrevista: 0:00
+<br>
+
+<img src="../assets/interview-photos/entrevista-1-segmento-3.png">
+
+- URL del video: https://upcedupe-my.sharepoint.com/personal/u202219284_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202219284%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%20TB1%20%2D%20Car2Go%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E75317dcc%2De611%2D4257%2D9159%2D8dce69a6ca2a
+
+- Informe de Resumen sobre la entrevista:
+
+Maomed Chocce, de 29 años, trabaja en un taller mecánico especializado en la revisión y reparación de autos usados. Durante la entrevista, explicó que su equipo se enfoca en la revisión integral de los componentes más importantes del auto, como los frenos, el motor y la batería. También mencionó que el estado de la carrocería es una prioridad, ya que, según su experiencia, los compradores tienden a fijarse mucho en la estética del vehículo. Además, Maomed resaltó la importancia de ofrecer un informe claro y detallado después de la inspección, para que el vendedor pueda mostrarlo a potenciales compradores.
+
+<br>
+<br>
+
+Nombre: Oscar Román
+<br>
+Edad: 26
+<br>
+Tiempo de la entrevista: 0:00
+<br>
+
+<img src="../assets/interview-photos/entrevista-2-segmento-3.png">
+
+- URL del video: https://upcedupe-my.sharepoint.com/personal/u202219284_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202219284%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%20TB1%20%2D%20Car2Go%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E75317dcc%2De611%2D4257%2D9159%2D8dce69a6ca2a
+
+- Informe de Resumen sobre la entrevista:
+
+Oscar Román, de 26 años, trabaja en una concesionaria de autos y tiene amplia experiencia en la revisión de vehículos de segunda mano. Mencionó que el kilometraje es uno de los factores más importantes para determinar el estado general de un auto. Según él, un kilometraje bajo generalmente indica menos desgaste, lo cual es un atractivo para los compradores. Oscar también expresó su interés en utilizar aplicaciones tecnológicas que le permitan encontrar clientes interesados en revisiones técnicas, ya que cree que le ayudaría a ampliar su red de contactos y aumentar sus ingresos.
+
+<br>
+<br>
+
 ### 2.2.3. Análisis de entrevistas
 
 ## 2.3. Needfinding
