@@ -806,6 +806,21 @@ Tiempo de la entrevista: 0:00
 
 Jefrey Sanchez, de 22 años, estudiante de ingeniería de software, habló sobre su experiencia al intentar vender su auto de segunda mano. Mencionó que, en su experiencia, la desconfianza de los compradores es el principal obstáculo en la venta de autos usados. Para él, uno de los puntos clave es establecer un precio justo para que el vehículo se venda rápidamente. Jefrey comentó que muchas veces la espera para vender un auto puede ser larga debido a la negociación constante sobre el precio y las preocupaciones de los compradores sobre el estado del vehículo.
 
+Nombre: Jessica Matallana
+<br>
+Edad: 56
+<br>
+Tiempo de la entrevista: 7:52
+<br>
+
+<img src="../assets/interview-photos/estrevista-3-segmento-2.png">
+
+- URL del video: https://drive.google.com/file/d/1D9HLQoT_pxmCYUDJGzZkh2ZkecoBg_Ug/view?usp=sharing 
+
+- Informe de Resumen sobre la entrevista:
+
+Jesica Matallana de 56 años menciona como le gustaria tener o conocer herramientas para dar a conocer su venta de vehiculo de segunda mano y reconoce que de la cosas mas importantes es la seguridad y confianza entre el vendedor y el comprador, asi mismo como la calidad y la comodidad que puede haber ala hora de llegar a un acuerdo.
+
 <br>
 <br>
 
