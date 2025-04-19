@@ -728,8 +728,8 @@ Tiempo de la entrevista: 0:00
 
 <img src="../assets/interview-photos/entrevista-1-segmento-1.png">
 
-- URL del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210148_upc_edu_pe/EfrWZRJ1K0lBscyzo_RKBEwBzNF4Ai5FvPIKT03N5RwWvg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=EbIUtT 
-
+- **URL del video:** [Entrevista Janiel Franz](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210148_upc_edu_pe/EfrWZRJ1K0lBscyzo_RKBEwBzNF4Ai5FvPIKT03N5RwWvg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=EbIUtT)
+  <br><br>
 - Informe de Resumen sobre la entrevista:
 
 Franz Escalante, de 28 años, estudiante de ingeniería de software, prioriza el buen mantenimiento y la transparencia al comprar un auto usado. Verifica antecedentes como papeletas y choques, y lleva un mecánico de confianza para revisarlo. Prefiere autos con reportes técnicos y pagaría más por esa seguridad. Usa plataformas online para buscar opciones, pero prefiere cerrar la compra en persona. Confía más en concesionarios, aunque también considera a vendedores particulares si son transparentes.
@@ -746,8 +746,8 @@ Tiempo de la entrevista: 0:00
 
 <img src="../assets/interview-photos/entrevista-2-segmento-1.png">
 
-- URL del video: https://upcedupe-my.sharepoint.com/personal/u202219284_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202219284%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%20TB1%20%2D%20Car2Go%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E75317dcc%2De611%2D4257%2D9159%2D8dce69a6ca2a
-
+- **URL del video:** [Entrevista Gabriel Martiel](https://upcedupe-my.sharepoint.com/personal/u202219284_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202219284%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%20TB1%20%2D%20Car2Go%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E75317dcc%2De611%2D4257%2D9159%2D8dce69a6ca2a)
+<br><br>
 - Informe de Resumen sobre la entrevista:
 
 Gabriel Martel, de 24 años, es un estudiante de ingeniería de software interesado en adquirir un auto de segunda mano. Durante la entrevista, mencionó que sus principales preocupaciones al comprar un auto incluyen el estado estético del vehículo, especialmente la pintura, ya que considera que este aspecto refleja el cuidado que el propietario le ha dado al automóvil. También evalúa el kilometraje como un indicador clave del uso del vehículo. Además, Gabriel destacó la importancia de verificar los antecedentes del auto, tales como multas y reparaciones previas, para evitar futuros problemas. Comentó que prefiere comprar un auto que tenga una clara documentación y que haya pasado revisiones técnicas confiables.
@@ -764,8 +764,8 @@ Tiempo de la entrevista: 0:00
 
 <img src="../assets/interview-photos/entrevista-3-segmento-1.png">
 
-- URL del video: https://upcedupe-my.sharepoint.com/personal/u202219284_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202219284%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%20TB1%20%2D%20Car2Go%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E75317dcc%2De611%2D4257%2D9159%2D8dce69a6ca2a
-
+- **URL del video:** [Entrevista Anatoly Noriega](https://upcedupe-my.sharepoint.com/personal/u202219284_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202219284%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistas%20TB1%20%2D%20Car2Go%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2E75317dcc%2De611%2D4257%2D9159%2D8dce69a6ca2a)
+<br><br>
 - Informe de Resumen sobre la entrevista:
 
 Anatoly Noriega, de 22 años, es un comprador que ya ha adquirido autos de segunda mano en el pasado. En la entrevista, mencionó que lo más importante para ella al comprar un auto es la transparencia del vendedor, especialmente en cuanto a las reparaciones y el historial de mantenimiento del vehículo. Considera fundamental que el auto haya pasado revisiones técnicas recientes, ya que le proporciona seguridad sobre su estado. También mencionó que preferiría un proceso de compra más digitalizado y que incluya certificaciones verificadas por plataformas o talleres mecánicos de confianza.
@@ -782,8 +782,8 @@ Tiempo de la entrevista: 0:00
 
 <img src="../assets/interview-photos/entrevista-1-segmento-2.png">
 
-- URL del video: https://drive.google.com/file/d/1cH2Qm0MXNg0-eg08rE_p2YE1JoY2oTh0/view?usp=drive_link 
-
+- **URL del video:** [Entrevista Mijael Yen](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219284_upc_edu_pe/EU3ocaW1vF9KhmOYIXX3j44B29JWSvNsUY0pktmSWrJ1nw?e=UeSmtp&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifSwicGxheWJhY2tPcHRpb25zIjp7InN0YXJ0VGltZUluU2Vjb25kcyI6MTQxNC42NX19)
+  <br><br>
 - Informe de Resumen sobre la entrevista:
 
 Mijael Yen, de 22 años, es analista de ciberseguridad y vendedor ocasional de autos junto a su padre. Explicó que uno de los mayores desafíos al vender autos de segunda mano es generar confianza con los compradores, ya que la venta implica una inversión significativa. Por ello, Mijael enfatiza la importancia de proporcionar toda la documentación del auto, incluyendo certificados de revisión técnica y detalles sobre reparaciones. Comentó que un comprador informado y que tiene acceso a los antecedentes del auto es más probable que confíe en la venta, lo que agiliza el proceso.
@@ -1066,9 +1066,21 @@ Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo
 
 # Capítulo III: Requirements Specifications
 
+
+
 ## 3.3. Product Backlog
 
 # Capítulo IV: Product Design
+
+## 4.1. Style Guidelines
+### 4.1.1. General Style Guidelines
+### 4.1.2. Web Style Guidelines
+### 4.1.3. Mobile Style Guidelines
+<img src="../assets/mobile-style/mobile-guidelines.png" alt="landing wireframe" style="margin-bottom: 5px;" width="400"/>
+
+#### 4.1.3.1. iOS Mobile Style Guidelines
+
+<img src="../assets/mobile-style/ios-style-guidelines.png" alt="landing wireframe" style="margin-bottom: 5px;" width="400"/>
 
 ## 4.3. Lading Page UI Design
 
@@ -1095,6 +1107,40 @@ Hero altero 1:
 Hero altero 2:
 
 <img src="../assets/wireframes-mockups/landing-mock-up-hero3.png" alt="landing wireframe" style="margin-bottom: 5px;" width="400"/>
+
+## 4.4. Mobile Applications UX/UI Design
+### 4.4.1. Mobile Applications Wireframes	
+### 4.4.2. Mobile Applications Wireflow Diagrams
+### 4.4.3. Mobile Applications Mock-ups
+### Login
+<img src="../assets/mobile-style/mobile-mockup-1.png" alt="mockup1" style="margin-bottom: 5px;" width="300"/>
+<img src="../assets/mobile-style/mobile-mockup-2.png" alt="mockup2" style="margin-bottom: 5px;" width="300"/>
+<img src="../assets/mobile-style/mobile-mockup-2.png" alt="mockup3" style="margin-bottom: 5px;" width="300"/>
+
+### Vista del vendedor
+<img src="../assets/mobile-style/mobile-mockup-4.png" alt="mockup4" style="margin-bottom: 5px;" width="300"/>
+<img src="../assets/mobile-style/mobile-mockup-5.png" alt="mockup5" style="margin-bottom: 5px;" width="300"/>
+<img src="../assets/mobile-style/mobile-mockup-6.png" alt="mockup6" style="margin-bottom: 5px;" width="300"/>
+<img src="../assets/mobile-style/mobile-mockup-7.png" alt="mockup7" style="margin-bottom: 5px;" width="300"/>
+<img src="../assets/mobile-style/mobile-mockup-8.png" alt="mockup8" style="margin-bottom: 5px;" width="300"/>
+
+### Vista del comprador
+<img src="../assets/mobile-style/mobile-mockup-9.png" alt="mockup9" style="margin-bottom: 5px;" width="300"/>
+<img src="../assets/mobile-style/mobile-mockup-10.png" alt="mockup10" style="margin-bottom: 5px;" width="300"/>
+<img src="../assets/mobile-style/mobile-mockup-11.png" alt="mockup11" style="margin-bottom: 5px;" width="300"/>
+<img src="../assets/mobile-style/mobile-mockup-12.png" alt="mockup12" style="margin-bottom: 5px;" width="300"/>
+<img src="../assets/mobile-style/mobile-mockup-13.png" alt="mockup13" style="margin-bottom: 5px;" width="300"/>
+<img src="../assets/mobile-style/mobile-mockup-14.png" alt="mockup14" style="margin-bottom: 5px;" width="300"/>
+
+### Vista del mecánico
+<img src="../assets/mobile-style/mobile-mockup-15.png" alt="mockup15" style="margin-bottom: 5px;" width="300"/>
+<img src="../assets/mobile-style/mobile-mockup-16.png" alt="mockup16" style="margin-bottom: 5px;" width="300"/>
+<img src="../assets/mobile-style/mobile-mockup-17.png" alt="mockup17" style="margin-bottom: 5px;" width="300"/>
+
+### 4.4.4. Mobile Applications User Flow Diagrams
+## 4.5. Mobile Applications Prototyping	Maku
+### 4.5.1. Android Mobile Applications Prototyping
+### 4.5.2. iOS Mobile Applications Prototyping
 
 ## 4.8. Domain-Driven Software Architecture
 
