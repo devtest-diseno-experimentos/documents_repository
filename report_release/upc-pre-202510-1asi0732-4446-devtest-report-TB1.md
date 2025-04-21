@@ -1334,16 +1334,16 @@ Imagen. Elaboración propia. Realizado en UXPRESSIA
 
 * La tipografía de nuestro logotipo adoptará el elegante estilo Roboto, reconocido por su modernidad y su atractivo visual para nuestros usuarios. Este estilo no solo refleja la innovación y la creatividad que caracterizarán a nuestra aplicación, sino que también resalta la vanguardia que buscamos transmitir.
 
-![typografia](../assets/typografia/typografia1.jpg)
+![typography](../assets/typography/typografia1.jpg)
 ---
-![typografia](../assets/typografia/typografia2.1.jpg)
+![typography](../assets/typography/typografia2.1.jpg)
 
 **Colors:**
 * Hemos seleccionado el color #F4C23D como color primario porque transmite confianza y amabilidad, cualidades esenciales para crear una plataforma donde los usuarios se sientan bienvenidos y seguros al interactuar. Este tono dorado, cálido y acogedor, invita a la participación y genera un ambiente positivo para las transacciones.
 
 * Como color secundario, hemos elegido #2959AD por su asociación con el profesionalismo y la seriedad. Este azul oscuro añade un toque de credibilidad y formalidad a la plataforma, asegurando a los usuarios que están realizando sus transacciones en un entorno confiable y bien gestionado.
 
-![colors](../assets/typografia/colors.jpg)
+![colors](../assets/typography/colors.jpg)
 
 
 ### [4.1.2. Web Style Guidelines](#422-labeling-systems)
@@ -1352,7 +1352,7 @@ _Icons:_
 
 * Cuando se trata de diseñar una página web, los íconos juegan un papel crucial en la creación de una interfaz de usuario intuitiva y fácil de usar. Estos elementos visuales pequeños tienen el poder de mejorar la comprensión de los usuarios sobre la funcionalidad de diferentes partes de nuestra página. Los íconos permiten a los usuarios entender rápidamente la función de cada elemento y su simplicidad y claridad los hacen fácilmente comprensibles. Mantener una consistencia en el uso de íconos en toda la página ayuda a evitar confusiones entre los usuarios.
 
-![Icons:](../assets/typografia/icons.jpg)
+![Icons:](../assets/typography/icons.png)
 
 _Breackpoints_
 
