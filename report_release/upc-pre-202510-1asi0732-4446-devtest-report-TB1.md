@@ -1067,7 +1067,7 @@ Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo
 
 ## 3.1. To-Be Scenario Mapping
 
-En esta sección, el equipo presenta el To-Be Scenario Mapping para Car2Go, que ilustra las mejoras propuestas en el proceso de compra y venta de autos de segunda mano a través de nuestra plataforma. Este proceso comenzó con una fase de preparación, seguida de una lluvia de ideas individual para identificar mejoras potenciales. Posteriormente, se llevó a cabo una revisión y se identificaron las fases relevantes, que se organizaron en las columnas de Phases, Doing, Thinking y Feeling en la herramienta de mapeo seleccionada. El To-Be Scenario Mapping se comparó con el As-Is Scenario Mapping para identificar y resaltar los cambios propuestos que optimizarán la experiencia del usuario. La captura del mapeo realizado proporciona una visión clara de cómo estas mejoras impactarán en las diferentes etapas del proceso, abordando las necesidades y expectativas de cada User Persona y contribuyendo a nuestra misión de facilitar un proceso de compra y venta intuitivo, seguro y eficiente.
+En esta sección, el equipo presenta el To-Be Scenario Mapping para WeCar, que ilustra las mejoras propuestas en el proceso de compra y venta de autos de segunda mano a través de nuestra plataforma. Este proceso comenzó con una fase de preparación, seguida de una lluvia de ideas individual para identificar mejoras potenciales. Posteriormente, se llevó a cabo una revisión y se identificaron las fases relevantes, que se organizaron en las columnas de Phases, Doing, Thinking y Feeling en la herramienta de mapeo seleccionada. El To-Be Scenario Mapping se comparó con el As-Is Scenario Mapping para identificar y resaltar los cambios propuestos que optimizarán la experiencia del usuario. La captura del mapeo realizado proporciona una visión clara de cómo estas mejoras impactarán en las diferentes etapas del proceso, abordando las necesidades y expectativas de cada User Persona y contribuyendo a nuestra misión de facilitar un proceso de compra y venta intuitivo, seguro y eficiente.
 
 **Segmento objetivo: Compradores de Autos Usados**
 
@@ -1180,7 +1180,7 @@ En esta sección, el equipo presenta el To-Be Scenario Mapping para Car2Go, que 
 <br><br><br><br><br><br><br><br>
 
 ## 3.3. Product Backlog
-En esta sección del Product Backlog se encuentran recopiladas todas las User Stories identificadas para el desarrollo de nuestra plataforma Car2Go. Cada User Story representa una funcionalidad o requerimiento específico que contribuirá a mejorar la experiencia del usuario y a alcanzar los objetivos del proyecto. Las historias están ordenadas por prioridad, considerando tanto la importancia para los usuarios como la complejidad técnica y el valor de negocio. El Product Backlog será actualizado periódicamente a medida que se avanza en el desarrollo y se obtienen nuevos requerimientos, asegurando que siempre refleje las necesidades actuales del proyecto.
+En esta sección del Product Backlog se encuentran recopiladas todas las User Stories identificadas para el desarrollo de nuestra plataforma WeCar. Cada User Story representa una funcionalidad o requerimiento específico que contribuirá a mejorar la experiencia del usuario y a alcanzar los objetivos del proyecto. Las historias están ordenadas por prioridad, considerando tanto la importancia para los usuarios como la complejidad técnica y el valor de negocio. El Product Backlog será actualizado periódicamente a medida que se avanza en el desarrollo y se obtienen nuevos requerimientos, asegurando que siempre refleje las necesidades actuales del proyecto.
 
 | #Orden | User Story ID | Título                                           | Descripción                                                                                                                                               | Story Points (1/2/3/5/8) |
 |--------|---------------|--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
@@ -1223,7 +1223,7 @@ En esta sección del Product Backlog se encuentran recopiladas todas las User St
 | 37     | US-01         | Registro de Usuario                              | Como visitante quiero registrarme en la plataforma para poder comprar o vender autos.                                                                     | 3                        |
 
 ## 3.4. Impact Mapping 
-En esta sección, se presenta el Impact Mapping para Car2Go, diseñado para alcanzar el objetivo de establecerse como la plataforma líder en la compra y venta de autos de segunda mano en el mercado nacional en el próximo año. El Impact Mapping se centra en tres segmentos clave: Compradores de Autos Usados, Vendedores de Autos Usados y Talleres Técnicos. Para cada segmento, se han definido impactos específicos que contribuirán a lograr el objetivo general, junto con los entregables necesarios para provocar estos impactos. Las historias de usuario resultantes guiarán el desarrollo de funcionalidades y características, asegurando que Car2Go cumpla con las expectativas de sus usuarios y facilite una experiencia de compra y venta de autos que sea intuitiva, segura y confiable. Esta planificación se ha realizado utilizando la plataforma UXPressia.
+En esta sección, se presenta el Impact Mapping para WeCar, diseñado para alcanzar el objetivo de establecerse como la plataforma líder en la compra y venta de autos de segunda mano en el mercado nacional en el próximo año. El Impact Mapping se centra en tres segmentos clave: Compradores de Autos Usados, Vendedores de Autos Usados y Talleres Técnicos. Para cada segmento, se han definido impactos específicos que contribuirán a lograr el objetivo general, junto con los entregables necesarios para provocar estos impactos. Las historias de usuario resultantes guiarán el desarrollo de funcionalidades y características, asegurando que WeCar cumpla con las expectativas de sus usuarios y facilite una experiencia de compra y venta de autos que sea intuitiva, segura y confiable. Esta planificación se ha realizado utilizando la plataforma UXPressia.
 
 
 **Segmento objetivo: Compradores de Autos Usados**
@@ -1254,7 +1254,84 @@ En esta sección, se presenta el Impact Mapping para Car2Go, diseñado para alca
 
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines
-### 4.1.2. Web Style Guidelines
+**Branding:**
+
+* Logo representativo de Wecar
+-- Logo
+
+**Typography:**
+
+* La tipografía de nuestro logotipo adoptará el elegante estilo Roboto, reconocido por su modernidad y su atractivo visual para nuestros usuarios. Este estilo no solo refleja la innovación y la creatividad que caracterizarán a nuestra aplicación, sino que también resalta la vanguardia que buscamos transmitir.
+
+![typografia](../assets/typografia/typografia1.jpg)
+---
+![typografia](../assets/typografia/typografia2.1.jpg)
+
+**Colors:**
+* Hemos seleccionado el color #F4C23D como color primario porque transmite confianza y amabilidad, cualidades esenciales para crear una plataforma donde los usuarios se sientan bienvenidos y seguros al interactuar. Este tono dorado, cálido y acogedor, invita a la participación y genera un ambiente positivo para las transacciones.
+
+* Como color secundario, hemos elegido #2959AD por su asociación con el profesionalismo y la seriedad. Este azul oscuro añade un toque de credibilidad y formalidad a la plataforma, asegurando a los usuarios que están realizando sus transacciones en un entorno confiable y bien gestionado.
+
+![colors](../assets/typografia/colors.jpg)
+
+
+### [4.1.2. Web Style Guidelines](#422-labeling-systems)
+
+_Icons:_
+
+* Cuando se trata de diseñar una página web, los íconos juegan un papel crucial en la creación de una interfaz de usuario intuitiva y fácil de usar. Estos elementos visuales pequeños tienen el poder de mejorar la comprensión de los usuarios sobre la funcionalidad de diferentes partes de nuestra página. Los íconos permiten a los usuarios entender rápidamente la función de cada elemento y su simplicidad y claridad los hacen fácilmente comprensibles. Mantener una consistencia en el uso de íconos en toda la página ayuda a evitar confusiones entre los usuarios.
+
+![Icons:](../assets/typografia/icons.jpg)
+
+_Breackpoints_
+
+* Los breakpoints más conocidos en **ANGULAR** son los siguientes:
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:center;">Breakpoint</th>
+      <th style="text-align:center;">Class infix</th>
+      <th style="text-align:center;">Dimensions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:center;">X-Small</td>
+      <td style="text-align:center;">None</td>
+      <td style="text-align:center;">&lt;576px</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">Small</td>
+      <td style="text-align:center;">sm</td>
+      <td style="text-align:center;">≥576px</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">Medium</td>
+      <td style="text-align:center;">md</td>
+      <td style="text-align:center;">≥768px</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">Large</td>
+      <td style="text-align:center;">lg</td>
+      <td style="text-align:center;">≥992px</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">Extra large</td>
+      <td style="text-align:center;">xl</td>
+      <td style="text-align:center;">≥1200px</td>
+    </tr>
+    <tr>
+      <td style="text-align:center;">Extra, extra large</td>
+      <td style="text-align:center;">xxl</td>
+      <td style="text-align:center;">≥1400px</td>
+    </tr>
+  </tbody>
+</table>
+
+
+* Y los que usaremos en el proyecto principalmente son los de 768px y 1024px, ya que son los más comunes en los dispositivos móviles y de escritorio.
+
 ### 4.1.3. Mobile Style Guidelines
 <img src="../assets/mobile-style/mobile-guidelines.png" alt="landing wireframe" style="margin-bottom: 5px;" width="400"/>
 
@@ -1324,23 +1401,23 @@ Hero altero 2:
 
 ## 4.8. Domain-Driven Software Architecture
 
-El Domain Driven Design (DDD) tiene como objetivo llegar a un entendimiento compartido del dominio que abarca el espacio del problema. En el caso de Car2Go, este dominio es la gestión de la compra y venta de vehículos de segunda mano y la interacción con los vendedores, compradores y talleres mecánicos. Gracias a la perspectiva brindada por este enfoque, es posible mejorar la colaboración entre los desarrolladores y los expertos del dominio.
+El Domain Driven Design (DDD) tiene como objetivo llegar a un entendimiento compartido del dominio que abarca el espacio del problema. En el caso de WeCar, este dominio es la gestión de la compra y venta de vehículos de segunda mano y la interacción con los vendedores, compradores y talleres mecánicos. Gracias a la perspectiva brindada por este enfoque, es posible mejorar la colaboración entre los desarrolladores y los expertos del dominio.
 
 ### 4.8.1. Software Architecture Context Diagram
 
-El diagrama de contexto muestra una vista de alto nivel de las relaciones entre el sistema de software Car2Go, los usuarios y, si es el caso, de otros sistemas externos.
+El diagrama de contexto muestra una vista de alto nivel de las relaciones entre el sistema de software WeCar, los usuarios y, si es el caso, de otros sistemas externos.
 
 <img src="../assets/architecture-diagram/context-diagram.png" alt="diagram" style="margin-bottom: 5px;" width="400"/>
 
 ### 4.8.2. Software Architecture Container Diagrams
 
-El diagrama de contenedores muestra una vista de alto nivel de las relaciones entre las aplicaciones y fuentes de datos que son parte de la ejecución del sistema de software Car2Go.
+El diagrama de contenedores muestra una vista de alto nivel de las relaciones entre las aplicaciones y fuentes de datos que son parte de la ejecución del sistema de software WeCar.
 
 <img src="../assets/architecture-diagram/containers-diagram.png" alt="diagram" style="margin-bottom: 5px;" width="400"/>
 
 ### 4.8.3. Software Architecture Components Diagrams
 
-Los diagramas de componentes muestran una vista de las relaciones de los componentes principales del sistema de software Car2Go. Estos componentes detallan la implementación de los respectivos módulos en el programa.
+Los diagramas de componentes muestran una vista de las relaciones de los componentes principales del sistema de software WeCar. Estos componentes detallan la implementación de los respectivos módulos en el programa.
 
 - Authentication Bounded Context
 
@@ -1362,7 +1439,7 @@ Los diagramas de componentes muestran una vista de las relaciones de los compone
 
 ## 5.1. Software Configuration Management
 
-A continuación, se describe el proceso por el cual organizamos, gestionamos y controlamos los cambios en el desarrollo de Car2Go.
+A continuación, se describe el proceso por el cual organizamos, gestionamos y controlamos los cambios en el desarrollo de WeCar.
 
 ### 5.1.1. Software Development Environment Configuration
 
@@ -1426,7 +1503,7 @@ La rama **develop** es la rama de desarrollo de nuestro proyecto, que contiene l
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-Para asegurar la coherencia y mantenibilidad del código en **Car2Go**, se seguirán las siguientes convenciones de estilo:
+Para asegurar la coherencia y mantenibilidad del código en **WeCar**, se seguirán las siguientes convenciones de estilo:
 
 **HTML:**
 - Todos los elementos deben estar correctamente cerrados.
