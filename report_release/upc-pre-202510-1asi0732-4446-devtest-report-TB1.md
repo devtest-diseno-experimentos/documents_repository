@@ -1268,6 +1268,11 @@ Imagen. Elaboración propia. Realizado en UXPRESSIA
 Imagen. Elaboración propia. Realizado en UXPRESSIA
 
 
+### Segmento objetivo: Talleres Técnicos
+#### Impact mapping 3:
+<img src="../assets/impact-mapping/impact-mapping-seg-3.png" alt="impact-mapping-2" style="margin-bottom: 5px;" width="400"/>
+<br/>
+Imagen. Elaboración propia. Realizado en UXPRESSIA
 
 
 
