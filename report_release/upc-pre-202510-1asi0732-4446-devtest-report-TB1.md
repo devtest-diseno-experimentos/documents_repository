@@ -362,7 +362,6 @@ y la escasez de herramientas tecnológicas que faciliten transacciones confiable
   satisfactorias para todas las partes involucradas.
 
 
-#### 1.2.2.2. Lean UX Assumptions
 
 
 #### 1.2.2.2. Lean UX Assumptions
@@ -384,7 +383,7 @@ y la escasez de herramientas tecnológicas que faciliten transacciones confiable
 - Talleres técnicos
 
 #### 2. ¿Dónde entra nuestro producto en su trabajo o su vida?
-WeCarGo se integra directamente en la vida de los compradores y vendedores al facilitar el proceso de transacción, haciéndolo más seguro y accesible.
+WeCar se integra directamente en la vida de los compradores y vendedores al facilitar el proceso de transacción, haciéndolo más seguro y accesible.
 
 #### 3. ¿Cuál es el problema que nuestro producto soluciona?
 - Falta de transparencia y confianza en las transacciones de autos usados.  
@@ -453,11 +452,12 @@ Incrementar en un **40% el número de inspecciones y certificaciones** realizada
 
 ### ¿Qué cambio en su comportamiento veremos que nos dirá que nuestro objetivo ha sido logrado?
 
-#### Compradores y Vendedores
-Uso constante de la plataforma para las transacciones de autos usados. Un incremento en el número de transacciones y una reducción de quejas relacionadas con transparencia y verificación indicarán éxito.
+ **Compradores y Vendedores**
+- Uso constante de la plataforma para las transacciones de autos usados. Un incremento en el número de transacciones y una reducción de quejas relacionadas con transparencia y verificación indicarán éxito.
 
-#### Talleres Técnicos
-Aumento en la demanda de servicios ofrecidos por la plataforma. Más inspecciones y certificaciones realizadas indicarán una colaboración exitosa y beneficiosa con WeCar.
+**Talleres Técnicos**
+
+- Aumento en la demanda de servicios ofrecidos por la plataforma. Más inspecciones y certificaciones realizadas indicarán una colaboración exitosa y beneficiosa con WeCar.
 
 ---
 
@@ -863,6 +863,42 @@ Oscar Román, de 26 años, trabaja en una concesionaria de autos y tiene amplia 
 <br>
 
 ### 2.2.3. Análisis de entrevistas
+### Segmento 1: Compradores de Autos de Segunda Mano
+
+**Principales hallazgos:**
+- Priorizan la **transparencia** del vendedor y la **seguridad técnica** del vehículo.
+- Verifican **antecedentes**: papeletas, choques, mantenimientos.
+- Valoran el **kilometraje** y el **estado estético** (pintura, carrocería).
+- Prefieren tener un **informe técnico** o llevar un **mecánico de confianza**.
+- Usan plataformas digitales para buscar, pero prefieren cerrar la compra en persona.
+
+**Oportunidad detectada:** Crear una herramienta que **centralice reportes técnicos verificados**, antecedentes y permita un proceso digital seguro.
+
+---
+
+### Segmento 2: Vendedores de Autos de Segunda Mano
+
+**Principales hallazgos:**
+- El mayor reto es **generar confianza** en los compradores.
+- La **documentación completa** del vehículo es clave para facilitar la venta.
+- Destacan la importancia de **precios justos** y **transparencia** sobre el estado del auto.
+- Desean contar con **herramientas para visibilizar sus autos** y facilitar acuerdos.
+
+**Oportunidad detectada:** Plataforma que permita **crear perfiles confiables de venta**, mostrando historial, precio justo sugerido y validación técnica.
+
+---
+
+### Segmento 3: Talleres Mecánicos
+
+**Principales hallazgos:**
+- Se enfocan en revisar **componentes clave**: motor, frenos, batería, carrocería.
+- Los compradores valoran **informes detallados** tras la revisión.
+- Talleres estarían dispuestos a integrarse con plataformas para ofrecer sus servicios.
+- Ven valor en herramientas digitales para **conectar con más clientes**.
+
+**Oportunidad detectada:** Incluir talleres como **aliados certificados** dentro de una plataforma para revisar, validar y emitir informes técnicos para la venta.
+
+---
 
 ## 2.3. Needfinding
 
@@ -1029,7 +1065,8 @@ Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo
 
 As Is representa las fases donde aun no se esta implementando nuestra solución nos sirve para poder plantear escenarios de los cuales abarcaremos en el To Be donde utilizaremos la solución.
 
-Link del Miro: 
+__[Link del Miro](https://miro.com/app/board/uXjVMm70eUI=/?share_link_id=313743584808)__
+
 
 **Segmento Compradores de Autos de Segunda Mano**
 <img src="../assets/as-is-scenario-mapping/as-is-scenario-mapping-segmento-1.jpg" alt="Segmento 1">
@@ -1062,6 +1099,10 @@ Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo
 - Historial del Auto: Registro de los eventos relevantes asociados al vehículo, como reparaciones, multas o accidentes anteriores.
 
 - Kilometraje: Distancia total recorrida por el auto, un indicador clave del desgaste del vehículo.
+<br>
+<br>
+<br>
+
 
 # Capítulo III: Requirements Specifications
 
