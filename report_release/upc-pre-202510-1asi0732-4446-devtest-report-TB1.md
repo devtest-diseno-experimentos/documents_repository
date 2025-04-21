@@ -1261,6 +1261,12 @@ En esta sección, se presenta el Impact Mapping para Car2Go, diseñado para alca
 <br/>
 Imagen. Elaboración propia. Realizado en UXPRESSIA
 
+### Segmento objetivo: Vendedores de Autos Usados
+#### Impact mapping 2:
+<img src="../assets/impact-mapping/impact-mapping-seg-2.png" alt="impact-mapping-2" style="margin-bottom: 5px;" width="400"/>
+<br/>
+Imagen. Elaboración propia. Realizado en UXPRESSIA
+
 
 
 
