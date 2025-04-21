@@ -14,7 +14,7 @@
 
 #### Startup: **DevTest**
 
-#### Product: **WeCar**
+#### Product: **Car2Go**
 
 #### Año: **2025**
 
@@ -295,15 +295,15 @@ Visión: Ser la plataforma líder a nivel nacional en el comercio de vehículos 
 En esta sección se detallan los aspectos claves de nuestra solución de software, incluyendo sus
 características distintivas, propuestas de valor y estrategias de monetización.
 
-**Nombre del producto:** WeCar
+**Nombre del producto:** Car2Go
 
-**Descripción:** WeCar es una plataforma innovadora diseñada para facilitar la compra y
+**Descripción:** Car2Go es una plataforma innovadora diseñada para facilitar la compra y
 venta de autos de segunda mano, conectando de manera eficiente a compradores y vendedores.
 La plataforma ofrece una experiencia fluida y sin problemas, permitiendo a los usuarios explorar vehículos,
-gestionar sus publicaciones y comunicarse de manera efectiva. WeCar proporciona herramientas de seguimiento
+gestionar sus publicaciones y comunicarse de manera efectiva. Car2Go proporciona herramientas de seguimiento
 en tiempo real para las transacciones y opciones de personalización que garantizan una experiencia óptima y segura.
 
-**Monetización:** WeCar generará ingresos mediante una combinación de planes de suscripción y
+**Monetización:** Car2Go generará ingresos mediante una combinación de planes de suscripción y
 comisiones por venta. Los vendedores podrán elegir entre diferentes planes de suscripción,
 que ofrecen acceso a funciones avanzadas como la destacación de anuncios, herramientas de marketing
 y análisis detallados. Además, se aplicará una comisión básica por cada transacción completada.
@@ -369,7 +369,7 @@ y la escasez de herramientas tecnológicas que faciliten transacciones confiable
 
 ### Business Outcomes
 
-- Lograr un crecimiento mensual del **20%** en el número de usuarios activos de la plataforma, medido por el número de transacciones realizadas a través de WeCar.
+- Lograr un crecimiento mensual del **20%** en el número de usuarios activos de la plataforma, medido por el número de transacciones realizadas a través de Car2Go.
 - Tener al menos **200 vehículos vendidos** a través de la plataforma en el primer año de lanzamiento.
 - Alcanzar una **tasa de satisfacción del 85%** entre los usuarios al final del primer año, lo que indicará una alta retención y confianza en la plataforma.
 
@@ -383,7 +383,7 @@ y la escasez de herramientas tecnológicas que faciliten transacciones confiable
 - Talleres técnicos
 
 #### 2. ¿Dónde entra nuestro producto en su trabajo o su vida?
-WeCar se integra directamente en la vida de los compradores y vendedores al facilitar el proceso de transacción, haciéndolo más seguro y accesible.
+Car2Go se integra directamente en la vida de los compradores y vendedores al facilitar el proceso de transacción, haciéndolo más seguro y accesible.
 
 #### 3. ¿Cuál es el problema que nuestro producto soluciona?
 - Falta de transparencia y confianza en las transacciones de autos usados.  
@@ -408,7 +408,7 @@ El producto debe verse con una interfaz **simple, interactiva, atractiva e inclu
 ###  User Outcomes
 
 #### Compradores de Autos Usados
-Aumentar la confianza en el proceso de compra de vehículos usados, logrando una **reducción del 30% en el número de incidencias críticas** reportadas durante el primer año de uso de WeCar.
+Aumentar la confianza en el proceso de compra de vehículos usados, logrando una **reducción del 30% en el número de incidencias críticas** reportadas durante el primer año de uso de Car2Go.
 
 #### Vendedores de Autos Usados
 Mejorar la **tasa de conversión de ventas en un 25%** durante el primer año, asegurando que solo vehículos verificados y aprobados sean listados.
@@ -457,7 +457,7 @@ Incrementar en un **40% el número de inspecciones y certificaciones** realizada
 
 **Talleres Técnicos**
 
-- Aumento en la demanda de servicios ofrecidos por la plataforma. Más inspecciones y certificaciones realizadas indicarán una colaboración exitosa y beneficiosa con WeCar.
+- Aumento en la demanda de servicios ofrecidos por la plataforma. Más inspecciones y certificaciones realizadas indicarán una colaboración exitosa y beneficiosa con Car2Go.
 
 ---
 
@@ -474,11 +474,11 @@ Incrementar en un **40% el número de inspecciones y certificaciones** realizada
 
 Creemos que al implementar un proceso riguroso de verificación para cada vehículo antes de su inclusión en la plataforma, podemos aumentar la confianza de los compradores en la calidad y la transparencia de las ofertas, lo que resultará en una mayor seguridad en las transacciones y una reducción en las disputas.
 
-- Creemos que al integrar un sistema de inspecciones y certificaciones realizadas por talleres técnicos a través de WeCar, podemos incrementar la demanda de servicios técnicos, lo que beneficiará a los talleres y garantizará la calidad de los vehículos disponibles en la plataforma.
+- Creemos que al integrar un sistema de inspecciones y certificaciones realizadas por talleres técnicos a través de Car2Go, podemos incrementar la demanda de servicios técnicos, lo que beneficiará a los talleres y garantizará la calidad de los vehículos disponibles en la plataforma.
 
 - Creemos que al ofrecer una plataforma exclusiva sin freemium y con un filtro de calidad para los vehículos, podemos mejorar la eficiencia del proceso de compra-venta, aumentando la satisfacción del cliente y optimizando las transacciones al asegurar que solo los vehículos que cumplen con los estándares de calidad sean mostrados.
 
-- Creemos que al proporcionar una interfaz intuitiva y amigable, podemos mejorar la experiencia general del usuario en la plataforma, resultando en una mayor satisfacción y un aumento en el uso continuo de WeCar.
+- Creemos que al proporcionar una interfaz intuitiva y amigable, podemos mejorar la experiencia general del usuario en la plataforma, resultando en una mayor satisfacción y un aumento en el uso continuo de Car2Go.
 
 - Creemos que al implementar un sistema de verificación de pagos y transacciones seguras, podemos reducir los riesgos de fraude y estafas, lo que aumentará la confianza de los usuarios en la plataforma y fomentará la realización de transacciones seguras y confiables.
 
@@ -538,7 +538,7 @@ Aquí unos competidores directos que proporcionan servicios similares al nuestro
   <tr>
     <th></th>
     <th></th>
-    <th>WeCar</th>
+    <th>Car2Go</th>
     <th>NeoAuto</th>
     <th>AutoLand Perú</th>
     <th>Autopia.pe</th>
@@ -608,7 +608,7 @@ Aquí unos competidores directos que proporcionan servicios similares al nuestro
     <td>Costos operativos altos debido a las inspecciones mensuales, lo que puede traducirse en precios más altos para los usuarios.</td>
     <td>Menor enfoque en la verificación continua de datos, lo que puede generar dudas sobre la autenticidad de la información.</td>
     <td>Dependencia de puntos de venta físicos puede limitar el alcance y la comodidad en comparación con plataformas digitales puras.</td>
-    <td>Inspección única puede no ofrecer el mismo nivel de garantía continua que la verificación mensual de Wecar.</td>
+    <td>Inspección única puede no ofrecer el mismo nivel de garantía continua que la verificación mensual de Car2Go.</td>
   </tr>
   <tr>
     <td><strong>Oportunidades</strong></td>
@@ -628,7 +628,7 @@ Aquí unos competidores directos que proporcionan servicios similares al nuestro
 
 ### 2.1.2 Estrategias y tácticas frente a competidores
 
-WeCar se posiciona como una plataforma eficiente que conecta compradores y vendedores de autos de manera segura. Para destacarnos de la competencia, implementamos estas estrategias:
+Car2Go se posiciona como una plataforma eficiente que conecta compradores y vendedores de autos de manera segura. Para destacarnos de la competencia, implementamos estas estrategias:
 
 <strong>Interfaz Sencilla:</strong> La aplicación es fácil de usar, permitiendo a los usuarios publicar y buscar autos rápidamente, incluso sin experiencia tecnológica.
 
@@ -1108,7 +1108,7 @@ Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo
 
 ## 3.1. To-Be Scenario Mapping
 
-En esta sección, el equipo presenta el To-Be Scenario Mapping para WeCar, que ilustra las mejoras propuestas en el proceso de compra y venta de autos de segunda mano a través de nuestra plataforma. Este proceso comenzó con una fase de preparación, seguida de una lluvia de ideas individual para identificar mejoras potenciales. Posteriormente, se llevó a cabo una revisión y se identificaron las fases relevantes, que se organizaron en las columnas de Phases, Doing, Thinking y Feeling en la herramienta de mapeo seleccionada. El To-Be Scenario Mapping se comparó con el As-Is Scenario Mapping para identificar y resaltar los cambios propuestos que optimizarán la experiencia del usuario. La captura del mapeo realizado proporciona una visión clara de cómo estas mejoras impactarán en las diferentes etapas del proceso, abordando las necesidades y expectativas de cada User Persona y contribuyendo a nuestra misión de facilitar un proceso de compra y venta intuitivo, seguro y eficiente.
+En esta sección, el equipo presenta el To-Be Scenario Mapping para Car2Go, que ilustra las mejoras propuestas en el proceso de compra y venta de autos de segunda mano a través de nuestra plataforma. Este proceso comenzó con una fase de preparación, seguida de una lluvia de ideas individual para identificar mejoras potenciales. Posteriormente, se llevó a cabo una revisión y se identificaron las fases relevantes, que se organizaron en las columnas de Phases, Doing, Thinking y Feeling en la herramienta de mapeo seleccionada. El To-Be Scenario Mapping se comparó con el As-Is Scenario Mapping para identificar y resaltar los cambios propuestos que optimizarán la experiencia del usuario. La captura del mapeo realizado proporciona una visión clara de cómo estas mejoras impactarán en las diferentes etapas del proceso, abordando las necesidades y expectativas de cada User Persona y contribuyendo a nuestra misión de facilitar un proceso de compra y venta intuitivo, seguro y eficiente.
 
 **Segmento objetivo: Compradores de Autos Usados**
 
@@ -1222,7 +1222,7 @@ En esta sección, el equipo presenta el To-Be Scenario Mapping para WeCar, que i
 <br><br><br><br><br><br><br><br>
 
 ## 3.3. Product Backlog
-En esta sección del Product Backlog se encuentran recopiladas todas las User Stories identificadas para el desarrollo de nuestra plataforma WeCar. Cada User Story representa una funcionalidad o requerimiento específico que contribuirá a mejorar la experiencia del usuario y a alcanzar los objetivos del proyecto. Las historias están ordenadas por prioridad, considerando tanto la importancia para los usuarios como la complejidad técnica y el valor de negocio. El Product Backlog será actualizado periódicamente a medida que se avanza en el desarrollo y se obtienen nuevos requerimientos, asegurando que siempre refleje las necesidades actuales del proyecto.
+En esta sección del Product Backlog se encuentran recopiladas todas las User Stories identificadas para el desarrollo de nuestra plataforma Car2Go. Cada User Story representa una funcionalidad o requerimiento específico que contribuirá a mejorar la experiencia del usuario y a alcanzar los objetivos del proyecto. Las historias están ordenadas por prioridad, considerando tanto la importancia para los usuarios como la complejidad técnica y el valor de negocio. El Product Backlog será actualizado periódicamente a medida que se avanza en el desarrollo y se obtienen nuevos requerimientos, asegurando que siempre refleje las necesidades actuales del proyecto.
 
 | #Orden | User Story ID | Título                                           | Descripción                                                                                                                                               | Story Points (1/2/3/5/8) |
 |--------|---------------|--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|
@@ -1265,7 +1265,7 @@ En esta sección del Product Backlog se encuentran recopiladas todas las User St
 | 37     | US-01         | Registro de Usuario                              | Como visitante quiero registrarme en la plataforma para poder comprar o vender autos.                                                                     | 3                        |
 
 ## 3.4. Impact Mapping 
-En esta sección, se presenta el Impact Mapping para WeCar, diseñado para alcanzar el objetivo de establecerse como la plataforma líder en la compra y venta de autos de segunda mano en el mercado nacional en el próximo año. El Impact Mapping se centra en tres segmentos clave: Compradores de Autos Usados, Vendedores de Autos Usados y Talleres Técnicos. Para cada segmento, se han definido impactos específicos que contribuirán a lograr el objetivo general, junto con los entregables necesarios para provocar estos impactos. Las historias de usuario resultantes guiarán el desarrollo de funcionalidades y características, asegurando que WeCar cumpla con las expectativas de sus usuarios y facilite una experiencia de compra y venta de autos que sea intuitiva, segura y confiable. Esta planificación se ha realizado utilizando la plataforma UXPressia.
+En esta sección, se presenta el Impact Mapping para Car2Go, diseñado para alcanzar el objetivo de establecerse como la plataforma líder en la compra y venta de autos de segunda mano en el mercado nacional en el próximo año. El Impact Mapping se centra en tres segmentos clave: Compradores de Autos Usados, Vendedores de Autos Usados y Talleres Técnicos. Para cada segmento, se han definido impactos específicos que contribuirán a lograr el objetivo general, junto con los entregables necesarios para provocar estos impactos. Las historias de usuario resultantes guiarán el desarrollo de funcionalidades y características, asegurando que Car2Go cumpla con las expectativas de sus usuarios y facilite una experiencia de compra y venta de autos que sea intuitiva, segura y confiable. Esta planificación se ha realizado utilizando la plataforma UXPressia.
 
 
 **Segmento objetivo: Compradores de Autos Usados**
@@ -1329,7 +1329,7 @@ Imagen. Elaboración propia. Realizado en UXPRESSIA
 
 <!-- To-do -->
 
-* Logo representativo de Wecar
+* Logo representativo de Car2Go
 <img src="../assets/branding/logo.png" alt="branding" style="margin-bottom: 5px;"/>
 
 **Typography:**
@@ -1482,23 +1482,23 @@ Hero altero 2:
 
 ## 4.8. Domain-Driven Software Architecture
 
-El Domain Driven Design (DDD) tiene como objetivo llegar a un entendimiento compartido del dominio que abarca el espacio del problema. En el caso de WeCar, este dominio es la gestión de la compra y venta de vehículos de segunda mano y la interacción con los vendedores, compradores y talleres mecánicos. Gracias a la perspectiva brindada por este enfoque, es posible mejorar la colaboración entre los desarrolladores y los expertos del dominio.
+El Domain Driven Design (DDD) tiene como objetivo llegar a un entendimiento compartido del dominio que abarca el espacio del problema. En el caso de Car2Go, este dominio es la gestión de la compra y venta de vehículos de segunda mano y la interacción con los vendedores, compradores y talleres mecánicos. Gracias a la perspectiva brindada por este enfoque, es posible mejorar la colaboración entre los desarrolladores y los expertos del dominio.
 
 ### 4.8.1. Software Architecture Context Diagram
 
-El diagrama de contexto muestra una vista de alto nivel de las relaciones entre el sistema de software WeCar, los usuarios y, si es el caso, de otros sistemas externos.
+El diagrama de contexto muestra una vista de alto nivel de las relaciones entre el sistema de software Car2Go, los usuarios y, si es el caso, de otros sistemas externos.
 
 <img src="../assets/architecture-diagram/context-diagram.png" alt="diagram" style="margin-bottom: 5px;"/>
 
 ### 4.8.2. Software Architecture Container Diagrams
 
-El diagrama de contenedores muestra una vista de alto nivel de las relaciones entre las aplicaciones y fuentes de datos que son parte de la ejecución del sistema de software WeCar.
+El diagrama de contenedores muestra una vista de alto nivel de las relaciones entre las aplicaciones y fuentes de datos que son parte de la ejecución del sistema de software Car2Go.
 
 <img src="../assets/architecture-diagram/containers-diagram.png" alt="diagram" style="margin-bottom: 5px;"/>
 
 ### 4.8.3. Software Architecture Components Diagrams
 
-Los diagramas de componentes muestran una vista de las relaciones de los componentes principales del sistema de software WeCar. Estos componentes detallan la implementación de los respectivos módulos en el programa.
+Los diagramas de componentes muestran una vista de las relaciones de los componentes principales del sistema de software Car2Go. Estos componentes detallan la implementación de los respectivos módulos en el programa.
 
 - Authentication Bounded Context
 
@@ -1520,7 +1520,7 @@ Los diagramas de componentes muestran una vista de las relaciones de los compone
 
 ## 5.1. Software Configuration Management
 
-A continuación, se describe el proceso por el cual organizamos, gestionamos y controlamos los cambios en el desarrollo de WeCar.
+A continuación, se describe el proceso por el cual organizamos, gestionamos y controlamos los cambios en el desarrollo de Car2Go.
 
 ### 5.1.1. Software Development Environment Configuration
 
@@ -1584,7 +1584,7 @@ La rama **develop** es la rama de desarrollo de nuestro proyecto, que contiene l
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-Para asegurar la coherencia y mantenibilidad del código en **WeCar**, se seguirán las siguientes convenciones de estilo:
+Para asegurar la coherencia y mantenibilidad del código en **Car2Go**, se seguirán las siguientes convenciones de estilo:
 
 **HTML:**
 - Todos los elementos deben estar correctamente cerrados.
