@@ -1113,7 +1113,7 @@ En esta sección, el equipo presenta el To-Be Scenario Mapping para WeCar, que i
 **Segmento objetivo: Compradores de Autos Usados**
 
 ![image](../assets/to-be-scenario-mapping/tobeMap-compradores.jpg)
-*Imagen (N°10). Elaboración propia. Realizado en [Miro](https://miro.com/app/board/uXjVKiyuKZA=/?share_link_id=172702013556). https://miro.com/app/board/uXjVKiyuKZA=/?share_link_id=172702013556*
+*Imagen (N°10). Elaboración propia. Realizado en [Miro](https://miro.com/app/board/uXjVKiyuKZA=/?share_link_id=172702013556).
 
 **Segmento objetivo: Vendedores de Autos Usados**
 ![image](../assets/to-be-scenario-mapping/tobeMap-vendedores.jpg)
@@ -1121,7 +1121,8 @@ En esta sección, el equipo presenta el To-Be Scenario Mapping para WeCar, que i
 
 **Segmento objetivo: Talleres Técnicos**
 ![image](../assets/to-be-scenario-mapping/tobeMap-talleres.jpg)
-*Imagen (N°12). Elaboración propia. Realizado en [Miro](https://miro.com/app/board/uXjVKiyuKZA=/?share_link_id=172702013556). https://miro.com/app/board/uXjVKiyuKZA=/?share_link_id=172702013556*
+*Imagen (N°12). Elaboración propia. Realizado en [Miro](https://miro.com/app/board/uXjVKiyuKZA=/?share_link_id=172702013556).*
+
 
 ## 3.2. User Stories
 
@@ -1298,23 +1299,26 @@ En esta sección, se presenta el Impact Mapping para Car2Go, diseñado para alca
 ### Segmento objetivo: Compradores de Autos Usados
 
 #### Impact mapping 1:
-<img src="../assets/impact-mapping/impact-mapping-seg-1.png" alt="impact-mapping-1" style="margin-bottom: 5px;" width="400"/>
+<img src="../assets/impact-mapping/impact-mapping-seg-1.png" alt="impact-mapping-1" style="margin-bottom: 5px;" width=""/>
 <br/>
 Imagen. Elaboración propia. Realizado en UXPRESSIA
 
 ### Segmento objetivo: Vendedores de Autos Usados
 #### Impact mapping 2:
-<img src="../assets/impact-mapping/impact-mapping-seg-2.png" alt="impact-mapping-2" style="margin-bottom: 5px;" width="400"/>
+<img src="../assets/impact-mapping/impact-mapping-seg-2.png" alt="impact-mapping-2" style="margin-bottom: 5px;" width=""/>
 <br/>
 Imagen. Elaboración propia. Realizado en UXPRESSIA
 
 
 ### Segmento objetivo: Talleres Técnicos
 #### Impact mapping 3:
-<img src="../assets/impact-mapping/impact-mapping-seg-3.png" alt="impact-mapping-2" style="margin-bottom: 5px;" width="400"/>
+<img src="../assets/impact-mapping/impact-mapping-seg-3.png" alt="impact-mapping-2" style="margin-bottom: 5px;" width=""/>
 <br/>
 Imagen. Elaboración propia. Realizado en UXPRESSIA
 
+<br>
+<br>
+<br>
 
 
 # Capítulo IV: Product Design
