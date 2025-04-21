@@ -1250,6 +1250,21 @@ En esta sección, se presenta el Impact Mapping para WeCar, diseñado para alcan
 
 
 
+## 3.4. Impact Mapping
+
+En esta sección, se presenta el Impact Mapping para Car2Go, diseñado para alcanzar el objetivo de establecerse como la plataforma líder en la compra y venta de autos de segunda mano en el mercado nacional en el próximo año. El Impact Mapping se centra en tres segmentos clave: Compradores de Autos Usados, Vendedores de Autos Usados y Talleres Técnicos. Para cada segmento, se han definido impactos específicos que contribuirán a lograr el objetivo general, junto con los entregables necesarios para provocar estos impactos. Las historias de usuario resultantes guiarán el desarrollo de funcionalidades y características, asegurando que Car2Go cumpla con las expectativas de sus usuarios y facilite una experiencia de compra y venta de autos que sea intuitiva, segura y confiable. Esta planificación se ha realizado utilizando la plataforma UXPressia.
+
+### Segmento objetivo: Compradores de Autos Usados
+
+#### Impact mapping 1:
+<img src="../assets/impact-mapping/impact-mapping-seg-1.png" alt="impact-mapping-1" style="margin-bottom: 5px;" width="400"/>
+<br/>
+Imagen. Elaboración propia. Realizado en UXPRESSIA
+
+
+
+
+
 # Capítulo IV: Product Design
 
 ## 4.1. Style Guidelines
