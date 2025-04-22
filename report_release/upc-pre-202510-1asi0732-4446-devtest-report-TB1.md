@@ -1840,7 +1840,13 @@ Clase PersonName
 
 
 ### 4.10. Database Design.
+El sistema de gestión de bases de datos relacional (RDBMS) que utilizaremos para generar las tablas y establecer sus relaciones en nuestra plataforma será MySQL. Hemos elegido MySQL por su facilidad de uso y por su integración con MySQL Workbench, que nos proporciona una herramienta visual eficiente para la administración de la base de datos.
+
+
+
 ### 4.10.1. Relational/Non-Relational Database Diagram. 
+
+<img src="../assets/architecture-diagram/diagrama-bd.png" alt="database diagram"/>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
