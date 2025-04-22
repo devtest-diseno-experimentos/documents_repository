@@ -2096,13 +2096,13 @@ A partir de las historias de usuario, se generaron los acceptance tests para eva
 
 En esta parte, se muestra la ejecucion de la aplicacion web, tanto del front end como del back end, asi como tambien se muestra el uso de la aplicacion en un servidor de Swagger.
 
-![Swagger](assets/Swagger01.jpg)
+![Swagger](../assets/sprint-review/Swagger01.png)
 ---
-![Swagger](assets/Swagger02.jpg)
+![Swagger](../assets/sprint-review/Swagger02.png)
 ---
-![Swagger](assets/Swagger03.jpg)
+![Swagger](../assets/sprint-review/Swagger03.png)
 ---
-![Swagger](assets/Swagger04.jpg)
+![Swagger](../assets/sprint-review/Swagger04.png)
 
 ### 5.2.4.6. Services Documentation Evidence for Sprint Review
 
