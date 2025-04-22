@@ -1579,6 +1579,27 @@ Hero altero 2:
 ![Landing-Page-Mock-up:](../assets/wireframes-web/wireframe-22.png)
 
 ### 4.6.2. Web Applications Wireflow Diagrams.
+
+![wireflow-diagrams](../assets/wireflow-diagrams/wireflow-diagrams-1.png)
+---
+![wireflow-diagrams](../assets/wireflow-diagrams/wireflow-diagrams-2.png)
+---
+![wireflow-diagrams](../assets/wireflow-diagrams/wireflow-diagrams-3.png)
+---
+![wireflow-diagrams](../assets/wireflow-diagrams/wireflow-diagrams-4.png)
+---
+![wireflow-diagrams](../assets/wireflow-diagrams/wireflow-diagrams-5.png)
+---
+![wireflow-diagrams](../assets/wireflow-diagrams/wireflow-diagrams-6.png)
+---
+![wireflow-diagrams](../assets/wireflow-diagrams/wireflow-diagrams-7.png)
+---
+![wireflow-diagrams](../assets/wireflow-diagrams/wireflow-diagrams-8.png)
+---
+![wireflow-diagrams](../assets/wireflow-diagrams/wireflow-diagrams-9.png)
+---
+![wireflow-diagrams](../assets/wireflow-diagrams/wireflow-diagrams-10.png)
+
 ### 4.6.3. Web Applications Mock-ups.
 ### 4.6.4. Web Applications User Flow Diagrams.
 ### 4.7. Web Applications Prototyping.
