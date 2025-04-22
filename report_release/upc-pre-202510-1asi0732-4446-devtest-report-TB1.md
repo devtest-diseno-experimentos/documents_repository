@@ -1855,7 +1855,6 @@ El sistema de gestión de bases de datos relacional (RDBMS) que utilizaremos par
 A continuación, se describe el proceso por el cual organizamos, gestionamos y controlamos los cambios en el desarrollo de Car2Go.
 
 ### 5.1.1. Software Development Environment Configuration
-
 #### Requirements Management
 
 - Trello: Es una herramienta utilizada para gestionar el flujo de trabajo de proyectos principalmente basados en marcos de trabajos ágiles. Será empleado para visualizar y actualizar el estado actual de las tareas e historias de usuario  pertenecientes al sprint a desarrollar.
@@ -1954,6 +1953,7 @@ Para desplegar la landing page es necesario contar con una serie de requisitos, 
 6. Esperar a que GitHub realice las comprobaciones necesarias. Una vez culminado el proceso, se obtendrá un enlace que llevará al Landing Page desplegado.
 Link de la landing page desplegada: [Car2Go](https://devtest-diseno-experimentos.github.io/Landing-page/)
 
+###  5.2. Product Implementation & Deployment.
 
 # 5.2. Landing Page, Services \& Applications Implementation
 ## 5.2.1. Sprint 1
