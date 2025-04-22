@@ -1533,7 +1533,57 @@ Hero altero 2:
 ### 4.5.2. iOS Mobile Applications Prototyping
 <!-- To-do -->
 
-## 4.8. Domain-Driven Software Architecture
+## 4.6. Web Applications UX/UI Design.
+
+### 4.6.1. Web Applications Wireframes.
+![Landing-Page-Mock-up:](../assets/wireframes-web/wireframe-1.png)
+---
+![Landing-Page-Mock-up:](../assets/wireframes-web/wireframe-2.png)
+---
+![Landing-Page-Mock-up:](../assets/wireframes-web/wireframe-3.png)
+---
+![Landing-Page-Mock-up:](../assets/wireframes-web/wireframe-4.png)
+---
+![Landing-Page-Mock-up:](../assets/wireframes-web/wireframe-5.png)
+---
+![Landing-Page-Mock-up:](../assets/wireframes-web/wireframe-6.png)
+---
+![Landing-Page-Mock-up:](../assets/wireframes-web/wireframe-7.png)
+---
+![Landing-Page-Mock-up:](../assets/wireframes-web/wireframe-8.png)
+---
+![Landing-Page-Mock-up:](../assets/wireframes-web/wireframe-9.png)
+---
+![Landing-Page-Mock-up:](../assets/wireframes-web/wireframe-10.png)
+---
+![Landing-Page-Mock-up:](../assets/wireframes-web/wireframe-12.png)
+---
+![Landing-Page-Mock-up:](../assets/wireframes-web/wireframe-13.png)
+---
+![Landing-Page-Mock-up:](../assets/wireframes-web/wireframe-14.png)
+---
+![Landing-Page-Mock-up:](../assets/wireframes-web/wireframe-15.png)
+---
+![Landing-Page-Mock-up:](../assets/wireframes-web/wireframe-16.png)
+---
+![Landing-Page-Mock-up:](../assets/wireframes-web/wireframe-17.png)
+---
+![Landing-Page-Mock-up:](../assets/wireframes-web/wireframe-18.png)
+---
+![Landing-Page-Mock-up:](../assets/wireframes-web/wireframe-19.png)
+---
+![Landing-Page-Mock-up:](../assets/wireframes-web/wireframe-20.png)
+---
+![Landing-Page-Mock-up:](../assets/wireframes-web/wireframe-21.png)
+---
+![Landing-Page-Mock-up:](../assets/wireframes-web/wireframe-22.png)
+
+### 4.6.2. Web Applications Wireflow Diagrams.
+### 4.6.3. Web Applications Mock-ups.
+### 4.6.4. Web Applications User Flow Diagrams.
+### 4.7. Web Applications Prototyping.
+
+## 4.8. Domain-Driven Software sdsdArchitecture
 
 El Domain Driven Design (DDD) tiene como objetivo llegar a un entendimiento compartido del dominio que abarca el espacio del problema. En el caso de Car2Go, este dominio es la gestión de la compra y venta de vehículos de segunda mano y la interacción con los vendedores, compradores y talleres mecánicos. Gracias a la perspectiva brindada por este enfoque, es posible mejorar la colaboración entre los desarrolladores y los expertos del dominio.
 
