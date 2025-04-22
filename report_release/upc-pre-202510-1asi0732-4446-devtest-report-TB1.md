@@ -1698,6 +1698,147 @@ Los diagramas de componentes muestran una vista de las relaciones de los compone
 <img src="../assets/architecture-diagram/diagrama-clases.png" alt="class diagram"/>
 
 ### 4.9.2. Class Dictionary.
+
+Clase User
+
+| Atributo           | Tipo   | Descripción                     |
+|--------------------|--------|---------------------------------|
+| id                 | long   | Identificador único del usuario |
+| createdAt          | Date   | Fecha de creación del usuario   |
+| updateAt           | Date   | Última actualización del usuario|
+| username           | String | Nombre de usuario               |
+| password           | String | Contraseña del usuario          |
+| roles              | Set    | Rol del usuario                 |
+
+<br><br/>
+Clase Role
+
+| Atributo | Tipo   | Descripción                                  |
+|----------|--------|----------------------------------------------| 
+| id       | Long   | Identificador único del rol                  |
+| name     | String | Nombre del rol                               |
+
+ 
+<br><br/>
+Clase Profile
+
+| Atributo | Tipo   | Descripción                                  |
+|----------|--------|----------------------------------------------|
+| id       | int    | Identificador único del perfil               |
+| name     | String | Nombre del perfil                            |
+| email    | String | Correo electrónico                           |
+| image    | String | Foto de perfil                               |
+| dni      | String | Documento nacional de identidad              |
+| address  | String | Dirección del perfil                         |
+| phone    | String | Número de celular del perfil                 |
+| profileId | Long  | Identificar del perfil                       |
+| paymentMethods | List | Lista de métodos de pago                 |
+ 
+ 
+<br><br/>
+Clase Transaction
+
+| Atributo      | Tipo    | Descripción                           |
+|---------------|---------|---------------------------------------|
+| id            | int     | Identificador único de la transacción |
+| buyerId       | int     | Identificador del comprador           |
+| sellerId      | int     | Identificar del vendedor              |
+| vehicle       | Vehicle | Vehículo de interés                   |
+| amount        | double  | Precio de venta                       |
+| date          | date    | Fecha de la transacción               |
+| paymentStatus | string  | Estado del pago de la transacción     |
+
+
+<br><br/>
+
+Clase Vehicle
+
+| Atributo           | Tipo   | Descripción                      |
+|--------------------|--------|----------------------------------|
+| id                 | int    | Identificador único del vehículo |
+| name               | String | Nombre del vendedor              |
+| phone              | String | Teléfono del vendedor            |
+| email              | String | Correo del vendedor              |
+| brand              | string | Marca del vehículo               |
+| model              | string | Modelo                           |
+| year               | int    | Año de fabricación               |
+| price              | double | Precio del vehículo              |
+| color              | string | Color principal del vehículo     |
+| transmission       | String | Tipo de transmisión              |
+| engine             | String | Motor del vehículo               |
+| mileage            | double | Kilometraje                      |
+| doors              | String | Número de puertas del vehículo   |
+| plate              | String | Número de placa                  |
+| location           | string | Ubicación del vehículo           |
+| images             | List   | Imágenes del vehículo            |
+| description        | String | Descripción                      |
+| fuel               | String | Combustible                      |
+| speed              | int    | Velocidad                        |
+| profileId          | long   | Identificador del vendedor       |
+| createdDate        | LocalDateTime | Fecha de creación del post |
+| lastModifiedDate   | LocalDateTime | Fecha de última modificación del post |
+| reviews            | List   | Revisiones del vehículo          |
+| myOffers           | List   | Ofertas recibidas                |
+
+
+<br><br/>
+
+Clase Review
+
+| Atributo | Tipo   | Descripción                                     |
+|----------|--------|-------------------------------------------------|
+| id       | long   | Identificador único de la revisión              |
+| vehicle  | Vehicle | Vehículo que recibe la revisión                |
+| reviewedBy | String | Mecánico que realizó la revisión              |
+| notes    | String | Notas de la revisión                            |
+| reviewDate | LocalDateTime | Fecha de la revisión                   |
+
+<br><br/>
+
+Clase Subscription
+
+| Atributo      | Tipo    | Descripción                           |
+|---------------|---------|---------------------------------------|
+| id            | long    | Identificador único de la suscripción |
+| createdAt     | Date    | Fecha de suscripción                  |
+| updateAt      | Date    | Fecha de actualización de suscripción |
+| description   | String  | Descripción de la suscripción         |
+| status        | SubscriptionStatus | Precio de venta            |
+| profileId     | Long    | Id del usuario suscrito               |
+
+<br><br/>
+
+Clase Favorite
+
+| Atributo      | Tipo    | Descripción                           |
+|---------------|---------|---------------------------------------|
+| id            | int     | Identificador del vehículo favorito   | 
+| vehicle       | Vehicle | Vehículo agregado como favorito       |
+| profileId     | Long    | Id del usuario                        |
+| createdAt     | LocalDateTime | Fecha de agregar                |
+
+<br><br/>
+
+Clase PaymentMethod
+
+| Atributo      | Tipo    | Descripción                           |
+|---------------|---------|---------------------------------------|
+| id            | Long    | Identificador del método de pago      | 
+| type          | String  | Tipo de método de pago                |
+| details       | String  | Detalles del método de pago           |
+
+<br><br/>
+
+Clase PersonName
+
+| Atributo      | Tipo    | Descripción                           |
+|---------------|---------|---------------------------------------|
+| firstName     | String  | Primer nombre del usuario             |
+| lastName      | String  | Apellido del usuario                  |
+
+<br><br/>
+
+
 ### 4.10. Database Design.
 ### 4.10.1. Relational/Non-Relational Database Diagram. 
 
