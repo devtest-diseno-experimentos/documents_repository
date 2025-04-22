@@ -170,7 +170,7 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)  
 [5.3. Video About-the-Product](#53-video-about-the-product)  
 
-[Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification-validation)  
+<!-- [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification-validation)  
 [6.1. Testing Suites & Validation](#61-testing-suites-validation)  
 [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)  
 [6.1.2. Core Integration Tests](#612-core-integration-tests)  
@@ -246,7 +246,7 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 [8.5. Continuous Learning](#85-continuous-learning)  
 [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)  
 [8.6. To-Be Software Platform Pre-launch](#86-to-be-software-platform-pre-launch)  
-[8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)  
+[8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)   -->
 
 ## Conclusiones
 
@@ -1408,9 +1408,62 @@ _Breackpoints_
 ### 4.1.3. Mobile Style Guidelines
 <img src="../assets/mobile-style/mobile-guidelines.png" alt="landing wireframe" style="margin-bottom: 5px;"/>
 
-#### 4.1.3.1. iOS Mobile Style Guidelines
+#### 4.1.3.1. iOS and Android Mobile Style Guidelines
 
 <img src="../assets/mobile-style/ios-style-guidelines.png" alt="landing wireframe" style="margin-bottom: 5px;"/>
+
+## 4.2. Information Architecture
+### 4.2.1. Organization Systems
+El sitio web se dividirá en las siguientes secciones:
+- Home: Aquí se ubicará el eslogan de la marca y un botón para dirigir a los usuarios a la aplicación web. <br><br/>
+- Services: Se muestran las principales características que ofrece la aplicación. <br><br/>
+- Plans: Se ubican los planes de suscripción para los segmentos objetivos y las ventajas de cada uno. <br><br/>
+- About us: Descripción de la plataforma, misión, visión y los integrantes del proyecto<br><br/>
+- Contact us: Formulario para enviar dudas de los usuarios por correo más información de contacto.<br><br/>
+
+La aplicación web tendrá las siguientes secciones según el segmento objetivo:
+- Vendedor: "Home", "Plans", "Car Listing", "My Cars" y "Profile"
+- Comprador: "Home","Favorites", "Car Listing" y "Profile"
+- Mecánico: "Home", "Uninspected Cars", "Reviewed Cars"
+
+Con relación al sistema secuencial, se tienen 2 procesos principales:
+- Compra de vehículo: Seleccionar, contactar, pagar y confirmar. <br><br/>
+- Publicación de venta: Añadir fotos, detalles del vehículo, información adicional y publicar la oferta.
+
+### 4.2.2. Labeling Systems
+Colocar las etiquetas adecuadas en las secciones, botones y otros elementos en el landing page y la aplicación web permiten que los usuarios comprendan rápidamente las funcionalidades y contenido de la plataforma.
+A continuación, se listarán las principales etiquetas según las principales funcionalidades:
+- Navegación Principal: "Home", "Favorites", "Car Listing", "Profile"
+  <br></br>
+- Listado de autos: "My Cars", "Sell Car", "Price", "Filters"
+  <br></br>
+- Detalle del vehículo: "Year", "Colors", "Mileage", "Location", "Add Offer"
+  <br></br>
+- Publicación de oferta: "Brand", "Model", "Color", "Description", "Contact Data"
+  <br></br>
+- Proceso de compra : "Add Offer", "Review here", "Send", "Data"
+  <br></br>
+- Perfil del usuario: "Name", "Last Name", "Birthdate", "Identity document", "Address", "PHOTO URL"
+  <br></br>
+
+### 4.2.3. SEO Tags and Meta Tags
+
+Con el fin de mejorar la prioridad en los motores de búsqueda, facilitar la llegada de nuevas usuarios y brindarles información relevante del landing page y la aplicación web, se añadirán los siguientes "Meta tags" como etiquetas HTML en las principales páginas de nuestra plataforma:
+
+```
+<title>Car2Go - Compra y Venta de Autos de Segunda Mano</title>
+<meta name="description" content="Car2Go es tu plataforma ideal para comprar y vender autos de segunda mano de manera rápida y segura. Explora vehículos, publica anuncios y coordina sin complicaciones.">
+<meta name="keywords" content="compra autos segunda mano, venta autos usados, plataforma autos, anuncios vehículos, comprar coches">
+<meta name="author" content="Car2Go Team">
+```
+
+### 4.2.4. Searching Systems
+Es importante facilitar la búsqueda y el filtro de información para los usuarios con el fin de que puedan utilizar la plataforma sin problemas. Se dispondrá de una barra de búsqueda en la sección "Car Listing" y los usuarios podrán guardar en favoritos los autos de su preferencia. Sumado a esto, se podrán aplicar una variedad de filtros (marca, modelo, rango de precio, año de fabricación, etc.) a los resultados de la búsqueda para que cada usuario encuentre el auto de su preferencia. <br><br/>
+Los resultados de la búsqueda se mostrarán en una cuadrícula, donde cada vehículo incluirá una foto, su precio, marca, modelo, ubicación, entre otros datos.Finalmente, al hacer clic en un resultado específico, se mostrarán más imágenes y detalles del vehículo, junto con un botón para contactar al vendedor.
+
+### 4.2.5. Navigation Systems
+Navegar por nuestra plataforma debe ser lo suficientemente intuitivo para que los usuarios puedan cumplir satisfactoriamente sus objetivos. Con esto en mente, la principal forma desplazarse en el contenido será una barra de navegación ubicada en la parte superior de todas las páginas. Esta contendrá las siguientes secciones: Home, Car Listing, Profile, Plans, etc. Además, se incluirán "call to action" en distintas partes de cada sección. Por ejemplo, "Sell Car" en "Car Listing" y "Add Offer" en los ofertas publicadas. <br><br/>
+Por otro lado, se agregará la paginación en la parte inferior de la cuadrícula de los resultados. Finalmente, el footer contendrá secciones como "About Us", "Terms and conditions" y "Privacy Policy", así como información de contacto.
 
 ## 4.3. Lading Page UI Design
 
@@ -2122,24 +2175,24 @@ Para este ultimo sprint se uso los servicios de Azure para el deploy de nuestro 
 
 - Par nuestra Base de datos se uso el recurso de **Azure Database for MySQL flexive server**:
 
-![Database](assets/database.PNG)
+![Database](../assets/sprint-review/database.PNG)
 
 ---
 - Para el deploy de nuestro web service se uso el recurso de **Web App**:
 
 _Link_: [Swagger](https://car2go-platform-hpdzhtb8ekceg9gd.canadacentral-01.azurewebsites.net/swagger-ui/index.html)
 
-![Swagger](assets/web.PNG)
+![Swagger](../assets/sprint-review/web.PNG)
 ---
 - Tambien el deploy de nuestro web application se realizo en **Firebase**
 
 _Link_: [Car2Go](https://car2go-c60fa.web.app/) 
 
-![deploy](assets/firebase.jpg)
+![deploy](../assets/sprint-review/firebase2.png)
 
 ### 5.2.4.8. Team Collaboration Insights during Sprint
 
-![TB2](assets/evidencia-tb3.jpg)
+![TB2](../assets/evidencia-tb3.jpg)
 
 
 ## 5.3. Validation Interviews
