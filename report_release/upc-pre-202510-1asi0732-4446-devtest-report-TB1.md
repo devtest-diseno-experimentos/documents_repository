@@ -2064,16 +2064,15 @@ Para el presente sprint se ha creda la base de datos en AZURE y se planea hacer 
 
 
 ### 5.2.4.3. Development Evidence for Sprint Review
-
-![TB3](assets/spr31.jpg)
+![TB3](../assets/sprint-review/spr31.png)
 ---
-![TB3](assets/spr32.jpg)
+![TB3](../assets/sprint-review/spr32.png)
 ---
-![TB3](assets/spr33.jpg)
+![TB3](../assets/sprint-review/spr33.png)
 ---
-![TB3](assets/spr34.jpg)
+![TB3](../assets/sprint-review/sp44.png)
 ---
-![TB3](assets/spr35.jpg)
+![TB3](../assets/sprint-review/spr43.png)
 
 ### 5.2.4.4. Testing Suite Evidence for Sprint Review
 
