@@ -1564,6 +1564,8 @@ El proyecto seguirá las convenciones del flujo de trabajo establecido por el mo
 
 **Flujo de trabajo GitFlow**
 
+<img src="../assets/git-flow/flow.png" alt="diagram" style="margin-bottom: 5px;" width=""/>
+
 El flujo de trabajo a ser implementado para el desarrollo del proyecto se basará en el modelo propuesto por Vincent Driessen en "A successful Git branching model".
 
 Gitflow es un modelo de ramificación para Git que se centra en la organización de las ramas de un proyecto de software. El modelo de Gitflow define una serie de ramas estándar y reglas para su uso, lo que facilita la colaboración y la gestión del código en un equipo de desarrollo. En UniRider, utilizamos el modelo de Gitflow para organizar y gestionar las ramas de nuestro proyecto, lo que nos permite trabajar de forma eficiente y colaborativa en el desarrollo de nuestra aplicación web.
@@ -1598,6 +1600,8 @@ Para asegurar la coherencia y mantenibilidad del código en **WeCar**, se seguir
 
 ### 5.1.4. Software Deployment Configuration
 
+<img src="../assets/deployment/landing-deploy.png" alt="landing" style="margin-bottom: 5px;" width=""/>
+
 Para desplegar la landing page es necesario contar con una serie de requisitos, entre ellos, es necesario contar con una cuenta personal, una organización y un repositorio al cual cargar los documentos. A partir de lo anterior, es posible comenzar el despliegue de la landing page. A continuación se enuncian los pasos a seguir:
 
 1. Crear una carpeta llamada "docs" para alojar la Landing Page.
@@ -1606,3 +1610,812 @@ Para desplegar la landing page es necesario contar con una serie de requisitos, 
 4. Dirigirse a **Settings > Pages** y seleccionar el branch correspondiente, en nuestro caso es el "main".
 5. Especificar la carpeta "docs" como la fuente de la página.
 6. Esperar a que GitHub realice las comprobaciones necesarias. Una vez culminado el proceso, se obtendrá un enlace que llevará al Landing Page desplegado.
+Link de la landing page desplegada: [Car2Go](https://devtest-diseno-experimentos.github.io/Landing-page/)
+
+
+# 5.2. Landing Page, Services \& Applications Implementation
+## 5.2.1. Sprint 1
+### 5.2.1.1. Sprint Planning 1
+ <div style="margin-left: auto;
+            margin-right: auto;
+            width: 50%">
+
+| Sprint 1                        | Implementación de funcionalidades y diseño de la aplicación.                                                                                                                                 |
+|---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Sprint Planning Background      |
+| Date                            | 01/09/2024                                                                                                                                                                                   |
+| Time                            | 22:00 horas (GMT-5)                                                                                                                                                                          |
+| Location                        | Reunión realizada mediante Discord                                                                                                                                                           |
+| Prepared By                     | Barrionuevo Reto, Jean Franco                                                                                                                                                                |
+| Attendees (to planning meeting) | <li>Barrionuevo Reto, Jean Franco</li> <li>Carranza Tesen, Joaquin Enrique</li> <li>Mayta López, Harold</li> <li>Medina Chocce, Karito Dianeth</li> <li>Serrano Uchuya, Gerald Patricio</li> |
+| Sprint  -1 Review               |
+| Resumen                         | No hubo sprint anterior.                                                                                                                                                                     |
+| Sprint  1 Retrospective         |
+| Resumen                         | Se creará la organización de Car2Go en Github y el repositorio de la organización.                                                                                                                  |
+| **Sprint Goal & User Stories**  |
+| Sprint 1 Velocity               | 21 points                                                                                                                                                                                    |
+| Sum of Story Points             | 21 points                                                                                                                                                                                    |
+</div>
+
+### 5.2.1.2. Sprint Backlog 1
+
+
+| | Sprint # | | | | Sprint 1 | | |
+|-|----------|-|-|-|----------|-|-|
+| **User Story**        |                   | **Work Item/Task** |               |                                                    |                   |                 |        |
+| **Id**            | **Title**         | **Id**         | **Title**     | **Description**                                    | **Estimation (Hours)**    | **Assigned To** | **Status** |
+| US-01          | Registro de Usuario | TW-01   | Implementar formulario de registro | Desarrollar el frontend del formulario de registro, incluyendo validaciones de entrada. | 6                 | Franco Barrionuevo   | Done   |
+| US-01          | Registro de Usuario | TW-02   | Estilizar formulario de registro | Aplicar estilos CSS al formulario de registro para mejorar la experiencia visual. | 4                 | Gerald Serrano   | Done   |
+| US-02          | Búsqueda de Autos | TW-03   | Implementar sección de búsqueda | Crear la interfaz de búsqueda con HTML y CSS, añadiendo filtros y funcionalidad en JavaScript. | 5                 | Karito Medina   | Done   |
+| US-02          | Búsqueda de Autos | TW-04   | Estilizar sección de búsqueda  | Aplicar estilos CSS a la sección de búsqueda para que sea más atractiva y funcional.  | 4                 | Harold Mayta   | Done   |
+| US-03          | Listado de Autos | TW-05   | Desarrollar listado de autos  | Implementar la visualización del listado de autos usando HTML y CSS, con interactividad en JavaScript.  | 7                 | Joaquin Carranza   | Done   |
+| US-03          | Listado de Autos | TW-06   | Estilizar listado de autos  | Aplicar estilos CSS al listado de autos para mejorar la presentación y legibilidad.  | 4                 | Karito Medina   | Done   |
+| US-09          | Notificaciones de Nuevos Listados | TW-07   | Implementar sistema de notificaciones  | Desarrollar la funcionalidad de notificaciones usando JavaScript para alertar a los compradores sobre nuevos listados.  | 6                 | Joaquin Carranza   | Done   |
+| US-10          | Notificación de Actualización de Estado del Auto | TW-08   | Implementar notificaciones de estado  | Crear la funcionalidad en JavaScript que notifique a los compradores sobre cambios en el estado de los autos.  | 5                 | Harold Mayta   | Done   |
+
+
+
+### 5.2.1.3. Development Evidence for Sprint Review
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 60%">
+
+| Repository	  | Branch	            | Commit Id | Commit Message	                                     | Commit Message Body | Committed on (Date) |
+|--------------|--------------------|-----------|-----------------------------------------------------|---------------------|---------------------|
+| landing-page | feature/index.html | 759cc14   | feat: (Landing page) Header                         | -                   | 1/09/2024           |
+| landing-page | feature/index.html | 40c7f15   | feat: (Landing page) agregué Header y Navbar        | -                   | 1/09/2024           |
+| landing-page | feature/index.html | abdd069   | feat: Agregar sección Home                          | -                   | 1/09/2024           |
+| landing-page | feature/index.html | ea53c5f   | feat: (Landing page) agregar sección Sobre Nosotros | -                   | 1/09/2024           |
+| landing-page | feature/index.html | f269ea5   | feat: (Landing Page) implementar sección Producto   | -                   | 1/09/2024           |
+| landing-page | feature/index.html | 076717c   | feat: (Landing page) agregar sección de Planes      | -                   | 1/09/2024           |
+| landing-page | feature/index.html | bc1bc4a   | feat: (Landing Page) agregar sección Equipo         | -                   | 1/09/2024           |
+| landing-page | feature/index.html | 166d6a4   | feat: (Landing Page) agregar sección de Contacto    | -                   | 1/09/2024           |
+| landing-page | feature/index.html | 6371146   | feat: (Landing page) agregar Footer                 | -                   | 1/09/2024           |
+| landing-page | feature/index.html | 02f2eld   | feat: (Landing Page) implementar responsividad      | -                   | 1/09/2024           |
+
+</div>
+
+### 5.2.1.4. Testing Suite Evidence for Sprint Review
+
+Para la entrega del Sprint 1, logramos completar el desarrollo, la implementación y el despliegue del Landing Page. Por esta razón, nos enfocamos en la sección de "acceptance-tests" en la implementación de los archivos feature que componen nuestro landing page. Estos features se basan en las Historias de Usuario especificadas en el sprint backlog, detallando cada uno de los escenarios que planeamos desarrollar.
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 50%">
+<table>
+  <tr>
+    <th>Repository</th>
+    <th >Branch</th>
+    <th>Commit</th>
+    <th>Author</th>
+    <th>Message</th>
+    <th>Date</th>
+  </tr>
+  <tr>
+    <td>landing-page</td>
+    <td>Features_testing</td>
+    <td>07fa8d6</td>
+    <td>Franco Barrionuevo</td>
+    <td>doc: add acceptance tests</td>
+    <td>3/09/2024</td>
+  </tr>
+</table>
+</div>
+
+
+<br><br>
+
+Para la entrega del Sprint 1 se buscó alcanzar el desarrollo completo, implementación y despliegue de la landing page. La sección de "Testing" se centró en la implementación y prueba de los archivos feature que contienen las funcionalidades de la landing page de Car2Go.
+
+### 5.2.1.5. Execution Evidence for Sprint Review
+
+En el sprint 1 se alcanzó un desarrollo parcial en la implementación del despliegue de la landing page. La página muestra varias secciones en las que el usuario puede encontrar información relevante sobre los servicios, planes y equipo de Car2Go. A continuación se presentan evidencias del progreso logrado:
+
+- **Sección What We Offer**: El usuario puede ver las características clave que ofrecemos, como transacciones seguras, verificación de calidad, talleres especializados y pagos seguros.
+  ![What We Offer](../assets/sprint-review/w-offer.png)
+  <br><br>
+- **Sección Planes**: En la sección de planes, el usuario puede visualizar e interactuar con los diferentes planes disponibles, eligiendo la opción que mejor se adapte a sus necesidades.
+  ![Planes](../assets/sprint-review/plan.png)
+  <br><br>
+- **Sección About Us**: En esta sección, el usuario puede conocer más sobre la misión y visión de Car2Go, así como entender nuestro compromiso con la seguridad y el servicio al cliente.
+  ![About Us](../assets/sprint-review/about-us.png)
+  <br><br>
+- **Sección Our Team**: El usuario puede conocer a los miembros clave del equipo de Car2Go y leer sus testimonios.
+  ![Our Team](../assets/sprint-review/ourteam.png)
+  <br><br>
+- **Sección Contacto**: El usuario puede enviar sus consultas directamente a través de un formulario de contacto, o utilizar las opciones de contacto directo proporcionadas.
+  ![Contacto](../assets/sprint-review/contact.png)
+
+
+
+### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+Este primer Sprint solo trata la implementación del landing page, por lo que no se empleó ningún servicio adicional.
+
+### 5.2.1.7. Software Deployment Evidence for Sprint Review
+Para la entrega del Sprint número 1, se desplego el landing page parcialmente completa.
+
+https://devtest-diseno-experimentos.github.io/Landing-page/
+
+Para el presente sprint se ha desarrollado la landing page. Para el despliegue se emplearon las siguientes herramientas:
+
+Git: Sistema de control de versiones el cual empleamos para trabajar de manera colaborativa y monitorear las versiones de la landing page en un repositorio remoto.
+
+Gitflow: Flujo de trabajo colaborativo. Nos permitió dividir el trabajo por ramas dentro de nuestro repositorio con la finalidad de facilitar la colaboración en el desarrollo.
+
+GitHub: Plataforma que nos brindo la herramienta de crear nuestro repositorio para almacenar las versiones de nuestro proyecto.
+
+Vercel: Plataforma que automatiza webs que nos permitió alojar y desplegar nuestra el landing page.
+
+### 5.2.1.8. Team Collaboration Insights during Sprint
+
+Para la realización de los commits de nuestro primer Sprint, hemos hecho uso de la herramienta Visual Studio Code, además del uso de Git. Uno de los integrantes realizó un primer commit para la creación del repositorio, luego utilizando Git clonamos el repositorio, para luego realizar los cambios en Visual Code y crear los branches correspondientes a dichos cambios, para finalmente realizar el commit, el cual deberá ser revisado dentro del repositorio de Github.
+
+https://github.com/UPC-PRE-SI729-2402-WX51-G3-Cibersofa/project-report/pulse/monthly
+  <div align=center>
+
+![TB1](../assets/sprint-review/commits.png)
+![github](../assets/sprint-review/commits_sprint1_2.png)
+</div>
+
+## 5.2.2. Sprint 2
+### 5.2.2.1. Sprint Planning 2
+ <div style="margin-left: auto;
+            margin-right: auto;
+            width: 50%">
+
+  | Sprint 2                        | Implementación de funcionalidades y desarrollo del frontend de la aplicación.                                                                                                                                 |
+  |---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+  | Sprint Planning Background      |
+  | Date                            | 15/09/2024                                                                                                                                                                                   |
+  | Time                            | 17:00 horas (GMT-5)                                                                                                                                                                          |
+  | Location                        | Reunión realizada mediante Discord                                                                                                                                                           |
+  | Prepared By                     | Barrionuevo Reto, Jean Franco                                                                                                                                                                |
+  | Attendees (to planning meeting) | <li>Barrionuevo Reto, Jean Franco</li> <li>Carranza Tesen, Joaquin Enrique</li> <li>Mayta López, Harold</li> <li>Medina Chocce, Karito Dianeth</li> <li>Serrano Uchuya, Gerald Patricio</li> |
+  | Sprint 1 Review              |
+  | Resumen                         | Se creó la organización de Car2Go en Github y el repositorio para el landing page de la organización.                                                                                                           |
+  | Sprint 1 Retrospective       |
+  | Resumen                         | La landing page fue desarrollada utilizando HTML, CSS, JS y Bootstrap                                                                                                                |
+  | **Sprint Goal & User Stories**  |
+  | Sprint 2 Velocity               | 41 points                                                                                                                                                                                    |
+  | Sum of Story Points             | 41 points                                                                                                                                                                                    |
+</div>
+
+### 5.2.2.2. Sprint Backlog 2
+
+| | Sprint # | | | | Sprint 2 | | |
+|-|----------|-|-|-|----------|-|-|
+| **User Story**        |                   | **Work Item/Task** |               |                                                    |                   |                 |        |
+| **Id**            | **Title**         | **Id**         | **Title**     | **Description**                                    | **Estimation (Hours)**    | **Assigned To** | **Status** |
+| US-02          | Búsqueda de Autos | TW-01   | Implementar lógica de búsqueda | Crear un componente de búsqueda en Angular para filtrar autos mediante diferentes criterios. | 6                 | Franco Barrionuevo   | Done   |
+| US-03          | Listado de Autos | TW-02   | Crear vista de listado de autos | Desarrollar un componente en Angular para visualizar autos listados con interactividad y paginación. | 7                 | Karito Medina   | Done   |
+| US-06          | Ver Detalles del Auto | TW-03   | Desarrollar página de detalles del auto | Implementar un componente que muestre los detalles completos de un auto, utilizando servicios para cargar datos dinámicamente. | 5                 | Gerald Serrano   | Done   |
+| US-07          | Comparar Autos | TW-04   | Implementar función de comparación  | Crear un componente en Angular para permitir la comparación de varios autos, mostrando sus características en una tabla.  | 6                 | Joaquin Carranza   | Done   |
+| US-16          | Sistema de Pago Seguro | TW-05   | Crear flujo de pago  | Desarrollar el componente de pago seguro en Angular, integrando la API de pagos.  | 8                 | Harold Mayta   | Done   |
+| US-19          | Reembolso de Transacción | TW-06   | Implementar solicitud de reembolso  | Desarrollar un formulario en Angular para solicitar reembolsos y manejar la lógica correspondiente.  | 5                 | Franco Barrionuevo   | Done   |
+| US-29          | Reportes de Transacciones | TW-07   | Crear visualización de reportes  | Desarrollar un componente en Angular para mostrar reportes de transacciones con gráficos y tablas dinámicas.  | 7                 | Gerald Serrano   | Done   |
+| US-12          | Informe de Certificación | TW-08   | Implementar visualización de informes  | Crear un componente que muestre informes de certificación de autos, utilizando servicios para cargar datos.  | 5                 | Joaquin Carranza   | Done   |
+| US-24          | Sistema de Soporte en Vivo | TW-09   | Implementar chat de soporte  | Desarrollar un componente de chat en vivo para soporte al usuario, integrando la funcionalidad con Angular.  | 6                 | Harold Mayta   | Done   |
+
+
+### 5.2.2.3. Development Evidence for Sprint Review
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 60%">
+
+| Repository	  | Branch	            | Commit Id | Commit Message	                                     | Commit Message Body | Committed on (Date) |
+|--------------|--------------------|-----------|-----------------------------------------------------|---------------------|---------------------|
+| frontend-car2go | master | fb2dfe6 | initial commit | - | 22/09/2024 | 
+| frontend-car2go | authentication | 3287993 | feat(authentication): updated navbar | - | 23/09/2024 |
+| frontend-car2go | authentication | 1fdac17 | feat(authentication): added images for login view | - | 23/09/2024 |
+| frontend-car2go | authentication | 1afc480 | feat(authentication): updated home view | - | 23/09/2024 |
+| frontend-car2go | authentication | 6c38c6f | feat(authentication): updated toolbar view | - | 23/09/2024 |
+| frontend-car2go | authentication | 3cde965 | feat(authentication): added register component | - | 23/09/2024 |
+| frontend-car2go | payment | b4e8230 | feat(payment): added plan component | - | 23/09/2024 |
+| frontend-car2go | authentication | ae2c2f3 | feat(authentication): updated forgot password | - | 23/09/2024 |
+| frontend-car2go | authentication | 08e6a55 | feat(authentication): added routes | - | 23/09/2024 |
+| frontend-car2go | authentication | 5b8320d | feat(authentication): updated routes | - | 23/09/2024 |
+| frontend-car2go | authentication | b354f8c | feat(authentication): add images and routes | - | 24/09/2024 |
+| frontend-car2go | authentication | 7f76b10 | feat(authentication): added car listing component | - | 24/09/2024 |
+| frontend-car2go | payment | d3c4457 | feat(payment): added payment form component | - | 24/09/2024 |
+| frontend-car2go | authentication | 7289d63 | feat(authentication): added preview modal and more information | - | 24/09/2024 |
+| frontend-car2go | vehicle | 10bae07 | feat: add car-details and card-information components | - | 25/09/2024 |
+| frontend-car2go | payment | 135e8b5 | feat(payment): updated payment form component | - | 25/09/2024 |
+| frontend-car2go | authentication | 67ad078 | feat(authentication): updated car details component | - | 25/09/2024 |
+| frontend-car2go | authentication | 1e28cb7 | feat(authentication): add car service | - | 25/09/2024 |
+| frontend-car2go | interaction | 3479363 | merge with authentication | - | 25/09/2024 |
+| frontend-car2go | interaction | 40e7f08 | feat(interaction): prueba | - | 25/09/2024 |
+| frontend-car2go | payment | 9479e37 | feat(payment): updated plan component  | - | 25/09/2024 |
+| frontend-car2go | payment | dbd0ffe | feat(payment): updated plan service | - | 25/09/2024 |
+| frontend-car2go | authentication | 11d72c6 | feat: added page-not-found component | - | 25/09/2024 |
+| frontend-car2go | interaction | 8d9c84e | feat(interaction): prueba_J | - | 25/09/2024 |
+| frontend-car2go | interaction | 0c2c961 | feat(interaction): mechanic_component | - | 25/09/2024 |
+| frontend-car2go | payment | 11ca4b5 | feat(payment): added route for mechanic check and revision components | - | 25/09/2024 |
+| frontend-car2go | authentication | 30e75a2 | merge with interaction | - | 25/09/2024 |
+| frontend-car2go | authentication | 54740c4 | merge with payment | - | 25/09/2024 |
+</div>
+
+### 5.2.2.4. Testing Suite Evidence for Sprint Review
+
+A partir de las historias de usuario, se generaron los acceptance tests para evaluar la forma en la que deben ejecutarse las funcionalidades de nuestra aplicación web para cumplir con los objetivos de nuestros usuarios.
+
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 60%">
+
+| Repository	  | Branch	            | Commit Id | Commit Message	                                     | Committed on (Date) |
+|--------------|--------------------|-----------|-----------------------------------------------------|---------------------|
+| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 93468bc | first commit | 27/09/24 |
+| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 3907a7f | feat: add US01.feature | 27/09/24 |
+| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 9b3baad | fix: fix US01 | 27/09/24 |
+| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 32eeaaa | feat: add Acceptances Tests | 27/09/24 |
+
+
+</div>
+
+### 5.2.2.5. Execution Evidence for Sprint Review
+
+En este sprint, el principal objetivo era desarrollar un primer avance de las funcionalidades principales del frontend de nuestra aplicación web. A continuación, se muestran algunos de los resultados de las diferentes pantallas al ejecutar la aplicación.
+
+- Login
+<img src="../assets/sprint-review/login-screen.png" alt="Login screen">
+<br></br>
+- Detalles de vehículo
+<img src="../assets/sprint-review/car-details.png" alt="Details of a car">
+<br></br>
+- Listado de autos
+<img src="../assets/sprint-review/list-cars.png" alt="List of cars">
+<br></br>
+
+### 5.2.2.6. Services Documentation Evidence for Sprint Review
+
+En este segundo sprint, nos hemos enfocado únicamente en el desarrollo del Frontend de nuestra aplicación web, sin abordar servicios web. Por esta razón, no hemos elaborado la documentación referente al uso de dichos servicios en esta ocasión.
+
+### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Para el presente sprint se ha desarrollado el FrontEnd. Para el despliegue se emplearon las siguientes herramientas:
+
+- Git: Sistema de control de versiones el cual empleamos para trabajar de manera colaborativa y monitorear las versiones de la landing page en un repositorio remoto.
+- Gitflow: Flujo de trabajo colaborativo. Nos permitió dividir el trabajo por ramas dentro de nuestro repositorio con la finalidad de facilitar la colaboración en el desarrollo.
+- GitHub: Plataforma que nos brindo la herramienta de crear nuestro repositorio para almacenar las versiones de nuestro proyecto.
+- Vercel: Plataforma que automatiza webs que nos permitió alojar y desplegar nuestra el JSON.
+
+ _Link_: https://car2go-fake-api.vercel.app/
+
+![deploy](../assets/sprint-review/vercel-fake-api.png)
+
+- Firebase: Plataforma que nos permitio el hacer un deploy del FrontEnd.
+
+_Link_: https://car2go-c60fa.web.app/ 
+
+![deploy](../assets/sprint-review/firebase.png)
+
+### 5.2.2.8. Team Collaboration Insights during Sprint
+
+![TP1](../assets/sprint-review/com-tp1.png)
+
+
+## 5.2.3. Sprint 3
+### 5.2.3.1. Sprint Planning 3
+ <div style="margin-left: auto;
+            margin-right: auto;
+            width: 50%">
+
+  | Sprint 3                        | Implementación de funcionalidades y desarrollo del frontend de la aplicación.                                                                                         |
+  |---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+  | Sprint Planning Background      |
+  | Date                            | 19/10/2024                                                                                                                                                            |
+  | Time                            | 17:00 horas (GMT-5)                                                                                                                                                 |
+  | Location                        | Reunión realizada mediante Discord                                                                                                                 |
+  | Prepared By                     | Harold Mayta                                                                                          |
+  | Attendees (to planning meeting) | <li>Barrionuevo Reto, Jean Franco</li> <li>Carranza Tesen, Joaquin Enrique</li> <li>Mayta López, Harold</li> <li>Medina Chocce, Karito Dianeth</li> <li>Serrano Uchuya, Gerald Patricio</li> |
+  | Sprint 1 Review              |
+  | Resumen                         | Se creó el repositorio del Back-End                                                                            |
+  | Sprint 2 Retrospective       |
+  | Resumen                         | En este sprint el Back-End se esta desarrolando en JAVA y Spring Boot                                         |
+  | **Sprint Goal & User Stories**  |
+  | Sprint 3 Velocity               | 41 points                                                                                                                                                          |
+  | Sum of Story Points             | 41 points                                                                                                                                                                                    |
+</div>
+
+### 5.2.3.2. Sprint Backlog 3
+
+![image](../assets/sprint-review/sprint3_trello.png)
+*Elaboración propia. Realizado en Trello:* [Trello](https://trello.com/invite/b/672593151a102b5df4062300/ATTIee8d366a57b61466153105a6f5824169062AAAF0/sprint-3)
+
+| | Sprint # | | | | Sprint 3 | | |
+|-|----------|-|-|-|----------|-|-|
+| **User Story/Technical Story**        |                   | **Work Item/Task** |               |                                                    |                   |                 |        |
+| **Id**            | **Title**         | **Id**         | **Title**     | **Description**                                    | **Estimation (Hours)**    | **Assigned To** | **Status** |
+| US-01 / TS-01        | Registro de Usuario a través de la API | TW-01   | Implementar registro de usuario | Crear un endpoint para manejar el registro de nuevos usuarios a través de la API | 6                 | Franco Barrionuevo   | Done   |
+| US-02 / TS-02        | Búsqueda de Autos a través de la API | TW-02   | Crear funcion de busqueda de autos | Crear una funcionalidad para implementar un endpoint que permita realizar búsquedas de vehículos a través de la API. | 7                 | Karito Medina   | Done   |
+| US-03 / TS-03        | Listado de Autos a través de la API | TW-03   | Implementar una función de listado de autos | Crear un endpoint para obtener un listado de vehículos desde la API. | 5                 | Gerald Serrano   | Done   |
+| US-04 / TS-04        | Edición de Listado de Autos a través de la API | TW-04   | Permitir que los vendedores actualizen el listado de autos que venden  | Crear una funcionalidad para implementar un endpoint que permita actualizar la información de los vehículos en el listado a través de la API.  | 6                 | Joaquin Carranza   | Done   |
+| US-05 / TS-05        | Eliminación de Listado de Autos a través de la API | TW-05   | Permitir que los vendedores eliminen el listado de autos que venden  | Crear una funcionalidad para implementar un endpoint que permita eliminar la información de los vehículos en el listado a través de la API.  | 8                 | Harold Mayta   | Done   |
+| US-06 / TS-06        | Ver Detalles del Auto a través de la API | TW-06   | Mostrar detalles completos del auto  | Crear un endpoint para permitir la recuperación de información detallada de un vehículo específico a través de la API.  | 5                 | Franco Barrionuevo   | Done   |
+| US-08 / TS-07        | Guardar Autos Favoritos a través de la API | TW-07   | Permitir que compradores guarden autos favoritos  | Crear una funcionalidad para implementar un endpoint que permita a los usuarios guardar vehículos en su lista de favoritos a través de la API.  | 7                 | Gerald Serrano   | Done   |
+| US-09 / TS-08        | Nuevos Listados a través de la API | TW-08   | Implementar visualización de autos recientes en Home  | Crear un endpoint para permitir la inserción de nuevos vehículos en la base de datos a través de la API.  | 5                 | Joaquin Carranza   | Done   |
+| US-11 / TS-09        | Solicitud de Certificación a través de la API | TW-09   | Implementar solicitud de certificación a vendedores | Crear una funcionalidad para implementar un endpoint que permita a los usuarios enviar solicitudes de certificación para vehículos a través de la API.  | 6                 | Harold Mayta   | Done   |
+| US-13 / TS-11        | Solicitud de Inspección de Auto a través de la API | TW-10   | Permitir solicitar a vendedores, inspecciones para sus autos  | Crear un endpoint para permitir a los usuarios enviar solicitudes de inspección para vehículos a través de la API.  | 6                 | Harold Mayta   | Done   |
+| US-14 / TS-12        | Confirmación de Inspección a través de la API | TW-11   | Implementar confirmacion de citas para los mecánicos  | Crear una funcionalidad para implementar un endpoint que permita a los usuarios confirmar el estado de las inspecciones de vehículos a través de la API.  | 6                 | Harold Mayta   | Done   |
+| US-15 / TS-13        | Actualización del Estado de Inspección a través de la API | TW-12   | Permitir actualizar el estado de inspección  | Crear un endpoint para permitir la actualización del estado de las inspecciones de vehículos a través de la API.  | 6                 | Harold Mayta   | Done   |
+| US-16 / TS-14        | Sistema de Pago Seguro a través de la API | TW-13   | Implementar sistema de pago seguro  | Crear una funcionalidad para implementar un endpoint que permita realizar transacciones de pago de manera segura a través de la API.  | 6                 | Harold Mayta   | Done   |
+| US-23 / TS-20        | Actualización del Perfil del Usuario a través de la API | TW-14   | Permitir actualizar el perfil  | Crear un endpoint para permitir a los usuarios actualizar su información de perfil a través de la API.  | 6                 | Harold Mayta   | Done   |
+| US-26 / TS-21        | Gestión de Roles de Usuario a través de la API | TW-15   | Permitir gestión de roles de usuario  | Crear una funcionalidad para implementar un endpoint que permita asignar y gestionar roles de usuario a través de la API.  | 6                 | Harold Mayta   | Done   |
+| US-28 / TS-22        | Auditoría de Accesos a través de la API | TW-16   | Implementar sistema de auditoria para registrar accesos y cambios realizados  | Crear un endpoint para registrar y gestionar los accesos de los usuarios a través de la API.  | 6                 | Harold Mayta   | Done   |
+| US-29 / TS-23        | Generación de Reportes de Actividad a través de la API | TW-17   | Generar reportes de actividad  | Crear una funcionalidad para implementar un endpoint que permita generar reportes de actividad de los usuarios a través de la API.  | 6                 | Harold Mayta   | Done   |
+| US-31 / TS-24        | Publicar Anuncio Destacado a través de la API | TW-19   | Permitir publicar anuncios destacados a los vendedores  | Crear un endpoint para permitir a los usuarios publicar anuncios destacados a través de la API.  | 6                 | Harold Mayta   | Done   |
+
+
+### 5.2.3.3. Development Evidence for Sprint Review
+
+![TB3](../assets/sprint-review/spr31.png)
+---
+![TB3](../assets/sprint-review/spr32.png)
+---
+![TB3](../assets/sprint-review/spr33.png)
+
+### 5.2.3.4. Testing Suite Evidence for Sprint Review
+
+A partir de las historias de usuario, se generaron los acceptance tests para evaluar la forma en la que deben ejecutarse las funcionalidades de nuestra aplicación web para cumplir con los objetivos de nuestros usuarios.
+
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 60%">
+
+| Repository	  | Branch	            | Commit Id | Commit Message	                                     | Committed on (Date) |
+|--------------|--------------------|-----------|-----------------------------------------------------|---------------------|
+| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 93468bc | first commit | 27/09/24 |
+| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 3907a7f | feat: add US01.feature | 27/09/24 |
+| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 9b3baad | fix: fix US01 | 27/09/24 |
+| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 32eeaaa | feat: add Acceptances Tests | 27/09/24 |
+
+
+</div>
+
+### 5.2.3.5. Execution Evidence for Sprint Review
+
+En esta parte, se muestra la ejecucion de la aplicacion web, tanto del front end como del back end, asi como tambien se muestra el uso de la aplicacion en un servidor de Swagger.
+
+![Swagger](assets/Swagger01.jpg)
+---
+![Swagger](assets/Swagger02.jpg)
+---
+![Swagger](assets/Swagger03.jpg)
+---
+![Swagger](assets/Swagger04.jpg)
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+En esta seccion, se muestra la documentacion de los servicios del back end de la aplicacion web, asi como tambien se muestra el uso de Swagger para la documentacion de los servicios.
+
+Utilizamos SpringBoot, Spring Security, JWToken y Spring Data jpa:
+
+- [Sprint Boot](https://docs.spring.io/spring-boot/index.html)
+- [Sprint Boot Security](https://docs.spring.io/spring-boot/reference/web/spring-security.html#page-title)
+- [Json Web Token](https://www.npmjs.com/package/jsonwebtoken)
+- [Sprint Data JPA](https://spring.io/projects/spring-data-jpa)
+
+  
+### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Para el presente sprint se ha creda la base de datos en AZURE y se planea hacer el deploy de Web services:
+
+![AZURE](assets/azure.jpg)
+
+
+### 5.2.3.8. Team Collaboration Insights during Sprint
+
+![TB2](assets/evidencia-tb3.jpg)
+
+## 5.2.4. Sprint 4
+### 5.2.4.1. Sprint Planning 4
+ <div style="margin-left: auto;
+            margin-right: auto;
+            width: 50%">
+
+  | Sprint 4                        | Implementación de la seguridad en el backend e implementación del backend en el frontend.                                                                                         |
+  |---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+  | Sprint Planning Background      |
+  | Date                            | 21/11/2024                                                                                                                                                            |
+  | Time                            | 00:07 horas (GMT-5)                                                                                                                                                 |
+  | Location                        | Reunión realizada mediante Discord                                                                                                                 |
+  | Prepared By                     | Harold Mayta                                                                                          |
+  | Attendees (to planning meeting) | <li>Barrionuevo Reto, Jean Franco</li> <li>Carranza Tesen, Joaquin Enrique</li> <li>Mayta López, Harold</li> <li>Medina Chocce, Karito Dianeth</li> <li>Serrano Uchuya, Gerald Patricio</li> |
+  | Sprint 1 Review              |
+  | Resumen                         | Se creó el repositorio del Back-End                                                                            |
+  | Sprint 2 Retrospective       |
+  | Resumen                         | En este sprint se creo el web application (Frontend)                                         |
+  | Sprint 3 Retrospective       |
+  | Resumen                         | En este sprint el Back-End se esta desarrolando en JAVA y Spring Boot y se realizaron correcciones e integración de seguridad                                         |
+  | **Sprint Goal & User Stories**  |
+  | Sprint 4 Velocity               | 31 points                                                                                                                                                          |
+  | Sum of Story Points             | 31 points                                                                                                                                                                                    |
+</div>
+
+### 5.2.4.2. Sprint Backlog 4
+
+![image](assets/sprint4_trello.png)
+*Elaboración propia. Realizado en Trello: https://trello.com/invite/b/67396fcc6f7b280764d969db/ATTI9e9246c400708c43effc2aae0bf41ce9C52F53AB/sprint-4*
+
+| | Sprint # | | | | Sprint 4 | | |
+|-|----------|-|-|-|----------|-|-|
+| **User Story/Technical Story**        |                   | **Work Item/Task** |               |                                                    |                   |                 |        |
+| **Id**            | **Title**         | **Id**         | **Title**     | **Description**                                    | **Estimation (Hours)**    | **Assigned To** | **Status** |
+| US-12 / TS-10        | Ver Informe de Certificación a través de la API | TW-01   | Implementar registro de usuario | Crear un endpoint para manejar el registro de nuevos usuarios a través de la API | 6                 | Franco Barrionuevo   | Done   |
+| US-17 / TS-15        | Confirmación de Transacción a través de la API | TW-02   | Crear funcion de busqueda de autos | Crear una funcionalidad para implementar un endpoint que permita realizar búsquedas de vehículos a través de la API. | 7                 | Karito Medina   | Done   |
+| US-18 / TS-16        | Historial de Transacciones a través de la API | TW-03   | Implementar una función de listado de autos | Crear un endpoint para obtener un listado de vehículos desde la API. | 5                 | Gerald Serrano   | Done   |
+| US-20 / TS-17        | Mensajería entre Compradores y Vendedores a través de la API | TW-04   | Permitir que los vendedores actualizen el listado de autos que venden  | Crear una funcionalidad para implementar un endpoint que permita actualizar la información de los vehículos en el listado a través de la API.  | 6                 | Joaquin Carranza   | Done   |
+| US-21 / TS-18        | Ver Mensajes Recibidos a través de la API | TW-05   | Permitir que los vendedores eliminen el listado de autos que venden  | Crear una funcionalidad para implementar un endpoint que permita eliminar la información de los vehículos en el listado a través de la API.  | 8                 | Harold Mayta   | Done   |
+| US-22 / TS-19        | Marcar Mensajes como Leídos a través de la API | TW-06   | Mostrar detalles completos del auto  | Crear un endpoint para permitir la recuperación de información detallada de un vehículo específico a través de la API.  | 5                 | Franco Barrionuevo   | Done   |
+| US-16 / TS-30        | Deploy de Web Service Backend | TW-07   | Permitir que compradores guarden autos favoritos  | Crear una funcionalidad para implementar un endpoint que permita a los usuarios guardar vehículos en su lista de favoritos a través de la API.  | 7                 | Gerald Serrano   | Done   |
+| US-27 / TS-31        | Deploy de Web Application (Frontend) | TW-08   | Implementar visualización de autos recientes en Home  | Crear un endpoint para permitir la inserción de nuevos vehículos en la base de datos a través de la API.  | 5                 | Joaquin Carranza   | Done   |
+| US-18 / TS-32        | Implementación de filtros de estados de transacción | TW-09   | Implementar solicitud de certificación a vendedores | Crear una funcionalidad para implementar un endpoint que permita a los usuarios enviar solicitudes de certificación para vehículos a través de la API.  | 6                 | Harold Mayta   | Done   |
+
+
+
+### 5.2.4.3. Development Evidence for Sprint Review
+
+![TB3](assets/spr31.jpg)
+---
+![TB3](assets/spr32.jpg)
+---
+![TB3](assets/spr33.jpg)
+---
+![TB3](assets/spr34.jpg)
+---
+![TB3](assets/spr35.jpg)
+
+### 5.2.4.4. Testing Suite Evidence for Sprint Review
+
+A partir de las historias de usuario, se generaron los acceptance tests para evaluar la forma en la que deben ejecutarse las funcionalidades de nuestra aplicación web para cumplir con los objetivos de nuestros usuarios.
+
+<div style="margin-left: auto;
+            margin-right: auto;
+            width: 60%">
+
+| Repository	  | Branch	            | Commit Id | Commit Message	                                     | Committed on (Date) |
+|--------------|--------------------|-----------|-----------------------------------------------------|---------------------|
+| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 93468bc | first commit | 27/09/24 |
+| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 3907a7f | feat: add US01.feature | 27/09/24 |
+| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 9b3baad | fix: fix US01 | 27/09/24 |
+| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 32eeaaa | feat: add Acceptances Tests | 27/09/24 |
+
+
+</div>
+
+### 5.2.4.5. Execution Evidence for Sprint Review
+
+En esta parte, se muestra la ejecucion de la aplicacion web, tanto del front end como del back end, asi como tambien se muestra el uso de la aplicacion en un servidor de Swagger.
+
+![Swagger](assets/Swagger01.jpg)
+---
+![Swagger](assets/Swagger02.jpg)
+---
+![Swagger](assets/Swagger03.jpg)
+---
+![Swagger](assets/Swagger04.jpg)
+
+### 5.2.4.6. Services Documentation Evidence for Sprint Review
+
+En esta seccion, se muestra la documentacion de los servicios del back end de la aplicacion web, asi como tambien se muestra el uso de Swagger para la documentacion de los servicios.
+
+Utilizamos SpringBoot, Spring Security, JWToken y Spring Data jpa:
+
+- [Sprint Boot](https://docs.spring.io/spring-boot/index.html)
+- [Sprint Boot Security](https://docs.spring.io/spring-boot/reference/web/spring-security.html#page-title)
+- [Json Web Token](https://www.npmjs.com/package/jsonwebtoken)
+- [Sprint Data JPA](https://spring.io/projects/spring-data-jpa)
+
+  
+### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+Para este ultimo sprint se uso los servicios de Azure para el deploy de nuestro web services.
+
+- Par nuestra Base de datos se uso el recurso de **Azure Database for MySQL flexive server**:
+
+![Database](assets/database.PNG)
+
+---
+- Para el deploy de nuestro web service se uso el recurso de **Web App**:
+
+_Link_: [Swagger](https://car2go-platform-hpdzhtb8ekceg9gd.canadacentral-01.azurewebsites.net/swagger-ui/index.html)
+
+![Swagger](assets/web.PNG)
+---
+- Tambien el deploy de nuestro web application se realizo en **Firebase**
+
+_Link_: [Car2Go](https://car2go-c60fa.web.app/) 
+
+![deploy](assets/firebase.jpg)
+
+### 5.2.4.8. Team Collaboration Insights during Sprint
+
+![TB2](assets/evidencia-tb3.jpg)
+
+
+## 5.3. Validation Interviews
+En esta sección se detalla el proceso de validación mediante entrevistas con usuarios y expertos. Estas entrevistas son cruciales para evaluar la usabilidad, funcionalidad y eficacia de la aplicación Car2Go, garantizando que cumple con las necesidades y expectativas de nuestros segmentos de mercado.
+
+### 5.3.1. Diseño de Entrevistas
+Se decribe la metodología utilizada para diseñar las entrevistas de validación, incluyendo la selección de participantes, la formulación de preguntas y el enfoque adaptaddo para obtener información relevante y precisa sobre la experiencia del usuario con la aplicación Car2Go.
+
+**Segmento Objetivo 1: Compradores de Autos de Segunda Mano:** <br>
+- **Preguntas Generales**
+  - ¿Cuál es su nombre?
+  - ¿Cuál es su sexo?
+  - ¿Cuántos años tiene?
+  - ¿Cuál es su ocupación?
+  - ¿Qué tan frecuentemente considera comprar un auto?
+        <br>
+- **Preguntas Específicas**
+  - Según lo visto, ¿qué te pareció la estructuración de la página en términos de búsqueda y visualización de autos?
+  - ¿Consideras que la información proporcionada sobre los autos es suficiente y confiable? ¿Qué le agregarías?
+  - ¿Hubo algo que te pareció confuso o difícil de entender?
+  - ¿Cuáles son los puntos positivos y negativos que destacas de la página?
+  - ¿Te sentirías seguro/a de comprar un auto usando esta página? ¿Por qué?
+  
+**Segmento Objetivo 2: Vendedores de Autos de Segunda Mano:** <br>
+- **Preguntas Generales**
+  - ¿Cuál es su nombre?
+  - ¿Cuál es su sexo?
+  - ¿Cuántos años tiene?
+  - ¿Cuál es su ocupación?
+  - ¿Con qué frecuencia pones autos en venta?
+        <br>
+- **Preguntas Específicas**
+  - Según lo visto, ¿qué te pareció la estructuración de la página para listar y gestionar tus autos en venta?
+  - ¿Crees que los pasos para subir fotos y especificaciones del auto son claros y fáciles de seguir?
+  - ¿Hay algo que cambiarías para que el proceso de listado de autos sea más rápido o simple?
+  - ¿Qué tan útil te parecen las herramientas para mejorar la visibilidad de tus autos (por ejemplo, destacar un anuncio)?
+  - ¿Cuáles son los puntos positivos y negativos que destacas de la página?
+  - ¿Confías en el sistema para captar compradores potenciales? ¿Por qué?
+
+**Segmento Objetivo 3: Talleres Mecánicos:** <br>
+- **Preguntas Generales**
+  - ¿Cuál es su nombre?
+  - ¿Cuál es su sexo?
+  - ¿Cuántos años tiene?
+  - ¿Cuál es su ocupación?
+  - ¿Cuántos años lleva trabajando en el rubro automotriz?
+        <br>
+- **Preguntas Específicas**
+  - Según lo visto, ¿qué te pareció la estructuración de la página para acceder y registrar las inspecciones de los autos?
+  - ¿Consideras que las herramientas de carga de datos son claras y fáciles de usar?
+  - ¿Hay alguna sección que te haya parecido complicada o que requiera una capacitación adicional?
+  - ¿Cómo evaluarías la confiabilidad de la plataforma en cuanto a seguridad y privacidad de los datos ingresados?
+  - ¿Cuáles son los puntos positivos y negativos que destacas de la aplicación?
+  - ¿Te sientes cómodo/a recomendando esta página a otros talleres y clientes? ¿Por qué?
+
+### 5.3.2. Registro de Entrevistas
+Esta subsección presenta un registro detallado de las entrevistas realizadas, documentando las respuestas de los participantes, las observaciones clave y los comentarios obtenidos durante las sesiones de validación. Estos registros proporcionan una base sólida para el análisis y la mejora del producto.
+
+**Segmento Objetivo 1: Compradores de Autos de Segunda Mano**
+-------------------------------------------
+**Entrevistado(a) #1:** Gabriel Martel<br>
+**Sexo:** Masculino<br>
+**Edad:** 24 años<br>
+**Ocupación:** Estudiante<br>
+**Enlace del video completo de las entrevistas:** <br>
+[Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114851_upc_edu_pe/ESsGiH2lXEFMofBRTbj8MMsBmmRiMvGANFghatGlMzFqSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ACVtah)
+<br>
+
+**Resumen de la entrevista:** <br>
+Gabriel, estudiante universitario que en su tiempo libre compra y vende autos, comentó que su primera impresión de la página web fue que es muy intuitiva, aunque le hubiera gustado que estuviera completamente terminada, ya que tiene una buena estructura. También sugiere agregar medidas de seguridad a la información mostrada sobre los autos.
+<br><br>
+
+![imagen1](assets/validacion_gabriel.png)
+
+**Entrevistado(a) #2:** Anatoly Noriega<br>
+**Sexo:** Masculino<br>
+**Edad:** 22 años<br>
+**Ocupación:** Estudiante<br>
+**Enlace del video completo de las entrevistas:** <br>
+[Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114851_upc_edu_pe/ESsGiH2lXEFMofBRTbj8MMsBmmRiMvGANFghatGlMzFqSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ACVtah)
+<br>
+
+**Resumen de la entrevista:** <br>
+Anatoly, ingeniero de software que revisa constantemente vehículos para futuras compras, expresó que le agradaron la estructura y el diseño de la plataforma, destacando especialmente las opciones del menú para redirigir a distintas páginas y la forma en que se muestran los autos y su información. Considera confiable la información de los autos, aunque le preocupa la sección de pagos, que encontró confusa y difícil de entender, y señaló que el estilo en la sección de perfil pierde coherencia con el resto del diseño. Sugiere añadir un botón para traducir la página a otros idiomas. Concluyó que usaría la plataforma, ya que la información es transparente y el diseño es atractivo para el usuario.
+<br><br>
+
+![imagen2](assets/validacion_anatoly.png)
+
+**Segmento Objetivo 2: Vendedores de Autos de Segunda Mano**
+-------------------------------------------
+**Entrevistado(a) #1:** Mijael Yen<br>
+**Sexo:** Masculino<br>
+**Edad:** 22 años<br>
+**Ocupación:** Estudiante<br>
+**Enlace del video completo de las entrevistas:** <br>
+[Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114851_upc_edu_pe/ESsGiH2lXEFMofBRTbj8MMsBmmRiMvGANFghatGlMzFqSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ACVtah)
+<br>
+
+**Resumen de la entrevista:**
+Mijael comenta que la estructura de la plataforma es adecuada y cuenta con lo necesario para realizar sus publicaciones y vender autos. Sugiere que en la sección del perfil se incluya un texto que diga “Mi perfil” y que los textos de esta sección sean más grandes para mayor comodidad. También destaca que la plataforma es intuitiva, pero recomienda que la opción de "logout" esté incluida dentro del perfil. Por último, menciona que el botón para guardar datos en el perfil sea más específico, como “guardar cambios,” y que en ciertos campos de información, como el de teléfono, solo se permita ingresar números.
+<br><br>
+
+![imagen3](assets/validacion_mijael.png)
+
+**Entrevistado(a) #2:** Jefrey Sanchez<br>
+**Sexo:** Masculino<br>
+**Edad:** 22 años<br>
+**Ocupación:** Estudiante<br>
+**Enlace del video completo de las entrevistas:** <br>
+[Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114851_upc_edu_pe/ESsGiH2lXEFMofBRTbj8MMsBmmRiMvGANFghatGlMzFqSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ACVtah)
+<br>
+
+**Resumen de la entrevista:** <br>
+Jeffrey actualmente trabaja, pero en su tiempo libre se dedica a la venta de autos. Mencionó que le pareció muy llamativo que la información se muestre de manera clara sin necesidad de entrar en cada tarjeta, y destacó que el diseño en general es muy atractivo. Comentó también que toda la navegación es intuitiva y clara. Como sugerencia, indicó que sería útil agregar un filtro para descartar los autos que no se buscan, facilitando así encontrar el auto deseado. En general, expresó que su experiencia ha sido muy positiva.
+<br><br>
+
+![imagen4](assets/validacion_jefrey.png)
+
+**Segmento Objetivo 2: Talleres Mecánicos**
+-------------------------------------------
+**Entrevistado(a) #1:** Maomed Chocce<br>
+**Sexo:** Masculino<br>
+**Edad:** 29 años<br>
+**Ocupación:** Mecánico<br>
+**Enlace del video completo de las entrevistas:** <br>
+[Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114851_upc_edu_pe/ESsGiH2lXEFMofBRTbj8MMsBmmRiMvGANFghatGlMzFqSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ACVtah)
+<br>
+
+**Resumen de la entrevista:**
+Maomed mencionó que la estructura de la página es intuitiva, aunque sugiere añadir un menú desplegable para acceder a las secciones importantes de forma rápida. Respecto a las herramientas de carga de datos, considera que son claras y fáciles de usar, pero sería útil incluir ejemplos o instrucciones breves junto a cada campo. En cuanto a la sección de reportes, la encontró un poco confusa y recomendó añadir un tutorial o videos explicativos para facilitar su uso. Percibe la plataforma como segura, aunque cree que un ícono o mensaje informando sobre las medidas de seguridad implementadas aumentaría la confianza del usuario. Destacó como puntos positivos el diseño limpio, la facilidad de navegación y el acceso rápido a las funciones principales, pero señaló la falta de instrucciones claras en algunas secciones y la necesidad de una sección de preguntas frecuentes (FAQ) para resolver dudas comunes. Finalmente, expresó que recomendaría la plataforma a otros talleres y clientes, aunque algunos aspectos podrían mejorarse para optimizar la experiencia de usuario.
+<br><br>
+
+![imagen5](assets/validacion_maomed.png)
+
+**Entrevistado(a) #2:** Roberto García<br>
+**Sexo:** Masculino<br>
+**Edad:** 22 años<br>
+**Ocupación:** Estudiante<br>
+**Enlace del video completo de las entrevistas:** <br>
+[Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114851_upc_edu_pe/ESsGiH2lXEFMofBRTbj8MMsBmmRiMvGANFghatGlMzFqSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ACVtah)
+<br>
+
+**Resumen de la entrevista:** <br>
+Roberto es un estudiante universitario que ayuda a su papá, el cual tiene un taller mecánica, en el trabajo cuando tiene tiempo libre. Nos comenta que la página le parece muy intuitiva y atractiva para el usuario. En general no tuvo problemas para poder guiarse al momento de usarlo y que recomendaría su uso a amigos como familiares debido a la seguridad que tiene.
+<br><br>
+
+![imagen6](assets/validacion_roberto.png)
+
+### 5.3.3. Evaluación según heurísticas
+Aquí se explican las evaluaciones realizadas utilizando principios heurísticos de usabilidad. Se analizan los resultados obtenidos y se identifican áreas de mejora en la interfaz y la funcionalidad de la aplicación, con el fin de optimizar la experiencia del usuario y asegurar la eficacia del producto.
+
+**UX Heuristics & Principles Evaluation Usability - Inclusive Design - Information Architecture**
+
+**Carrera:** Ingeniería de Software
+**Curso:** Desarrollo de Aplicaciones Open Source
+**Sección:** WX51
+**Profesores:** Alberto Wilmer Sanchez Seña
+**Cliente(s):** Maomed Alexander Chocce Cruces, Roberto García, Jefrey Sanchez, Mijael Yen, Anatoly Noriega y Gabriel Martel
+
+**Site o App a Evaluar:** Car2Go
+
+**Tareas a Evaluar:**
+**Escala de Severidad:**
+Los errores serán puntiados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción |
+|-------|-------------|
+|   1   | Problema superficial: puede ser fácilmente superado por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+|   2   | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja de cara resolverlo al siguiente release. |
+|   3   | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+|   4   | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+**Tabla Resumen:**
+
+| # | Problema | Escala de Severidad | Heurística/Principio violada(o) |
+|---|----------|---------------------|---------------------|
+| 1 | Incluir un texto que diga "Mi perfil" y aumentar el tamaño de los textos para mayor comodidad. | 2 | No cumplir con un diseño visual atractivo podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios. |
+| 2 | Integrar la opción de "logout" dentro del perfil y especificar el botón de guardar como “guardar cambios”. | 2 | No cumplir con un diseño visual atractivo podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios. |
+| 3 | Mejorar la coherencia del estilo en la sección de perfil. | 2 | No cumplir con un diseño visual atractivo podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios. |
+| 4 | Implementar un botón para traducir la página a otros idiomas. | 2 | Inclusive Design: No capturar efectivamente las percepciones de los clientes al entrar podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios, al no asegurar una retroalimentación inicial inclusiva y adecuada desde el inicio de la interacción con el producto. |
+| 5 | Aclarar la sección de pagos, que fue considerada confusa por algunos usuarios. | 2 | INo cumplir con un diseño visual atractivo podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios. |
+
+----
+<br>
+
+**Descripción del Problemas:**
+
+- **Problema #1:** Incluir un texto que diga "Mi perfil" y aumentar el tamaño de los textos para mayor comodidad.
+- **Severidad:** 2
+- **Heurística/Principio violado(a):** No cumplir con un diseño visual atractivo podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios.
+- **Recomendación:** Añadir un texto "Mi perfil", aumentar el tamaño de los textos para mayor comodidad.
+
+---
+
+- **Problema #2:** Integrar la opción de "logout" dentro del perfil y especificar el botón de guardar como “guardar cambios”.
+- **Severidad:** 2
+- **Heurística/Principio violada(o):** No cumplir con un diseño visual atractivo podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios.
+- **Recomendación:** Asegurarse de que la opción de "logout" esté claramente disponible y cambiar el diseño del botón para que se más fácil de entender.
+
+---
+
+- **Problema #3:** Mejorar la coherencia del estilo en la sección de perfil.
+- **Severidad:** 2
+- **Heurística/Principio violado(a):** No cumplir con un diseño visual atractivo podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios.
+- **Recomendación:** Mantener la coherencia del estilo en todas las secciones, especialmente en el perfil de usuario.
+
+---
+
+- **Problema #4:** Implementar un botón para traducir la página a otros idiomas.
+- **Severidad:** 2
+- **Heurística/Principio violado(a):** Inclusive Design: No capturar efectivamente las percepciones de los clientes al entrar podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios, al no asegurar una retroalimentación inicial inclusiva y adecuada desde el inicio de la interacción con el producto.
+- **Recomendación:** Implementar un botón de traducción para facilitar el acceso a usuarios que hablan diferentes idiomas.
+
+---
+
+- **Problema #5:** Aclarar la sección de pagos, que fue considerada confusa por algunos usuarios.
+- **Severidad:** 2
+- **Heurística/Principio violado(a):** No cumplir con un diseño visual atractivo podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios.
+- **Recomendación:** Simplificar y aclarar la sección de pagos para que sea más comprensible.
+<br>
+
+
+## 5.4. Video About-The-Product
+En esta sección se presenta un video explicatiovo sobre la aplicación Car2Go. El video destaca las principales características y beneficios del producto, demostrando cómo satisface las necesidad de los clientes. Este recurso visual es esencial para comunicar de manera efectiva el valor de la apliación a potenciales usuarios e inversores.
+
+Link: [About-The-Product](https://youtu.be/QHxKoa7xo-E)
+
+# VI. Conclusiones y recomendaciones
+## Conclusiones
+
+- El análisis realizado por el equipo confirmó que la industria de venta de autos enfrenta desafíos importantes relacionados con la seguridad y la confianza en las transacciones. Sin embargo, también identificó oportunidades significativas, reflejadas en un aumento en el número de ventas en los últimos años. En respuesta a esta situación, Car2Go ofrece una solución efectiva mediante una plataforma innovadora para la compra y venta de autos usados, respaldada por la garantía de calidad y seguridad proporcionada por centros motrices certificados.
+  <br><br>
+- El diseño de Car2Go se desarrolló con el objetivo de ofrecer una experiencia de usuario superior y establecer una clara diferenciación respecto a la competencia. Los estilos seleccionados, junto con una organización cuidadosa de la información, no solo aportan coherencia visual, sino que también facilitan la navegación y el acceso a las funcionalidades más relevantes para los usuarios.
+
+## Video About-the-Team.
+
+Link: [About-the-Team](https://www.youtube.com/watch?v=TY3OxDDQNhE)
+
+## VII. Bibliografía
+
+- Dittrich, J. (s.f.). A Beginner's Guide to Finding User Needs. Recuperado de
+  https://jdittrich.github.io/userNeedResearchBook/
+  <br><br>
+- Gastulo, R. (2023, 6 de marzo). Autos usados: segunda opción. Recuperado de
+  https://www.elperuano.pe/noticia/207031-autos-usados-segunda-opcion
+  <br><br>
+- IBM. (s.f.). As-is Scenario Map  Build a better understanding of your users' current experience. Recuperado de
+  https://www.ibm.com/design/thinking/page/toolkit/activity/as-is-scenario-map
+  <br><br>
+- IBM. (s.f.). To-be Scenario Map  Draft a vision of your user's future experience to show how your ideas address their current needs. Recuperado de   https://www.ibm.com/design/thinking/page/toolkit/activity/to-be-scenario-map
+  <br><br>
+- Ríos, W. (2024, 11 de marzo). Mercado de autos seminuevos: oportunidades para compradores y vendedores. Recuperado de
+  https://andina.pe/agencia/noticia-mercado-autos-seminuevos-oportunidades-para-compradores-y-vendedores-977602.aspx
+  <br><br>
+- SUNARP. (2018, 23 de mayo). Cómo realizar una transferencia vehicular sin problemas. Recuperado de
+  https://www.sunarp.gob.pe/PRENSA/inicio/post/2018/05/23/como-realizar-una-transferencia-vehicular-sin-problemas
+  <br><br>
+- Tune, N. (2015, 15 de agosto). Domain-Driven Architecture Diagrams. Recuperado de
+  https://medium.com/nick-tune-tech-strategy-blog/domain-driven-architecture-diagrams-139a75acb578
+
+
+
+## VIII. Anexos
+
+* Diseño Landing Page:  [Figma](https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Open-source?node-id=32-311&t=7O5WsCcQsFaskDcW-1)
+  <br><br>
+* Landing Page: [Landing Page](https://upc-pre-si729-2402-wx51-g3-cibersofa.github.io/Landing-page/)
+  <br><br>
+* Miro: [Miro](https://miro.com/app/board/uXjVMm70eUI=/)
+  <br><br>
+* Organización Github: [Organización](https://github.com/UPC-PRE-SI729-2402-WX51-G3-Cibersofa) 
+  <br><br>
+* [Registro de entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219284_upc_edu_pe/EU3ocaW1vF9KhmOYIXX3j44BM3JEIi_35Pc0mA_-rIpoQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=b769rK)
+  <br><br>
+* Structurizr: [Structurizr](https://structurizr.com/share/84499/5dafae81-8afd-492f-9fd0-3742913235d5)
+  <br><br>
+* Style Guidelines: [Style Guidelines](https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Open-source?t=7O5WsCcQsFaskDcW-1)
+  <br><br>
+* Web Applications: [Car2Go](https://car2go-c60fa.web.app/) 
+  <br><br>
+* Exposición TB1: [Link](https://youtu.be/Zb57q8cjGd0?si=k1vKumN4gezw2Lyq)
+* Exposicion TB2: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114851_upc_edu_pe/EU3C5Ale3ipDk2jD7nrlmQQBDTs2EBhWG9qFHJ4d1wSIBA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=JsW3ez)
+* Trello: [Link](https://trello.com/invite/b/672593151a102b5df4062300/ATTIee8d366a57b61466153105a6f5824169062AAAF0/sprint-3)
+* Entrevistas: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114851_upc_edu_pe/ESsGiH2lXEFMofBRTbj8MMsBmmRiMvGANFghatGlMzFqSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ACVtah)
+* [About-The-Product](https://youtu.be/QHxKoa7xo-E)
+* [Swagger](https://car2go-platform-hpdzhtb8ekceg9gd.canadacentral-01.azurewebsites.net/swagger-ui/index.html)
+
+
