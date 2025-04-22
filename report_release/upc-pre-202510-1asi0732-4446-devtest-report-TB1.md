@@ -1602,7 +1602,7 @@ Hero altero 2:
 
 ### 4.6.3. Web Applications Mock-ups.
 
-#### Login
+### Login
 <img src="../assets/web-mockup/web-mockup-1.png" alt="Mockup 1"/>
 <img src="../assets/web-mockup/web-mockup-2.png" alt="Mockup 2"/>
 <img src="../assets/web-mockup/web-mockup-3.png" alt="Mockup 3"/>
@@ -1633,16 +1633,16 @@ Hero altero 2:
 <img src="../assets/web-mockup/web-mockup-22.png" alt="Mockup 22"/>
 
 ### 4.6.4. Web Applications User Flow Diagrams.
-<img src="assets/web-userflow-1.png" alt="User flow 1"/>
-<img src="assets/web-userflow-2.png" alt="User flow 2"/>
-<img src="assets/web-userflow-3.png" alt="User flow 3"/>
-<img src="assets/web-userflow-4.png" alt="User flow 4"/>
-<img src="assets/web-userflow-5.png" alt="User flow 5"/>
-<img src="assets/web-userflow-6.png" alt="User flow 6"/>
-<img src="assets/web-userflow-7.png" alt="User flow 7"/>
-<img src="assets/web-userflow-8.png" alt="User flow 8"/>
-<img src="assets/web-userflow-9.png" alt="User flow 9"/>
-<img src="assets/web-userflow-10.png" alt="User flow 10"/>
+<img src="../assets/web-userflow/web-userflow-1.png" alt="User flow 1"/>
+<img src="../assets/web-userflow/web-userflow-2.png" alt="User flow 2"/>
+<img src="../assets/web-userflow/web-userflow-3.png" alt="User flow 3"/>
+<img src="../assets/web-userflow/web-userflow-4.png" alt="User flow 4"/>
+<img src="../assets/web-userflow/web-userflow-5.png" alt="User flow 5"/>
+<img src="../assets/web-userflow/web-userflow-6.png" alt="User flow 6"/>
+<img src="../assets/web-userflow/web-userflow-7.png" alt="User flow 7"/>
+<img src="../assets/web-userflow/web-userflow-8.png" alt="User flow 8"/>
+<img src="../assets/web-userflow/web-userflow-9.png" alt="User flow 9"/>
+<img src="../assets/web-userflow/web-userflow-10.png" alt="User flow 10"/>
 
 ### 4.7. Web Applications Prototyping.
 
@@ -1657,7 +1657,7 @@ de criterios fundamentales, entre ellos:
 3. Priorización de Información Relevante: El diseño de la aplicación se enfoca en mostrar únicamente la información más importante para los usuarios pertenecientes al segmento objetivo.
 
 
-## 4.8. Domain-Driven Software sdsdArchitecture
+## 4.8. Domain-Driven Software Architecture
 
 El Domain Driven Design (DDD) tiene como objetivo llegar a un entendimiento compartido del dominio que abarca el espacio del problema. En el caso de Car2Go, este dominio es la gestión de la compra y venta de vehículos de segunda mano y la interacción con los vendedores, compradores y talleres mecánicos. Gracias a la perspectiva brindada por este enfoque, es posible mejorar la colaboración entre los desarrolladores y los expertos del dominio.
 
@@ -1692,6 +1692,14 @@ Los diagramas de componentes muestran una vista de las relaciones de los compone
 - Vehicle Management Bounded Context
 
 <img src="../assets/architecture-diagram/vehicle-managment-diagram.png" alt="diagram" style="margin-bottom: 5px;"/>
+
+## 4.9. Software Object-Oriented Design.
+### 4.9.1. Class Diagrams.
+<img src="../assets/architecture-diagram/diagrama-clases.png" alt="class diagram"/>
+
+### 4.9.2. Class Dictionary.
+### 4.10. Database Design.
+### 4.10.1. Relational/Non-Relational Database Diagram. 
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
