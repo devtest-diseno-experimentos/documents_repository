@@ -1601,8 +1601,61 @@ Hero altero 2:
 ![wireflow-diagrams](../assets/wireflow-diagrams/wireflow-diagrams-10.png)
 
 ### 4.6.3. Web Applications Mock-ups.
+
+#### Login
+<img src="../assets/web-mockup/web-mockup-1.png" alt="Mockup 1"/>
+<img src="../assets/web-mockup/web-mockup-2.png" alt="Mockup 2"/>
+<img src="../assets/web-mockup/web-mockup-3.png" alt="Mockup 3"/>
+
+### Vista del vendedor
+<img src="../assets/web-mockup/web-mockup-4.png" alt="Mockup 4"/>
+<img src="../assets/web-mockup/web-mockup-5.png" alt="Mockup 5"/>
+<img src="../assets/web-mockup/web-mockup-6.png" alt="Mockup 6"/>
+<img src="../assets/web-mockup/web-mockup-7.png" alt="Mockup 7"/>
+<img src="../assets/web-mockup/web-mockup-8.png" alt="Mockup 8"/>
+<img src="../assets/web-mockup/web-mockup-9.png" alt="Mockup 9"/>
+<img src="../assets/web-mockup/web-mockup-10.png" alt="Mockup 10"/>
+<img src="../assets/web-mockup/web-mockup-11.png" alt="Mockup 11"/>
+<img src="../assets/web-mockup/web-mockup-12.png" alt="Mockup 12"/>
+
+### Vista del comprador
+<img src="../assets/web-mockup/web-mockup-13.png" alt="Mockup 13"/>
+<img src="../assets/web-mockup/web-mockup-14.png" alt="Mockup 14"/>
+<img src="../assets/web-mockup/web-mockup-15.png" alt="Mockup 15"/>
+<img src="../assets/web-mockup/web-mockup-16.png" alt="Mockup 16"/>
+<img src="../assets/web-mockup/web-mockup-17.png" alt="Mockup 17"/>
+<img src="../assets/web-mockup/web-mockup-18.png" alt="Mockup 18"/>
+<img src="../assets/web-mockup/web-mockup-19.png" alt="Mockup 19"/>
+
+### Vista del mecánico
+<img src="../assets/web-mockup/web-mockup-20.png" alt="Mockup 20"/>
+<img src="../assets/web-mockup/web-mockup-21.png" alt="Mockup 21"/>
+<img src="../assets/web-mockup/web-mockup-22.png" alt="Mockup 22"/>
+
 ### 4.6.4. Web Applications User Flow Diagrams.
+<img src="assets/web-userflow-1.png" alt="User flow 1"/>
+<img src="assets/web-userflow-2.png" alt="User flow 2"/>
+<img src="assets/web-userflow-3.png" alt="User flow 3"/>
+<img src="assets/web-userflow-4.png" alt="User flow 4"/>
+<img src="assets/web-userflow-5.png" alt="User flow 5"/>
+<img src="assets/web-userflow-6.png" alt="User flow 6"/>
+<img src="assets/web-userflow-7.png" alt="User flow 7"/>
+<img src="assets/web-userflow-8.png" alt="User flow 8"/>
+<img src="assets/web-userflow-9.png" alt="User flow 9"/>
+<img src="assets/web-userflow-10.png" alt="User flow 10"/>
+
 ### 4.7. Web Applications Prototyping.
+
+Para poder elaborar los prototipos de la interfaz de usuario destinados a Desktop se siguieron una serie
+de criterios fundamentales, entre ellos:
+
+1. Claridad y Facilidad: El enfoque fue lograr que la navegación en la aplicación sea intuitiva y comprensible, con el objetivo
+   de que los usuarios puedan comprender plenamente las funciones de la aplicación.
+   visualización de reportes estadísticos.
+2. Diseño Responsive: Se ha tenido en cuenta la importancia del diseño "responsive" para garantizar que la aplicación web
+   sea compatible con una variedad tamaños de pantalla, de tal manera que los usuarios no se vean limitados por el dispositivo que utilicen.
+3. Priorización de Información Relevante: El diseño de la aplicación se enfoca en mostrar únicamente la información más importante para los usuarios pertenecientes al segmento objetivo.
+
 
 ## 4.8. Domain-Driven Software sdsdArchitecture
 
