@@ -1494,7 +1494,23 @@ Hero altero 2:
 ## 4.4. Mobile Applications UX/UI Design
 <!-- To-do -->
 ### 4.4.1. Mobile Applications Wireframes
-<!-- To-do -->	
+
+### Vistas de autenticación
+<img src="../assets/mobile-style/mobile-wireframes-1.png" alt="wireframes1" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/mobile-wireframes-2.png" alt="wireframes2" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/mobile-wireframes-2.png" alt="wireframes3" style="margin-bottom: 5px;"/>
+
+### Vista del mecánico
+<img src="../assets/mobile-style/mobile-wireframes-4.png" alt="wireframes4" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/mobile-wireframes-5.png" alt="wireframes5" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/mobile-wireframes-6.png" alt="wireframes6" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/mobile-wireframes-7.png" alt="wireframes7" style="margin-bottom: 5px;"/>
+
+### Vista del comprador
+<img src="../assets/mobile-style/mobile-wireframes-8.png" alt="wireframes7" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/mobile-wireframes-9.png" alt="wireframes9" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/mobile-wireframes-10.png" alt="wireframes10" style="margin-bottom: 5px;"/>
+
 ### 4.4.2. Mobile Applications Wireflow Diagrams
 <!-- To-do -->
 ### 4.4.3. Mobile Applications Mock-ups
