@@ -1498,30 +1498,21 @@ Hero altero 2:
 ### 4.4.2. Mobile Applications Wireflow Diagrams
 <!-- To-do -->
 ### 4.4.3. Mobile Applications Mock-ups
-### Login
+### Vistas de autenticación
 <img src="../assets/mobile-style/mobile-mockup-1.png" alt="mockup1" style="margin-bottom: 5px;"/>
 <img src="../assets/mobile-style/mobile-mockup-2.png" alt="mockup2" style="margin-bottom: 5px;"/>
 <img src="../assets/mobile-style/mobile-mockup-2.png" alt="mockup3" style="margin-bottom: 5px;"/>
 
-### Vista del vendedor
+### Vista del mecánico
 <img src="../assets/mobile-style/mobile-mockup-4.png" alt="mockup4" style="margin-bottom: 5px;"/>
 <img src="../assets/mobile-style/mobile-mockup-5.png" alt="mockup5" style="margin-bottom: 5px;"/>
 <img src="../assets/mobile-style/mobile-mockup-6.png" alt="mockup6" style="margin-bottom: 5px;"/>
 <img src="../assets/mobile-style/mobile-mockup-7.png" alt="mockup7" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-mockup-8.png" alt="mockup8" style="margin-bottom: 5px;"/>
 
 ### Vista del comprador
+<img src="../assets/mobile-style/mobile-mockup-8.png" alt="mockup7" style="margin-bottom: 5px;"/>
 <img src="../assets/mobile-style/mobile-mockup-9.png" alt="mockup9" style="margin-bottom: 5px;"/>
 <img src="../assets/mobile-style/mobile-mockup-10.png" alt="mockup10" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-mockup-11.png" alt="mockup11" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-mockup-12.png" alt="mockup12" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-mockup-13.png" alt="mockup13" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-mockup-14.png" alt="mockup14" style="margin-bottom: 5px;"/>
-
-### Vista del mecánico
-<img src="../assets/mobile-style/mobile-mockup-15.png" alt="mockup15" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-mockup-16.png" alt="mockup16" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-mockup-17.png" alt="mockup17" style="margin-bottom: 5px;"/>
 
 <!-- To-do -->
 ### 4.4.4. Mobile Applications User Flow Diagrams
