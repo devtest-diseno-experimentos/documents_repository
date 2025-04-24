@@ -815,7 +815,7 @@ Tiempo de la entrevista: 7:52
 
 <img src="../assets/interview-photos/estrevista-3-segmento-2.png">
 
-- **URL del video:** [Entrevista Jessica Matallana]()
+- **URL del video:** [Entrevista Jessica Matallana](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210257_upc_edu_pe/ER6ptoZ5dYBInz3T90YkOPIBRWr7hNiXdhu913tQ2g3jsQ?e=hzLEqi&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 - Informe de Resumen sobre la entrevista:
 
