@@ -2128,9 +2128,11 @@ Link de la landing page desplegada: [Car2Go](https://devtest-diseno-experimentos
 
 ###  5.2. Product Implementation & Deployment.
 
-# 5.2. Landing Page, Services \& Applications Implementation
-## 5.2.1. Sprint 1
-### 5.2.1.1. Sprint Planning 1
+#### 5.2.1. Sprint Backlogs  
+
+#### 5.2.1.1. Sprint Planning 1
+
+ #### Sprint Planning 1
  <div style="margin-left: auto;
             margin-right: auto;
             width: 50%">
@@ -2138,513 +2140,44 @@ Link de la landing page desplegada: [Car2Go](https://devtest-diseno-experimentos
 | Sprint 1                        | Implementación de funcionalidades y diseño de la aplicación.                                                                                                                                 |
 |---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Sprint Planning Background      |
-| Date                            | 01/09/2024                                                                                                                                                                                   |
+| Date                            | 20/04/2025                                                                                                                                                                                   |
 | Time                            | 22:00 horas (GMT-5)                                                                                                                                                                          |
 | Location                        | Reunión realizada mediante Discord                                                                                                                                                           |
 | Prepared By                     | Barrionuevo Reto, Jean Franco                                                                                                                                                                |
-| Attendees (to planning meeting) | <li>Barrionuevo Reto, Jean Franco</li> <li>Carranza Tesen, Joaquin Enrique</li> <li>Mayta López, Harold</li> <li>Medina Chocce, Karito Dianeth</li> <li>Serrano Uchuya, Gerald Patricio</li> |
+| Attendees (to planning meeting) | <li>Aguilar, Rodrigo</li> <li>Barrionuevo Reto, Jean Franco</li> <li>Kunimoto, Mathias</li> <li>Luna, Italo</li> <li>Pin, Augusto</li> |
 | Sprint  -1 Review               |
 | Resumen                         | No hubo sprint anterior.                                                                                                                                                                     |
 | Sprint  1 Retrospective         |
-| Resumen                         | Se creará la organización de Car2Go en Github y el repositorio de la organización.                                                                                                                  |
-| **Sprint Goal & User Stories**  |
-| Sprint 1 Velocity               | 21 points                                                                                                                                                                                    |
-| Sum of Story Points             | 21 points                                                                                                                                                                                    |
+| Resumen                         | Se implementará la versión mobile de Car2Go.                                                                                                                 |
+
 </div>
-
-### 5.2.1.2. Sprint Backlog 1
-
 
 | | Sprint # | | | | Sprint 1 | | |
 |-|----------|-|-|-|----------|-|-|
-| **User Story**        |                   | **Work Item/Task** |               |                                                    |                   |                 |        |
+| **User Story**        |                   | **Work Item/Task** |               |                                                    | **Estimation (Hours)**    | **Assigned To** | **Status** |
 | **Id**            | **Title**         | **Id**         | **Title**     | **Description**                                    | **Estimation (Hours)**    | **Assigned To** | **Status** |
-| US-01          | Registro de Usuario | TW-01   | Implementar formulario de registro | Desarrollar el frontend del formulario de registro, incluyendo validaciones de entrada. | 6                 | Franco Barrionuevo   | Done   |
-| US-01          | Registro de Usuario | TW-02   | Estilizar formulario de registro | Aplicar estilos CSS al formulario de registro para mejorar la experiencia visual. | 4                 | Gerald Serrano   | Done   |
-| US-02          | Búsqueda de Autos | TW-03   | Implementar sección de búsqueda | Crear la interfaz de búsqueda con HTML y CSS, añadiendo filtros y funcionalidad en JavaScript. | 5                 | Karito Medina   | Done   |
-| US-02          | Búsqueda de Autos | TW-04   | Estilizar sección de búsqueda  | Aplicar estilos CSS a la sección de búsqueda para que sea más atractiva y funcional.  | 4                 | Harold Mayta   | Done   |
-| US-03          | Listado de Autos | TW-05   | Desarrollar listado de autos  | Implementar la visualización del listado de autos usando HTML y CSS, con interactividad en JavaScript.  | 7                 | Joaquin Carranza   | Done   |
-| US-03          | Listado de Autos | TW-06   | Estilizar listado de autos  | Aplicar estilos CSS al listado de autos para mejorar la presentación y legibilidad.  | 4                 | Karito Medina   | Done   |
-| US-09          | Notificaciones de Nuevos Listados | TW-07   | Implementar sistema de notificaciones  | Desarrollar la funcionalidad de notificaciones usando JavaScript para alertar a los compradores sobre nuevos listados.  | 6                 | Joaquin Carranza   | Done   |
-| US-10          | Notificación de Actualización de Estado del Auto | TW-08   | Implementar notificaciones de estado  | Crear la funcionalidad en JavaScript que notifique a los compradores sobre cambios en el estado de los autos.  | 5                 | Harold Mayta   | Done   |
+| US-01          | Registro de Usuario | TW-01   | Crear pantalla de registro | Crear la pantalla de registro con validaciones de correo y contraseña. | 6                 | Mathias Kunimoto   | Done   |
+| US-01          | Registro de Usuario | TW-02   | Estilizar pantalla de registro | Mejorar el diseño responsivo del formulario de registro. | 4                 | Italo Luna   | Done   |
+| US-03          | Listado de Autos | TW-03   | Crear pantalla "Mis Carros" | Implementar la sección donde el usuario ve los autos publicados y opción de añadir uno nuevo. | 5                 | Rodrigo Aguilar   | Done   |
+| US-03          | Listado de Autos | TW-04   | Crear formulario de publicación de auto | Desarrollar formulario para registrar un auto (marca, modelo, precio, fotos). | 7                 | Augusto Pin   | Done   |
+| US-38          | Aprobación o Rechazo de Auto | TW-05   | Crear pantalla de autos por evaluar | Implementar pantalla para listar autos pendientes de evaluación. | 6                 | Jean Franco Barrionuevo   | Done   |
+| US-38          | Aprobación o Rechazo de Auto | TW-06   | Crear pantalla de revisión técnica | Implementar la pantalla de detalle para revisar datos e imágenes y aprobar/rechazar autos. | 6                 | Mathias Kunimoto   | Done   |
 
 
 
-### 5.2.1.3. Development Evidence for Sprint Review
-<div style="margin-left: auto;
-            margin-right: auto;
-            width: 60%">
 
-| Repository	  | Branch	            | Commit Id | Commit Message	                                     | Commit Message Body | Committed on (Date) |
-|--------------|--------------------|-----------|-----------------------------------------------------|---------------------|---------------------|
-| landing-page | feature/index.html | 759cc14   | feat: (Landing page) Header                         | -                   | 1/09/2024           |
-| landing-page | feature/index.html | 40c7f15   | feat: (Landing page) agregué Header y Navbar        | -                   | 1/09/2024           |
-| landing-page | feature/index.html | abdd069   | feat: Agregar sección Home                          | -                   | 1/09/2024           |
-| landing-page | feature/index.html | ea53c5f   | feat: (Landing page) agregar sección Sobre Nosotros | -                   | 1/09/2024           |
-| landing-page | feature/index.html | f269ea5   | feat: (Landing Page) implementar sección Producto   | -                   | 1/09/2024           |
-| landing-page | feature/index.html | 076717c   | feat: (Landing page) agregar sección de Planes      | -                   | 1/09/2024           |
-| landing-page | feature/index.html | bc1bc4a   | feat: (Landing Page) agregar sección Equipo         | -                   | 1/09/2024           |
-| landing-page | feature/index.html | 166d6a4   | feat: (Landing Page) agregar sección de Contacto    | -                   | 1/09/2024           |
-| landing-page | feature/index.html | 6371146   | feat: (Landing page) agregar Footer                 | -                   | 1/09/2024           |
-| landing-page | feature/index.html | 02f2eld   | feat: (Landing Page) implementar responsividad      | -                   | 1/09/2024           |
+#### 5.2.2. Implemented Landing Page Evidence  
+#### 5.2.3. Implemented Frontend-Web Application Evidence  
+#### 5.2.4. Implemented Native-Mobile Application Evidence
+#### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence  
+#### 5.2.6. RESTful API documentation  
+#### 5.2.7. Team Collaboration Insights  
 
-</div>
 
-### 5.2.1.4. Testing Suite Evidence for Sprint Review
 
-Para la entrega del Sprint 1, logramos completar el desarrollo, la implementación y el despliegue del Landing Page. Por esta razón, nos enfocamos en la sección de "acceptance-tests" en la implementación de los archivos feature que componen nuestro landing page. Estos features se basan en las Historias de Usuario especificadas en el sprint backlog, detallando cada uno de los escenarios que planeamos desarrollar.
-<div style="margin-left: auto;
-            margin-right: auto;
-            width: 50%">
-<table>
-  <tr>
-    <th>Repository</th>
-    <th >Branch</th>
-    <th>Commit</th>
-    <th>Author</th>
-    <th>Message</th>
-    <th>Date</th>
-  </tr>
-  <tr>
-    <td>landing-page</td>
-    <td>Features_testing</td>
-    <td>07fa8d6</td>
-    <td>Franco Barrionuevo</td>
-    <td>doc: add acceptance tests</td>
-    <td>3/09/2024</td>
-  </tr>
-</table>
-</div>
 
+------
 
-<br><br>
-
-Para la entrega del Sprint 1 se buscó alcanzar el desarrollo completo, implementación y despliegue de la landing page. La sección de "Testing" se centró en la implementación y prueba de los archivos feature que contienen las funcionalidades de la landing page de Car2Go.
-
-### 5.2.1.5. Execution Evidence for Sprint Review
-
-En el sprint 1 se alcanzó un desarrollo parcial en la implementación del despliegue de la landing page. La página muestra varias secciones en las que el usuario puede encontrar información relevante sobre los servicios, planes y equipo de Car2Go. A continuación se presentan evidencias del progreso logrado:
-
-- **Sección What We Offer**: El usuario puede ver las características clave que ofrecemos, como transacciones seguras, verificación de calidad, talleres especializados y pagos seguros.
-  ![What We Offer](../assets/sprint-review/w-offer.png)
-  <br><br>
-- **Sección Planes**: En la sección de planes, el usuario puede visualizar e interactuar con los diferentes planes disponibles, eligiendo la opción que mejor se adapte a sus necesidades.
-  ![Planes](../assets/sprint-review/plan.png)
-  <br><br>
-- **Sección About Us**: En esta sección, el usuario puede conocer más sobre la misión y visión de Car2Go, así como entender nuestro compromiso con la seguridad y el servicio al cliente.
-  ![About Us](../assets/sprint-review/about-us.png)
-  <br><br>
-- **Sección Our Team**: El usuario puede conocer a los miembros clave del equipo de Car2Go y leer sus testimonios.
-  ![Our Team](../assets/sprint-review/ourteam.png)
-  <br><br>
-- **Sección Contacto**: El usuario puede enviar sus consultas directamente a través de un formulario de contacto, o utilizar las opciones de contacto directo proporcionadas.
-  ![Contacto](../assets/sprint-review/contact.png)
-
-
-
-### 5.2.1.6. Services Documentation Evidence for Sprint Review
-
-Este primer Sprint solo trata la implementación del landing page, por lo que no se empleó ningún servicio adicional.
-
-### 5.2.1.7. Software Deployment Evidence for Sprint Review
-Para la entrega del Sprint número 1, se desplego el landing page parcialmente completa.
-
-https://devtest-diseno-experimentos.github.io/Landing-page/
-
-Para el presente sprint se ha desarrollado la landing page. Para el despliegue se emplearon las siguientes herramientas:
-
-Git: Sistema de control de versiones el cual empleamos para trabajar de manera colaborativa y monitorear las versiones de la landing page en un repositorio remoto.
-
-Gitflow: Flujo de trabajo colaborativo. Nos permitió dividir el trabajo por ramas dentro de nuestro repositorio con la finalidad de facilitar la colaboración en el desarrollo.
-
-GitHub: Plataforma que nos brindo la herramienta de crear nuestro repositorio para almacenar las versiones de nuestro proyecto.
-
-Vercel: Plataforma que automatiza webs que nos permitió alojar y desplegar nuestra el landing page.
-
-### 5.2.1.8. Team Collaboration Insights during Sprint
-
-Para la realización de los commits de nuestro primer Sprint, hemos hecho uso de la herramienta Visual Studio Code, además del uso de Git. Uno de los integrantes realizó un primer commit para la creación del repositorio, luego utilizando Git clonamos el repositorio, para luego realizar los cambios en Visual Code y crear los branches correspondientes a dichos cambios, para finalmente realizar el commit, el cual deberá ser revisado dentro del repositorio de Github.
-
-https://github.com/UPC-PRE-SI729-2402-WX51-G3-Cibersofa/project-report/pulse/monthly
-  <div align=center>
-
-![TB1](../assets/sprint-review/commits.png)
-![github](../assets/sprint-review/commits_sprint1_2.png)
-</div>
-
-## 5.2.2. Sprint 2
-### 5.2.2.1. Sprint Planning 2
- <div style="margin-left: auto;
-            margin-right: auto;
-            width: 50%">
-
-  | Sprint 2                        | Implementación de funcionalidades y desarrollo del frontend de la aplicación.                                                                                                                                 |
-  |---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-  | Sprint Planning Background      |
-  | Date                            | 15/09/2024                                                                                                                                                                                   |
-  | Time                            | 17:00 horas (GMT-5)                                                                                                                                                                          |
-  | Location                        | Reunión realizada mediante Discord                                                                                                                                                           |
-  | Prepared By                     | Barrionuevo Reto, Jean Franco                                                                                                                                                                |
-  | Attendees (to planning meeting) | <li>Barrionuevo Reto, Jean Franco</li> <li>Carranza Tesen, Joaquin Enrique</li> <li>Mayta López, Harold</li> <li>Medina Chocce, Karito Dianeth</li> <li>Serrano Uchuya, Gerald Patricio</li> |
-  | Sprint 1 Review              |
-  | Resumen                         | Se creó la organización de Car2Go en Github y el repositorio para el landing page de la organización.                                                                                                           |
-  | Sprint 1 Retrospective       |
-  | Resumen                         | La landing page fue desarrollada utilizando HTML, CSS, JS y Bootstrap                                                                                                                |
-  | **Sprint Goal & User Stories**  |
-  | Sprint 2 Velocity               | 41 points                                                                                                                                                                                    |
-  | Sum of Story Points             | 41 points                                                                                                                                                                                    |
-</div>
-
-### 5.2.2.2. Sprint Backlog 2
-
-| | Sprint # | | | | Sprint 2 | | |
-|-|----------|-|-|-|----------|-|-|
-| **User Story**        |                   | **Work Item/Task** |               |                                                    |                   |                 |        |
-| **Id**            | **Title**         | **Id**         | **Title**     | **Description**                                    | **Estimation (Hours)**    | **Assigned To** | **Status** |
-| US-02          | Búsqueda de Autos | TW-01   | Implementar lógica de búsqueda | Crear un componente de búsqueda en Angular para filtrar autos mediante diferentes criterios. | 6                 | Franco Barrionuevo   | Done   |
-| US-03          | Listado de Autos | TW-02   | Crear vista de listado de autos | Desarrollar un componente en Angular para visualizar autos listados con interactividad y paginación. | 7                 | Karito Medina   | Done   |
-| US-06          | Ver Detalles del Auto | TW-03   | Desarrollar página de detalles del auto | Implementar un componente que muestre los detalles completos de un auto, utilizando servicios para cargar datos dinámicamente. | 5                 | Gerald Serrano   | Done   |
-| US-07          | Comparar Autos | TW-04   | Implementar función de comparación  | Crear un componente en Angular para permitir la comparación de varios autos, mostrando sus características en una tabla.  | 6                 | Joaquin Carranza   | Done   |
-| US-16          | Sistema de Pago Seguro | TW-05   | Crear flujo de pago  | Desarrollar el componente de pago seguro en Angular, integrando la API de pagos.  | 8                 | Harold Mayta   | Done   |
-| US-19          | Reembolso de Transacción | TW-06   | Implementar solicitud de reembolso  | Desarrollar un formulario en Angular para solicitar reembolsos y manejar la lógica correspondiente.  | 5                 | Franco Barrionuevo   | Done   |
-| US-29          | Reportes de Transacciones | TW-07   | Crear visualización de reportes  | Desarrollar un componente en Angular para mostrar reportes de transacciones con gráficos y tablas dinámicas.  | 7                 | Gerald Serrano   | Done   |
-| US-12          | Informe de Certificación | TW-08   | Implementar visualización de informes  | Crear un componente que muestre informes de certificación de autos, utilizando servicios para cargar datos.  | 5                 | Joaquin Carranza   | Done   |
-| US-24          | Sistema de Soporte en Vivo | TW-09   | Implementar chat de soporte  | Desarrollar un componente de chat en vivo para soporte al usuario, integrando la funcionalidad con Angular.  | 6                 | Harold Mayta   | Done   |
-
-
-### 5.2.2.3. Development Evidence for Sprint Review
-<div style="margin-left: auto;
-            margin-right: auto;
-            width: 60%">
-
-| Repository	  | Branch	            | Commit Id | Commit Message	                                     | Commit Message Body | Committed on (Date) |
-|--------------|--------------------|-----------|-----------------------------------------------------|---------------------|---------------------|
-| frontend-car2go | master | fb2dfe6 | initial commit | - | 22/09/2024 | 
-| frontend-car2go | authentication | 3287993 | feat(authentication): updated navbar | - | 23/09/2024 |
-| frontend-car2go | authentication | 1fdac17 | feat(authentication): added images for login view | - | 23/09/2024 |
-| frontend-car2go | authentication | 1afc480 | feat(authentication): updated home view | - | 23/09/2024 |
-| frontend-car2go | authentication | 6c38c6f | feat(authentication): updated toolbar view | - | 23/09/2024 |
-| frontend-car2go | authentication | 3cde965 | feat(authentication): added register component | - | 23/09/2024 |
-| frontend-car2go | payment | b4e8230 | feat(payment): added plan component | - | 23/09/2024 |
-| frontend-car2go | authentication | ae2c2f3 | feat(authentication): updated forgot password | - | 23/09/2024 |
-| frontend-car2go | authentication | 08e6a55 | feat(authentication): added routes | - | 23/09/2024 |
-| frontend-car2go | authentication | 5b8320d | feat(authentication): updated routes | - | 23/09/2024 |
-| frontend-car2go | authentication | b354f8c | feat(authentication): add images and routes | - | 24/09/2024 |
-| frontend-car2go | authentication | 7f76b10 | feat(authentication): added car listing component | - | 24/09/2024 |
-| frontend-car2go | payment | d3c4457 | feat(payment): added payment form component | - | 24/09/2024 |
-| frontend-car2go | authentication | 7289d63 | feat(authentication): added preview modal and more information | - | 24/09/2024 |
-| frontend-car2go | vehicle | 10bae07 | feat: add car-details and card-information components | - | 25/09/2024 |
-| frontend-car2go | payment | 135e8b5 | feat(payment): updated payment form component | - | 25/09/2024 |
-| frontend-car2go | authentication | 67ad078 | feat(authentication): updated car details component | - | 25/09/2024 |
-| frontend-car2go | authentication | 1e28cb7 | feat(authentication): add car service | - | 25/09/2024 |
-| frontend-car2go | interaction | 3479363 | merge with authentication | - | 25/09/2024 |
-| frontend-car2go | interaction | 40e7f08 | feat(interaction): prueba | - | 25/09/2024 |
-| frontend-car2go | payment | 9479e37 | feat(payment): updated plan component  | - | 25/09/2024 |
-| frontend-car2go | payment | dbd0ffe | feat(payment): updated plan service | - | 25/09/2024 |
-| frontend-car2go | authentication | 11d72c6 | feat: added page-not-found component | - | 25/09/2024 |
-| frontend-car2go | interaction | 8d9c84e | feat(interaction): prueba_J | - | 25/09/2024 |
-| frontend-car2go | interaction | 0c2c961 | feat(interaction): mechanic_component | - | 25/09/2024 |
-| frontend-car2go | payment | 11ca4b5 | feat(payment): added route for mechanic check and revision components | - | 25/09/2024 |
-| frontend-car2go | authentication | 30e75a2 | merge with interaction | - | 25/09/2024 |
-| frontend-car2go | authentication | 54740c4 | merge with payment | - | 25/09/2024 |
-</div>
-
-### 5.2.2.4. Testing Suite Evidence for Sprint Review
-
-A partir de las historias de usuario, se generaron los acceptance tests para evaluar la forma en la que deben ejecutarse las funcionalidades de nuestra aplicación web para cumplir con los objetivos de nuestros usuarios.
-
-<div style="margin-left: auto;
-            margin-right: auto;
-            width: 60%">
-
-| Repository	  | Branch	            | Commit Id | Commit Message	                                     | Committed on (Date) |
-|--------------|--------------------|-----------|-----------------------------------------------------|---------------------|
-| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 93468bc | first commit | 27/09/24 |
-| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 3907a7f | feat: add US01.feature | 27/09/24 |
-| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 9b3baad | fix: fix US01 | 27/09/24 |
-| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 32eeaaa | feat: add Acceptances Tests | 27/09/24 |
-
-
-</div>
-
-### 5.2.2.5. Execution Evidence for Sprint Review
-
-En este sprint, el principal objetivo era desarrollar un primer avance de las funcionalidades principales del frontend de nuestra aplicación web. A continuación, se muestran algunos de los resultados de las diferentes pantallas al ejecutar la aplicación.
-
-- Login
-<img src="../assets/sprint-review/login-screen.png" alt="Login screen">
-<br></br>
-- Detalles de vehículo
-<img src="../assets/sprint-review/car-details.png" alt="Details of a car">
-<br></br>
-- Listado de autos
-<img src="../assets/sprint-review/list-cars.png" alt="List of cars">
-<br></br>
-
-### 5.2.2.6. Services Documentation Evidence for Sprint Review
-
-En este segundo sprint, nos hemos enfocado únicamente en el desarrollo del Frontend de nuestra aplicación web, sin abordar servicios web. Por esta razón, no hemos elaborado la documentación referente al uso de dichos servicios en esta ocasión.
-
-### 5.2.2.7. Software Deployment Evidence for Sprint Review
-
-Para el presente sprint se ha desarrollado el FrontEnd. Para el despliegue se emplearon las siguientes herramientas:
-
-- Git: Sistema de control de versiones el cual empleamos para trabajar de manera colaborativa y monitorear las versiones de la landing page en un repositorio remoto.
-- Gitflow: Flujo de trabajo colaborativo. Nos permitió dividir el trabajo por ramas dentro de nuestro repositorio con la finalidad de facilitar la colaboración en el desarrollo.
-- GitHub: Plataforma que nos brindo la herramienta de crear nuestro repositorio para almacenar las versiones de nuestro proyecto.
-- Vercel: Plataforma que automatiza webs que nos permitió alojar y desplegar nuestra el JSON.
-
- _Link_: https://car2go-fake-api.vercel.app/
-
-![deploy](../assets/sprint-review/vercel-fake-api.png)
-
-- Firebase: Plataforma que nos permitio el hacer un deploy del FrontEnd.
-
-_Link_: https://car2go-c60fa.web.app/ 
-
-![deploy](../assets/sprint-review/firebase.png)
-
-### 5.2.2.8. Team Collaboration Insights during Sprint
-
-![TP1](../assets/sprint-review/com-tp1.png)
-
-
-## 5.2.3. Sprint 3
-### 5.2.3.1. Sprint Planning 3
- <div style="margin-left: auto;
-            margin-right: auto;
-            width: 50%">
-
-  | Sprint 3                        | Implementación de funcionalidades y desarrollo del frontend de la aplicación.                                                                                         |
-  |---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-  | Sprint Planning Background      |
-  | Date                            | 19/10/2024                                                                                                                                                            |
-  | Time                            | 17:00 horas (GMT-5)                                                                                                                                                 |
-  | Location                        | Reunión realizada mediante Discord                                                                                                                 |
-  | Prepared By                     | Harold Mayta                                                                                          |
-  | Attendees (to planning meeting) | <li>Barrionuevo Reto, Jean Franco</li> <li>Carranza Tesen, Joaquin Enrique</li> <li>Mayta López, Harold</li> <li>Medina Chocce, Karito Dianeth</li> <li>Serrano Uchuya, Gerald Patricio</li> |
-  | Sprint 1 Review              |
-  | Resumen                         | Se creó el repositorio del Back-End                                                                            |
-  | Sprint 2 Retrospective       |
-  | Resumen                         | En este sprint el Back-End se esta desarrolando en JAVA y Spring Boot                                         |
-  | **Sprint Goal & User Stories**  |
-  | Sprint 3 Velocity               | 41 points                                                                                                                                                          |
-  | Sum of Story Points             | 41 points                                                                                                                                                                                    |
-</div>
-
-### 5.2.3.2. Sprint Backlog 3
-
-![image](../assets/sprint-review/sprint3_trello.png)
-*Elaboración propia. Realizado en Trello:* [Trello](https://trello.com/invite/b/672593151a102b5df4062300/ATTIee8d366a57b61466153105a6f5824169062AAAF0/sprint-3)
-
-| | Sprint # | | | | Sprint 3 | | |
-|-|----------|-|-|-|----------|-|-|
-| **User Story/Technical Story**        |                   | **Work Item/Task** |               |                                                    |                   |                 |        |
-| **Id**            | **Title**         | **Id**         | **Title**     | **Description**                                    | **Estimation (Hours)**    | **Assigned To** | **Status** |
-| US-01 / TS-01        | Registro de Usuario a través de la API | TW-01   | Implementar registro de usuario | Crear un endpoint para manejar el registro de nuevos usuarios a través de la API | 6                 | Franco Barrionuevo   | Done   |
-| US-02 / TS-02        | Búsqueda de Autos a través de la API | TW-02   | Crear funcion de busqueda de autos | Crear una funcionalidad para implementar un endpoint que permita realizar búsquedas de vehículos a través de la API. | 7                 | Karito Medina   | Done   |
-| US-03 / TS-03        | Listado de Autos a través de la API | TW-03   | Implementar una función de listado de autos | Crear un endpoint para obtener un listado de vehículos desde la API. | 5                 | Gerald Serrano   | Done   |
-| US-04 / TS-04        | Edición de Listado de Autos a través de la API | TW-04   | Permitir que los vendedores actualizen el listado de autos que venden  | Crear una funcionalidad para implementar un endpoint que permita actualizar la información de los vehículos en el listado a través de la API.  | 6                 | Joaquin Carranza   | Done   |
-| US-05 / TS-05        | Eliminación de Listado de Autos a través de la API | TW-05   | Permitir que los vendedores eliminen el listado de autos que venden  | Crear una funcionalidad para implementar un endpoint que permita eliminar la información de los vehículos en el listado a través de la API.  | 8                 | Harold Mayta   | Done   |
-| US-06 / TS-06        | Ver Detalles del Auto a través de la API | TW-06   | Mostrar detalles completos del auto  | Crear un endpoint para permitir la recuperación de información detallada de un vehículo específico a través de la API.  | 5                 | Franco Barrionuevo   | Done   |
-| US-08 / TS-07        | Guardar Autos Favoritos a través de la API | TW-07   | Permitir que compradores guarden autos favoritos  | Crear una funcionalidad para implementar un endpoint que permita a los usuarios guardar vehículos en su lista de favoritos a través de la API.  | 7                 | Gerald Serrano   | Done   |
-| US-09 / TS-08        | Nuevos Listados a través de la API | TW-08   | Implementar visualización de autos recientes en Home  | Crear un endpoint para permitir la inserción de nuevos vehículos en la base de datos a través de la API.  | 5                 | Joaquin Carranza   | Done   |
-| US-11 / TS-09        | Solicitud de Certificación a través de la API | TW-09   | Implementar solicitud de certificación a vendedores | Crear una funcionalidad para implementar un endpoint que permita a los usuarios enviar solicitudes de certificación para vehículos a través de la API.  | 6                 | Harold Mayta   | Done   |
-| US-13 / TS-11        | Solicitud de Inspección de Auto a través de la API | TW-10   | Permitir solicitar a vendedores, inspecciones para sus autos  | Crear un endpoint para permitir a los usuarios enviar solicitudes de inspección para vehículos a través de la API.  | 6                 | Harold Mayta   | Done   |
-| US-14 / TS-12        | Confirmación de Inspección a través de la API | TW-11   | Implementar confirmacion de citas para los mecánicos  | Crear una funcionalidad para implementar un endpoint que permita a los usuarios confirmar el estado de las inspecciones de vehículos a través de la API.  | 6                 | Harold Mayta   | Done   |
-| US-15 / TS-13        | Actualización del Estado de Inspección a través de la API | TW-12   | Permitir actualizar el estado de inspección  | Crear un endpoint para permitir la actualización del estado de las inspecciones de vehículos a través de la API.  | 6                 | Harold Mayta   | Done   |
-| US-16 / TS-14        | Sistema de Pago Seguro a través de la API | TW-13   | Implementar sistema de pago seguro  | Crear una funcionalidad para implementar un endpoint que permita realizar transacciones de pago de manera segura a través de la API.  | 6                 | Harold Mayta   | Done   |
-| US-23 / TS-20        | Actualización del Perfil del Usuario a través de la API | TW-14   | Permitir actualizar el perfil  | Crear un endpoint para permitir a los usuarios actualizar su información de perfil a través de la API.  | 6                 | Harold Mayta   | Done   |
-| US-26 / TS-21        | Gestión de Roles de Usuario a través de la API | TW-15   | Permitir gestión de roles de usuario  | Crear una funcionalidad para implementar un endpoint que permita asignar y gestionar roles de usuario a través de la API.  | 6                 | Harold Mayta   | Done   |
-| US-28 / TS-22        | Auditoría de Accesos a través de la API | TW-16   | Implementar sistema de auditoria para registrar accesos y cambios realizados  | Crear un endpoint para registrar y gestionar los accesos de los usuarios a través de la API.  | 6                 | Harold Mayta   | Done   |
-| US-29 / TS-23        | Generación de Reportes de Actividad a través de la API | TW-17   | Generar reportes de actividad  | Crear una funcionalidad para implementar un endpoint que permita generar reportes de actividad de los usuarios a través de la API.  | 6                 | Harold Mayta   | Done   |
-| US-31 / TS-24        | Publicar Anuncio Destacado a través de la API | TW-19   | Permitir publicar anuncios destacados a los vendedores  | Crear un endpoint para permitir a los usuarios publicar anuncios destacados a través de la API.  | 6                 | Harold Mayta   | Done   |
-
-
-### 5.2.3.3. Development Evidence for Sprint Review
-
-![TB3](../assets/sprint-review/spr31.png)
----
-![TB3](../assets/sprint-review/spr32.png)
----
-![TB3](../assets/sprint-review/spr33.png)
-
-### 5.2.3.4. Testing Suite Evidence for Sprint Review
-
-A partir de las historias de usuario, se generaron los acceptance tests para evaluar la forma en la que deben ejecutarse las funcionalidades de nuestra aplicación web para cumplir con los objetivos de nuestros usuarios.
-
-<div style="margin-left: auto;
-            margin-right: auto;
-            width: 60%">
-
-| Repository	  | Branch	            | Commit Id | Commit Message	                                     | Committed on (Date) |
-|--------------|--------------------|-----------|-----------------------------------------------------|---------------------|
-| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 93468bc | first commit | 27/09/24 |
-| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 3907a7f | feat: add US01.feature | 27/09/24 |
-| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 9b3baad | fix: fix US01 | 27/09/24 |
-| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 32eeaaa | feat: add Acceptances Tests | 27/09/24 |
-
-
-</div>
-
-### 5.2.3.5. Execution Evidence for Sprint Review
-
-En esta parte, se muestra la ejecucion de la aplicacion web, tanto del front end como del back end, asi como tambien se muestra el uso de la aplicacion en un servidor de Swagger.
-
-![Swagger](../assets/sprint-review/Swagger01.png)
----
-![Swagger](../assets/sprint-review/Swagger02.png)
----
-![Swagger](../assets/sprint-review/Swagger03.png)
----
-![Swagger](../assets/sprint-review/Swagger04.png)
-
-### 5.2.3.6. Services Documentation Evidence for Sprint Review
-
-En esta seccion, se muestra la documentacion de los servicios del back end de la aplicacion web, asi como tambien se muestra el uso de Swagger para la documentacion de los servicios.
-
-Utilizamos SpringBoot, Spring Security, JWToken y Spring Data jpa:
-
-- [Sprint Boot](https://docs.spring.io/spring-boot/index.html)
-- [Sprint Boot Security](https://docs.spring.io/spring-boot/reference/web/spring-security.html#page-title)
-- [Json Web Token](https://www.npmjs.com/package/jsonwebtoken)
-- [Sprint Data JPA](https://spring.io/projects/spring-data-jpa)
-
-  
-### 5.2.3.7. Software Deployment Evidence for Sprint Review
-
-Para el presente sprint se ha creda la base de datos en AZURE y se planea hacer el deploy de Web services:
-
-![AZURE](../assets/sprint-review/azure.png)
-
-
-### 5.2.3.8. Team Collaboration Insights during Sprint
-
-![TB2](../assets/sprint-review/evidencia-tb3.png)
-
-## 5.2.4. Sprint 4
-### 5.2.4.1. Sprint Planning 4
- <div style="margin-left: auto;
-            margin-right: auto;
-            width: 50%">
-
-  | Sprint 4                        | Implementación de la seguridad en el backend e implementación del backend en el frontend.                                                                                         |
-  |---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-  | Sprint Planning Background      |
-  | Date                            | 21/11/2024                                                                                                                                                            |
-  | Time                            | 00:07 horas (GMT-5)                                                                                                                                                 |
-  | Location                        | Reunión realizada mediante Discord                                                                                                                 |
-  | Prepared By                     | Harold Mayta                                                                                          |
-  | Attendees (to planning meeting) | <li>Barrionuevo Reto, Jean Franco</li> <li>Carranza Tesen, Joaquin Enrique</li> <li>Mayta López, Harold</li> <li>Medina Chocce, Karito Dianeth</li> <li>Serrano Uchuya, Gerald Patricio</li> |
-  | Sprint 1 Review              |
-  | Resumen                         | Se creó el repositorio del Back-End                                                                            |
-  | Sprint 2 Retrospective       |
-  | Resumen                         | En este sprint se creo el web application (Frontend)                                         |
-  | Sprint 3 Retrospective       |
-  | Resumen                         | En este sprint el Back-End se esta desarrolando en JAVA y Spring Boot y se realizaron correcciones e integración de seguridad                                         |
-  | **Sprint Goal & User Stories**  |
-  | Sprint 4 Velocity               | 31 points                                                                                                                                                          |
-  | Sum of Story Points             | 31 points                                                                                                                                                                                    |
-</div>
-
-### 5.2.4.2. Sprint Backlog 4
-
-![image](assets/sprint4_trello.png)
-*Elaboración propia. Realizado en Trello: https://trello.com/invite/b/67396fcc6f7b280764d969db/ATTI9e9246c400708c43effc2aae0bf41ce9C52F53AB/sprint-4*
-
-| | Sprint # | | | | Sprint 4 | | |
-|-|----------|-|-|-|----------|-|-|
-| **User Story/Technical Story**        |                   | **Work Item/Task** |               |                                                    |                   |                 |        |
-| **Id**            | **Title**         | **Id**         | **Title**     | **Description**                                    | **Estimation (Hours)**    | **Assigned To** | **Status** |
-| US-12 / TS-10        | Ver Informe de Certificación a través de la API | TW-01   | Implementar registro de usuario | Crear un endpoint para manejar el registro de nuevos usuarios a través de la API | 6                 | Franco Barrionuevo   | Done   |
-| US-17 / TS-15        | Confirmación de Transacción a través de la API | TW-02   | Crear funcion de busqueda de autos | Crear una funcionalidad para implementar un endpoint que permita realizar búsquedas de vehículos a través de la API. | 7                 | Karito Medina   | Done   |
-| US-18 / TS-16        | Historial de Transacciones a través de la API | TW-03   | Implementar una función de listado de autos | Crear un endpoint para obtener un listado de vehículos desde la API. | 5                 | Gerald Serrano   | Done   |
-| US-20 / TS-17        | Mensajería entre Compradores y Vendedores a través de la API | TW-04   | Permitir que los vendedores actualizen el listado de autos que venden  | Crear una funcionalidad para implementar un endpoint que permita actualizar la información de los vehículos en el listado a través de la API.  | 6                 | Joaquin Carranza   | Done   |
-| US-21 / TS-18        | Ver Mensajes Recibidos a través de la API | TW-05   | Permitir que los vendedores eliminen el listado de autos que venden  | Crear una funcionalidad para implementar un endpoint que permita eliminar la información de los vehículos en el listado a través de la API.  | 8                 | Harold Mayta   | Done   |
-| US-22 / TS-19        | Marcar Mensajes como Leídos a través de la API | TW-06   | Mostrar detalles completos del auto  | Crear un endpoint para permitir la recuperación de información detallada de un vehículo específico a través de la API.  | 5                 | Franco Barrionuevo   | Done   |
-| US-16 / TS-30        | Deploy de Web Service Backend | TW-07   | Permitir que compradores guarden autos favoritos  | Crear una funcionalidad para implementar un endpoint que permita a los usuarios guardar vehículos en su lista de favoritos a través de la API.  | 7                 | Gerald Serrano   | Done   |
-| US-27 / TS-31        | Deploy de Web Application (Frontend) | TW-08   | Implementar visualización de autos recientes en Home  | Crear un endpoint para permitir la inserción de nuevos vehículos en la base de datos a través de la API.  | 5                 | Joaquin Carranza   | Done   |
-| US-18 / TS-32        | Implementación de filtros de estados de transacción | TW-09   | Implementar solicitud de certificación a vendedores | Crear una funcionalidad para implementar un endpoint que permita a los usuarios enviar solicitudes de certificación para vehículos a través de la API.  | 6                 | Harold Mayta   | Done   |
-
-
-
-### 5.2.4.3. Development Evidence for Sprint Review
-![TB3](../assets/sprint-review/spr31.png)
----
-![TB3](../assets/sprint-review/spr32.png)
----
-![TB3](../assets/sprint-review/spr33.png)
----
-![TB3](../assets/sprint-review/sp44.png)
----
-![TB3](../assets/sprint-review/spr43.png)
-
-### 5.2.4.4. Testing Suite Evidence for Sprint Review
-
-A partir de las historias de usuario, se generaron los acceptance tests para evaluar la forma en la que deben ejecutarse las funcionalidades de nuestra aplicación web para cumplir con los objetivos de nuestros usuarios.
-
-<div style="margin-left: auto;
-            margin-right: auto;
-            width: 60%">
-
-| Repository	  | Branch	            | Commit Id | Commit Message	                                     | Committed on (Date) |
-|--------------|--------------------|-----------|-----------------------------------------------------|---------------------|
-| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 93468bc | first commit | 27/09/24 |
-| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 3907a7f | feat: add US01.feature | 27/09/24 |
-| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 9b3baad | fix: fix US01 | 27/09/24 |
-| UPC-PRE-SI729-2402-WX51-G3-Cibersofa/Acceptance-Tests | main | 32eeaaa | feat: add Acceptances Tests | 27/09/24 |
-
-
-</div>
-
-### 5.2.4.5. Execution Evidence for Sprint Review
-
-En esta parte, se muestra la ejecucion de la aplicacion web, tanto del front end como del back end, asi como tambien se muestra el uso de la aplicacion en un servidor de Swagger.
-
-![Swagger](../assets/sprint-review/Swagger01.png)
----
-![Swagger](../assets/sprint-review/Swagger02.png)
----
-![Swagger](../assets/sprint-review/Swagger03.png)
----
-![Swagger](../assets/sprint-review/Swagger04.png)
-
-### 5.2.4.6. Services Documentation Evidence for Sprint Review
-
-En esta seccion, se muestra la documentacion de los servicios del back end de la aplicacion web, asi como tambien se muestra el uso de Swagger para la documentacion de los servicios.
-
-Utilizamos SpringBoot, Spring Security, JWToken y Spring Data jpa:
-
-- [Sprint Boot](https://docs.spring.io/spring-boot/index.html)
-- [Sprint Boot Security](https://docs.spring.io/spring-boot/reference/web/spring-security.html#page-title)
-- [Json Web Token](https://www.npmjs.com/package/jsonwebtoken)
-- [Sprint Data JPA](https://spring.io/projects/spring-data-jpa)
-
-  
-### 5.2.4.7. Software Deployment Evidence for Sprint Review
-
-Para este ultimo sprint se uso los servicios de Azure para el deploy de nuestro web services.
-
-- Par nuestra Base de datos se uso el recurso de **Azure Database for MySQL flexive server**:
-
-![Database](../assets/sprint-review/database.PNG)
-
----
-- Para el deploy de nuestro web service se uso el recurso de **Web App**:
-
-_Link_: [Swagger](https://car2go-platform-hpdzhtb8ekceg9gd.canadacentral-01.azurewebsites.net/swagger-ui/index.html)
-
-![Swagger](../assets/sprint-review/web.PNG)
----
-- Tambien el deploy de nuestro web application se realizo en **Firebase**
-
-_Link_: [Car2Go](https://car2go-c60fa.web.app/) 
-
-![deploy](../assets/sprint-review/firebase2.png)
-
-### 5.2.4.8. Team Collaboration Insights during Sprint
-
-![TB2](../assets/evidencia-tb3.jpg)
 
 
 ## 5.3. Validation Interviews
