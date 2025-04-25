@@ -1701,13 +1701,17 @@ Enlace: https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Car2go---Design?node
 - No se puede cambiar el estado del auto (ej. de "pendiente" a "revisado").
 - El sistema muestra el auto como **"Rechazado"** por errores en los datos o fallas en la revisión técnica.
 
-<!-- To-do -->
 ## 4.5. Mobile Applications Prototyping
-<!-- To-do -->
+
 ### 4.5.1. Android Mobile Applications Prototyping
-<!-- To-do -->
+![Android-Mobile-Applications](../assets/mobile-style/prootyping-mobile.png)
+
+Enlace del prototipo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213375_upc_edu_pe/EWKwHgVOkcxBgf4WoCea5TQB9I0LfIdJ2PYJ6wXLiZQfrw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0rpAIm
+
 ### 4.5.2. iOS Mobile Applications Prototyping
-<!-- To-do -->
+![Android-Mobile-Applications](../assets/mobile-style/prootyping-mobile.png)
+Enlace del prototipo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213375_upc_edu_pe/EWKwHgVOkcxBgf4WoCea5TQB9I0LfIdJ2PYJ6wXLiZQfrw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0rpAIm
+
 
 ## 4.6. Web Applications UX/UI Design.
 
