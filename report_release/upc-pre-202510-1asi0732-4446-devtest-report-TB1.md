@@ -2171,8 +2171,10 @@ Link de la landing page desplegada: [Car2Go](https://devtest-diseno-experimentos
 | US-38          | Aprobación o Rechazo de Auto | TW-05   | Crear pantalla de autos por evaluar | Implementar pantalla para listar autos pendientes de evaluación. | 6                 | Jean Franco Barrionuevo   | Done   |
 | US-38          | Aprobación o Rechazo de Auto | TW-06   | Crear pantalla de revisión técnica | Implementar la pantalla de detalle para revisar datos e imágenes y aprobar/rechazar autos. | 6                 | Mathias Kunimoto   | Done   |
 
+## Tablero del Sprint 1 
+![alt text](../assets/sprints-product/trello-productB1.png)
 
-
+### URL: [Ver Trello](https://trello.com/b/YMHhlUzX/car2go)
 
 #### 5.2.2. Implemented Landing Page Evidence  
 #### 5.2.3. Implemented Frontend-Web Application Evidence  
