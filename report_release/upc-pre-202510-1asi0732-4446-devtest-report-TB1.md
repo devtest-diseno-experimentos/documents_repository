@@ -39,9 +39,14 @@
 <div align="center">
 
 
-| Version |   Fecha    | Autor  | Descripción de Modificación |
-|---------|------------|--------|-----------------------------|
-| 0.0     | 24/05/2025 | Nombre | Crea documento              |
+| Version | Fecha      | Autor                                    | Descripción de Modificación                                                                 |
+|---------|------------|------------------------------------------|----------------------------------------------------------------------------------------------|
+| TB1     | 24/04/2025 | Rodrigo Alejandro Aguilar Castillo       | Creación de la estructura inicial del informe, elaboración de la introducción y objetivos.  |
+| TB1     | 24/04/2025 | Jean Franco Joel Barrionuevo Reto        | Redacción del perfil de la startup, antecedentes y planteamiento del problema.              |
+| TB1     | 25/04/2025 | Mathias Tsuneo Kunimoto Watanabe         | Desarrollo de User Personas, User Journey y Empathy Mapping para el análisis de usuarios.   |
+| TB1     | 26/04/2025 | Italo D'alessandro Luna Capuñay           | Diseño del To-Be Scenario, Impact Mapping y redacción de las User Stories.                  |
+| TB1     | 27/04/2025 | Augusto Jose Pin Matallana               | Elaboración del análisis competitivo y propuestas de solución en base al Needfinding.       |
+| TB1     | 28/04/2025 | Todo el equipo                           | Revisión general, integración de secciones, corrección de estilo, y preparación de entrega. |
 
 </div>
 
@@ -65,11 +70,11 @@ Para la entrega del TB1 se han realizado los procesos necesarios para lograr los
 
 Se muestran evidencias de los commits realizados en la entrega de la TB1 en el informe
 
-<img src=" " alt="imagen de las colaboraciones">  
+<img src="../assets/inisghts/tb1/inisghts-1.png" alt="inisghts">  
 
 [Colaboraciones del repositorio]
 
-<img src=" " alt="imagen de los commits">  
+<img src="../assets/inisghts/tb1/inisghts-2.png" alt="imagen de los commits">  
 [Registro de los commits donde se realizaron la mayor cantidad]
 
 En ambos casos se puede observar el incremento de modificaciones y revisiones en la primera semana de abril.
