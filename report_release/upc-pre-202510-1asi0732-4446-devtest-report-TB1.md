@@ -1512,7 +1512,19 @@ Hero altero 2:
 <img src="../assets/mobile-style/mobile-wireframes-10.png" alt="wireframes10" style="margin-bottom: 5px;"/>
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams
-<!-- To-do -->
+
+
+## Authentication flow diagram
+![alt text](../assets/mobile-wireflow-diagrams/wireflow-mobile-diagram.png)
+
+
+## Post New Car Flow Diagram 
+![alt text](../assets/mobile-wireflow-diagrams/wireflow-mobile-diagram-3.png)
+
+## Dashboard flow diagram
+![alt text](../assets/mobile-wireflow-diagrams/wireflow-mobile-diagram-2.png)
+
+
 ### 4.4.3. Mobile Applications Mock-ups
 ### Vistas de autenticación
 <img src="../assets/mobile-style/mobile-mockup-1.png" alt="mockup1" style="margin-bottom: 5px;"/>
