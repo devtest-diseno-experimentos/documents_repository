@@ -19,6 +19,7 @@
 #### Año: **2025**
 
 </center>
+
 # Team  Members:
 
 <div align="center">
@@ -48,19 +49,19 @@
 
 Repositorios:
 
-Proyecto: (...)
+Reporte del Proyecto: [Repositorio GitHub](https://github.com/devtest-diseno-experimentos/documents_repository)
 
-Landing Page: (...)
+Landing Page: [Repositorio GitHub](https://github.com/devtest-diseno-experimentos/Landing-page)
 
-Web Page del Proyecto: (...)
+Web Page del Proyecto: [Repositorio GitHub](https://github.com/devtest-diseno-experimentos/frontend-car2go)
 
-Mobile App del Proyecto (...)
+Mobile App del Proyecto [Repositorio GitHub](https://github.com/devtest-diseno-experimentos/car2go_mobile_app)
 
-Back End del Proyecto: (...)
+Back End del Proyecto: [Repositorio GitHub](https://github.com/devtest-diseno-experimentos/car2go)
 
 ### TB1
 
-Para la entrega del TB1 se han hecho ...
+Para la entrega del TB1 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.
 
 Se muestran evidencias de los commits realizados en la entrega de la TB1 en el informe
 
@@ -263,8 +264,8 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 
 | Criterio Especifico| Acciones Realizadas| Conclusiones|
 |--------------------|--------------------|-------------|
-| **///** |...|...|
-|**///**|...|...| 
+| **Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software** |                                                                                                          **Italo D'Alessandro Luna Capuñay**                                                            <br>**TB1:**<br>      En esta entrega, detecté diversos riesgos éticos y de privacidad en el proyecto de software, especialmente aquellos vinculados a la protección de datos personales. Colaboré con el equipo para definir medidas de seguridad que garantizaran la protección de la información de los usuarios. Esta experiencia fortaleció mis habilidades en la identificación y gestión de riesgos éticos dentro de proyectos de software.             <br><br>                                                                                                           **Rodrigo Alejandro Castillo Aguilar** <br>**TB1:**<br>     Durante esta entrega, me encargué de revisar si el diseño del software contemplaba la accesibilidad y la inclusión de todos los usuarios, proponiendo mejoras para asegurar que la aplicación sea apta para personas con discapacidades. Esta tarea me ayudó a fortalecer mis habilidades en la gestión de riesgos éticos en proyectos de software y a fomentar la inclusión y diversidad en el proceso de desarrollo.                                                                                                 <br><br>                                                                                                           **Mathias Tsuneo Kunimoto Watanabe** <br>**TB1:**<br>                                                                                                       <br><br>                                                                                                           **Jean Franco Joel Barrionuevo Reto** <br>**TB1:**<br>                                                                                                       <br><br>                                                                                                           **Augusto Jose Pin Matallana** <br>**TB1:**<br>                                                                                            |                                                                                                        Durante esta entrega, cada integrante del equipo se enfocó en reconocer y abordar riesgos éticos relacionados con la privacidad y la seguridad de los datos de los usuarios. Se implementaron medidas de protección para garantizar la seguridad de la información. Asimismo, se impulsó la diversidad y la accesibilidad en el desarrollo del software, asegurando la inclusión de todos los usuarios.                                                                                                     
+| **Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales**|                                                                                            **Italo D'Alessandro Luna Capuñay**                                                            <br>**TB1:**<br>                                   En esta entrega, analicé el impacto que el software podría tener en usuarios de diversas culturas y regiones, considerando su capacidad de adaptación y su proyección a nivel global durante el desarrollo.                                                                      <br><br>                                                                                                    **Rodrigo Alejandro Castillo Aguilar** <br>**TB1:**<br>                                                                        Durante esta entrega, analicé el efecto social del software en la movilidad urbana y propuse iniciativas para mejorar la calidad de vida de los usuarios. También verifiqué que el desarrollo del software respetara los estándares éticos y profesionales, teniendo en cuenta su influencia en la sociedad.                             <br><br>                                                                                                           **Mathias Tsuneo Kunimoto Watanabe** <br>**TB1:**<br>                                                                                                       <br><br>                                                                                                           **Jean Franco Joel Barrionuevo Reto** <br>**TB1:**<br>                                                                                                       <br><br>                                                                                                           **Augusto Jose Pin Matallana** <br>**TB1:**<br>                                                                                            |                                                                                                           Durante esta entrega, el equipo se dedicó a analizar el impacto social, económico y ambiental que el software podría generar en la movilidad urbana. Se fomentó un ambiente de colaboración e inclusión, promoviendo la participación activa de todos los integrantes. También se definieron objetivos claros y se organizaron las tareas para alcanzar las metas propuestas. Además, se presentaron recomendaciones fundamentadas que buscan equilibrar la viabilidad técnica del proyecto con su compromiso social, económico y ambiental.                                                                                                       | 
 
 
 
@@ -1511,6 +1512,8 @@ Hero altero 2:
 <img src="../assets/mobile-style/mobile-wireframes-9.png" alt="wireframes9" style="margin-bottom: 5px;"/>
 <img src="../assets/mobile-style/mobile-wireframes-10.png" alt="wireframes10" style="margin-bottom: 5px;"/>
 
+Enlace: https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Car2go---Design?node-id=952-568&t=PFZZj4XEY1XrREfx-1
+
 ### 4.4.2. Mobile Applications Wireflow Diagrams
 ![alt text](../assets/mobile-wireflow-diagrams/wireflow-mobile-diagram.png)
 
@@ -1614,7 +1617,8 @@ Hero altero 2:
 <img src="../assets/mobile-style/mobile-mockup-9.png" alt="mockup9" style="margin-bottom: 5px;"/>
 <img src="../assets/mobile-style/mobile-mockup-10.png" alt="mockup10" style="margin-bottom: 5px;"/>
 
-<!-- To-do -->
+Enlace: https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Car2go---Design?node-id=952-568&t=PFZZj4XEY1XrREfx-1
+
 ### 4.4.4. Mobile Applications User Flow Diagrams
 ## Authentication flow diagram
 ![alt text](<../assets/mobile-wireflow-diagrams/authFlow.png>)
@@ -1698,13 +1702,17 @@ Hero altero 2:
 - No se puede cambiar el estado del auto (ej. de "pendiente" a "revisado").
 - El sistema muestra el auto como **"Rechazado"** por errores en los datos o fallas en la revisión técnica.
 
-<!-- To-do -->
 ## 4.5. Mobile Applications Prototyping
-<!-- To-do -->
+
 ### 4.5.1. Android Mobile Applications Prototyping
-<!-- To-do -->
+![Android-Mobile-Applications](../assets/mobile-style/prootyping-mobile.png)
+
+Enlace del prototipo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213375_upc_edu_pe/EWKwHgVOkcxBgf4WoCea5TQB9I0LfIdJ2PYJ6wXLiZQfrw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0rpAIm
+
 ### 4.5.2. iOS Mobile Applications Prototyping
-<!-- To-do -->
+![Android-Mobile-Applications](../assets/mobile-style/prootyping-mobile.png)
+Enlace del prototipo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213375_upc_edu_pe/EWKwHgVOkcxBgf4WoCea5TQB9I0LfIdJ2PYJ6wXLiZQfrw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0rpAIm
+
 
 ## 4.6. Web Applications UX/UI Design.
 
