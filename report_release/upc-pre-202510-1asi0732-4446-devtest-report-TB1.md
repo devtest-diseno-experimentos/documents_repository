@@ -1512,17 +1512,89 @@ Hero altero 2:
 <img src="../assets/mobile-style/mobile-wireframes-10.png" alt="wireframes10" style="margin-bottom: 5px;"/>
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams
-
-
-## Authentication flow diagram
 ![alt text](../assets/mobile-wireflow-diagrams/wireflow-mobile-diagram.png)
 
+### Happy Path – Inicio de sesión exitoso
+
+1. El usuario abre la app y desliza hacia arriba.
+2. El sistema pregunta: ¿Tiene una cuenta?
+3. El usuario selecciona **Sí**.
+4. Ingresa su correo y contraseña correctamente.
+5. Presiona **"Acceder"**.
+6. El sistema valida las credenciales.
+7. El usuario accede al **Dashboard**, donde puede ver:
+   - Porcentaje de autos verificados.
+   - Porcentaje de lista de espera.
+
+### Unhappy Path – Problemas en el flujo
+
+#### Opción A – Tiene cuenta pero falla el login:
+- Ingresa un correo o contraseña incorrectos.
+- Deja campos vacíos.
+- El sistema muestra error de autenticación.
+- No accede al dashboard.
+
+#### Opción B – No tiene cuenta y falla el registro:
+- Deja campos vacíos en el formulario de registro.
+- Usa un correo ya registrado.
+- Ingresa una contraseña inválida o débil.
+- No presiona el botón de iniciar sesión después de registrarse.
+- No accede al dashboard.
 
 ## Post New Car Flow Diagram 
 ![alt text](../assets/mobile-wireflow-diagrams/wireflow-mobile-diagram-3.png)
 
+
+### Happy Path – Publicar auto exitosamente
+
+1. El usuario accede a la sección **"Mis carros"**.
+2. Presiona el botón **"Vender carro"**.
+3. Completa el formulario de venta con:
+   - Datos de contacto (nombre, correo, celular).
+   - Información del auto (marca, modelo, color, precio).
+4. Presiona **"Publicar carro"**.
+5. Verifica los datos y fotos del auto cargado correctamente.
+6. El auto se muestra como **"Revisado"** y aparece publicado en la lista de autos disponibles.
+
+---
+
+### Unhappy Path – Problemas al publicar un auto
+
+- El usuario deja campos vacíos en el formulario (ej. marca, modelo, color o precio).
+- El número de celular es inválido o está incompleto.
+- Las imágenes del auto no se cargan correctamente o están ausentes.
+- El usuario no presiona el botón **"Publicar carro"**.
+- El sistema no muestra confirmación ni publica el auto en la lista.
+
+
+
 ## Dashboard flow diagram
 ![alt text](../assets/mobile-wireflow-diagrams/wireflow-mobile-diagram-2.png)
+### Happy Path – Evaluación y verificación exitosa de auto
+
+1. El usuario entra al dashboard y visualiza las métricas:
+   - Porcentaje de autos verificados.
+   - Porcentaje de autos en lista de espera.
+2. Presiona la opción **"Autos por evaluar"**.
+3. Revisa la lista de autos en espera de verificación.
+4. Selecciona un auto para ver más detalles.
+5. Accede a la pantalla de **revisión técnica**.
+6. El auto es marcado como **"Revisado"** (aprobado).
+7. Se puede consultar toda la **información del auto**:
+   - Descripción general.
+   - Fotos.
+   - Datos del usuario (nombre, correo, celular, DNI).
+
+---
+
+### Unhappy Path – Problemas en la verificación
+
+- El usuario no puede acceder a la lista de autos por evaluar.
+- La lista de autos no se carga correctamente.
+- El evaluador no puede ver los detalles del auto.
+- El auto tiene información incompleta (falta año, kilometraje, tipo de combustible, ubicación, etc.).
+- No se puede cambiar el estado del auto (ej. de "pendiente" a "revisado").
+- El sistema muestra el auto como **"Rechazado"** por errores en los datos o fallas en la revisión técnica.
 
 
 ### 4.4.3. Mobile Applications Mock-ups
@@ -1544,6 +1616,88 @@ Hero altero 2:
 
 <!-- To-do -->
 ### 4.4.4. Mobile Applications User Flow Diagrams
+## Authentication flow diagram
+![alt text](<../assets/mobile-wireflow-diagrams/authFlow.png>)
+### Happy Path – Inicio de sesión exitoso
+
+1. El usuario abre la app y desliza hacia arriba.
+2. El sistema pregunta: ¿Tiene una cuenta?
+3. El usuario selecciona **Sí**.
+4. Ingresa su correo y contraseña correctamente.
+5. Presiona **"Acceder"**.
+6. El sistema valida las credenciales.
+7. El usuario accede al **Dashboard**, donde puede ver:
+   - Porcentaje de autos verificados.
+   - Porcentaje de lista de espera.
+
+### Unhappy Path – Problemas en el flujo
+
+#### Opción A – Tiene cuenta pero falla el login:
+- Ingresa un correo o contraseña incorrectos.
+- Deja campos vacíos.
+- El sistema muestra error de autenticación.
+- No accede al dashboard.
+
+#### Opción B – No tiene cuenta y falla el registro:
+- Deja campos vacíos en el formulario de registro.
+- Usa un correo ya registrado.
+- Ingresa una contraseña inválida o débil.
+- No presiona el botón de iniciar sesión después de registrarse.
+- No accede al dashboard.
+
+## Post New Car Flow Diagram 
+![alt text](<../assets/mobile-wireflow-diagrams/sellCar.png>)
+
+### Happy Path – Publicar auto exitosamente
+
+1. El usuario accede a la sección **"Mis carros"**.
+2. Presiona el botón **"Vender carro"**.
+3. Completa el formulario de venta con:
+   - Datos de contacto (nombre, correo, celular).
+   - Información del auto (marca, modelo, color, precio).
+4. Presiona **"Publicar carro"**.
+5. Verifica los datos y fotos del auto cargado correctamente.
+6. El auto se muestra como **"Revisado"** y aparece publicado en la lista de autos disponibles.
+
+---
+
+### Unhappy Path – Problemas al publicar un auto
+
+- El usuario deja campos vacíos en el formulario (ej. marca, modelo, color o precio).
+- El número de celular es inválido o está incompleto.
+- Las imágenes del auto no se cargan correctamente o están ausentes.
+- El usuario no presiona el botón **"Publicar carro"**.
+- El sistema no muestra confirmación ni publica el auto en la lista.
+
+## Dashboard flow diagram
+![alt text](<../assets/mobile-wireflow-diagrams/mecanicFlow.png>)
+
+### Happy Path – Evaluación y verificación exitosa de auto
+
+1. El usuario entra al dashboard y visualiza las métricas:
+   - Porcentaje de autos verificados.
+   - Porcentaje de autos en lista de espera.
+2. Presiona la opción **"Autos por evaluar"**.
+3. Revisa la lista de autos en espera de verificación.
+4. Selecciona un auto para ver más detalles.
+5. Accede a la pantalla de **revisión técnica**.
+6. El auto es marcado como **"Revisado"** (aprobado).
+7. Se puede consultar toda la **información del auto**:
+   - Descripción general.
+   - Fotos.
+   - Datos del usuario (nombre, correo, celular, DNI).
+
+---
+
+### Unhappy Path – Problemas en la verificación
+
+- El usuario no puede acceder a la lista de autos por evaluar.
+- La lista de autos no se carga correctamente.
+- El evaluador no puede ver los detalles del auto.
+- El auto tiene información incompleta (falta año, kilometraje, tipo de combustible, ubicación, etc.).
+- No se puede cambiar el estado del auto (ej. de "pendiente" a "revisado").
+- El sistema muestra el auto como **"Rechazado"** por errores en los datos o fallas en la revisión técnica.
+
 <!-- To-do -->
 ## 4.5. Mobile Applications Prototyping
 <!-- To-do -->
