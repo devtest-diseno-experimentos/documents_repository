@@ -1511,8 +1511,9 @@ Hero altero 2:
 <img src="../assets/mobile-style/mobile-wireframes-9.png" alt="wireframes9" style="margin-bottom: 5px;"/>
 <img src="../assets/mobile-style/mobile-wireframes-10.png" alt="wireframes10" style="margin-bottom: 5px;"/>
 
-### 4.4.2. Mobile Applications Wireflow Diagrams
+Enlace: https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Car2go---Design?node-id=952-568&t=PFZZj4XEY1XrREfx-1
 
+### 4.4.2. Mobile Applications Wireflow Diagrams
 
 ## Authentication flow diagram
 ![alt text](../assets/mobile-wireflow-diagrams/wireflow-mobile-diagram.png)
@@ -1542,7 +1543,8 @@ Hero altero 2:
 <img src="../assets/mobile-style/mobile-mockup-9.png" alt="mockup9" style="margin-bottom: 5px;"/>
 <img src="../assets/mobile-style/mobile-mockup-10.png" alt="mockup10" style="margin-bottom: 5px;"/>
 
-<!-- To-do -->
+Enlace: https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Car2go---Design?node-id=952-568&t=PFZZj4XEY1XrREfx-1
+
 ### 4.4.4. Mobile Applications User Flow Diagrams
 <!-- To-do -->
 ## 4.5. Mobile Applications Prototyping
