@@ -70,11 +70,11 @@ Para la entrega del TB1 se han realizado los procesos necesarios para lograr los
 
 Se muestran evidencias de los commits realizados en la entrega de la TB1 en el informe
 
-<img src=" " alt="imagen de las colaboraciones">  
+<img src="../assets/inisghts/tb1/inisghts-1.png" alt="inisghts">  
 
 [Colaboraciones del repositorio]
 
-<img src=" " alt="imagen de los commits">  
+<img src="../assets/inisghts/tb1/inisghts-2.png" alt="imagen de los commits">  
 [Registro de los commits donde se realizaron la mayor cantidad]
 
 En ambos casos se puede observar el incremento de modificaciones y revisiones en la primera semana de abril.
