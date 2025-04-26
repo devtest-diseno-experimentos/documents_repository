@@ -2194,8 +2194,24 @@ Link de la landing page desplegada: [Car2Go](https://devtest-diseno-experimentos
 
 
 #### 5.2.4. Implemented Native-Mobile Application Evidence
-#### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence  
-#### 5.2.6. RESTful API documentation  
+#### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+
+Link del Swagger UI: https://car2go-platform-hpdzhtb8ekceg9gd.canadacentral-01.azurewebsites.net/swagger-ui/index.html
+
+A continuación, se muestran algunas capturas de pantalla en secuencia de cómo fue el paso a paso en el despliegue.
+
+<img src="../assets/deployment/step-1.png" alt="Deployment"/>
+
+<img src="../assets/deployment/step-2.png" alt="Deployment"/>
+
+<img src="../assets/restful-api/restful-api-documentation.png" alt="RESTful API"/>
+
+
+
+#### 5.2.6. RESTful API documentation
+
+<img src="../assets/restful-api/restful-api-documentation.png" alt="RESTful API"/>
+
 #### 5.2.7. Team Collaboration Insights  
 
 ## 5.3. Video About-the-Team.
