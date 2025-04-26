@@ -2204,9 +2204,25 @@ Registrar:
 Registrar Carro:
 <img src="../assets/mobile-app-evidence/mobile-app-register-car.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
 
+#### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
-#### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence  
-#### 5.2.6. RESTful API documentation  
+Link del Swagger UI: https://car2go-platform-hpdzhtb8ekceg9gd.canadacentral-01.azurewebsites.net/swagger-ui/index.html
+
+A continuación, se muestran algunas capturas de pantalla en secuencia de cómo fue el paso a paso en el despliegue.
+
+<img src="../assets/deployment/step-1.png" alt="Deployment"/>
+
+<img src="../assets/deployment/step-2.png" alt="Deployment"/>
+
+<img src="../assets/restful-api/restful-api-documentation.png" alt="RESTful API"/>
+
+
+
+#### 5.2.6. RESTful API documentation
+
+<img src="../assets/restful-api/restful-api-documentation.png" alt="RESTful API"/>
+
+>>>>>>> 6049862d89d307ac1acf87e36c797fb15c7cb405
 #### 5.2.7. Team Collaboration Insights  
 
 ## 5.3. Video About-the-Team.
