@@ -2251,7 +2251,6 @@ Se evidencia el video demostrando el prototipo pensado para PeaceApp, el cual co
 
 Enlace del video: https://www.youtube.com/watch?v=QHxKoa7xo-E
 
-Link: [About-the-Team]()
 
 ## VII. Bibliografía
 
