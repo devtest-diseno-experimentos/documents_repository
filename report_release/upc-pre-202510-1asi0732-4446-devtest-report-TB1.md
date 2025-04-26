@@ -2194,6 +2194,17 @@ Link de la landing page desplegada: [Car2Go](https://devtest-diseno-experimentos
 
 
 #### 5.2.4. Implemented Native-Mobile Application Evidence
+
+Login:
+<img src="../assets/mobile-app-evidence/mobile-app-login.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+
+Registrar:
+<img src="../assets/mobile-app-evidence/mobile-app-register.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+
+Registrar Carro:
+<img src="../assets/mobile-app-evidence/mobile-app-register-car.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+
+
 #### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence  
 #### 5.2.6. RESTful API documentation  
 #### 5.2.7. Team Collaboration Insights  
