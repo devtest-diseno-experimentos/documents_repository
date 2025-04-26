@@ -2246,7 +2246,10 @@ A continuación, se muestran algunas capturas de pantalla en secuencia de cómo 
 >>>>>>> 6049862d89d307ac1acf87e36c797fb15c7cb405
 #### 5.2.7. Team Collaboration Insights  
 
-## 5.3. Video About-the-Team.
+## 5.3. Video About-the-Product
+Se evidencia el video demostrando el prototipo pensado para PeaceApp, el cual contendrá las diferentes funcionalidades avanzadas hasta el momento.
+
+Enlace del video: https://www.youtube.com/watch?v=QHxKoa7xo-E
 
 Link: [About-the-Team]()
 
