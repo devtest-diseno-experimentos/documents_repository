@@ -2204,6 +2204,21 @@ Registrar:
 Registrar Carro:
 <img src="../assets/mobile-app-evidence/mobile-app-register-car.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
 
+Listar Carros:
+<img src="../assets/mobile-app-evidence/mobile-app-carlist.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+
+Carro Detalle:
+<img src="../assets/mobile-app-evidence/mobile-app-car-detail.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+
+Mandar a revision:
+<img src="../assets/mobile-app-evidence/mobile-app-send-revision.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+
+Ver revisiones pendientes:
+<img src="../assets/mobile-app-evidence/mobile-app-pending-revision.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+
+Revision a detalle:
+<img src="../assets/mobile-app-evidence/mobile-app-pending-revision-detail.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+
 #### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
 Link del Swagger UI: https://car2go-platform-hpdzhtb8ekceg9gd.canadacentral-01.azurewebsites.net/swagger-ui/index.html
