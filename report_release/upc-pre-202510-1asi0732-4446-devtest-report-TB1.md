@@ -2243,8 +2243,11 @@ A continuación, se muestran algunas capturas de pantalla en secuencia de cómo 
 
 <img src="../assets/restful-api/restful-api-documentation.png" alt="RESTful API"/>
 
->>>>>>> 6049862d89d307ac1acf87e36c797fb15c7cb405
-#### 5.2.7. Team Collaboration Insights  
+#### 5.2.7. Team Collaboration Insights
+
+Se realizaron las funcionalidades correspondientes en cada rama principal del feature. Finalmente fue unido a la rama “development” para realizar las pruebas necesarias y sea enviado a producción en la rama “main”
+
+<img src="../assets/sprint-1/" alt="RESTful API"/>
 
 ## 5.3. Video About-the-Product
 Se evidencia el video demostrando el prototipo pensado para PeaceApp, el cual contendrá las diferentes funcionalidades avanzadas hasta el momento.
