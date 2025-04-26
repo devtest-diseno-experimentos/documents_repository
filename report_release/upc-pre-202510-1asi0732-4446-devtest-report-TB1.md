@@ -2219,6 +2219,12 @@ Ver revisiones pendientes:
 Revision a detalle:
 <img src="../assets/mobile-app-evidence/mobile-app-pending-revision-detail.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
 
+Historial de revisiones:
+<img src="../assets/mobile-app-evidence/mobile-app-revision-record.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+
+Estadisticas de revisiones:
+<img src="../assets/mobile-app-evidence/mobile-app-revision-stats.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+
 #### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
 Link del Swagger UI: https://car2go-platform-hpdzhtb8ekceg9gd.canadacentral-01.azurewebsites.net/swagger-ui/index.html
