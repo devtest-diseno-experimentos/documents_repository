@@ -176,32 +176,43 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)  
 [5.3. Video About-the-Product](#53-video-about-the-product)  
 
-<!-- [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification-validation)  
-[6.1. Testing Suites & Validation](#61-testing-suites-validation)  
+[Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)  
+[6.1. Testing Suites & Validation](#61-testing-suites--validation)  
 [6.1.1. Core Entities Unit Tests](#611-core-entities-unit-tests)  
 [6.1.2. Core Integration Tests](#612-core-integration-tests)  
 [6.1.3. Core Behavior-Driven Development](#613-core-behavior-driven-development)  
 [6.1.4. Core System Tests](#614-core-system-tests)  
-[6.2. Static testing & Verification](#62-static-testing-verification)  
+[6.2. Static Testing & Verification](#62-static-testing--verification)  
 [6.2.1. Static Code Analysis](#621-static-code-analysis)  
-[6.2.1.1. Coding standard & Code conventions](#6211-coding-standard-code-conventions)  
-[6.2.1.2. Code Quality & Code Security](#6212-code-quality-code-security)  
+[6.2.1.1. Coding Standard & Code Conventions](#6211-coding-standard--code-conventions)  
+[6.2.1.2. Code Quality & Code Security](#6212-code-quality--code-security)  
 [6.2.2. Reviews](#622-reviews)  
 [6.3. Validation Interviews](#63-validation-interviews)  
 [6.3.1. Diseño de Entrevistas](#631-diseño-de-entrevistas)  
 [6.3.2. Registro de Entrevistas](#632-registro-de-entrevistas)  
-[6.3.3. Evaluaciones según heurísticas](#633-evaluaciones-según-heurísticas)  
-[6.4. Auditoría de Experiencias de Usuario](#64-auditoría-de-experiencias-de-usuario)  
-[6.4.1. Auditoría realizada](#641-auditoría-realizada)  
-[6.4.1.1. Información del grupo auditado](#6411-información-del-grupo-auditado)  
-[6.4.1.2. Cronograma de auditoría realizada](#6412-cronograma-de-auditoría-realizada)  
-[6.4.1.3. Contenido de auditoría realizada](#6413-contenido-de-auditoría-realizada)  
-[6.4.2. Auditoría recibida](#642-auditoría-recibida)  
-[6.4.2.1. Información del grupo auditor](#6421-información-del-grupo-auditor)  
-[6.4.2.2. Cronograma de auditoría recibida](#6422-cronograma-de-auditoría-recibida)  
-[6.4.2.3. Contenido de auditoría recibida](#6423-contenido-de-auditoría-recibida)  
-[6.4.2.4. Resumen de modificaciones para subsanar hallazgos](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)  
+[6.3.3. Evaluaciones Según Heurísticas](#633-evaluaciones-segun-heuristicas)  
+[6.4. Auditoría de Experiencias de Usuario](#64-auditoria-de-experiencias-de-usuario)  
+[6.4.1. Auditoría Realizada](#641-auditoria-realizada)  
+[6.4.1.1. Información del Grupo Auditado](#6411-informacion-del-grupo-auditado)  
+[6.4.1.2. Cronograma de Auditoría Realizada](#6412-cronograma-de-auditoria-realizada)  
+[6.4.1.3. Contenido de Auditoría Realizada](#6413-contenido-de-auditoria-realizada)  
+[6.4.2. Auditoría Recibida](#642-auditoria-recibida)  
+[6.4.2.1. Información del Grupo Auditor](#6421-informacion-del-grupo-auditor)  
+[6.4.2.2. Cronograma de Auditoría Recibida](#6422-cronograma-de-auditoria-recibida)  
+[6.4.2.3. Contenido de Auditoría Recibida](#6423-contenido-de-auditoria-recibida)  
+[6.4.2.4. Resumen de Modificaciones para Subsanar Hallazgos](#6424-resumen-de-modificaciones-para-subsanar-hallazgos)  
 
+[Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)  
+[7.1. Continuous Integration](#71-continuous-integration)  
+[7.1.1. Tools and Practices](#711-tools-and-practices)  
+[7.1.2. Build & Test Suite Pipeline Components](#712-build--test-suite-pipeline-components)  
+[7.2. Continuous Delivery](#72-continuous-delivery)  
+[7.2.1. Tools and Practices](#721-tools-and-practices)  
+[7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)  
+[7.3. Continuous Deployment](#73-continuous-deployment)  
+[7.3.1. Tools and Practices](#731-tools-and-practices)  
+[7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
+<!-- 
 [Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)  
 [7.1. Continuous Integration](#71-continuous-integration)  
 [7.1.1. Tools and Practices](#711-tools-and-practices)  
@@ -2254,6 +2265,63 @@ Se evidencia el video demostrando el prototipo pensado para PeaceApp, el cual co
 
 Enlace del video: https://www.youtube.com/watch?v=QHxKoa7xo-E
 
+# Capítulo VI: Product Verification & Validation
+
+## 6.1. Testing Suites & Validation
+
+### 6.1.1. Core Entities Unit Tests  
+### 6.1.2. Core Integration Tests  
+### 6.1.3. Core Behavior-Driven Development  
+### 6.1.4. Core System Tests  
+
+## 6.2. Static Testing & Verification
+
+### 6.2.1. Static Code Analysis
+
+#### 6.2.1.1. Coding Standard & Code Conventions  
+#### 6.2.1.2. Code Quality & Code Security  
+
+### 6.2.2. Reviews  
+
+## 6.3. Validation Interviews
+
+### 6.3.1. Diseño de Entrevistas  
+### 6.3.2. Registro de Entrevistas  
+### 6.3.3. Evaluaciones Según Heurísticas  
+
+## 6.4. Auditoría de Experiencias de Usuario
+
+### 6.4.1. Auditoría Realizada  
+
+#### 6.4.1.1. Información del Grupo Auditado  
+#### 6.4.1.2. Cronograma de Auditoría Realizada  
+#### 6.4.1.3. Contenido de Auditoría Realizada  
+
+### 6.4.2. Auditoría Recibida  
+
+#### 6.4.2.1. Información del Grupo Auditor  
+#### 6.4.2.2. Cronograma de Auditoría Recibida  
+#### 6.4.2.3. Contenido de Auditoría Recibida  
+#### 6.4.2.4. Resumen de Modificaciones para Subsanar Hallazgos  
+
+---
+
+# Capítulo VII: DevOps Practices
+
+## 7.1. Continuous Integration
+
+### 7.1.1. Tools and Practices  
+### 7.1.2. Build & Test Suite Pipeline Components  
+
+## 7.2. Continuous Delivery
+
+### 7.2.1. Tools and Practices  
+### 7.2.2. Stages Deployment Pipeline Components  
+
+## 7.3. Continuous Deployment
+
+### 7.3.1. Tools and Practices  
+### 7.3.2. Production Deployment Pipeline Components 
 
 ## VII. Bibliografía
 
