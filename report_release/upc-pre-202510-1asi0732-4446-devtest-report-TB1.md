@@ -2334,7 +2334,45 @@ Las herramientas y prácticas utilizadas para implementar Continuous Deployment 
 
 - **Github Organization:** para mantener actualizada nuestro reporte y documentación.
 
-### 7.3.2. Production Deployment Pipeline Components 
+## 7.3.2. Production Deployment Pipeline Components
+
+La **Production Deployment Pipeline** de nuestro proyecto está compuesta por varios componentes clave que aseguran un despliegue automático y continuo de la aplicación, desde el backend hasta el frontend y la base de datos. A continuación, se describen los componentes de la pipeline:
+
+### 1. **Backend (Node.js con MySQL)**
+
+El backend de nuestra aplicación está desarrollado en **Node.js**, con una base de datos **MySQL** alojada en **Azure**. La automatización del despliegue del backend se realiza mediante **Azure Web Services**, que se encargan de la integración continua. Cada vez que hay un nuevo commit en la rama principal del repositorio de **GitHub**.
+
+### 2. **Frontend (Angular)**
+
+El frontend está construido con **Angular**, y su despliegue se automatiza a través de **Vercel**. **Vercel** se integra con el repositorio de **GitHub**, y cada commit realizado en la rama principal activa un pipeline de CI/CD para desplegarlo automáticamente en el entorno de producción.
+
+### 3. **Base de Datos (Flexible Azure Database for MySQL)**
+
+La base de datos de nuestra aplicación está gestionada en **Azure Database for MySQL Servers**. Este servicio nos permite tener nuestra base de datos desplegada y unificada en el entorno de **Azure**.
+
+### 4. **App Móvil (Flutter)**
+
+La aplicación móvil está desarrollada con **Flutter**, lo que nos permite construir una sola base de código y distribuirla tanto en Android como en iOS. Utilizamos **Flutter** para crear los builds de la aplicación móvil, que luego se distribuyen a través de nuestra página web.
+
+### 5. **Repositorio y Documentación (GitHub)**
+
+Toda nuestra documentación y reportes de desarrollo se mantienen en un repositorio de **GitHub Organization**. Este repositorio está continuamente actualizado, lo que nos permite gestionar las versiones de la documentación y asegurarnos de que el equipo de desarrollo y los colaboradores siempre tengan acceso a la información más reciente sobre el proyecto.
+
+### Flujo de Despliegue
+
+1. **Desarrollo**: Los desarrolladores realizan cambios en el código, tanto en el backend (Node.js), frontend (Angular), como en la aplicación móvil (Flutter). Todos los cambios se hacen en la rama principal del repositorio de **GitHub**.
+
+2. **Integración Continua**: Una vez que un desarrollador hace un commit en la rama principal, **GitHub** notifica a los servicios correspondientes (Azure Web Services para el backend y Vercel para el frontend) para iniciar el proceso de integración y despliegue.
+
+3. **Despliegue del Backend**: **Azure Web Services** realiza el build del backend y lo despliega automáticamente en el servidor de producción.
+
+4. **Despliegue del Frontend**: **Vercel** construye el frontend y lo despliega en el entorno de producción, alineado con el backend ya desplegado.
+
+5. **Despliegue de la Base de Datos**: **Azure Database for MySQL** asegura que la base de datos esté correctamente configurada y sincronizada con las versiones del backend.
+
+6. **Despliegue de la App Móvil**: **Flutter** se encarga de la creación de builds para las plataformas móviles, que luego se distribuyen a través de la página web.
+
+7. **Documentación**: Cada nuevo despliegue y reporte es actualizado en **GitHub**, permitiendo a los miembros del equipo tener acceso a la última documentación y cambios del proyecto.
 
 ## VII. Bibliografía
 
