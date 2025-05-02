@@ -2320,7 +2320,20 @@ Enlace del video: https://www.youtube.com/watch?v=QHxKoa7xo-E
 
 ## 7.3. Continuous Deployment
 
-### 7.3.1. Tools and Practices  
+### 7.3.1. Tools and Practices 
+
+Las herramientas y prácticas utilizadas para implementar Continuous Deployment incluyen:
+
+- **Azure Web Services:** para la automatización del backend de acorde a los commits realizados en la rama principal del repositorio de github.
+
+- **Vercel:** para la automatización del despliegue del front, tambien estando alineado con la rama principal de nuestro repositorio.
+
+- **Flexible Azure Database for MySQL servers:** para tener nuestra base de datos desplegada y unificada en un servidor dentro del entorno de azure.
+
+- **Flutter:** usamos flutter para buildear la aplicación y distribuirla a traves de nuestra página web.
+
+- **Github Organization:** para mantener actualizada nuestro reporte y documentación.
+
 ### 7.3.2. Production Deployment Pipeline Components 
 
 ## VII. Bibliografía
