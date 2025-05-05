@@ -2270,39 +2270,21 @@ Enlace del video: https://www.youtube.com/watch?v=QHxKoa7xo-E
 ## 6.1. Testing Suites & Validation
 
 ### 6.1.1. Core Entities Unit Tests  
+
+A continuación haremos la elaboración de los tests a nuestra Landing Page, considerando nuestra secciones más importantes las cuales son las siguientes:
+
+- Home
+- Services
+- Plans 
+
+La herramienta a utilizar será Selenium IDE para poder desarrollar los tests en la Landing Page.
+
+<img src="../assets/core-entities/landing-page.png" alt="Core Entities"/>
+
+
 ### 6.1.2. Core Integration Tests  
 ### 6.1.3. Core Behavior-Driven Development  
 ### 6.1.4. Core System Tests  
-
-## 6.2. Static Testing & Verification
-
-### 6.2.1. Static Code Analysis
-
-#### 6.2.1.1. Coding Standard & Code Conventions  
-#### 6.2.1.2. Code Quality & Code Security  
-
-### 6.2.2. Reviews  
-
-## 6.3. Validation Interviews
-
-### 6.3.1. Diseño de Entrevistas  
-### 6.3.2. Registro de Entrevistas  
-### 6.3.3. Evaluaciones Según Heurísticas  
-
-## 6.4. Auditoría de Experiencias de Usuario
-
-### 6.4.1. Auditoría Realizada  
-
-#### 6.4.1.1. Información del Grupo Auditado  
-#### 6.4.1.2. Cronograma de Auditoría Realizada  
-#### 6.4.1.3. Contenido de Auditoría Realizada  
-
-### 6.4.2. Auditoría Recibida  
-
-#### 6.4.2.1. Información del Grupo Auditor  
-#### 6.4.2.2. Cronograma de Auditoría Recibida  
-#### 6.4.2.3. Contenido de Auditoría Recibida  
-#### 6.4.2.4. Resumen de Modificaciones para Subsanar Hallazgos  
 
 ---
 
@@ -2311,6 +2293,8 @@ Enlace del video: https://www.youtube.com/watch?v=QHxKoa7xo-E
 ## 7.1. Continuous Integration
 
 ### 7.1.1. Tools and Practices  
+
+
 ### 7.1.2. Build & Test Suite Pipeline Components  
 
 ## 7.2. Continuous Delivery
