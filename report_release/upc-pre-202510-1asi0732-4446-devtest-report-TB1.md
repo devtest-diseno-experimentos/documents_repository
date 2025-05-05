@@ -2294,6 +2294,8 @@ La herramienta a utilizar será Selenium IDE para poder desarrollar los tests en
 
 ### 7.1.1. Tools and Practices  
 
+La integración continua es un enfoque utilizado en el desarrollo de software en el cual los programadores integran sus modificaciones al código principal varias veces al día. Este proceso activa automáticamente una serie de compilaciones y pruebas que se completan de manera rápida. Su objetivo es garantizar un desarrollo eficiente y confiable, permitiendo que los equipos identifiquen y resuelvan rápidamente problemas relacionados con la compilación. En el ámbito competitivo, las empresas adoptan la integración continua para acelerar la implementación de nuevas funcionalidades, mejorar la corrección de errores y reducir los tiempos de lanzamiento de sus productos. Es esencial que todos los miembros del equipo se comprometan con esta práctica, tomando acción inmediata ante cualquier inconveniente que pueda surgir.
+
 
 ### 7.1.2. Build & Test Suite Pipeline Components  
 
