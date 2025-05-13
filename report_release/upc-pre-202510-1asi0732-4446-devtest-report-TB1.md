@@ -2308,6 +2308,14 @@ Se realizó un test automatizado para verificar el funcionamiento del CRUD del m
 ![MECHANIC CRUD](../assets/tests/Mechanic-crud.jpg)
 
 ### 6.1.3. Core Behavior-Driven Development  
+En el desarrollo de **Car2Go**, hemos implementado el enfoque de **Behavior-Driven Development (BDD)** para asegurar que los procesos clave de la plataforma, como la venta de autos, se alineen con las expectativas de los usuarios y los vendedores. Este enfoque nos permite definir claramente los comportamientos esperados a través de pruebas automatizadas. Para el proceso de venta de autos, el escenario de prueba se estructura con la técnica **Given-When-Then** de la siguiente manera:
+
+**Dado que** soy un vendedor registrado en **Car2Go**, he iniciado sesión en la plataforma y tengo acceso a mi cuenta de vendedor,  
+**Cuando** subo los detalles de un vehículo, incluyendo fotos, descripción, precio y especificaciones a través de la interfaz de usuario,  
+**Entonces** el sistema registra correctamente el auto en el inventario de vehículos disponibles, muestra la información en el sitio web de manera visible para los compradores y me notifica que la publicación se ha realizado correctamente.
+
+Este enfoque no solo clarifica las acciones y resultados esperados, sino que también facilita la automatización de las pruebas, asegurando que el proceso de venta de autos sea eficiente, libre de errores y consistente para todos los usuarios de la plataforma.
+
 ### 6.1.4. Core System Tests  
 
 Para realizar los Core System tests, se ha seleccionado usar la herramienta
