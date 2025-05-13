@@ -2329,6 +2329,29 @@ La integración continua es un enfoque utilizado en el desarrollo de software en
 ### 7.2.1. Tools and Practices  
 ### 7.2.2. Stages Deployment Pipeline Components  
 
+- Test Stage
+  - Marco de pruebas unitarias: Mockito
+  - Pruebas de integración: Mockito
+  - Pruebas de aceptación automatizadas:Selenium
+
+- Staging Environment:
+  - Orquestación de contenedores: Docker, Kubernetes 
+  - Aprovisionamiento de servidores: MySql
+
+- Deployment Stage:
+  - Herramientas de despliegue continuo: GitHub CI/CD
+
+- Release Stage:
+  - Herramientas de monitoreo y registro: New Relic.
+- Rollback and Recovery:
+  - Copias de seguridad y restauración: MySql 
+  - Gestión de versiones de código: Git.
+ 
+- Release Management:
+  - Herramientas de gestión de versiones: Git, GitHub.
+
+
+
 ## 7.3. Continuous Deployment
 
 ### 7.3.1. Tools and Practices 
