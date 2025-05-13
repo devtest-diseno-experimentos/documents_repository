@@ -2285,8 +2285,30 @@ La herramienta a utilizar será Selenium IDE para poder desarrollar los tests en
 ### 6.1.2. Core Integration Tests  
 <img src="../assets/tests/TestLandingPage.png" alt="Test landing page"/>
 
+- Seller CRUD
+
+<img src="../assets/tests/Seller-crud.jpg" alt="SELLER CRUD"/>
+
+- Buyer CRUD
+
+<img src="../assets/tests/Buyer-crud.jpg" alt="BUYER CRUD"/>
+
+
+- Mechanic CRUD
+
+<img src="../assets/tests/Mechanic-crud.jpg" alt="MECHANIC CRUD"/>
+
 ### 6.1.3. Core Behavior-Driven Development  
 ### 6.1.4. Core System Tests  
+
+Para realizar los Core System tests, se ha seleccionado usar la herramienta
+“Lighthouse” en el cual se han realizado evaluaciones para nuestra Landing Page
+desplegada, las evaluaciones ejecutadas, se centran en el rendimiento principal de
+nuestra Landing Page, accesibilidad y uso, a continuación se muestran mejores
+detalles.
+
+
+<img src="../assets/core-system-tests/core-system-tests.png" alt="Test landing page"/>
 
 ---
 
