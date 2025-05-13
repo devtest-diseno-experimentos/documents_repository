@@ -2283,20 +2283,29 @@ La herramienta a utilizar será Selenium IDE para poder desarrollar los tests en
 
 
 ### 6.1.2. Core Integration Tests  
+- Landing Page test
+Se realizó un test automatizado utilizando Selenium WebDriver para verificar el correcto funcionamiento de la landing page. El objetivo del test fue asegurarse de que los elementos clave de la página, como el título principal y los botones de acción, se cargaran correctamente y fueran interactivos, garantizando una experiencia de usuario óptima.
+
 <img src="../assets/tests/TestLandingPage.png" alt="Test landing page"/>
 
-- Seller CRUD
+### Seller CRUD
+Se realizó un test automatizado para verificar el funcionamiento del CRUD del vendedor, asegurando que el proceso de crear, leer, actualizar y eliminar los registros de los vehículos se realice correctamente. El test abarcó la funcionalidad de un vendedor que sube sus carros, editando la información y eliminando entradas, todo esto con el objetivo de garantizar que la plataforma maneje los datos de manera eficiente y sin errores.
 
-<img src="../assets/tests/Seller-crud.jpg" alt="SELLER CRUD"/>
+![SELLER CRUD](../assets/tests/Seller-crud.jpg)
 
-- Buyer CRUD
+---
 
-<img src="../assets/tests/Buyer-crud.jpg" alt="BUYER CRUD"/>
+### Buyer CRUD
+Se realizó un test automatizado para validar el correcto funcionamiento del CRUD del comprador, asegurando que los usuarios puedan registrar, visualizar, actualizar y eliminar su información sin inconvenientes. Este test garantizó que los compradores puedan interactuar con la plataforma de forma fluida, facilitando procesos como la gestión de sus datos personales y preferencias de compra.
 
+![BUYER CRUD](../assets/tests/Buyer-crud.jpg)
 
-- Mechanic CRUD
+---
 
-<img src="../assets/tests/Mechanic-crud.jpg" alt="MECHANIC CRUD"/>
+### Mechanic CRUD
+Se realizó un test automatizado para verificar el funcionamiento del CRUD del mecánico, asegurando que los mecánicos puedan registrar, actualizar, visualizar y eliminar sus datos de manera eficiente. Este test validó que la plataforma permita a los mecánicos gestionar su información correctamente, facilitando la administración de sus servicios y disponibilidad.
+
+![MECHANIC CRUD](../assets/tests/Mechanic-crud.jpg)
 
 ### 6.1.3. Core Behavior-Driven Development  
 ### 6.1.4. Core System Tests  
