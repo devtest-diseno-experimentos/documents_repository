@@ -2344,6 +2344,10 @@ La integración continua es un enfoque utilizado en el desarrollo de software en
 ## 7.2. Continuous Delivery
 
 ### 7.2.1. Tools and Practices  
+La **integración continua** es una estrategia en el desarrollo de software la cual los desarrolladores utilizan para fusionar sus cambios de código con la rama **main** muchas veces al día. Esto desencadena una secuencia automatizada de **compilación** y **pruebas** que se completa de manera muy rápida. Este enfoque busca asegurar un proceso de desarrollo **predecible** y **confiable**, con equipos capaces de detectar y solucionar rápidamente cualquier problema de compilación. 
+
+En la competencia tecnológica, las empresas utilizan la integración continua para agilizar la introducción de nuevas características, acelerar la corrección de errores y reducir el tiempo de lanzamiento al mercado de sus productos. Es crucial que todos los desarrolladores involucrados en el proyecto se comprometan con esta práctica, tomando medidas inmediatas para solucionar cualquier inconveniente que surja.
+
 ### 7.2.2. Stages Deployment Pipeline Components  
 
 - Test Stage
