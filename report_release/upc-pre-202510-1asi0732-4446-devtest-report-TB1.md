@@ -1508,7 +1508,6 @@ Hero altero 2:
 ### 4.4.1. Mobile Applications Wireframes
 
 ### Vistas de autenticación
-<img src="../assets/mobile-style/mobile-wireframes-2.png" alt="wireframes2" style="margin-bottom: 5px;" height="500" />
 <img src="../assets/mobile-style/mobile-wireframes-2.png" alt="wireframes3" style="margin-bottom: 5px;" height="500"/>
 
 ### Vista del mecánico
@@ -2154,112 +2153,20 @@ Link de la landing page desplegada: [Car2Go](https://devtest-diseno-experimentos
 
 ###  5.2. Product Implementation & Deployment.
 
-#### 5.2.1. Sprint Backlogs  
+### 5.2.1. Sprint Backlogs
 
-#### 5.2.1.1. Sprint Planning 1
- <div>
-
-| Sprint 1                        | Implementación de funcionalidades y diseño de la aplicación.                                                                                                                                 |
-|---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Sprint Planning Background      |
-| Date                            | 20/04/2025                                                                                                                                                                                   |
-| Time                            | 22:00 horas (GMT-5)                                                                                                                                                                          |
-| Location                        | Reunión realizada mediante Discord                                                                                                                                                           |
-| Prepared By                     | Barrionuevo Reto, Jean Franco                                                                                                                                                                |
-| Attendees (to planning meeting) | <li>Aguilar, Rodrigo</li> <li>Barrionuevo Reto, Jean Franco</li> <li>Kunimoto, Mathias</li> <li>Luna, Italo</li> <li>Pin, Augusto</li> |
-| Sprint  -1 Review               |
-| Resumen                         | No hubo sprint anterior.                                                                                                                                                                     |
-| Sprint  1 Retrospective         |
-| Resumen                         | Se implementará la versión mobile de Car2Go.                                                                                                                 |
-
-</div>
-
-<table border="1px" align="center"> 
-   <tr>
-      <th colspan="4"> Sprint # </th>
-      <th colspan="7"> Sprint 1 </th>
-   </tr>
-   <tr>
-     <th colspan="4"> User Story </th>
-     <th colspan="7"> Work-Item / Task</th>
-   </tr>
-   <tr>
-     <th> Id </th>
-     <th colspan="3"> Title </th>
-     <th> Id </th>
-     <th> Title </th>
-     <th> Description </th>
-     <th> Estimation (Hours) </th>
-     <th> Assigned To </th> 
-     <th> Status (To-do / In-Process / To- Review / Done) </th>
-   </tr>
-   <tr>
-      <td> US-01 </td>
-      <td colspan="3">Registro de Usuario</td>
-      <td> TW-01 </td>
-      <td>Crear pantalla de registro</td>
-      <td>Crear la pantalla de registro con validaciones de correo y contraseña.</td>
-      <td> 6 </td>
-      <td> Mathias Kunimoto </td> 
-      <td> Done </td>
-   </tr>
-   <tr>
-      <td> US-01 </td>
-      <td colspan="3">Registro de Usuario</td>
-      <td> TW-02 </td>
-      <td>Estilizar pantalla de registro</td>
-      <td>Mejorar el diseño responsivo del formulario de registro.</td>
-      <td> 4 </td>
-      <td> Italo Luna </td> 
-      <td> Done </td>
-   </tr>
-   <tr>
-      <td> US-03 </td>
-      <td colspan="3">Listado de Autos</td>
-      <td> TW-03 </td>
-      <td>Crear pantalla "Mis Carros"</td>
-      <td>Implementar la sección donde el usuario ve los autos publicados y opción de añadir uno nuevo.</td>
-      <td> 5 </td>
-      <td> Rodrigo Aguilar </td> 
-      <td> Done </td>
-   </tr>
-   <tr>
-      <td> US-03 </td>
-      <td colspan="3">Listado de Autos</td>
-      <td> TW-04 </td>
-      <td>Crear formulario de publicación de auto</td>
-      <td>Desarrollar formulario para registrar un auto (marca, modelo, precio, fotos).</td>
-      <td> 7 </td>
-      <td> Augusto Pin </td> 
-      <td> Done </td>
-   </tr>
-   <tr>
-      <td> US-38 </td>
-      <td colspan="3">Aprobación o Rechazo de Auto</td>
-      <td> TW-05 </td>
-      <td>Crear pantalla de autos por evaluar</td>
-      <td>Implementar pantalla para listar autos pendientes de evaluación.</td>
-      <td> 6 </td>
-      <td> Jean Franco Barrionuevo </td> 
-      <td> Done </td>
-   </tr>
-   <tr>
-      <td> US-38 </td>
-      <td colspan="3">Aprobación o Rechazo de Auto</td>
-      <td> TW-06 </td>
-      <td>Crear pantalla de revisión técnica</td>
-      <td>Implementar la pantalla de detalle para revisar datos e imágenes y aprobar/rechazar autos.</td>
-      <td> 6 </td>
-      <td> Mathias Kunimoto </td> 
-      <td> Done </td>
-   </tr>
-</table>
-
-
-## Tablero del Sprint 1 
-<img src="../assets/sprints-product/trello-productB1.png" alt="Trello" style="margin-bottom: 5px;" height="500"/>
-
-#### URL: [Ver Trello](https://trello.com/b/YMHhlUzX/car2go)
+| ID     | Título                                       | Descripción breve                                                  | Horas | Asignado                  | Estado |
+|--------|----------------------------------------------|----------------------------------------------------------------------|-------|----------------------------|--------|
+| TW-01  | Pantalla de registro                         | UI de registro con validaciones.                                    | 6     | Mathias Kunimoto           | Done   |
+| TW-02  | Estilos de registro                          | Diseño responsivo para el formulario.                               | 4     | Italo Luna                 | Done   |
+| TW-03  | Pantalla "Mis Carros"                        | Lista de autos publicados con navegación.                           | 5     | Jean Franco Barrionuevo    | Done   |
+| TW-04  | Formulario de publicación de auto            | Formulario con campos y subida de imágenes.                         | 7     | Augusto Pin                | Done   |
+| TW-05  | Pantalla de autos por evaluar                | Lista de autos pendientes desde el backend.                         | 6     | Sebastián Ramírez Méndez   | Done   |
+| TW-06  | Pantalla de revisión técnica                 | Detalle del auto con botones de aprobación/rechazo.                 | 6     | Italo Luna                 | Done   |
+| TW-07  | Corrección backend Analytics                 | Fixes en lógica y endpoints del módulo Analytics.                   | 3     | Rodrigo Aguilar            | Done   |
+| TW-08  | Tests unitarios                              | Pruebas a métodos y servicios backend/web.                          | 4     | Rodrigo Aguilar            | Done   |
+| TW-09  | Tests de integración                         | Validación entre capas backend, DB y app.                           | 4     | Rodrigo Aguilar            | Done   |
+| TW-10  | Tests funcionales                            | Flujo completo probado en app Flutter, web y backend.               | 5     | Rodrigo Aguilar            | Done   |
 
 #### 5.2.2. Implemented Landing Page Evidence  
 
