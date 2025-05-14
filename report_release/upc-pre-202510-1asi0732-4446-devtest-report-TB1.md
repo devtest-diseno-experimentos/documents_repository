@@ -1523,7 +1523,7 @@ Hero altero 2:
 <img src="../assets/mobile-style/mobile-wireframes-9.png" alt="wireframes9"  />
 <img src="../assets/mobile-style/mobile-wireframes-10.png" alt="wireframes10"  />
 
-Enlace: https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Car2go---Design?node-id=952-568&t=PFZZj4XEY1XrREfx-1
+#### URL: [Enlace del Figma](https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Car2go---Design?node-id=952-568&t=PFZZj4XEY1XrREfx-1)
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams
 ![alt text](../assets/mobile-wireflow-diagrams/wireflow-mobile-diagram.png)
@@ -1628,7 +1628,7 @@ Enlace: https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Car2go---Design?node
 <img src="../assets/mobile-style/mobile-mockup-9.png" alt="mockup9"  />
 <img src="../assets/mobile-style/mobile-mockup-10.png" alt="mockup10"  />
 
-Enlace: https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Car2go---Design?node-id=952-568&t=PFZZj4XEY1XrREfx-1
+#### URL: [Enlace del Figma](https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Car2go---Design?node-id=952-568&t=PFZZj4XEY1XrREfx-1)
 
 ### 4.4.4. Mobile Applications User Flow Diagrams
 
@@ -1719,12 +1719,12 @@ Enlace: https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Car2go---Design?node
 ### 4.5.1. Android Mobile Applications Prototyping
 ![Android-Mobile-Applications](../assets/mobile-style/prootyping-mobile.png)
 
-[Enlace del prototipo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213375_upc_edu_pe/EWKwHgVOkcxBgf4WoCea5TQB9I0LfIdJ2PYJ6wXLiZQfrw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0rpAIm)
+#### URL: [Enlace del prototipo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213375_upc_edu_pe/EWKwHgVOkcxBgf4WoCea5TQB9I0LfIdJ2PYJ6wXLiZQfrw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0rpAIm)
 
 ### 4.5.2. iOS Mobile Applications Prototyping
 ![Android-Mobile-Applications](../assets/mobile-style/prootyping-mobile.png)
 
-[Enlace del prototipo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213375_upc_edu_pe/EWKwHgVOkcxBgf4WoCea5TQB9I0LfIdJ2PYJ6wXLiZQfrw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0rpAIm)
+#### URL: [Enlace del prototipo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213375_upc_edu_pe/EWKwHgVOkcxBgf4WoCea5TQB9I0LfIdJ2PYJ6wXLiZQfrw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0rpAIm)
 
 
 ## 4.6. Web Applications UX/UI Design.
@@ -2257,7 +2257,7 @@ Link de la landing page desplegada: [Car2Go](https://devtest-diseno-experimentos
 ## Tablero del Sprint 1 
 ![alt text](../assets/sprints-product/trello-productB1.png)
 
-### URL: [Ver Trello](https://trello.com/b/YMHhlUzX/car2go)
+#### URL: [Ver Trello](https://trello.com/b/YMHhlUzX/car2go)
 
 #### 5.2.2. Implemented Landing Page Evidence  
 
