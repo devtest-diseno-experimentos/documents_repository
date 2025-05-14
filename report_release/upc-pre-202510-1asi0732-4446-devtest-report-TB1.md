@@ -2341,9 +2341,18 @@ detalles.
 
 ## 7.2. Continuous Delivery
 
+Su objetivo es el de automatizar la integración y pruebas del código, manteniendo todo listo para un despliegue cuando sea necesario.
 
+### 7.2.1. Tools and Practices
 
-### 7.2.1. Tools and Practices  
+- **Tools:**
+
+  - **Git y GitHub:** Se utilizó Git como sistema de control de versiones, y GitHub como plataforma de hospedaje del repositorio. Esto permitió una gestión eficiente del código, colaboración en equipo y control de cambios mediante pull requests.
+
+  - **Azure DevOps:** Se utilizó para definir y ejecutar pipelines de integración continua y entrega continua (CI/CD). Esto permitió automatizar pruebas, builds y despliegues, asegurando un flujo de trabajo confiable desde el desarrollo hasta producción.
+
+  - **Trello:** Se usa para gestionar el proceso de aprobación del despliegue. Puedes configurar un sistema donde, después de la validación del pipeline, un administrador o gerente de proyecto debe revisar y aprobar el despliegue a producción.
+
 
 
 
