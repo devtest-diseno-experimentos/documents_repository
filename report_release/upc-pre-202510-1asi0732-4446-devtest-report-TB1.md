@@ -2307,8 +2307,6 @@ Estadisticas de revisiones:
 
 #### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
-Link del Swagger UI: https://car2go-platform-hpdzhtb8ekceg9gd.canadacentral-01.azurewebsites.net/swagger-ui/index.html
-
 A continuación, se muestran algunas capturas de pantalla en secuencia de cómo fue el paso a paso en el despliegue.
 
 <img src="../assets/deployment/step-1.png" alt="Deployment"/>
@@ -2317,7 +2315,7 @@ A continuación, se muestran algunas capturas de pantalla en secuencia de cómo 
 
 <img src="../assets/restful-api/restful-api-documentation.png" alt="RESTful API"/>
 
-
+#### URL: [Enlace del Swagger](https://car2go-platform-hpdzhtb8ekceg9gd.canadacentral-01.azurewebsites.net/swagger-ui/index.html)
 
 #### 5.2.6. RESTful API documentation
 
@@ -2332,7 +2330,7 @@ Se realizaron las funcionalidades correspondientes en cada rama principal del fe
 ## 5.3. Video About-the-Product
 Se evidencia el video demostrando el prototipo pensado para PeaceApp, el cual contendrá las diferentes funcionalidades avanzadas hasta el momento.
 
-Enlace del video: https://www.youtube.com/watch?v=QHxKoa7xo-E
+#### URL: [Enlace del video](https://www.youtube.com/watch?v=QHxKoa7xo-E)
 
 # Capítulo VI: Product Verification & Validation
 
