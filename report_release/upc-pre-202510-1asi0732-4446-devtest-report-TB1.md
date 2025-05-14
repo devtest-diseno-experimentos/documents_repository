@@ -2353,8 +2353,14 @@ Su objetivo es el de automatizar la integración y pruebas del código, mantenie
 
   - **Trello:** Se usa para gestionar el proceso de aprobación del despliegue. Puedes configurar un sistema donde, después de la validación del pipeline, un administrador o gerente de proyecto debe revisar y aprobar el despliegue a producción.
 
+- **Practices (Prácticas):**
 
+  - **Estrategia de Ramas:** Se trabajó con una rama principal (main) y ramas separadas para cada funcionalidad (feature). Las ramas eran revisadas y luego fusionadas mediante pull requests, asegurando calidad del código y reducción de errores.
 
+  - **Integración Continua (CI):** Las pruebas automatizadas se ejecutaban automáticamente al hacer push a cualquier rama o al generar un pull request, asegurando que el nuevo código no rompiera funcionalidades existentes.
+  - **Aprobación Manual:** Antes de hacer el despliegue en producción, el pipeline puede requerir que un responsable del proyecto revise los resultados de las pruebas y apruebe el despliegue. Esto reduce el riesgo de lanzar código no deseado en producción.
+
+  - **Rollback Manual:** Aunque el pipeline puede estar configurado para realizar rollbacks automáticos en caso de errores graves, en Continuous Delivery, los rollbacks suelen ser manuales y controlados por el equipo de operaciones o desarrollo.
 
 ### 7.2.2. Stages Deployment Pipeline Components  
 
