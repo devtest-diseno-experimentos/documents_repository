@@ -2270,7 +2270,7 @@ La herramienta a utilizar será Selenium IDE para poder desarrollar los tests en
 ### 6.1.2. Core Integration Tests  
 ###  Landing Page test
 
-Se realizó un test automatizado utilizando Selenium WebDriver para verificar el correcto funcionamiento de la landing page. El objetivo del test fue asegurarse de que los elementos clave de la página, como el título principal y los botones de acción, se cargaran correctamente y fueran interactivos, garantizando una experiencia de usuario óptima.
+Se realizó un test automatizado utilizando Selenium IDE para verificar el correcto funcionamiento de la landing page. El objetivo del test fue asegurarse de que los elementos clave de la página, como el título principal y los botones de acción, se cargaran correctamente y fueran interactivos, garantizando una experiencia de usuario óptima.
 
 <img src="../assets/tests/TestLandingPage.png" alt="Test landing page"/>
 
