@@ -301,11 +301,11 @@ Visión: Ser la plataforma líder a nivel nacional en el comercio de vehículos 
 
 |                                                                                                                                | Miembros del equipo | Código Estudiante | Carrera                | Conocimientos / Habilidades                                                                                                                                                                                                                                        |
 |--------------------------------------------------------------------------------------------------------------------------------|--------------------|-------------------|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <img src="../assets/photos-members/Mathias-Kunimoto.jpg" alt="Mathias Kunimoto" style="margin-bottom: 5px;" width="400"/>      | Mathias Kunimoto | u202210148        | Ingeniería de software | Tengo experiencia en el desarrollo frontend, trabajando con tecnologías como Tailwind CSS, React y JavaScript. Me considero una persona sociable, organizada y con gran capacidad de adaptación, lo que me permite integrarme fácilmente en equipos de trabajo y aportar al cumplimiento de los objetivos. Siempre busco sacar mi mayor potencial, aprendiendo constantemente y contribuyendo con una actitud proactiva y comprometida. |
-| <img src="../assets/photos-members/Augusto-Pin.jpeg" alt="Augusto Pin" style="margin-bottom: 5px;" width="400"/>               | Augusto Pin | u202210257        | Ingeniería de software | Me considero una persona responsable y determinada a cumplir metas, dispuesto a aprender y a practicar en el mundo de la programacion, tengo experiencia desarrollando frontend, usando tailwind y como principal framework VueJs, siempre busco aprender y desarrollarme más como programador para ser mejor. |
-| <img src="../assets/photos-members/Rodrigo-Aguilar.png" alt="Rodrigo Aguilar" style="margin-bottom: 5px;" width="400"/>        | Rodrigo Aguilar | u202210584        | Ingeniería de software |  Me apasiona la tecnología y los dispositivos electrónicos, y disfruto especialmente programar, lo cual se ha convertido en uno de mis principales pasatiempos. Siempre estoy buscando aprender nuevas herramientas y mejorar mis habilidades en el desarrollo de software. |
-| <img src="../assets/photos-members/italo-luna.png" alt="Italo Luna" style="margin-bottom: 5px;" width="400"/>        | Italo Luna | u202213375        | Ingeniería de software |  Soy estudiante de Ingeniería de Software con perfil Full Stack, y experiencia en desarrollo frontend y backend. Manejo tecnologías como Vue.js, Angular, Flutter, Tailwind CSS, y del lado del backend Node.js, Spring Boot, Ruby on Rails, Python y C++, además de bases de datos SQL y NoSQL. Tengo un buen manejo de Git para control de versiones y colaboración en equipo. |
-| <img src="../assets/photos-members/Franco-Barrionuevo.jpeg" alt="Franco Barrionuevo" style="margin-bottom: 5px;" width="400"/> | Franco Barrionuevo | u202219284        | Ingeniería de software | Soy una persona responsable y comprometida con mis tareas. Me gusta aprender cosas nuevas y siempre busco mejorar mis habilidades. Tengo experiencia en el desarrollo frontend, utilizando tecnologías como React y Tailwind CSS. |
+| <img src="../assets/photos-members/Mathias-Kunimoto.jpg" alt="Mathias Kunimoto"  />      | Mathias Kunimoto | u202210148        | Ingeniería de software | Tengo experiencia en el desarrollo frontend, trabajando con tecnologías como Tailwind CSS, React y JavaScript. Me considero una persona sociable, organizada y con gran capacidad de adaptación, lo que me permite integrarme fácilmente en equipos de trabajo y aportar al cumplimiento de los objetivos. Siempre busco sacar mi mayor potencial, aprendiendo constantemente y contribuyendo con una actitud proactiva y comprometida. |
+| <img src="../assets/photos-members/Augusto-Pin.jpeg" alt="Augusto Pin"  />               | Augusto Pin | u202210257        | Ingeniería de software | Me considero una persona responsable y determinada a cumplir metas, dispuesto a aprender y a practicar en el mundo de la programacion, tengo experiencia desarrollando frontend, usando tailwind y como principal framework VueJs, siempre busco aprender y desarrollarme más como programador para ser mejor. |
+| <img src="../assets/photos-members/Rodrigo-Aguilar.png" alt="Rodrigo Aguilar"  />        | Rodrigo Aguilar | u202210584        | Ingeniería de software |  Me apasiona la tecnología y los dispositivos electrónicos, y disfruto especialmente programar, lo cual se ha convertido en uno de mis principales pasatiempos. Siempre estoy buscando aprender nuevas herramientas y mejorar mis habilidades en el desarrollo de software. |
+| <img src="../assets/photos-members/italo-luna.png" alt="Italo Luna"  />        | Italo Luna | u202213375        | Ingeniería de software |  Soy estudiante de Ingeniería de Software con perfil Full Stack, y experiencia en desarrollo frontend y backend. Manejo tecnologías como Vue.js, Angular, Flutter, Tailwind CSS, y del lado del backend Node.js, Spring Boot, Ruby on Rails, Python y C++, además de bases de datos SQL y NoSQL. Tengo un buen manejo de Git para control de versiones y colaboración en equipo. |
+| <img src="../assets/photos-members/Franco-Barrionuevo.jpeg" alt="Franco Barrionuevo"  /> | Franco Barrionuevo | u202219284        | Ingeniería de software | Soy una persona responsable y comprometida con mis tareas. Me gusta aprender cosas nuevas y siempre busco mejorar mis habilidades. Tengo experiencia en el desarrollo frontend, utilizando tecnologías como React y Tailwind CSS. |
 
 ## 1.2. Solution Profile
 
@@ -1316,20 +1316,20 @@ En esta sección, se presenta el Impact Mapping para Car2Go, diseñado para alca
 ### Segmento objetivo: Compradores de Autos Usados
 
 #### Impact mapping 1:
-<img src="../assets/impact-mapping/impact-mapping-seg-1.png" alt="impact-mapping-1" style="margin-bottom: 5px;"/>
+<img src="../assets/impact-mapping/impact-mapping-seg-1.png" alt="impact-mapping-1"  />
 <br/>
 Imagen. Elaboración propia. Realizado en UXPRESSIA
 
 ### Segmento objetivo: Vendedores de Autos Usados
 #### Impact mapping 2:
-<img src="../assets/impact-mapping/impact-mapping-seg-2.png" alt="impact-mapping-2" style="margin-bottom: 5px;"/>
+<img src="../assets/impact-mapping/impact-mapping-seg-2.png" alt="impact-mapping-2"  />
 <br/>
 Imagen. Elaboración propia. Realizado en UXPRESSIA
 
 
 ### Segmento objetivo: Talleres Técnicos
 #### Impact mapping 3:
-<img src="../assets/impact-mapping/impact-mapping-seg-3.png" alt="impact-mapping-2" style="margin-bottom: 5px;"/>
+<img src="../assets/impact-mapping/impact-mapping-seg-3.png" alt="impact-mapping-2"  />
 <br/>
 Imagen. Elaboración propia. Realizado en UXPRESSIA
 
@@ -1347,7 +1347,7 @@ Imagen. Elaboración propia. Realizado en UXPRESSIA
 <!-- To-do -->
 
 * Logo representativo de Car2Go
-<img src="../assets/branding/logo.png" alt="branding" style="margin-bottom: 5px;"/>
+<img src="../assets/branding/logo.png" alt="branding"  />
 
 **Typography:**
 
@@ -1423,11 +1423,11 @@ _Breackpoints_
 * Y los que usaremos en el proyecto principalmente son los de 768px y 1024px, ya que son los más comunes en los dispositivos móviles y de escritorio.
 
 ### 4.1.3. Mobile Style Guidelines
-<img src="../assets/mobile-style/mobile-guidelines.png" alt="landing wireframe" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/mobile-guidelines.png" alt="landing wireframe"  />
 
 #### 4.1.3.1. iOS and Android Mobile Style Guidelines
 
-<img src="../assets/mobile-style/ios-style-guidelines.png" alt="landing wireframe" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/ios-style-guidelines.png" alt="landing wireframe"  />
 
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems
@@ -1486,47 +1486,47 @@ Por otro lado, se agregará la paginación en la parte inferior de la cuadrícul
 
 ### 4.3.1. Lading Page Wireframe
 
-<img src="../assets/wireframes-mockups/landing-wireframe.png" alt="landing wireframe" style="margin-bottom: 5px;"/>
+<img src="../assets/wireframes-mockups/landing-wireframe.png" alt="landing wireframe"  />
 
 Hero altero 1:
 
-<img src="../assets/wireframes-mockups/landing-wireframe-hero2.png" alt="landing wireframe" style="margin-bottom: 5px;"/>
+<img src="../assets/wireframes-mockups/landing-wireframe-hero2.png" alt="landing wireframe"  />
 
 Hero altero 2:
 
-<img src="../assets/wireframes-mockups/landing-wireframe-hero3.png" alt="landing wireframe" style="margin-bottom: 5px;"/>
+<img src="../assets/wireframes-mockups/landing-wireframe-hero3.png" alt="landing wireframe"  />
 
 ### 4.3.2. Lading Page Mock-up
 
-<img src="../assets/wireframes-mockups/landing-mock-up.png" alt="landing wireframe" style="margin-bottom: 5px;"/>
+<img src="../assets/wireframes-mockups/landing-mock-up.png" alt="landing wireframe"  />
 
 Hero altero 1:
 
-<img src="../assets/wireframes-mockups/landing-mock-up-hero2.png" alt="landing wireframe" style="margin-bottom: 5px;"/>
+<img src="../assets/wireframes-mockups/landing-mock-up-hero2.png" alt="landing wireframe"  />
 
 Hero altero 2:
 
-<img src="../assets/wireframes-mockups/landing-mock-up-hero3.png" alt="landing wireframe" style="margin-bottom: 5px;"/>
+<img src="../assets/wireframes-mockups/landing-mock-up-hero3.png" alt="landing wireframe"  />
 
 ## 4.4. Mobile Applications UX/UI Design
-<!-- To-do -->
+
 ### 4.4.1. Mobile Applications Wireframes
 
 ### Vistas de autenticación
-<img src="../assets/mobile-style/mobile-wireframes-1.png" alt="wireframes1" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-wireframes-2.png" alt="wireframes2" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-wireframes-2.png" alt="wireframes3" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/mobile-wireframes-1.png" alt="wireframes1"  />
+<img src="../assets/mobile-style/mobile-wireframes-2.png" alt="wireframes2"  />
+<img src="../assets/mobile-style/mobile-wireframes-2.png" alt="wireframes3"  />
 
 ### Vista del mecánico
-<img src="../assets/mobile-style/mobile-wireframes-4.png" alt="wireframes4" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-wireframes-5.png" alt="wireframes5" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-wireframes-6.png" alt="wireframes6" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-wireframes-7.png" alt="wireframes7" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/mobile-wireframes-4.png" alt="wireframes4"  />
+<img src="../assets/mobile-style/mobile-wireframes-5.png" alt="wireframes5"  />
+<img src="../assets/mobile-style/mobile-wireframes-6.png" alt="wireframes6"  />
+<img src="../assets/mobile-style/mobile-wireframes-7.png" alt="wireframes7"  />
 
 ### Vista del comprador
-<img src="../assets/mobile-style/mobile-wireframes-8.png" alt="wireframes7" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-wireframes-9.png" alt="wireframes9" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-wireframes-10.png" alt="wireframes10" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/mobile-wireframes-8.png" alt="wireframes7"  />
+<img src="../assets/mobile-style/mobile-wireframes-9.png" alt="wireframes9"  />
+<img src="../assets/mobile-style/mobile-wireframes-10.png" alt="wireframes10"  />
 
 Enlace: https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Car2go---Design?node-id=952-568&t=PFZZj4XEY1XrREfx-1
 
@@ -1618,20 +1618,20 @@ Enlace: https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Car2go---Design?node
 
 ### 4.4.3. Mobile Applications Mock-ups
 ### Vistas de autenticación
-<img src="../assets/mobile-style/mobile-mockup-1.png" alt="mockup1" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-mockup-2.png" alt="mockup2" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-mockup-2.png" alt="mockup3" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/mobile-mockup-1.png" alt="mockup1"  />
+<img src="../assets/mobile-style/mobile-mockup-2.png" alt="mockup2"  />
+<img src="../assets/mobile-style/mobile-mockup-2.png" alt="mockup3"  />
 
 ### Vista del mecánico
-<img src="../assets/mobile-style/mobile-mockup-4.png" alt="mockup4" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-mockup-5.png" alt="mockup5" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-mockup-6.png" alt="mockup6" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-mockup-7.png" alt="mockup7" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/mobile-mockup-4.png" alt="mockup4"  />
+<img src="../assets/mobile-style/mobile-mockup-5.png" alt="mockup5"  />
+<img src="../assets/mobile-style/mobile-mockup-6.png" alt="mockup6"  />
+<img src="../assets/mobile-style/mobile-mockup-7.png" alt="mockup7"  />
 
 ### Vista del comprador
-<img src="../assets/mobile-style/mobile-mockup-8.png" alt="mockup7" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-mockup-9.png" alt="mockup9" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-mockup-10.png" alt="mockup10" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/mobile-mockup-8.png" alt="mockup7"  />
+<img src="../assets/mobile-style/mobile-mockup-9.png" alt="mockup9"  />
+<img src="../assets/mobile-style/mobile-mockup-10.png" alt="mockup10"  />
 
 Enlace: https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Car2go---Design?node-id=952-568&t=PFZZj4XEY1XrREfx-1
 
@@ -1862,13 +1862,13 @@ El Domain Driven Design (DDD) tiene como objetivo llegar a un entendimiento comp
 
 El diagrama de contexto muestra una vista de alto nivel de las relaciones entre el sistema de software Car2Go, los usuarios y, si es el caso, de otros sistemas externos.
 
-<img src="../assets/architecture-diagram/context-diagram.png" alt="diagram" style="margin-bottom: 5px;"/>
+<img src="../assets/architecture-diagram/context-diagram.png" alt="diagram"  />
 
 ### 4.8.2. Software Architecture Container Diagrams
 
 El diagrama de contenedores muestra una vista de alto nivel de las relaciones entre las aplicaciones y fuentes de datos que son parte de la ejecución del sistema de software Car2Go.
 
-<img src="../assets/architecture-diagram/containers-diagram.png" alt="diagram" style="margin-bottom: 5px;"/>
+<img src="../assets/architecture-diagram/containers-diagram.png" alt="diagram"  />
 
 ### 4.8.3. Software Architecture Components Diagrams
 
@@ -1876,19 +1876,19 @@ Los diagramas de componentes muestran una vista de las relaciones de los compone
 
 - Authentication Bounded Context
 
-<img src="../assets/architecture-diagram/authentication-component-diagram.png" alt="diagram" style="margin-bottom: 5px;"/>
+<img src="../assets/architecture-diagram/authentication-component-diagram.png" alt="diagram"  />
 
 - Payment Bounded Context
 
-<img src="../assets/architecture-diagram/payment-component-diagram.png" alt="diagram" style="margin-bottom: 5px;"/>
+<img src="../assets/architecture-diagram/payment-component-diagram.png" alt="diagram"  />
 
 - User Interaction Bounded Context
 
-<img src="../assets/architecture-diagram/user-interaction-diagram.png" alt="diagram" style="margin-bottom: 5px;"/>
+<img src="../assets/architecture-diagram/user-interaction-diagram.png" alt="diagram"  />
 
 - Vehicle Management Bounded Context
 
-<img src="../assets/architecture-diagram/vehicle-managment-diagram.png" alt="diagram" style="margin-bottom: 5px;"/>
+<img src="../assets/architecture-diagram/vehicle-managment-diagram.png" alt="diagram"  />
 
 ## 4.9. Software Object-Oriented Design.
 ### 4.9.1. Class Diagrams.
@@ -2102,7 +2102,7 @@ El proyecto seguirá las convenciones del flujo de trabajo establecido por el mo
 
 **Flujo de trabajo GitFlow**
 
-<img src="../assets/git-flow/flow.png" alt="diagram" style="margin-bottom: 5px;" width=""/>
+<img src="../assets/git-flow/flow.png" alt="diagram"   width=""/>
 
 El flujo de trabajo a ser implementado para el desarrollo del proyecto se basará en el modelo propuesto por Vincent Driessen en "A successful Git branching model".
 
@@ -2138,7 +2138,7 @@ Para asegurar la coherencia y mantenibilidad del código en **Car2Go**, se segui
 
 ### 5.1.4. Software Deployment Configuration
 
-<img src="../assets/deployment/landing-deploy.png" alt="landing" style="margin-bottom: 5px;" width=""/>
+<img src="../assets/deployment/landing-deploy.png" alt="landing"   width=""/>
 
 Para desplegar la landing page es necesario contar con una serie de requisitos, entre ellos, es necesario contar con una cuenta personal, una organización y un repositorio al cual cargar los documentos. A partir de lo anterior, es posible comenzar el despliegue de la landing page. A continuación se enuncian los pasos a seguir:
 
@@ -2194,7 +2194,7 @@ Link de la landing page desplegada: [Car2Go](https://devtest-diseno-experimentos
 
 #### 5.2.2. Implemented Landing Page Evidence  
 
-<img src="../assets/wireframes-mockups/landing-mock-up-hero2.png" alt="landing wireframe" style="margin-bottom: 5px;"/>
+<img src="../assets/wireframes-mockups/landing-mock-up-hero2.png" alt="landing wireframe"  />
 
  ### URL: [Ver Landing Page](https://devtest-diseno-experimentos.github.io/Landing-page/#subscriptions)
 
@@ -2207,34 +2207,36 @@ Link de la landing page desplegada: [Car2Go](https://devtest-diseno-experimentos
 #### 5.2.4. Implemented Native-Mobile Application Evidence
 
 Login:
-<img src="../assets/mobile-app-evidence/mobile-app-login.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-app-evidence/mobile-app-login.jpeg" alt="mobile app"  />
 
 Registrar:
-<img src="../assets/mobile-app-evidence/mobile-app-register.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-app-evidence/mobile-app-register.jpeg" alt="mobile app"  />
 
 Registrar Carro:
-<img src="../assets/mobile-app-evidence/mobile-app-register-car.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-app-evidence/mobile-app-register-car.jpeg" alt="mobile app"  />
 
 Listar Carros:
-<img src="../assets/mobile-app-evidence/mobile-app-carlist.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-app-evidence/mobile-app-carlist.jpeg" alt="mobile app"  />
 
 Carro Detalle:
-<img src="../assets/mobile-app-evidence/mobile-app-car-detail.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-app-evidence/mobile-app-car-detail.jpeg" alt="mobile app"  />
 
 Mandar a revision:
-<img src="../assets/mobile-app-evidence/mobile-app-send-revision.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-app-evidence/mobile-app-send-revision.jpeg" alt="mobile app"  />
 
 Ver revisiones pendientes:
-<img src="../assets/mobile-app-evidence/mobile-app-pending-revision.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+
+<img src="../assets/mobile-app-evidence/mobile-app-pending-revision.jpeg" alt="mobile app"  />
 
 Revision a detalle:
-<img src="../assets/mobile-app-evidence/mobile-app-pending-revision-detail.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+
+<img src="../assets/mobile-app-evidence/mobile-app-pending-revision-detail.jpeg" alt="mobile app"  />
 
 Historial de revisiones:
-<img src="../assets/mobile-app-evidence/mobile-app-revision-record.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-app-evidence/mobile-app-revision-record.jpeg" alt="mobile app"  />
 
 Estadisticas de revisiones:
-<img src="../assets/mobile-app-evidence/mobile-app-revision-stats.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-app-evidence/mobile-app-revision-stats.jpeg" alt="mobile app"  />
 
 #### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
