@@ -2385,6 +2385,11 @@ Se realizó un test automatizado para verificar el funcionamiento del CRUD del m
 
 ![MECHANIC CRUD](../assets/tests/Mechanic-crud.jpg)
 
+- Mobile test
+Se realizó un test automatizado utilizando Selenium WebDriver para verificar el correcto funcionamiento de la aplicación mobile. El objetivo del test fue asegurarse de que los elementos clave de la página, login y los botones de acción, se cargaran correctamente y fueran interactivos, garantizando una experiencia de usuario óptima.
+
+<img src="../assets/tests/Mobile.png" alt="Test Mobile"/>
+
 ### 6.1.3. Core Behavior-Driven Development  
 En el desarrollo de **Car2Go**, hemos implementado el enfoque de **Behavior-Driven Development (BDD)** para asegurar que los procesos clave de la plataforma, como la venta de autos, se alineen con las expectativas de los usuarios y los vendedores. Este enfoque nos permite definir claramente los comportamientos esperados a través de pruebas automatizadas. Para el proceso de venta de autos, el escenario de prueba se estructura con la técnica **Given-When-Then** de la siguiente manera:
 
