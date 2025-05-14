@@ -2418,18 +2418,19 @@ detalles.
 
 ### 7.1.1. Tools and Practices  
 
-La integración continua es un enfoque utilizado en el desarrollo de software en el cual los programadores integran sus modificaciones al código principal varias veces al día. Este proceso activa automáticamente una serie de compilaciones y pruebas que se completan de manera rápida. Su objetivo es garantizar un desarrollo eficiente y confiable, permitiendo que los equipos identifiquen y resuelvan rápidamente problemas relacionados con la compilación. En el ámbito competitivo, las empresas adoptan la integración continua para acelerar la implementación de nuevas funcionalidades, mejorar la corrección de errores y reducir los tiempos de lanzamiento de sus productos. Es esencial que todos los miembros del equipo se comprometan con esta práctica, tomando acción inmediata ante cualquier inconveniente que pueda surgir.
 
 
-### 7.1.2. Build & Test Suite Pipeline Components 
-<img src="../assets/tests/TestPipeline.png" alt="Test Building"/>
+### 7.1.2. Build & Test Suite Pipeline Components
+
+
 
 ## 7.2. Continuous Delivery
 
-### 7.2.1. Tools and Practices  
-La **integración continua** es una estrategia en el desarrollo de software la cual los desarrolladores utilizan para fusionar sus cambios de código con la rama **main** muchas veces al día. Esto desencadena una secuencia automatizada de **compilación** y **pruebas** que se completa de manera muy rápida. Este enfoque busca asegurar un proceso de desarrollo **predecible** y **confiable**, con equipos capaces de detectar y solucionar rápidamente cualquier problema de compilación. 
 
-En la competencia tecnológica, las empresas utilizan la integración continua para agilizar la introducción de nuevas características, acelerar la corrección de errores y reducir el tiempo de lanzamiento al mercado de sus productos. Es crucial que todos los desarrolladores involucrados en el proyecto se comprometan con esta práctica, tomando medidas inmediatas para solucionar cualquier inconveniente que surja.
+
+### 7.2.1. Tools and Practices  
+
+
 
 ### 7.2.2. Stages Deployment Pipeline Components  
 
@@ -2453,8 +2454,6 @@ En la competencia tecnológica, las empresas utilizan la integración continua p
  
 - Release Management:
   - Herramientas de gestión de versiones: Git, GitHub.
-
-
 
 ## 7.3. Continuous Deployment
 
