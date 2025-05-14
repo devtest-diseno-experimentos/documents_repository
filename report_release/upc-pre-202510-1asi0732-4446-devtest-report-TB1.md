@@ -1097,8 +1097,6 @@ __[Link del Miro](https://miro.com/app/board/uXjVMm70eUI=/?share_link_id=3137435
 ## 2.4. Ubiquitous Language
 Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo se diferencian en ciertas partes técnicas, como el mecánico, y estética, en cuanto a los vendedores y compradores.
 
-
-### 2.4. Ubiquitous Language
 - Comprador: Persona que está interesada en adquirir un auto de segunda mano.
 
 - Vendedor: Persona que ofrece su auto para la venta en la plataforma.
@@ -1118,8 +1116,7 @@ Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo
 - Kilometraje: Distancia total recorrida por el auto, un indicador clave del desgaste del vehículo.
 <br>
 <br>
-<br>
-
+---
 
 # Capítulo III: Requirements Specifications
 
@@ -1343,8 +1340,6 @@ Imagen. Elaboración propia. Realizado en UXPRESSIA
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines
 **Branding:**
-
-<!-- To-do -->
 
 * Logo representativo de Car2Go
 <img src="../assets/branding/logo.png" alt="branding"  />
@@ -1636,7 +1631,8 @@ Enlace: https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Car2go---Design?node
 Enlace: https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Car2go---Design?node-id=952-568&t=PFZZj4XEY1XrREfx-1
 
 ### 4.4.4. Mobile Applications User Flow Diagrams
-## Authentication flow diagram
+
+### Authentication flow diagram
 ![alt text](<../assets/mobile-wireflow-diagrams/authFlow.png>)
 ### Happy Path – Inicio de sesión exitoso
 
@@ -1665,7 +1661,7 @@ Enlace: https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Car2go---Design?node
 - No presiona el botón de iniciar sesión después de registrarse.
 - No accede al dashboard.
 
-## Post New Car Flow Diagram 
+### Post New Car Flow Diagram 
 ![alt text](<../assets/mobile-wireflow-diagrams/sellCar.png>)
 
 ### Happy Path – Publicar auto exitosamente
@@ -1689,7 +1685,7 @@ Enlace: https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Car2go---Design?node
 - El usuario no presiona el botón **"Publicar carro"**.
 - El sistema no muestra confirmación ni publica el auto en la lista.
 
-## Dashboard flow diagram
+### Dashboard flow diagram
 ![alt text](<../assets/mobile-wireflow-diagrams/mecanicFlow.png>)
 
 ### Happy Path – Evaluación y verificación exitosa de auto
