@@ -923,16 +923,16 @@ Oscar Román, de 26 años, trabaja en una concesionaria de autos y tiene amplia 
 
 ### Compradores de segunda mano:
 
-<img src="../assets/user-personas/UserPersona_Comprador.png">
+<img src="../assets/user-personas/UserPersona_Comprador.png" height="500">
 
 ### Vendedores de segunda mano:
 
-<img src="../assets/user-personas/UserPersona_Vendedor.jpg">
+<img src="../assets/user-personas/UserPersona_Vendedor.jpg" height="500">
 
 
 ### Talleres mecánicos:
 
-<img src="../assets/user-personas/UserPersona_Talleres.png">
+<img src="../assets/user-personas/UserPersona_Talleres.png" height="500">
 <br><br><br><br>
 
 ### 2.3.2 User Task Matrix
@@ -1068,15 +1068,15 @@ Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo
 
 ### Compradores de segunda mano:
 
-<img src="../assets/empathy-mapping/empathy_comprador.png">
+<img src="../assets/empathy-mapping/empathy_comprador.png" height="500">
 
 ### Vendedores de segunda mano:
 
-<img src="../assets/empathy-mapping/empathy_vendedor.png">
+<img src="../assets/empathy-mapping/empathy_vendedor.png" height="500">
 
 ### Talleres mecánicos:
 
-<img src="../assets/empathy-mapping/empathy_talleres.png">
+<img src="../assets/empathy-mapping/empathy_talleres.png" height="500">
 
 ### 2.3.5. As-is Scenario Mapping
 
@@ -1116,9 +1116,8 @@ Podemos ver que hay muchas actividades que comparten los 3 segmentos sin embargo
 - Historial del Auto: Registro de los eventos relevantes asociados al vehículo, como reparaciones, multas o accidentes anteriores.
 
 - Kilometraje: Distancia total recorrida por el auto, un indicador clave del desgaste del vehículo.
-<br>
-<br>
-<br>
+
+
 
 
 # Capítulo III: Requirements Specifications
@@ -1129,8 +1128,9 @@ En esta sección, el equipo presenta el To-Be Scenario Mapping para Car2Go, que 
 
 **Segmento objetivo: Compradores de Autos Usados**
 
-![image](../assets/to-be-scenario-mapping/tobeMap-compradores.jpg)
-*Imagen (N°10). Elaboración propia. Realizado en [Miro](https://miro.com/app/board/uXjVKiyuKZA=/?share_link_id=172702013556).
+![image](../assets/to-be-scenario-mapping/tobeMap-compradores.jpg)  
+*Imagen (N°10). Elaboración propia. Realizado en [Miro](https://miro.com/app/board/uXjVKiyuKZA=/?share_link_id=172702013556).*
+
 
 **Segmento objetivo: Vendedores de Autos Usados**
 ![image](../assets/to-be-scenario-mapping/tobeMap-vendedores.jpg)
@@ -1236,8 +1236,7 @@ En esta sección, el equipo presenta el To-Be Scenario Mapping para Car2Go, que 
 | TS-31               | US-27         | Deploy de Web Application (Frontend)            | Como desarrollador quiero desplegar la aplicación frontend para que los usuarios puedan interactuar con la interfaz de usuario y consumir los servicios backend. | **Escenario: Deploy exitoso de Web Application (Frontend)**<br>Given La aplicación frontend está lista para producción<br>When Se realiza un deploy de la aplicación frontend a través del pipeline de CI/CD<br>Then La aplicación se despliega correctamente en el servidor de producción<br>And Los usuarios pueden acceder al frontend a través de la URL de producción.<br><br>**Escenario: Fallo en el deploy de Web Application (Frontend)**<br>Given La aplicación frontend está lista para producción<br>When Se realiza un deploy de la aplicación frontend a través del pipeline de CI/CD<br>Then El deploy falla debido a un error en el código o en la configuración de producción<br>And Se muestra un mensaje de error detallado con los logs del fallo. | EP06    |
 | TS-32               | US-18         | Implementación de filtros de estados de transacción | Como desarrollador quiero implementar filtros para los estados de transacción de manera que los usuarios puedan consultar sus transacciones de forma más eficiente. | **Escenario: Filtro exitoso por estado de transacción**<br>Given El sistema tiene transacciones con diferentes estados (Pendiente, Completada, Cancelada)<br>When El usuario selecciona un filtro para el estado "Pendiente"<br>Then Se muestran solo las transacciones con el estado "Pendiente"<br>And La interfaz de usuario refleja correctamente el filtro seleccionado.<br><br>**Escenario: Filtro sin resultados**<br>Given El sistema tiene transacciones con diferentes estados<br>When El usuario selecciona un filtro para el estado "Cancelada" y no hay transacciones en ese estado<br>Then Se muestra un mensaje de que no se encontraron transacciones con ese estado. | EP03    |
 
-<br><br><br><br><br><br><br><br>
-
+<br><br><br><br>
 ## 3.3. Product Backlog
 En esta sección del Product Backlog se encuentran recopiladas todas las User Stories identificadas para el desarrollo de nuestra plataforma Car2Go. Cada User Story representa una funcionalidad o requerimiento específico que contribuirá a mejorar la experiencia del usuario y a alcanzar los objetivos del proyecto. Las historias están ordenadas por prioridad, considerando tanto la importancia para los usuarios como la complejidad técnica y el valor de negocio. El Product Backlog será actualizado periódicamente a medida que se avanza en el desarrollo y se obtienen nuevos requerimientos, asegurando que siempre refleje las necesidades actuales del proyecto.
 
@@ -1347,23 +1346,22 @@ Imagen. Elaboración propia. Realizado en UXPRESSIA
 <!-- To-do -->
 
 * Logo representativo de Car2Go
-<img src="../assets/branding/logo.png" alt="branding" style="margin-bottom: 5px;"/>
+<img src="../assets/branding/logo.png" alt="branding" style="width: 40%; margin-bottom: 5px;" />
 
 **Typography:**
 
 * La tipografía de nuestro logotipo adoptará el elegante estilo Roboto, reconocido por su modernidad y su atractivo visual para nuestros usuarios. Este estilo no solo refleja la innovación y la creatividad que caracterizarán a nuestra aplicación, sino que también resalta la vanguardia que buscamos transmitir.
 
-![typography](../assets/typography/typografia1.jpg)
----
-![typography](../assets/typography/typografia2.1.jpg)
+<img src="../assets/typography/typografia1.jpg" alt="typography" style="width: 40%;" />
+
+<img src="../assets/typography/typografia2.1.jpg" alt="typography" style="width: 40%;" />
 
 **Colors:**
 * Hemos seleccionado el color #F4C23D como color primario porque transmite confianza y amabilidad, cualidades esenciales para crear una plataforma donde los usuarios se sientan bienvenidos y seguros al interactuar. Este tono dorado, cálido y acogedor, invita a la participación y genera un ambiente positivo para las transacciones.
 
 * Como color secundario, hemos elegido #2959AD por su asociación con el profesionalismo y la seriedad. Este azul oscuro añade un toque de credibilidad y formalidad a la plataforma, asegurando a los usuarios que están realizando sus transacciones en un entorno confiable y bien gestionado.
 
-![colors](../assets/typography/colors.jpg)
-
+<img src="../assets/typography/colors.jpg" alt="colors" style="width: 40%;" />
 
 ### [4.1.2. Web Style Guidelines](#422-labeling-systems)
 
@@ -1371,7 +1369,8 @@ _Icons:_
 
 * Cuando se trata de diseñar una página web, los íconos juegan un papel crucial en la creación de una interfaz de usuario intuitiva y fácil de usar. Estos elementos visuales pequeños tienen el poder de mejorar la comprensión de los usuarios sobre la funcionalidad de diferentes partes de nuestra página. Los íconos permiten a los usuarios entender rápidamente la función de cada elemento y su simplicidad y claridad los hacen fácilmente comprensibles. Mantener una consistencia en el uso de íconos en toda la página ayuda a evitar confusiones entre los usuarios.
 
-![Icons:](../assets/typography/icons.png)
+<img src="../assets/typography/icons.png" alt="Icons" style="width: 40%;" />
+
 
 _Breackpoints_
 
@@ -1423,11 +1422,11 @@ _Breackpoints_
 * Y los que usaremos en el proyecto principalmente son los de 768px y 1024px, ya que son los más comunes en los dispositivos móviles y de escritorio.
 
 ### 4.1.3. Mobile Style Guidelines
-<img src="../assets/mobile-style/mobile-guidelines.png" alt="landing wireframe" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/mobile-guidelines.png" alt="landing wireframe" style="margin-bottom: 5px;" height="500"/>
 
 #### 4.1.3.1. iOS and Android Mobile Style Guidelines
 
-<img src="../assets/mobile-style/ios-style-guidelines.png" alt="landing wireframe" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/ios-style-guidelines.png" alt="landing wireframe" style="margin-bottom: 5px;" height="500" />
 
 ## 4.2. Information Architecture
 ### 4.2.1. Organization Systems
@@ -1486,52 +1485,51 @@ Por otro lado, se agregará la paginación en la parte inferior de la cuadrícul
 
 ### 4.3.1. Lading Page Wireframe
 
-<img src="../assets/wireframes-mockups/landing-wireframe.png" alt="landing wireframe" style="margin-bottom: 5px;"/>
+<img src="../assets/wireframes-mockups/landing-wireframe.png" alt="landing wireframe" style="margin-bottom: 5px; width:40%" />
 
 Hero altero 1:
 
-<img src="../assets/wireframes-mockups/landing-wireframe-hero2.png" alt="landing wireframe" style="margin-bottom: 5px;"/>
+<img src="../assets/wireframes-mockups/landing-wireframe-hero2.png" alt="landing wireframe" style="margin-bottom: 5px; width:40%"/>
 
 Hero altero 2:
 
-<img src="../assets/wireframes-mockups/landing-wireframe-hero3.png" alt="landing wireframe" style="margin-bottom: 5px;"/>
+<img src="../assets/wireframes-mockups/landing-wireframe-hero3.png" alt="landing wireframe" style="margin-bottom: 5px; width:40%"/>
 
 ### 4.3.2. Lading Page Mock-up
 
-<img src="../assets/wireframes-mockups/landing-mock-up.png" alt="landing wireframe" style="margin-bottom: 5px;"/>
+<img src="../assets/wireframes-mockups/landing-mock-up.png" alt="landing wireframe" style="margin-bottom: 5px; width:40%"/>
 
 Hero altero 1:
 
-<img src="../assets/wireframes-mockups/landing-mock-up-hero2.png" alt="landing wireframe" style="margin-bottom: 5px;"/>
+<img src="../assets/wireframes-mockups/landing-mock-up-hero2.png" alt="landing wireframe" style="margin-bottom: 5px; width:40%"/>
 
 Hero altero 2:
 
-<img src="../assets/wireframes-mockups/landing-mock-up-hero3.png" alt="landing wireframe" style="margin-bottom: 5px;"/>
+<img src="../assets/wireframes-mockups/landing-mock-up-hero3.png" alt="landing wireframe" style="margin-bottom: 5px; width:40%"/>
 
 ## 4.4. Mobile Applications UX/UI Design
 <!-- To-do -->
 ### 4.4.1. Mobile Applications Wireframes
 
 ### Vistas de autenticación
-<img src="../assets/mobile-style/mobile-wireframes-1.png" alt="wireframes1" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-wireframes-2.png" alt="wireframes2" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-wireframes-2.png" alt="wireframes3" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/mobile-wireframes-2.png" alt="wireframes2" style="margin-bottom: 5px;" height="500" />
+<img src="../assets/mobile-style/mobile-wireframes-2.png" alt="wireframes3" style="margin-bottom: 5px;" height="500"/>
 
 ### Vista del mecánico
-<img src="../assets/mobile-style/mobile-wireframes-4.png" alt="wireframes4" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-wireframes-5.png" alt="wireframes5" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-wireframes-6.png" alt="wireframes6" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-wireframes-7.png" alt="wireframes7" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/mobile-wireframes-4.png" alt="wireframes4" style="margin-bottom: 5px;" height="500"/>
+<img src="../assets/mobile-style/mobile-wireframes-5.png" alt="wireframes5" style="margin-bottom: 5px;" height="500"/>
+<img src="../assets/mobile-style/mobile-wireframes-6.png" alt="wireframes6" style="margin-bottom: 5px;" height="500"/>
+<img src="../assets/mobile-style/mobile-wireframes-7.png" alt="wireframes7" style="margin-bottom: 5px;" height="500"/>
 
 ### Vista del comprador
-<img src="../assets/mobile-style/mobile-wireframes-8.png" alt="wireframes7" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-wireframes-9.png" alt="wireframes9" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-wireframes-10.png" alt="wireframes10" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/mobile-wireframes-8.png" alt="wireframes7" style="margin-bottom: 5px;" height="500"/>
+<img src="../assets/mobile-style/mobile-wireframes-9.png" alt="wireframes9" style="margin-bottom: 5px;" height="500"/>
+<img src="../assets/mobile-style/mobile-wireframes-10.png" alt="wireframes10" style="margin-bottom: 5px;" height="500"/>
 
 Enlace: https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Car2go---Design?node-id=952-568&t=PFZZj4XEY1XrREfx-1
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams
-![alt text](../assets/mobile-wireflow-diagrams/wireflow-mobile-diagram.png)
+<img src="../assets/mobile-wireflow-diagrams/wireflow-mobile-diagram.png" alt="Wireflow Diagrams" style="margin-bottom: 5px;" height="500"/>
 
 ### Happy Path – Inicio de sesión exitoso
 
@@ -1616,28 +1614,30 @@ Enlace: https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Car2go---Design?node
 - El sistema muestra el auto como **"Rechazado"** por errores en los datos o fallas en la revisión técnica.
 
 
+
 ### 4.4.3. Mobile Applications Mock-ups
 ### Vistas de autenticación
-<img src="../assets/mobile-style/mobile-mockup-1.png" alt="mockup1" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-mockup-2.png" alt="mockup2" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-mockup-2.png" alt="mockup3" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/mobile-mockup-1.png" alt="mockup1" style="margin-bottom: 5px;" height="500"/>
+<img src="../assets/mobile-style/mobile-mockup-2.png" alt="mockup2" style="margin-bottom: 5px;" height="500"/>
+<img src="../assets/mobile-style/mobile-mockup-2.png" alt="mockup3" style="margin-bottom: 5px;" height="500"/>
 
 ### Vista del mecánico
-<img src="../assets/mobile-style/mobile-mockup-4.png" alt="mockup4" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-mockup-5.png" alt="mockup5" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-mockup-6.png" alt="mockup6" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-mockup-7.png" alt="mockup7" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/mobile-mockup-4.png" alt="mockup4" style="margin-bottom: 5px;" height="500"/>
+<img src="../assets/mobile-style/mobile-mockup-5.png" alt="mockup5" style="margin-bottom: 5px;" height="500"/>
+<img src="../assets/mobile-style/mobile-mockup-6.png" alt="mockup6" style="margin-bottom: 5px;" height="500"/>
+<img src="../assets/mobile-style/mobile-mockup-7.png" alt="mockup7" style="margin-bottom: 5px;" height="500"/>
 
 ### Vista del comprador
-<img src="../assets/mobile-style/mobile-mockup-8.png" alt="mockup7" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-mockup-9.png" alt="mockup9" style="margin-bottom: 5px;"/>
-<img src="../assets/mobile-style/mobile-mockup-10.png" alt="mockup10" style="margin-bottom: 5px;"/>
+<img src="../assets/mobile-style/mobile-mockup-8.png" alt="mockup7" style="margin-bottom: 5px;" height="500"/>
+<img src="../assets/mobile-style/mobile-mockup-9.png" alt="mockup9" style="margin-bottom: 5px;" height="500"/>
+<img src="../assets/mobile-style/mobile-mockup-10.png" alt="mockup10" style="margin-bottom: 5px;" height="500"/>
 
 Enlace: https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Car2go---Design?node-id=952-568&t=PFZZj4XEY1XrREfx-1
 
 ### 4.4.4. Mobile Applications User Flow Diagrams
-## Authentication flow diagram
-![alt text](<../assets/mobile-wireflow-diagrams/authFlow.png>)
+## Authentication flow 
+<img src="../assets/mobile-wireflow-diagrams/authFlow.png" alt="mockup10" style="margin-bottom: 5px;" height="500"/>
+
 ### Happy Path – Inicio de sesión exitoso
 
 1. El usuario abre la app y desliza hacia arriba.
@@ -1721,6 +1721,8 @@ Enlace: https://www.figma.com/design/T9hwKnrPJuHl19YGdNb9mg/Car2go---Design?node
 ## 4.5. Mobile Applications Prototyping
 
 ### 4.5.1. Android Mobile Applications Prototyping
+
+
 ![Android-Mobile-Applications](../assets/mobile-style/prootyping-mobile.png)
 
 Enlace del prototipo: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202213375_upc_edu_pe/EWKwHgVOkcxBgf4WoCea5TQB9I0LfIdJ2PYJ6wXLiZQfrw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0rpAIm
@@ -1876,23 +1878,23 @@ Los diagramas de componentes muestran una vista de las relaciones de los compone
 
 - Authentication Bounded Context
 
-<img src="../assets/architecture-diagram/authentication-component-diagram.png" alt="diagram" style="margin-bottom: 5px;"/>
+<img src="../assets/architecture-diagram/authentication-component-diagram.png" alt="diagram" style="margin-bottom: 5px;" height="900"/>
 
 - Payment Bounded Context
 
-<img src="../assets/architecture-diagram/payment-component-diagram.png" alt="diagram" style="margin-bottom: 5px;"/>
+<img src="../assets/architecture-diagram/payment-component-diagram.png" alt="diagram" style="margin-bottom: 5px;" height="900"/>
 
 - User Interaction Bounded Context
 
-<img src="../assets/architecture-diagram/user-interaction-diagram.png" alt="diagram" style="margin-bottom: 5px;"/>
+<img src="../assets/architecture-diagram/user-interaction-diagram.png" alt="diagram" style="margin-bottom: 5px;" height="900"/>
 
 - Vehicle Management Bounded Context
 
-<img src="../assets/architecture-diagram/vehicle-managment-diagram.png" alt="diagram" style="margin-bottom: 5px;"/>
+<img src="../assets/architecture-diagram/vehicle-managment-diagram.png" alt="diagram" style="margin-bottom: 5px;" height="900"/>
 
 ## 4.9. Software Object-Oriented Design.
 ### 4.9.1. Class Diagrams.
-<img src="../assets/architecture-diagram/diagrama-clases.png" alt="class diagram"/>
+<img src="../assets/architecture-diagram/diagrama-clases.png" alt="class diagram" height="700"/>
 
 ### 4.9.2. Class Dictionary.
 
@@ -2188,18 +2190,19 @@ Link de la landing page desplegada: [Car2Go](https://devtest-diseno-experimentos
 | US-38          | Aprobación o Rechazo de Auto | TW-06   | Crear pantalla de revisión técnica | Implementar la pantalla de detalle para revisar datos e imágenes y aprobar/rechazar autos. | 6                 | Mathias Kunimoto   | Done   |
 
 ## Tablero del Sprint 1 
-![alt text](../assets/sprints-product/trello-productB1.png)
+<img src="../assets/sprints-product/trello-productB1.png" alt="Trello" style="margin-bottom: 5px;" height="500"/>
 
 ### URL: [Ver Trello](https://trello.com/b/YMHhlUzX/car2go)
 
 #### 5.2.2. Implemented Landing Page Evidence  
 
-<img src="../assets/wireframes-mockups/landing-mock-up-hero2.png" alt="landing wireframe" style="margin-bottom: 5px;"/>
+<img src="../assets/wireframes-mockups/landing-mock-up-hero2.png" alt="landing wireframe" style="margin-bottom: 5px;" height="500"/>
 
  ### URL: [Ver Landing Page](https://devtest-diseno-experimentos.github.io/Landing-page/#subscriptions)
 
 #### 5.2.3. Implemented Frontend-Web Application Evidence  
-![alt text](<../assets/sprints-product/webApp.png>)
+<img src="../assets/sprints-product/webApp.png" alt="Frontend-Web" style="margin-bottom: 5px;" height="500"/>
+
 
  ### URL: [Ver Web App](https://car2go-c60fa.web.app/login)
 
@@ -2207,34 +2210,44 @@ Link de la landing page desplegada: [Car2Go](https://devtest-diseno-experimentos
 #### 5.2.4. Implemented Native-Mobile Application Evidence
 
 Login:
-<img src="../assets/mobile-app-evidence/mobile-app-login.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+
+<img src="../assets/mobile-app-evidence/mobile-app-login.jpeg" alt="mobile app" style="margin-bottom: 5px;" height="500"/>
 
 Registrar:
-<img src="../assets/mobile-app-evidence/mobile-app-register.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+
+<img src="../assets/mobile-app-evidence/mobile-app-register.jpeg" alt="mobile app" style="margin-bottom: 5px;" height="500"/>
 
 Registrar Carro:
-<img src="../assets/mobile-app-evidence/mobile-app-register-car.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+
+<img src="../assets/mobile-app-evidence/mobile-app-register-car.jpeg" alt="mobile app" style="margin-bottom: 5px;" height="500"/>
 
 Listar Carros:
-<img src="../assets/mobile-app-evidence/mobile-app-carlist.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+
+<img src="../assets/mobile-app-evidence/mobile-app-carlist.jpeg" alt="mobile app" style="margin-bottom: 5px;" height="500"/>
 
 Carro Detalle:
-<img src="../assets/mobile-app-evidence/mobile-app-car-detail.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+
+<img src="../assets/mobile-app-evidence/mobile-app-car-detail.jpeg" alt="mobile app" style="margin-bottom: 5px;" height="500"/>
 
 Mandar a revision:
-<img src="../assets/mobile-app-evidence/mobile-app-send-revision.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+
+<img src="../assets/mobile-app-evidence/mobile-app-send-revision.jpeg" alt="mobile app" style="margin-bottom: 5px;" height="500"/>
 
 Ver revisiones pendientes:
-<img src="../assets/mobile-app-evidence/mobile-app-pending-revision.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+
+<img src="../assets/mobile-app-evidence/mobile-app-pending-revision.jpeg" alt="mobile app" style="margin-bottom: 5px;" height="500"/>
 
 Revision a detalle:
-<img src="../assets/mobile-app-evidence/mobile-app-pending-revision-detail.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+
+<img src="../assets/mobile-app-evidence/mobile-app-pending-revision-detail.jpeg" alt="mobile app" style="margin-bottom: 5px;" height="500"/>
 
 Historial de revisiones:
-<img src="../assets/mobile-app-evidence/mobile-app-revision-record.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+
+<img src="../assets/mobile-app-evidence/mobile-app-revision-record.jpeg" alt="mobile app" style="margin-bottom: 5px;" height="500"/>
 
 Estadisticas de revisiones:
-<img src="../assets/mobile-app-evidence/mobile-app-revision-stats.jpeg" alt="mobile app" style="margin-bottom: 5px;"/>
+
+<img src="../assets/mobile-app-evidence/mobile-app-revision-stats.jpeg" alt="mobile app" style="margin-bottom: 5px;" height="500"/>
 
 #### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
@@ -2258,7 +2271,7 @@ A continuación, se muestran algunas capturas de pantalla en secuencia de cómo 
 
 Se realizaron las funcionalidades correspondientes en cada rama principal del feature. Finalmente fue unido a la rama “development” para realizar las pruebas necesarias y sea enviado a producción en la rama “main”
 
-<img src="../assets/sprint-1/" alt="RESTful API"/>
+<img src="../assets/sprint-1/insights.png" height="500" alt="RESTful API"/>
 
 ## 5.3. Video About-the-Product
 Se evidencia el video demostrando el prototipo pensado para PeaceApp, el cual contendrá las diferentes funcionalidades avanzadas hasta el momento.
