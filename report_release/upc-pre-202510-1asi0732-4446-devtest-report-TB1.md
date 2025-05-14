@@ -2332,11 +2332,32 @@ detalles.
 ## 7.1. Continuous Integration
 
 ### 7.1.1. Tools and Practices  
+<p style="text-align: justify;">
+  En el desarrollo y pruebas de software, utilizamos herramientas y metodologías que nos permiten asegurar la calidad del código y la eficiencia del equipo. Aplicamos enfoques como <strong>TDD</strong> (Desarrollo Orientado por Pruebas) y <strong>BDD</strong> (Desarrollo Orientado por Comportamiento), lo que nos permite garantizar que nuestras soluciones cumplan con los requerimientos del cliente y mantengan altos estándares técnicos. Para ello, contamos con diversas herramientas que nos apoyan desde la escritura del código hasta la ejecución de pruebas y la automatización de tareas.
+</p>
 
+
+| Herramienta | Tipo                        | Descripción                                                                 | Propósito                                                                 |
+|-------------|-----------------------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------|
+| JUnit       | Herramienta para pruebas (TDD) | Programa que permite probar pequeñas partes de aplicaciones en Java.        | Facilita la creación y ejecución de pruebas unitarias.                   |
+| Mockito     | Herramienta de simulaciones (TDD) | Permite crear versiones simuladas de componentes.                           | Imitar comportamientos de objetos externos para pruebas más controladas. |
 
 
 ### 7.1.2. Build & Test Suite Pipeline Components
 
+### Setup
+![alt text](../assets/tests/setup.png)
+
+### Unit Tests
+
+![alt text](../assets/tests/setup.png)
+![alt text](../assets/tests/crud2.png)
+![alt text](../assets/tests/crud3.png)
+![alt text](../assets/tests/crud4.png)
+
+### Integral Test
+
+![alt text](../assets/tests/integral.png)
 
 
 ## 7.2. Continuous Delivery
