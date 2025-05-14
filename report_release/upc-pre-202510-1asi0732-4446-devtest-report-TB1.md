@@ -1888,6 +1888,7 @@ Los diagramas de componentes muestran una vista de las relaciones de los compone
 <img src="../assets/architecture-diagram/vehicle-managment-diagram.png" alt="diagram"  />
 
 ## 4.9. Software Object-Oriented Design.
+
 ### 4.9.1. Class Diagrams.
 <img src="../assets/architecture-diagram/diagrama-clases.png" alt="class diagram"/>
 
@@ -2042,6 +2043,8 @@ El sistema de gestión de bases de datos relacional (RDBMS) que utilizaremos par
 
 <img src="../assets/architecture-diagram/diagrama-bd.png" alt="database diagram"/>
 
+<br><br>
+
 # Capítulo V: Product Implementation, Validation & Deployment
 
 ## 5.1. Software Configuration Management
@@ -2093,9 +2096,9 @@ A continuación, se describe el proceso por el cual organizamos, gestionamos y c
 El proyecto seguirá las convenciones del flujo de trabajo establecido por el modelo GitFlow para el control de versiones, empleando GitHub como plataforma y sistema de control de versiones. A continuación, se describirá la implementación de GitFlow como un flujo de trabajo para el control de versiones, junto con el enlace del Landing Page.
 
 **Repositorio de GitHub:**
-- Enlace para acceder a la [organización]()
-- Enlace para acceder al repositorio de la [landing page]()
-- Enlace para acceder al repositorio del [informe]()
+- Enlace para acceder a la [organización](https://github.com/devtest-diseno-experimentos)
+- Enlace para acceder al repositorio de la [landing page](https://github.com/devtest-diseno-experimentos/Landing-page)
+- Enlace para acceder al repositorio del [informe](https://github.com/devtest-diseno-experimentos/documents_repository)
 
 **Flujo de trabajo GitFlow**
 
@@ -2152,11 +2155,7 @@ Link de la landing page desplegada: [Car2Go](https://devtest-diseno-experimentos
 #### 5.2.1. Sprint Backlogs  
 
 #### 5.2.1.1. Sprint Planning 1
-
- #### Sprint Planning 1
- <div style="margin-left: auto;
-            margin-right: auto;
-            width: 50%">
+ <div>
 
 | Sprint 1                        | Implementación de funcionalidades y diseño de la aplicación.                                                                                                                                 |
 |---------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -2173,16 +2172,87 @@ Link de la landing page desplegada: [Car2Go](https://devtest-diseno-experimentos
 
 </div>
 
-| | Sprint # | | | | Sprint 1 | | |
-|-|----------|-|-|-|----------|-|-|
-| **User Story**        |                   | **Work Item/Task** |               |                                                    | **Estimation (Hours)**    | **Assigned To** | **Status** |
-| **Id**            | **Title**         | **Id**         | **Title**     | **Description**                                    | **Estimation (Hours)**    | **Assigned To** | **Status** |
-| US-01          | Registro de Usuario | TW-01   | Crear pantalla de registro | Crear la pantalla de registro con validaciones de correo y contraseña. | 6                 | Mathias Kunimoto   | Done   |
-| US-01          | Registro de Usuario | TW-02   | Estilizar pantalla de registro | Mejorar el diseño responsivo del formulario de registro. | 4                 | Italo Luna   | Done   |
-| US-03          | Listado de Autos | TW-03   | Crear pantalla "Mis Carros" | Implementar la sección donde el usuario ve los autos publicados y opción de añadir uno nuevo. | 5                 | Rodrigo Aguilar   | Done   |
-| US-03          | Listado de Autos | TW-04   | Crear formulario de publicación de auto | Desarrollar formulario para registrar un auto (marca, modelo, precio, fotos). | 7                 | Augusto Pin   | Done   |
-| US-38          | Aprobación o Rechazo de Auto | TW-05   | Crear pantalla de autos por evaluar | Implementar pantalla para listar autos pendientes de evaluación. | 6                 | Jean Franco Barrionuevo   | Done   |
-| US-38          | Aprobación o Rechazo de Auto | TW-06   | Crear pantalla de revisión técnica | Implementar la pantalla de detalle para revisar datos e imágenes y aprobar/rechazar autos. | 6                 | Mathias Kunimoto   | Done   |
+<table border="1px" align="center"> 
+   <tr>
+      <th colspan="4"> Sprint # </th>
+      <th colspan="7"> Sprint 1 </th>
+   </tr>
+   <tr>
+     <th colspan="4"> User Story </th>
+     <th colspan="7"> Work-Item / Task</th>
+   </tr>
+   <tr>
+     <th> Id </th>
+     <th colspan="3"> Title </th>
+     <th> Id </th>
+     <th> Title </th>
+     <th> Description </th>
+     <th> Estimation (Hours) </th>
+     <th> Assigned To </th> 
+     <th> Status (To-do / In-Process / To- Review / Done) </th>
+   </tr>
+   <tr>
+      <td> US-01 </td>
+      <td colspan="3">Registro de Usuario</td>
+      <td> TW-01 </td>
+      <td>Crear pantalla de registro</td>
+      <td>Crear la pantalla de registro con validaciones de correo y contraseña.</td>
+      <td> 6 </td>
+      <td> Mathias Kunimoto </td> 
+      <td> Done </td>
+   </tr>
+   <tr>
+      <td> US-01 </td>
+      <td colspan="3">Registro de Usuario</td>
+      <td> TW-02 </td>
+      <td>Estilizar pantalla de registro</td>
+      <td>Mejorar el diseño responsivo del formulario de registro.</td>
+      <td> 4 </td>
+      <td> Italo Luna </td> 
+      <td> Done </td>
+   </tr>
+   <tr>
+      <td> US-03 </td>
+      <td colspan="3">Listado de Autos</td>
+      <td> TW-03 </td>
+      <td>Crear pantalla "Mis Carros"</td>
+      <td>Implementar la sección donde el usuario ve los autos publicados y opción de añadir uno nuevo.</td>
+      <td> 5 </td>
+      <td> Rodrigo Aguilar </td> 
+      <td> Done </td>
+   </tr>
+   <tr>
+      <td> US-03 </td>
+      <td colspan="3">Listado de Autos</td>
+      <td> TW-04 </td>
+      <td>Crear formulario de publicación de auto</td>
+      <td>Desarrollar formulario para registrar un auto (marca, modelo, precio, fotos).</td>
+      <td> 7 </td>
+      <td> Augusto Pin </td> 
+      <td> Done </td>
+   </tr>
+   <tr>
+      <td> US-38 </td>
+      <td colspan="3">Aprobación o Rechazo de Auto</td>
+      <td> TW-05 </td>
+      <td>Crear pantalla de autos por evaluar</td>
+      <td>Implementar pantalla para listar autos pendientes de evaluación.</td>
+      <td> 6 </td>
+      <td> Jean Franco Barrionuevo </td> 
+      <td> Done </td>
+   </tr>
+   <tr>
+      <td> US-38 </td>
+      <td colspan="3">Aprobación o Rechazo de Auto</td>
+      <td> TW-06 </td>
+      <td>Crear pantalla de revisión técnica</td>
+      <td>Implementar la pantalla de detalle para revisar datos e imágenes y aprobar/rechazar autos.</td>
+      <td> 6 </td>
+      <td> Mathias Kunimoto </td> 
+      <td> Done </td>
+   </tr>
+</table>
+
 
 ## Tablero del Sprint 1 
 ![alt text](../assets/sprints-product/trello-productB1.png)
