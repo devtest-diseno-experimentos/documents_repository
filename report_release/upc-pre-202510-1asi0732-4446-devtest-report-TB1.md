@@ -2424,43 +2424,51 @@ Las herramientas y prácticas utilizadas para implementar Continuous Deployment 
 
 ## 7.3.2. Production Deployment Pipeline Components
 
-La **Production Deployment Pipeline** de nuestro proyecto está compuesta por varios componentes clave que aseguran un despliegue automático y continuo de la aplicación, desde el backend hasta el frontend y la base de datos. A continuación, se describen los componentes de la pipeline:
+Este sección describe los componentes que forman parte del pipeline de despliegue a producción y cómo se integran para automatizar todo el proceso.
 
-### 1. **Backend (Node.js con MySQL)**
+#### Componentes del Pipeline de la Base de Datos (Azure)
 
-El backend de nuestra aplicación está desarrollado en **Node.js**, con una base de datos **MySQL** alojada en **Azure**. La automatización del despliegue del backend se realiza mediante **Azure Web Services**, que se encargan de la integración continua. Cada vez que hay un nuevo commit en la rama principal del repositorio de **GitHub**.
+A continuación, se detallan los principales componentes utilizados en el pipeline de despliegue de la base de datos en Azure:
 
-### 2. **Frontend (Angular)**
+- **Azure DevOps Pipelines**: Herramienta principal para definir, ejecutar y automatizar el pipeline de CI/CD.
+- **Repositorios Git**: Código fuente del proyecto almacenado en Azure Repos o GitHub, incluyendo scripts de migración y definiciones de infraestructura como código.
+- **Azure SQL Database**: Destino del despliegue para la base de datos. Recibe las actualizaciones generadas en el entorno de desarrollo.
+- **Azure Key Vault**: Almacena de forma segura las credenciales, cadenas de conexión y otros secretos utilizados durante el pipeline.
+- **Azure Resource Manager (ARM) Templates / Bicep**: Plantillas para la provisión automática de recursos de Azure, asegurando consistencia y repetibilidad.
+- **SQLPackage / DACPAC**: Herramienta utilizada para aplicar los cambios en la base de datos mediante la comparación de esquemas (deploy de DACPAC).
+- **Entornos de Stage y Producción**: Configuración de entornos separados para validar y luego desplegar los cambios con seguridad.
+- **Gate de Aprobación Manual**: Paso de validación humana antes del despliegue a producción para garantizar control y revisión del proceso.
 
-El frontend está construido con **Angular**, y su despliegue se automatiza a través de **Vercel**. **Vercel** se integra con el repositorio de **GitHub**, y cada commit realizado en la rama principal activa un pipeline de CI/CD para desplegarlo automáticamente en el entorno de producción.
+#### Componentes del Pipeline del Backend (Azure para Spring Boot)
 
-### 3. **Base de Datos (Flexible Azure Database for MySQL)**
+A continuación, se describen los componentes utilizados en el pipeline de despliegue del backend desarrollado con Spring Boot:
 
-La base de datos de nuestra aplicación está gestionada en **Azure Database for MySQL Servers**. Este servicio nos permite tener nuestra base de datos desplegada y unificada en el entorno de **Azure**.
+- **Azure DevOps Pipelines**: Motor de automatización CI/CD que permite compilar, testear y desplegar el backend de forma continua.
+- **Repositorios Git (Azure Repos / GitHub)**: Almacén del código fuente del backend, incluyendo `pom.xml` o `build.gradle`, configuraciones de entorno y scripts de despliegue.
+- **Maven / Gradle**: Herramienta de construcción utilizada para compilar el proyecto, correr pruebas y generar el paquete `JAR` o `WAR`.
+- **Azure App Service / Azure Spring Apps**: Servicio PaaS donde se despliega y ejecuta la aplicación Spring Boot en la nube.
+- **Azure Key Vault**: Proveedor seguro de secretos y variables de entorno como claves de API, credenciales de base de datos, etc.
+- **Application Insights**: Servicio para monitoreo y trazabilidad del rendimiento de la aplicación en producción.
+- **Pipeline de Test Automatizados**: Integración de pruebas unitarias y pruebas de integración para asegurar la calidad del código.
+- **Despliegue por etapas (Stage/Prod)**: Separación de entornos para probar antes de lanzar a producción final.
+- **Aprobaciones Manuales**: Control de calidad y validación por parte del equipo antes de desplegar a producción.
+- **Slots de Despliegue (App Service)**: Permite hacer *swap* entre versiones del backend sin tiempo de inactividad.
 
-### 4. **App Móvil (Flutter)**
+#### Componentes del Pipeline del Frontend (Firebase para Angular)
 
-La aplicación móvil está desarrollada con **Flutter**, lo que nos permite construir una sola base de código y distribuirla tanto en Android como en iOS. Utilizamos **Flutter** para crear los builds de la aplicación móvil, que luego se distribuyen a través de nuestra página web.
+Los componentes principales que forman parte del pipeline de despliegue del frontend basado en Angular y Firebase son:
 
-### 5. **Repositorio y Documentación (GitHub)**
-
-Toda nuestra documentación y reportes de desarrollo se mantienen en un repositorio de **GitHub Organization**. Este repositorio está continuamente actualizado, lo que nos permite gestionar las versiones de la documentación y asegurarnos de que el equipo de desarrollo y los colaboradores siempre tengan acceso a la información más reciente sobre el proyecto.
-
-### Flujo de Despliegue
-
-1. **Desarrollo**: Los desarrolladores realizan cambios en el código, tanto en el backend (Node.js), frontend (Angular), como en la aplicación móvil (Flutter). Todos los cambios se hacen en la rama principal del repositorio de **GitHub**.
-
-2. **Integración Continua**: Una vez que un desarrollador hace un commit en la rama principal, **GitHub** notifica a los servicios correspondientes (Azure Web Services para el backend y Vercel para el frontend) para iniciar el proceso de integración y despliegue.
-
-3. **Despliegue del Backend**: **Azure Web Services** realiza el build del backend y lo despliega automáticamente en el servidor de producción.
-
-4. **Despliegue del Frontend**: **Vercel** construye el frontend y lo despliega en el entorno de producción, alineado con el backend ya desplegado.
-
-5. **Despliegue de la Base de Datos**: **Azure Database for MySQL** asegura que la base de datos esté correctamente configurada y sincronizada con las versiones del backend.
-
-6. **Despliegue de la App Móvil**: **Flutter** se encarga de la creación de builds para las plataformas móviles, que luego se distribuyen a través de la página web.
-
-7. **Documentación**: Cada nuevo despliegue y reporte es actualizado en **GitHub**, permitiendo a los miembros del equipo tener acceso a la última documentación y cambios del proyecto.
+- **Azure DevOps Pipelines / GitHub Actions**: Herramientas para automatizar el proceso de build, test y despliegue del frontend.
+- **Repositorio Git (Azure Repos / GitHub)**: Código fuente del proyecto Angular, incluyendo configuraciones, componentes y archivos estáticos.
+- **Node.js & npm**: Entorno y gestor de paquetes necesario para instalar dependencias y ejecutar comandos Angular CLI.
+- **Angular CLI**: Utilizado para compilar y construir el proyecto con el comando `ng build --prod`.
+- **Firebase CLI**: Herramienta para desplegar la aplicación Angular a Firebase Hosting.
+- **Firebase Hosting**: Plataforma donde se hospeda y sirve la aplicación web Angular.
+- **Firebase Authentication**: Servicio para gestionar la autenticación de usuarios en la aplicación (opcional).
+- **Firebase Functions**: Backend serverless para lógica adicional si se requiere (opcional).
+- **Pruebas Automatizadas (Karma / Jasmine)**: Integración de pruebas unitarias y de integración para garantizar la calidad del frontend.
+- **Control de Versiones y Branching**: Estrategias para manejar diferentes versiones y entornos (desarrollo, staging, producción).
+- **Variables de Entorno Seguras**: Uso de secretos para configurar APIs, claves y variables sensibles en Firebase y pipeline.
 
 ## VII. Bibliografía
 
