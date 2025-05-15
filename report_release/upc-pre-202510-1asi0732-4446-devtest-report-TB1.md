@@ -2359,7 +2359,7 @@ detalles.
 
 ![alt text](../assets/tests/integral.png)
 
-
+![alt text](../assets/tests/integral2.png)
 ## 7.2. Continuous Delivery
 
 Su objetivo es el de automatizar la integración y pruebas del código, manteniendo todo listo para un despliegue cuando sea necesario.
