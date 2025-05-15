@@ -36,19 +36,80 @@
 
 # Registro de Versiones del Informe
 
-<div align="center">
-
-
-| Version | Fecha      | Autor                                    | Descripción de Modificación                                                                 |
-|---------|------------|------------------------------------------|----------------------------------------------------------------------------------------------|
-| TB1     | 24/04/2025 | Rodrigo Alejandro Aguilar Castillo       | Creación de la estructura inicial del informe, elaboración de la introducción y objetivos.  |
-| TB1     | 24/04/2025 | Jean Franco Joel Barrionuevo Reto        | Redacción del perfil de la startup, antecedentes y planteamiento del problema.              |
-| TB1     | 25/04/2025 | Mathias Tsuneo Kunimoto Watanabe         | Desarrollo de User Personas, User Journey y Empathy Mapping para el análisis de usuarios.   |
-| TB1     | 26/04/2025 | Italo D'alessandro Luna Capuñay           | Diseño del To-Be Scenario, Impact Mapping y redacción de las User Stories.                  |
-| TB1     | 27/04/2025 | Augusto Jose Pin Matallana               | Elaboración del análisis competitivo y propuestas de solución en base al Needfinding.       |
-| TB1     | 28/04/2025 | Todo el equipo                           | Revisión general, integración de secciones, corrección de estilo, y preparación de entrega. |
-
-</div>
+<table>
+  <thead>
+    <tr>
+      <th>Versión</th>
+      <th>Fecha</th>
+      <th>Autor</th>
+      <th>Descripción de Modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="6">TB1</td>
+      <td>24/04/2025</td>
+      <td>Rodrigo Alejandro Aguilar Castillo</td>
+      <td>Creación de la estructura inicial del informe, elaboración de la introducción y objetivos.</td>
+    </tr>
+    <tr>
+      <td>24/04/2025</td>
+      <td>Jean Franco Joel Barrionuevo Reto</td>
+      <td>Redacción del perfil de la startup, antecedentes y planteamiento del problema.</td>
+    </tr>
+    <tr>
+      <td>25/04/2025</td>
+      <td>Mathias Tsuneo Kunimoto Watanabe</td>
+      <td>Desarrollo de User Personas, User Journey y Empathy Mapping para el análisis de usuarios.</td>
+    </tr>
+    <tr>
+      <td>26/04/2025</td>
+      <td>Italo D'alessandro Luna Capuñay</td>
+      <td>Diseño del To-Be Scenario, Impact Mapping y redacción de las User Stories.</td>
+    </tr>
+    <tr>
+      <td>27/04/2025</td>
+      <td>Augusto Jose Pin Matallana</td>
+      <td>Elaboración del análisis competitivo y propuestas de solución en base al Needfinding.</td>
+    </tr>
+    <tr>
+      <td>28/04/2025</td>
+      <td>Todo el equipo</td>
+      <td>Revisión general, integración de secciones, corrección de estilo, y preparación de entrega.</td>
+    </tr>
+    <tr>
+      <td rowspan="6">TP1</td>
+      <td>12/05/2025</td>
+      <td>Rodrigo Alejandro Aguilar Castillo</td>
+      <td>Implementación de pruebas unitarias y revisión de la estructura del informe.</td>
+    </tr>
+    <tr>
+      <td>12/05/2025</td>
+      <td>Jean Franco Joel Barrionuevo Reto</td>
+      <td>Desarrollo de pruebas de integración y validación de funcionalidades clave.</td>
+    </tr>
+    <tr>
+      <td>13/05/2025</td>
+      <td>Mathias Tsuneo Kunimoto Watanabe</td>
+      <td>Implementación de pruebas de comportamiento y revisión de los resultados obtenidos.</td>
+    </tr>
+    <tr>
+      <td>13/05/2025</td>
+      <td>Italo D'alessandro Luna Capuñay</td>
+      <td>Configuración de herramientas de integración continua y despliegue automatizado.</td>
+    </tr>
+    <tr>
+      <td>14/05/2025</td>
+      <td>Augusto Jose Pin Matallana</td>
+      <td>Documentación de los pipelines de despliegue y validación de los componentes en producción.</td>
+    </tr>
+    <tr>
+      <td>14/05/2025</td>
+      <td>Todo el equipo</td>
+      <td>Revisión final, integración de pruebas y validación del informe para entrega.</td>
+    </tr>
+  </tbody>
+</table>
 
 # Project Report Collaboration Insights
 
