@@ -140,6 +140,20 @@ Se muestran evidencias de los commits realizados en la entrega de la TB1 en el i
 
 En ambos casos se puede observar el incremento de modificaciones y revisiones en la primera semana de abril.
 
+### TP1
+
+Para la entrega del TP1 se han realizado los procesos necesarios para lograr los objetivos propuestos de la entrega. Se toma en cuenta la importancia de la persistencia y como grupo nos dedicamos a mantener una frecuencia de commits y cambios proyectada a ser optima a futuro.
+
+Se muestran evidencias de los commits realizados en la entrega de la TB1 en el informe
+
+<img src="../assets/inisghts/tb1/rw-3.png" alt="inisghts">  
+
+[Colaboraciones del repositorio]
+
+<img src="../assets/inisghts/tb1/rw-4.png" alt="imagen de los commits">  
+[Registro de los commits donde se realizaron la mayor cantidad]
+
+En ambos casos se puede observar el incremento de modificaciones y revisiones en la primera semana de mayo.
 ---
 
 # Contenido
