@@ -2182,8 +2182,53 @@ Link de la landing page desplegada: [Car2Go](https://devtest-diseno-experimentos
 
  ### URL: [Ver Web App](https://car2go-c60fa.web.app/login)
 
+#### 5.2.4. Acuerdo de Servicio - SaaS
 
-#### 5.2.4. Implemented Native-Mobile Application Evidence
+El Acuerdo de Servicio (SaaS) para **Car2Go** establece los términos y condiciones bajo los cuales los usuarios pueden acceder y utilizar la plataforma. Este acuerdo incluye los siguientes puntos clave:
+
+1. **Definiciones**:
+   - **Plataforma**: Se refiere a Car2Go, el servicio SaaS que permite la compra, venta y certificación de vehículos de segunda mano.
+   - **Usuario**: Persona que utiliza la plataforma, ya sea como comprador, vendedor o taller técnico.
+   - **Servicio**: Funcionalidades ofrecidas por Car2Go, incluyendo publicación de vehículos, certificaciones, y transacciones seguras.
+
+2. **Alcance del Servicio**:
+   - Car2Go proporciona una plataforma para conectar compradores, vendedores y talleres técnicos.
+   - La plataforma no garantiza la calidad, seguridad o legalidad de los vehículos listados, ni la veracidad de la información proporcionada por los usuarios.
+
+3. **Responsabilidades del Usuario**:
+   - Proporcionar información precisa y actualizada al registrarse y al listar vehículos.
+   - Cumplir con las leyes locales relacionadas con la compra y venta de vehículos.
+   - No utilizar la plataforma para actividades fraudulentas o ilegales.
+
+4. **Responsabilidades de Car2Go**:
+   - Mantener la disponibilidad de la plataforma, salvo interrupciones programadas o imprevistas.
+   - Proteger los datos personales de los usuarios conforme a la política de privacidad.
+   - Ofrecer soporte técnico en caso de problemas con el uso de la plataforma.
+
+5. **Pagos y Tarifas**:
+   - Los vendedores pueden optar por planes de suscripción o pagar comisiones por transacción.
+   - Los compradores no incurren en costos adicionales por el uso de la plataforma, salvo que se especifique lo contrario.
+   - Los talleres técnicos pueden cobrar tarifas por servicios de certificación, gestionadas directamente con los usuarios.
+
+6. **Limitación de Responsabilidad**:
+   - Car2Go no se hace responsable de disputas entre compradores y vendedores, ni de problemas relacionados con los vehículos listados.
+   - La plataforma no garantiza la disponibilidad continua del servicio y no será responsable por pérdidas derivadas de interrupciones.
+
+7. **Terminación del Servicio**:
+   - Car2Go se reserva el derecho de suspender o cancelar cuentas de usuarios que violen los términos del acuerdo.
+   - Los usuarios pueden cancelar su cuenta en cualquier momento, pero no se reembolsarán tarifas ya pagadas.
+
+8. **Modificaciones al Acuerdo**:
+   - Car2Go puede actualizar este acuerdo en cualquier momento. Los usuarios serán notificados de los cambios y deberán aceptar los nuevos términos para continuar utilizando la plataforma.
+
+9. **Jurisdicción**:
+   - Este acuerdo se rige por las leyes locales del país donde opera Car2Go.
+
+10. **Contacto**:
+    - Para consultas o soporte, los usuarios pueden comunicarse con el equipo de Car2Go a través de los canales oficiales proporcionados en la plataforma.
+
+
+#### 5.2.5. Implemented Native-Mobile Application Evidence
 
 Login:
 
@@ -2225,7 +2270,7 @@ Estadisticas de revisiones:
 
 <img src="../assets/mobile-app-evidence/mobile-app-revision-stats.jpeg" alt="mobile app" style="margin-bottom: 5px;" height="500"/>
 
-#### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+#### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 
 A continuación, se muestran algunas capturas de pantalla en secuencia de cómo fue el paso a paso en el despliegue.
 
@@ -2237,11 +2282,11 @@ A continuación, se muestran algunas capturas de pantalla en secuencia de cómo 
 
 #### URL: [Enlace del Swagger](https://car2go-platform-hpdzhtb8ekceg9gd.canadacentral-01.azurewebsites.net/swagger-ui/index.html)
 
-#### 5.2.6. RESTful API documentation
+#### 5.2.7. RESTful API documentation
 
 <img src="../assets/restful-api/restful-api-documentation.png" alt="RESTful API"/>
 
-#### 5.2.7. Team Collaboration Insights
+#### 5.2.8. Team Collaboration Insights
 
 Se realizaron las funcionalidades correspondientes en cada rama principal del feature. Finalmente fue unido a la rama “development” para realizar las pruebas necesarias y sea enviado a producción en la rama “main”
 
