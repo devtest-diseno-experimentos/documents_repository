@@ -2591,6 +2591,12 @@ Los componentes principales que forman parte del pipeline de despliegue del fron
 
 ### 8.1.1. As-Is Summary.
 
+Car2Go es una plataforma digital innovadora, actualmente en la fase de desarrollo y preparación para el lanzamiento, diseñada para optimizar la compra y venta de autos de segunda mano. Nuestro objetivo es ofrecer una experiencia segura y eficiente, conectando a compradores y vendedores de forma directa. La plataforma cuenta con un prototipo funcional y versiones ya desplegadas para pruebas internas. Para su construcción, hemos utilizado Angular en el frontend web, Spring Boot para el backend, y Flutter para las aplicaciones móviles, lo que nos permite asegurar una solución robusta y multiplataforma.
+
+Al ser este un proyecto reciente en el ámbito universitario, Car2Go no cuenta con financiamiento externo ni genera ingresos en la actualidad, y aún no ha adquirido clientes activos. Los recursos invertidos hasta la fecha provienen exclusivamente del equipo, enfocados primordialmente en el desarrollo del producto. El equipo está estructurado con un Team Leader que supervisa la visión y ejecución general, y un grupo de desarrolladores que se encargan de la implementación técnica de la plataforma.
+
+Hemos establecido acuerdos estratégicos con talleres mecánicos, lo cual es un pilar fundamental para la integración de servicios adicionales que potenciarán la propuesta de valor de Car2Go, como inspecciones de vehículos o verificaciones de estado, aunque los detalles operativos y de monetización asociados a estas alianzas aún están en fase de definición. Es importante destacar que, hasta el momento, no hemos procedido con el registro de la marca "Car2Go" ni con otras formas de propiedad intelectual, siendo este un paso contemplado para etapas futuras del proyecto.
+
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
 
 - Assumptions:
