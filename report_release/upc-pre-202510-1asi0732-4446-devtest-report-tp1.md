@@ -289,17 +289,6 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 [7.3. Continuous Deployment](#73-continuous-deployment)  
 [7.3.1. Tools and Practices](#731-tools-and-practices)  
 [7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)
-<!-- 
-[Capítulo VII: DevOps Practices](#capítulo-vii-devops-practices)  
-[7.1. Continuous Integration](#71-continuous-integration)  
-[7.1.1. Tools and Practices](#711-tools-and-practices)  
-[7.1.2. Build & Test Suite Pipeline Components](#712-build-test-suite-pipeline-components)  
-[7.2. Continuous Delivery](#72-continuous-delivery)  
-[7.2.1. Tools and Practices](#721-tools-and-practices)  
-[7.2.2. Stages Deployment Pipeline Components](#722-stages-deployment-pipeline-components)  
-[7.3. Continuous deployment](#73-continuous-deployment)  
-[7.3.1. Tools and Practices](#731-tools-and-practices)  
-[7.3.2. Production Deployment Pipeline Components](#732-production-deployment-pipeline-components)  
 [7.4. Continuous Monitoring](#74-continuous-monitoring)  
 [7.4.1. Tools and Practices](#741-tools-and-practices)  
 [7.4.2. Monitoring Pipeline Components](#742-monitoring-pipeline-components)  
@@ -324,7 +313,7 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 [8.3. Experimentation](#83-experimentation)  
 [8.3.1. To-Be User Stories](#831-to-be-user-stories)  
 [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)  
-[8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)  
+<!-- [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)  
 [8.3.3.1. To-Be Sprint Backlogs](#8331-to-be-sprint-backlogs)  
 [8.3.3.2. Implemented To-Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)  
 [8.3.3.3. Implemented To-Be Frontend-Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)  
@@ -2599,10 +2588,101 @@ Los componentes principales que forman parte del pipeline de despliegue del fron
 # Capítulo VIII: Experiment-Driven Development
 
 ## 8.1. Experiment Planning
+
 ### 8.1.1. As-Is Summary.
+
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
+
+- Assumptions:
+
+  - Los vendedores de autos de segunda mano están dispuestos a pagar por funciones avanzadas que aumenten la visibilidad de sus anuncios.
+  - Existe una demanda suficiente de compradores que buscan autos de segunda mano a través de plataformas digitales.
+  - Los usuarios confían en realizar transacciones de alto valor (como la compra de un auto) a través de una plataforma en línea que facilita el contacto directo entre partes.
+  - El sistema de confirmación de pago por captura de pantalla de transferencia bancaria será percibido como seguro y confiable por ambas partes.
+  - Los compradores y vendedores están dispuestos a pagar una comisión por la facilitación de la transacción, ya que valora la seguridad y eficiencia de la plataforma.
+
+- Knowledge Gaps:
+
+  - ¿Cuál es el precio óptimo para los diferentes planes de suscripción para vendedores que maximice la conversión sin ahuyentar a los usuarios?
+  - ¿Qué porcentaje de comisión por transacción es aceptable para compradores y vendedores en el mercado de autos de segunda mano?
+  - ¿Cuáles son las características de personalización más valoradas por los usuarios que realmente mejoran la experiencia de compra/venta?
+  - ¿Cuál es la objeción principal de los usuarios al comprar/vender autos de segunda mano en línea?
+  - ¿Cómo podemos verificar la autenticidad y el estado de los vehículos listados sin una inspección física directa por parte de Car2Go?
+
+- Ideas:
+
+  - Integrar un sistema de verificación de antecedentes de vehículos (historial de accidentes, kilometraje) a través de un tercero.
+  - Desarrollar una función de "ofertas y contraofertas" en tiempo real dentro de la plataforma.
+  - Crear un sistema de mensajería interno con plantillas predefinidas para facilitar la comunicación.
+  - Ofrecer servicios adicionales a través de alianzas (ej. inspecciones mecánicas).
+  - Implementar un sistema de reseñas y calificaciones para vendedores y compradores.
+
+- Claims:
+
+  - Car2Go reducirá el tiempo promedio para vender un auto de segunda mano en un 30% en comparación con métodos tradicionales.
+  - Lograremos una tasa de conversión del 10% de visitantes a publicaciones de autos destacadas en el primer año.
+  - Nuestro sistema de seguridad y seguimiento de transacciones minimizará el riesgo de fraude en un 90% en comparación con las transacciones directas entre particulares.
+  - Alcanzaremos una base de 5,000 vendedores activos en los primeros 18 meses.
+
 ### 8.1.3. Experiment-Ready Questions.
+
+- ¿Estarán dispuestos los vendedores de autos de segunda mano a pagar una suscripción mensual de $X para destacar sus anuncios y acceder a análisis de marketing?
+- ¿Consideran los compradores y vendedores de autos de segunda mano que una comisión del Y% por transacción es justa y justificable por la seguridad y conveniencia de la plataforma?
+- ¿Es el sistema de confirmación de pago mediante captura de pantalla de transferencia bancaria percibido como lo suficientemente seguro para transacciones de alto valor entre usuarios no conocidos?
+- ¿Cuál es la característica más crítica que haría que un comprador eligiera Car2Go sobre otras plataformas para buscar un auto de segunda mano?
+- ¿Cuál es la principal barrera o temor que tienen los usuarios al comprar o vender un auto de segunda mano a un particular en línea?
+
 ### 8.1.4. Question Backlog. 
+
+<table>
+  <thead>
+    <tr>
+      <th>Pregunta Lista para Experimento</th>
+      <th>Prioridad</th>
+      <th>Hipótesis</th>
+      <th>Idea de Experimento Potencial</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>¿Estarán dispuestos los vendedores de autos de segunda mano a pagar una suscripción mensual de $X para destacar sus anuncios y acceder a análisis de marketing?</td>
+      <td>Alta</td>
+      <td>Sí, si el valor percibido (mayor visibilidad, ventas más rápidas) supera el costo.</td>
+      <td>Encuestas a vendedores potenciales. Prueba de oferta de "destacar anuncio" en una landing page simulada (MVP Conserje).</td>
+    </tr>
+    <tr>
+      <td>¿Es el sistema de confirmación de pago mediante captura de pantalla de transferencia bancaria percibido como lo suficientemente seguro para transacciones de alto valor entre usuarios no conocidos?</td>
+      <td>Alta</td>
+      <td>No, los usuarios buscarán una capa de seguridad adicional o un intermediario más robusto.</td>
+      <td>Entrevistas a profundidad con compradores y vendedores sobre su nivel de confianza y preferencias de pago.</td>
+    </tr>
+    <tr>
+      <td>¿Cuál es la principal barrera o temor que tienen los usuarios al comprar o vender un auto de segunda mano a un particular en línea?</td>
+      <td>Alta</td>
+      <td>El fraude (autos con vicios ocultos, estafas en el pago) y la falta de confianza.</td>
+      <td>Entrevistas de problema (Problem Interviews) con usuarios que han comprado/vendido recientemente.</td>
+    </tr>
+    <tr>
+      <td>¿Cuál es la característica más crítica que haría que un comprador eligiera Car2Go sobre otras plataformas para buscar un auto de segunda mano?</td>
+      <td>Media</td>
+      <td>La verificación de antecedentes del vehículo y una interfaz de búsqueda intuitiva.</td>
+      <td>Tests A/B de mockups de la plataforma con diferentes énfasis en características.</td>
+    </tr>
+    <tr>
+      <td>¿Cuál es el porcentaje de comisión por transacción que compradores y vendedores consideran justo y justificable para una plataforma de este tipo?</td>
+      <td>Media</td>
+      <td>Un 1-2% del valor del vehículo, percibido como tarifa de servicio por seguridad y conveniencia.</td>
+      <td>Encuestas de precios (Van Westendorp) a segmentos de compradores y vendedores.</td>
+    </tr>
+    <tr>
+      <td>¿Cómo podemos verificar la autenticidad y el estado de los vehículos listados sin una inspección física directa por parte de Car2Go?</td>
+      <td>Baja</td>
+      <td>A través de alianzas con talleres mecánicos o servicios de inspección a domicilio.</td>
+      <td>Investigación de proveedores de servicios de inspección de terceros y su costo/disponibilidad.</td>
+    </tr>
+  </tbody>
+</table>
+
 ### 8.1.5. Experiment Cards.
 
 ## 8.2. Experiment Design
