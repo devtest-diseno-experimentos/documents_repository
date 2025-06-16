@@ -2794,6 +2794,18 @@ A continuación se presentan las User Stories propuestas para la siguiente etapa
 ---
 ### 8.3.2. To-Be Product Backlog
 
+El siguiente Product Backlog prioriza las User Stories experimentales y de mejora continua para la siguiente iteración de Car2Go:
+
+| Prioridad | User Story ID | Título                                 | Descripción breve                                                                                   | Story Points |
+|-----------|---------------|----------------------------------------|-----------------------------------------------------------------------------------------------------|--------------|
+| 1         | TBU-01        | Seguimiento de Interacciones Clave     | Implementar tracking de eventos clave en web y mobile.                                              | 5            |
+| 2         | TBU-02        | Encuestas de Satisfacción In-App       | Desplegar encuestas rápidas tras uso de nuevas funciones.                                           | 3            |
+| 3         | TBU-04        | Segmentación de Métricas por Rol       | Permitir filtrar métricas por tipo de usuario en el dashboard de administración.                    | 3            |
+| 4         | TBU-05        | Visualización de Métricas Personales   | Crear sección "Mi Actividad" para usuarios finales.                                                 | 3            |
+| 5         | TBU-03        | Notificaciones de Cambios Importantes  | Enviar notificaciones automáticas sobre novedades y cambios relevantes.                             | 2            |
+| 6         | TBU-06        | Feedback sobre Proceso de Reserva      | Habilitar feedback post-reserva para compradores.                                                   | 2            |
+| 7         | TBU-07        | Reporte Mensual de Uso                 | Automatizar generación y envío de reportes mensuales de uso y recomendaciones.                      | 2            |
+
 
 ## VII. Bibliografía
 
