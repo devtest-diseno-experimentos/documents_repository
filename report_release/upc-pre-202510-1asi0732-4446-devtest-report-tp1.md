@@ -2622,7 +2622,11 @@ Para establecer un sistema de alertas eficiente, se emplean herramientas como Pr
 
 ### 7.4.4. Notification Pipeline Components. 
 
+En un pipeline de notificaciones, es crucial comunicar automáticamente los resultados de las pruebas y el estado del pipeline. GitHub jugará un papel clave en este proceso, ya que permite configurar notificaciones detalladas sobre el progreso y los resultados de cada fase del pipeline de pruebas.
 
+<img src="../assets/notifications-pipeline/github.jpeg" alt="github"/>
+
+Con GitHub Actions, las notificaciones pueden configurarse para enviarse automáticamente al finalizar cada build o etapa del pipeline, informando sobre el éxito o fallo de las pruebas, el tiempo de ejecución y los problemas encontrados. Esto permite que el equipo reciba alertas en tiempo real sobre cualquier incidente o fallo en las pruebas, facilitando una respuesta inmediata. GitHub también permite generar reportes detallados y automatizar el envío de resúmenes periódicos, ofreciendo una visión completa del estado de calidad del software en cada ciclo de pruebas.
 
 # Capítulo VIII: Experiment-Driven Development
 
