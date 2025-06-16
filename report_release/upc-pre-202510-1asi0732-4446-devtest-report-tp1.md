@@ -2597,6 +2597,11 @@ Para garantizar un monitoreo constante y efectivo en nuestra aplicación, se emp
 
 ### 7.4.2. Monitoring Pipeline Components
 
+Un flujo de trabajo de monitoreo continuo consta de varias fases que son clave para mantener la calidad y el rendimiento de una aplicación. Estas fases abarcan desde la recopilación de datos hasta su almacenamiento, análisis y visualización. Herramientas como Google Lighthouse y Catchpoint son esenciales en este ciclo, proporcionando evaluaciones complementarias que ayudan a comprender y optimizar la experiencia del usuario.
+
+Google Lighthouse es una herramienta eficaz para realizar auditorías de calidad en sitios web, ofreciendo análisis profundos sobre aspectos como accesibilidad, buenas prácticas, SEO y rendimiento. Permite a los equipos detectar problemas que afectan la experiencia del usuario, como tiempos de carga lentos y cambios en el diseño.
+
+<img src="../assets/monitoring-pipeline/google-lighthouse.png" alt="Google Lighthouse"/>
 
 ### 7.4.3. Alerting Pipeline Components
 ### 7.4.4. Notification Pipeline Components. 
