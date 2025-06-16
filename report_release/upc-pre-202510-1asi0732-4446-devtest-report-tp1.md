@@ -2581,7 +2581,23 @@ Los componentes principales que forman parte del pipeline de despliegue del fron
 ## 7.4 Continuous Monitoring
 
 ### 7.4.1 Continuous Monitoring
+
+Para garantizar un monitoreo constante y efectivo en nuestra aplicación, se emplearán diversas herramientas y enfoques, entre los cuales se incluyen los siguientes:
+
+- **Monitoreo de la Experiencia del Usuario:** Con el fin de comprender cómo los usuarios interactúan con la aplicación, herramientas como Google Analytics recogen información sobre su uso y navegación. Esto permite a los equipos optimizar la usabilidad y el desempeño de la interfaz.
+
+<img src="../assets/continous-monitoring/googleanalytics.webp" alt="Google Analytics"/>
+
+<br/>
+
+- **Monitoreo de APIs:** Es crucial supervisar la disponibilidad y el tiempo de respuesta de las APIs, ya sean externas o internas. Herramientas como Swagger proporcionan métricas en tiempo real que permiten verificar su correcto funcionamiento.
+
+<img src="../assets/continous-monitoring/swagger.png" alt="Swagger"/>
+
+
 ### 7.4.2. Monitoring Pipeline Components
+
+
 ### 7.4.3. Alerting Pipeline Components
 ### 7.4.4. Notification Pipeline Components. 
 
