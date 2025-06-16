@@ -2604,7 +2604,25 @@ Google Lighthouse es una herramienta eficaz para realizar auditorías de calidad
 <img src="../assets/monitoring-pipeline/google-lighthouse.png" alt="Google Lighthouse"/>
 
 ### 7.4.3. Alerting Pipeline Components
+
+El sistema de alertas en un pipeline de monitoreo es fundamental para detectar y responder de manera ágil a problemas de rendimiento o disponibilidad de la aplicación. Este componente garantiza que el equipo reciba notificaciones instantáneas cuando ocurren eventos críticos o anomalías que necesitan intervención.
+
+Para establecer un sistema de alertas eficiente, se emplean herramientas como Prometheus junto con Alertmanager y Grafana.
+
+- **Grafana:** Grafana se emplea para la visualización avanzada de métricas y la creación de alertas visuales en paneles personalizados. Permite definir umbrales y notificaciones ante eventos críticos o patrones inusuales. Al integrarse con Prometheus y otras fuentes de datos, ofrece una interfaz visual intuitiva para monitorear y recibir alertas de rendimiento en tiempo real.
+
+<img src="../assets/alerting-pipeline/grafana.png" alt="Grafana"/>
+
+<br/>
+
+- **Prometheus con Alertmanager:** Prometheus es una herramienta de monitoreo que recopila métricas en tiempo real, permitiendo definir umbrales para indicadores como uso de CPU, memoria o latencia. Cuando se superan esos límites, genera alertas que se envían a Alertmanager, encargado de gestionar y distribuir notificaciones. Alertmanager permite redirigir las alertas a canales como correo electrónico, Slack o Teams, según la gravedad, y agrupar o silenciar alertas durante mantenimientos, mejorando la respuesta ante incidentes.
+
+<img src="../assets/alerting-pipeline/prometheus.png" alt="Prometheus"/>
+
+
 ### 7.4.4. Notification Pipeline Components. 
+
+
 
 # Capítulo VIII: Experiment-Driven Development
 
