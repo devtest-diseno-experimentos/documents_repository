@@ -2741,7 +2741,41 @@ Hemos establecido acuerdos estratégicos con talleres mecánicos, lo cual es un 
 ### 8.2.4. Scale Calculations and Decisions.
 ### 8.2.5. Methods Selection.
 ### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
-### 8.2.7. Web and Mobile Tracking Plan.
+### 8.2.7. Web and Mobile Tracking Plan
+
+Para Car2Go, nuestro objetivo es optimizar y monitorear tanto la aplicación web como la móvil, facilitando la reserva y uso eficiente de vehículos compartidos, así como potenciando la participación y satisfacción de los usuarios. A medida que avanzamos hacia la etapa final del proyecto, estableceremos un plan de seguimiento exhaustivo que nos permitirá evaluar de manera efectiva las mejoras implementadas en la plataforma.
+
+#### Monitoreo de Funcionalidades Experimentales
+
+El monitoreo se llevará a cabo en dos etapas clave:
+
+**1. Implementación Inicial:**
+
+Durante esta fase, nos enfocaremos en el lanzamiento de nuevas funcionalidades y en la recolección de datos iniciales para establecer una línea base de rendimiento.
+
+- **Recopilación de Datos:**
+  - **Métricas de Uso:** Se recopilarán datos sobre el uso de la aplicación, incluyendo el número de usuarios activos, duración de las sesiones, reservas realizadas, y tasas de conversión en el proceso de reserva.
+  - **Interacciones de los Usuarios:** Se registrarán las interacciones de los usuarios con las nuevas funcionalidades, como clics en botones de reserva, acceso a mapas de vehículos, uso de filtros de búsqueda y participación en el sistema de calificaciones.
+  - **Feedback de Usuarios:** A través de encuestas y herramientas de retroalimentación, se recogerán opiniones sobre la usabilidad de la plataforma y las nuevas funcionalidades implementadas.
+
+- **Análisis Comparativo:**
+  - Se compararán los datos obtenidos durante esta fase con los datos históricos de la plataforma antes de la implementación de las nuevas funcionalidades, para evaluar el impacto inmediato de las mejoras.
+
+**2. Seguimiento Continuo:**
+
+Después de la implementación inicial, se establecerá un proceso continuo de seguimiento para evaluar el rendimiento y realizar ajustes según sea necesario.
+
+- **Recopilación de Datos:**
+  - **Métricas en Tiempo Real:** Se implementarán herramientas de análisis web y móvil para monitorear el comportamiento de los usuarios en tiempo real, permitiendo identificar tendencias y patrones de uso.
+  - **Segmentación de Usuarios:** Los datos se segmentarán por tipo de usuario (conductores, pasajeros, administradores) para entender mejor cómo cada grupo interactúa con la plataforma.
+  - **Tasa de Retención:** Se medirá la tasa de retención de usuarios a lo largo del tiempo para evaluar la efectividad de las nuevas funcionalidades en mantener a los usuarios comprometidos con la plataforma.
+
+- **Evaluación y Ajustes:**
+  - **Informes Periódicos:** Se generarán informes mensuales que resuman los hallazgos del seguimiento, incluyendo recomendaciones para ajustes y mejoras.
+  - **Iteración Basada en Datos:** Se realizarán ajustes en la plataforma basados en los datos recopilados y en el feedback de los usuarios, asegurando que Car2Go evolucione para satisfacer mejor las necesidades de sus usuarios.
+
+Este enfoque asegurará que Car2Go continúe evolucionando en función de los datos y permita tomar decisiones informadas para mejorar la experiencia de los usuarios en
+
 
 ## 8.3. Experimentation
 ### 8.3.1. To-Be User Stories.
