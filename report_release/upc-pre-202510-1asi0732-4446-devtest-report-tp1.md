@@ -2776,9 +2776,22 @@ Después de la implementación inicial, se establecerá un proceso continuo de s
 
 Este enfoque asegurará que Car2Go continúe evolucionando en función de los datos y permita tomar decisiones informadas para mejorar la experiencia de los usuarios en
 
-
 ## 8.3. Experimentation
-### 8.3.1. To-Be User Stories.
+### 8.3.1. To-Be User Stories
+
+A continuación se presentan las User Stories propuestas para la siguiente etapa de experimentación y mejora de Car2Go, enfocadas en la validación de nuevas funcionalidades, optimización de la experiencia y medición de impacto:
+
+| ID    | Título                                      | Descripción                                                                                                    | Criterios de Aceptación                                                                                                   |
+|-------|---------------------------------------------|----------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| TBU-01 | Seguimiento de Interacciones Clave         | Como Product Owner quiero registrar las interacciones clave de los usuarios para analizar el uso de nuevas funcionalidades. | Se registran eventos como clics en botones de reserva, filtros aplicados y visualización de autos destacados.             |
+| TBU-02 | Encuestas de Satisfacción In-App           | Como usuario quiero responder encuestas rápidas sobre nuevas funciones para dar feedback inmediato.             | El usuario recibe una encuesta tras usar una nueva función y puede calificar su experiencia y dejar comentarios.           |
+| TBU-03 | Notificaciones de Cambios Importantes      | Como usuario quiero recibir notificaciones sobre cambios relevantes en la plataforma para mantenerme informado. | El usuario recibe notificaciones push o por email sobre nuevas funciones, promociones o cambios en el flujo de reserva.    |
+| TBU-04 | Segmentación de Métricas por Rol           | Como administrador quiero segmentar las métricas por tipo de usuario para entender mejor el comportamiento.     | El dashboard de métricas permite filtrar datos por compradores, vendedores y talleres técnicos.                            |
+| TBU-05 | Visualización de Métricas Personales       | Como usuario quiero ver mis propias métricas de uso para conocer mi actividad en la plataforma.                 | El usuario puede acceder a una sección de "Mi Actividad" con datos como autos vistos, reservas realizadas y tiempo activo. |
+| TBU-06 | Feedback sobre Proceso de Reserva          | Como comprador quiero dejar feedback sobre el proceso de reserva para sugerir mejoras.                         | Tras completar una reserva, el usuario puede calificar el proceso y dejar sugerencias.                                     |
+| TBU-07 | Reporte Mensual de Uso                     | Como administrador quiero recibir un reporte mensual automático del uso de la plataforma y sus mejoras.         | El sistema genera y envía un reporte mensual con métricas clave y recomendaciones de ajuste.                               |
+
+---
 ### 8.3.2. To-Be Product Backlog
 
 
