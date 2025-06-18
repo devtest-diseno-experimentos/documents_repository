@@ -2734,13 +2734,232 @@ Hemos establecido acuerdos estratégicos con talleres mecánicos, lo cual es un 
 
 ### 8.1.5. Experiment Cards.
 
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>QUESTION</th>
+    <td>¿Los vendedores de autos están dispuestos a pagar por destacar sus publicaciones?</td>
+  </tr>
+  <tr>
+    <th>WHY</th>
+    <td>Porque si logran vender más rápido su vehículo, estarán dispuestos a pagar por mayor visibilidad.</td>
+  </tr>
+  <tr>
+    <th>WHAT</th>
+    <td>Se lanza un test A/B: al 50% de los vendedores se les ofrece una opción de “Destacar anuncio” con precio promocional de S/19.90. Al otro 50% no se muestra esa opción.</td>
+  </tr>
+  <tr>
+    <th>HYPOTHESIS</th>
+    <td>Si al menos el 30% de los usuarios elige destacar su anuncio, entonces podemos validar el interés por funciones premium pagadas.</td>
+  </tr>
+</table>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>QUESTION</th>
+    <td>¿Los usuarios encuentran difícil buscar autos que se ajusten a sus necesidades?</td>
+  </tr>
+  <tr>
+    <th>WHY</th>
+    <td>Porque cuanto más fácil sea filtrar autos por características clave, más probable es que el comprador encuentre lo que necesita.</td>
+  </tr>
+  <tr>
+    <th>WHAT</th>
+    <td>Se implementan filtros por marca, año, kilometraje y rango de precio. Se comparan dos grupos: uno con filtros, otro sin ellos.</td>
+  </tr>
+  <tr>
+    <th>HYPOTHESIS</th>
+    <td>Si más del 40% de los usuarios que usaron los filtros concretan una conversación con el vendedor, podemos validar que mejoran la experiencia de búsqueda.</td>
+  </tr>
+</table>
+
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>QUESTION</th>
+    <td>¿Los compradores sienten inseguridad al pagar a desconocidos sin intermediarios?</td>
+  </tr>
+  <tr>
+    <th>WHY</th>
+    <td>Porque necesitan garantías de que el pago se haya hecho correctamente y que el vendedor entregue el vehículo.</td>
+  </tr>
+  <tr>
+    <th>WHAT</th>
+    <td>Se habilita una función de “confirmación por captura de transferencia” y se mide la percepción de seguridad mediante una encuesta al finalizar la compra.</td>
+  </tr>
+  <tr>
+    <th>HYPOTHESIS</th>
+    <td>Si al menos el 60% de los compradores considera que esta función aumenta su confianza, se valida como una solución viable.</td>
+  </tr>
+</table>
+
 ## 8.2. Experiment Design
 ### 8.2.1. Hypotheses.
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Pregunta</th>
+    <td>¿Los vendedores están dispuestos a pagar por destacar sus publicaciones?</td>
+  </tr>
+  <tr>
+    <th>Creencia</th>
+    <td>Los vendedores valorarán la mayor visibilidad y rapidez en la venta de sus autos si destacan sus publicaciones.</td>
+  </tr>
+  <tr>
+    <th>Hipótesis (Alternativa)</th>
+    <td>Creemos que si ofrecemos una función para destacar publicaciones por S/19.90, al menos el 30% de los vendedores la usará y reportará una venta más rápida, lo cual validará la utilidad de funciones premium.</td>
+  </tr>
+  <tr>
+    <th>Hipótesis (Nula)</th>
+    <td>Creemos que si ofrecemos una función para destacar publicaciones por S/19.90, menos del 10% de los vendedores la usará y no se observará diferencia en el tiempo de venta, indicando poco valor percibido.</td>
+  </tr>
+</table>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Pregunta</th>
+    <td>¿Los compradores se sienten seguros al pagar mediante transferencia a desconocidos?</td>
+  </tr>
+  <tr>
+    <th>Creencia</th>
+    <td>La falta de intermediación genera desconfianza en los compradores de autos de segunda mano.</td>
+  </tr>
+  <tr>
+    <th>Hipótesis (Alternativa)</th>
+    <td>Creemos que si implementamos una confirmación de pago por captura de pantalla validada, al menos el 60% de los usuarios se sentirá más seguro y realizará la transacción sin abandonar el proceso.</td>
+  </tr>
+  <tr>
+    <th>Hipótesis (Nula)</th>
+    <td>Creemos que si implementamos una confirmación de pago por captura de pantalla validada, no se incrementará la percepción de seguridad y muchos compradores seguirán prefiriendo opciones fuera de la plataforma.</td>
+  </tr>
+</table>
+
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Pregunta</th>
+    <td>¿Los usuarios encuentran difícil buscar autos que se ajusten a sus necesidades?</td>
+  </tr>
+  <tr>
+    <th>Creencia</th>
+    <td>Los compradores necesitan filtros detallados para comparar modelos rápidamente.</td>
+  </tr>
+  <tr>
+    <th>Hipótesis (Alternativa)</th>
+    <td>Creemos que si añadimos filtros por marca, año, precio y kilometraje, la tasa de contacto con vendedores aumentará en un 20% respecto a búsquedas sin filtros.</td>
+  </tr>
+  <tr>
+    <th>Hipótesis (Nula)</th>
+    <td>Creemos que si añadimos filtros por marca, año, precio y kilometraje, no se observará una diferencia significativa en la tasa de contacto, lo que indica que no impactan en la experiencia de búsqueda.</td>
+  </tr>
+</table>
+<table border="1" cellpadding="8" cellspacing="0">
+  <tr>
+    <th>Pregunta</th>
+    <td>¿Los usuarios encuentran difícil buscar autos que se ajusten a sus necesidades?</td>
+  </tr>
+  <tr>
+    <th>Creencia</th>
+    <td>Los compradores necesitan filtros detallados para comparar modelos rápidamente.</td>
+  </tr>
+  <tr>
+    <th>Hipótesis (Alternativa)</th>
+    <td>Creemos que si añadimos filtros por marca, año, precio y kilometraje, la tasa de contacto con vendedores aumentará en un 20% respecto a búsquedas sin filtros.</td>
+  </tr>
+  <tr>
+    <th>Hipótesis (Nula)</th>
+    <td>Creemos que si añadimos filtros por marca, año, precio y kilometraje, no se observará una diferencia significativa en la tasa de contacto, lo que indica que no impactan en la experiencia de búsqueda.</td>
+  </tr>
+</table>
+
 ### 8.2.2. Measures.
+
+| Pregunta                                                                 | Medida                                                                                             |
+|--------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------|
+| ¿Los vendedores están dispuestos a pagar por destacar sus publicaciones? | Porcentaje de vendedores que usan la función de destacar publicaciones + tiempo promedio de venta. |
+| ¿Los compradores se sienten seguros al pagar mediante transferencia a desconocidos? | Porcentaje de transacciones completadas con validación por captura de pago + tasa de abandono.     |
+| ¿Los usuarios encuentran difícil buscar autos que se ajusten a sus necesidades? | Tasa de uso de filtros avanzados + número de contactos generados tras aplicar filtros.              |
+
+
 ### 8.2.3. Conditions.
+
+| Pregunta                                                                                                              | ¿Los vendedores están dispuestos a pagar por destacar sus publicaciones?                                                                 |
+|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| Condición Experimental                                                                                                | Al menos el 30% de los vendedores usan la función y venden un 20% más rápido respecto al mes anterior.                                 |
+| Condición de Control                                                                                                  | Menos del 10% de los vendedores usa la función y el tiempo de venta se mantiene igual o aumenta.                                       |
+
+| Pregunta                                                                                                              | ¿Los compradores se sienten seguros al pagar mediante transferencia?                                                                    |
+|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| Condición Experimental                                                                                                | El 60% de los usuarios que ven la opción de validación por captura completan la compra sin abandonar proceso.                          |
+| Condición de Control                                                                                                  | El porcentaje de usuarios que completan la compra se mantiene igual o disminuye con la validación activa.                              |
+
+| Pregunta                                                                                                              | ¿Los usuarios encuentran difícil buscar autos que se ajusten a sus necesidades?                                                         |
+|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| Condición Experimental                                                                                                | El uso de filtros avanzados (marca, año, precio, km) aumenta en un 25% y los contactos con vendedores crecen.                          |
+| Condición de Control                                                                                                  | El uso de filtros avanzados se mantiene igual o baja, y los contactos no aumentan significativamente.                                  |
+
+| Pregunta                                                                                                              | ¿Los compradores confían en publicaciones con más detalles y fotos?                                                                    |
+|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| Condición Experimental                                                                                                | Las publicaciones con más fotos y detalles reciben un 30% más clics y generan más mensajes en promedio.                                |
+| Condición de Control                                                                                                  | Las publicaciones detalladas no muestran diferencias relevantes en clics ni mensajes comparadas con otras.                            |
+
+| Pregunta                                                                                                              | ¿La posibilidad de negociar precios en tiempo real mejora la conversión?                                                                |
+|-----------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| Condición Experimental                                                                                                | Las publicaciones con botón de "Hacer Oferta" incrementan la tasa de contacto en un 20% frente al mes anterior.                        |
+| Condición de Control                                                                                                  | Las publicaciones sin esa función mantienen o reducen su tasa de contacto promedio.                                                    |
+
+
 ### 8.2.4. Scale Calculations and Decisions.
+### Escalas de Decisión para Hipótesis Car2Go
+
+| Hipótesis                                                                                                 | Decisión                                           | Factor Utilizado                                | Desfavorable | Aceptable | Ideal | Excelente |
+|-----------------------------------------------------------------------------------------------------------|----------------------------------------------------|--------------------------------------------------|--------------|-----------|-------|-----------|
+| Si ofrecemos destacar publicaciones por S/19.90, al menos el 30% de los vendedores la usará.             | Implementar función de publicación destacada       | % de vendedores que usan la función              | x < 10%     | ≥ 10%    | ≥ 20% | ≥ 30%     |
+| Si usamos validación por captura de pantalla, al menos el 60% de usuarios se sentirá más seguro y comprará.| Agregar validación visual para transferencias      | % de usuarios que finalizan la compra            | x < 20%     | ≥ 20%    | ≥ 40% | ≥ 60%     |
+| Si añadimos filtros por marca, año, precio y km, la tasa de contacto con vendedores aumentará un 20%.    | Añadir filtros avanzados de búsqueda               | % de aumento en tasa de contacto con vendedores  | x < 5%      | ≥ 5%     | ≥ 10% | ≥ 20%     |
+
 ### 8.2.5. Methods Selection.
+Para analizar la información y los datos propuesto en nuestro proyecto, decidimos optar
+comparativas con algunas de las herramientas que se usan para este tipo de casos:
+
+### Google Analytics
+
+| **Elemento**     | **Detalle** |
+|------------------|-------------|
+| **Descripción**  | Una herramienta de análisis web que ofrece capacidades avanzadas para rastrear, medir y analizar el comportamiento de los usuarios en sitios web, aplicaciones móviles y otras plataformas digitales. |
+| **Ventajas**     | - Ofrece capacidades avanzadas de análisis web y seguimiento de usuarios.<br> - Integración con otras soluciones de Google, como Google Ads y Google Data Studio.<br> - Personalización. |
+| **Desventajas**  | - Algunas funcionalidades avanzadas pueden requerir una cuenta premium o de pago.<br> - Requiere implementación de código en el sitio web para rastrear datos. |
+
+
 ### 8.2.6. Data Analytics: Goals, KPIs and Metrics Selection.
+
+Esta sección explica lo que se pretende lograr con el análisis de datos, cuáles son los KPIs
+más relevantes para monitorear y qué métricas se utilizarán para evaluar el rendimiento de
+la plataforma.
+
+- Eventos de Uso de Funcionalidades:
+Se rastrearán las interacciones de los usuarios con funcionalidades clave de Car2Go, como la publicación de autos, el uso de filtros de búsqueda, el contacto entre compradores y vendedores, y el uso de publicaciones destacadas. El objetivo es comprender cómo los usuarios aprovechan las herramientas disponibles para facilitar la compra y venta de autos, y qué funciones generan mayor valor percibido.
+
+- Retención de Usuarios:
+Se evaluará la frecuencia con la que vendedores y compradores regresan a la plataforma, ya sea para publicar nuevos vehículos, continuar negociaciones o concretar compras. Esto permitirá medir la fidelización y el nivel de satisfacción con la experiencia ofrecida por Car2Go, así como identificar oportunidades para mejorar la retención.
+
+- Tasa de Éxito en Publicaciones:
+Se medirá el porcentaje de publicaciones que finalizan en una venta concreta. Este indicador permitirá evaluar la efectividad de la plataforma para facilitar transacciones reales y servirá como base para ajustar funcionalidades como promociones pagadas o asesoría en la redacción de anuncios.
+
+- Tiempo Promedio hasta la Venta:
+Se monitoreará el tiempo que transcurre desde que un auto es publicado hasta que se concreta su venta. Esto permitirá evaluar la eficiencia de la plataforma en acelerar el ciclo de venta y ayudar a optimizar los algoritmos de posicionamiento y las recomendaciones de visibilidad para los vendedores.
+
+- Tasa de Abandono en el Proceso de Compra:
+Se analizarán los puntos donde los compradores interrumpen el proceso de búsqueda, contacto o pago. Esto ayudará a identificar fricciones en la experiencia de usuario, con el fin de mejorar la interfaz, los métodos de pago o la confianza en la transacción.
+
+- Tasa de Conversión de Funciones Premium:
+Se medirá el porcentaje de vendedores que optan por funciones como “publicación destacada” o “auto verificado” y cómo estas influyen en su tasa de venta. Esto permitirá evaluar si las funciones pagadas aportan valor y cómo deben evolucionar.
+
+
+
+
+
+
+
+
 ### 8.2.7. Web and Mobile Tracking Plan
 
 Para Car2Go, nuestro objetivo es optimizar y monitorear tanto la aplicación web como la móvil, facilitando la reserva y uso eficiente de vehículos compartidos, así como potenciando la participación y satisfacción de los usuarios. A medida que avanzamos hacia la etapa final del proyecto, estableceremos un plan de seguimiento exhaustivo que nos permitirá evaluar de manera efectiva las mejoras implementadas en la plataforma.
@@ -2805,6 +3024,23 @@ El siguiente Product Backlog prioriza las User Stories experimentales y de mejor
 | 5         | TBU-03        | Notificaciones de Cambios Importantes  | Enviar notificaciones automáticas sobre novedades y cambios relevantes.                             | 2            |
 | 6         | TBU-06        | Feedback sobre Proceso de Reserva      | Habilitar feedback post-reserva para compradores.                                                   | 2            |
 | 7         | TBU-07        | Reporte Mensual de Uso                 | Automatizar generación y envío de reportes mensuales de uso y recomendaciones.                      | 2            |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## VII. Bibliografía
