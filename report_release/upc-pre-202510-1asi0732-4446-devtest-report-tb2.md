@@ -2694,8 +2694,26 @@ Los errores serán puntiados tomando en cuenta la siguiente escala de severidad
 ## 6.4. Auditoría de Experiencias de Usuario.
 ### 6.4.1. Auditoría realizada.
 #### 6.4.1.1. Información del grupo auditado.
-#### 6.4.1.2. Cronograma de auditoría realizada.
-#### 6.4.1.3. Contenido de auditoría realizada.
+
+**Grupo Auditado: Grupo 2**
+
+Los integrantes del grupo auditado son:
+
+- Mauricio Rojas
+- Arian Rodriguez
+- Fabia Herrera
+- Ramon Jorge
+- Leonardo Linares
+
+La aplicación está diseñada para mejorar la seguridad ciudadana en Perú, permitiendo a los usuarios acceder a información sobre seguridad, denunciar crímenes y compartir su ubicación en tiempo real.
+
+<img src="../assets/auditoria/auditoria-1.jpeg" alt="Auditoria"/>
+Captura de pantalla de la reunión con el Team Leader del Grupo 2.
+
+
+
+
+
 ### 6.4.2. Auditoría recibida.
 #### 6.4.2.1. Información del grupo auditor.
 #### 6.4.2.2. Cronograma de auditoría recibida.
