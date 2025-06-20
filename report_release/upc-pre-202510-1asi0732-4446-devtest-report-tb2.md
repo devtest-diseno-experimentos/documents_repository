@@ -2710,6 +2710,10 @@ La aplicación está diseñada para mejorar la seguridad ciudadana en Perú, per
 <img src="../assets/auditoria/auditoria-1.jpeg" alt="Auditoria"/>
 Captura de pantalla de la reunión con el Team Leader del Grupo 2.
 
+#### 6.4.1.2. Cronograma de auditoría realizada.
+
+La auditoría se realizó el 20 de junio de 2025, donde se evaluó el funcionamiento completo de la aplicación, abarcando su navegación y usabilidad para cada uno de los roles definidos. La sesión se llevó a cabo a través de la plataforma Discord y tuvo una duración de aproximadamente una hora. Todos los hallazgos fueron analizados junto con el equipo auditado antes de ser registrados de manera formal.
+
 
 
 
