@@ -161,7 +161,7 @@ Para la entrega del TB2 se han realizado los procesos necesarios para lograr los
 
 Se muestran evidencias de los commits realizados en la entrega de la TB2 en el informe
 
-<img src="../assets/inisghts/tb1/rw-3.png" alt="inisghts">  
+<img src="../assets/inisghts/tb2/insights-1-tb2.png" alt="inisghts">  
 
 [Colaboraciones del repositorio]
 
