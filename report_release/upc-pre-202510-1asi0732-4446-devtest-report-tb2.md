@@ -2712,15 +2712,52 @@ Captura de pantalla de la reunión con el Team Leader del Grupo 2.
 
 #### 6.4.1.2. Cronograma de auditoría realizada.
 
-La auditoría se realizó el 20 de junio de 2025, donde se evaluó el funcionamiento completo de la aplicación, abarcando su navegación y usabilidad para cada uno de los roles definidos. La sesión se llevó a cabo a través de la plataforma Discord y tuvo una duración de aproximadamente una hora. Todos los hallazgos fueron analizados junto con el equipo auditado antes de ser registrados de manera formal.
+La auditoría se realizó el 12 de junio de 2025, donde se evaluó el funcionamiento completo de la aplicación, abarcando su navegación y usabilidad para cada uno de los roles definidos. La sesión se llevó a cabo a través de la plataforma Discord y tuvo una duración de aproximadamente una hora. Todos los hallazgos fueron analizados junto con el equipo auditado antes de ser registrados de manera formal.
 
+#### 6.4.1.3. Contenido de auditoría realizada.
 
+A continuación se muestran las capturas de los puntos encontrados en la auditoría realizada al Grupo 2.
 
+**Hallazgo 1:**
 
+<img src="../assets/auditoria/auditoria-2.jpeg" alt="Auditoria-2"/>
+
+**Sugerencia:** Al añadir una imagen en reporte el boton de publish choca con log out y no se puede realizar la acción de reporte.
+
+**Hallazgo 2:**
+
+<img src="../assets/auditoria/auditoria-3.jpeg" alt="Auditoria-3"/>
+
+**Sugerencia:** Al presionar en la sección alerta se queda cargando la sección y no muestra nada ninguna información.
+
+**Hallazgo 3:**
+
+<img src="../assets/auditoria/auditoria-4.jpeg" alt="Auditoria-4"/>
+
+**Sugerencia:** Al presionar Share Location no carga la información al igual que alert.
 
 ### 6.4.2. Auditoría recibida.
 #### 6.4.2.1. Información del grupo auditor.
+
+**Grupo Auditor: Grupo 2**
+
+Los integrantes del grupo auditor son:
+
+- Mauricio Rojas
+- Arian Rodriguez
+- Fabia Herrera
+- Ramon Jorge
+- Leonardo Linares
+
+Este grupo evaluó nuestra aplicación Car2go, centrada en el proceso de compra, venta e inspección de vehículos, y contempla tres roles principales: Comprador, Vendedor y Mecánico
+
+<img src="../assets/auditoria/auditoria-1.jpeg" alt="Auditoria"/>
+Captura de pantalla de la reunión con el Team Leader del Grupo 2.
+
 #### 6.4.2.2. Cronograma de auditoría recibida.
+
+
+
 #### 6.4.2.3. Contenido de auditoría recibida.
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
 ---
