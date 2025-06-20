@@ -2756,7 +2756,7 @@ Captura de pantalla de la reunión con el Team Leader del Grupo 2.
 
 #### 6.4.2.2. Cronograma de auditoría recibida.
 
-
+La auditoría tuvo lugar el 20 de junio de 2025 e incluyó una revisión exhaustiva de todas las pantallas de la aplicación PeaceApp, realizando una navegación completa por la misma. La reunión se llevó a cabo a través de Discord y tuvo una duración aproximada de una hora. Los hallazgos obtenidos durante la auditoría fueron discutidos en conjunto antes de ser formalmente registrados.
 
 #### 6.4.2.3. Contenido de auditoría recibida.
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
