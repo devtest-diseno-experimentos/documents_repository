@@ -2469,12 +2469,228 @@ Con el enfoque en calidad y seguridad, utilizaremos SonarLint, una herramienta c
 
 ### 6.2.2. Static Code Analysis
 
+Con el fin de garantizar la calidad del código y detectar posibles fallos antes de su ejecución, se ha integrado SonarQube para realizar un análisis estático. Esta herramienta proporciona un enfoque detallado para identificar deficiencias en la calidad del código, como vulnerabilidades de seguridad, errores potenciales y malas prácticas en la programación. Además, SonarQube permite monitorear continuamente el estado del código a lo largo del ciclo de desarrollo, lo que facilita la corrección temprana de problemas y mejora la confiabilidad del software. Este enfoque proactivo contribuye a mantener altos estándares de calidad y reduce el costo de las correcciones durante las etapas finales del desarrollo.
 
+<img src="../assets/code-analytics/sonarqube.png" alt="Sonarqube"/>
 
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
+
+Se decribe la metodología utilizada para diseñar las entrevistas de validación, incluyendo la selección de participantes, la formulación de preguntas y el enfoque adaptaddo para obtener información relevante y precisa sobre la experiencia del usuario con la aplicación Car2Go.
+
+**Segmento Objetivo 1: Compradores de Autos de Segunda Mano:**
+
+## 6.3.1. Diseño de Entrevistas
+
+Se describe la metodología utilizada para diseñar las entrevistas de validación, incluyendo la selección de participantes, la formulación de preguntas y el enfoque adaptado para obtener información relevante y precisa sobre la experiencia del usuario con la aplicación Car2Go.
+
+### Segmento Objetivo 1: Compradores de Autos de Segunda Mano
+
+#### Preguntas Generales
+- ¿Cuál es su nombre?
+- ¿Cuál es su sexo?
+- ¿Cuántos años tiene?
+- ¿Cuál es su ocupación?
+- ¿Qué tan frecuentemente considera comprar un auto?
+
+#### Preguntas Específicas
+- Según lo visto, ¿qué te pareció la estructuración de la página en términos de búsqueda y visualización de autos?
+- ¿Consideras que la información proporcionada sobre los autos es suficiente y confiable? ¿Qué le agregarías?
+- ¿Hubo algo que te pareció confuso o difícil de entender?
+- ¿Cuáles son los puntos positivos y negativos que destacas de la página?
+- ¿Te sentirías seguro/a de comprar un auto usando esta página? ¿Por qué?
+
+### Segmento Objetivo 2: Vendedores de Autos de Segunda Mano
+
+#### Preguntas Generales
+- ¿Cuál es su nombre?
+- ¿Cuál es su sexo?
+- ¿Cuántos años tiene?
+- ¿Cuál es su ocupación?
+- ¿Con qué frecuencia pones autos en venta?
+
+#### Preguntas Específicas
+- Según lo visto, ¿qué te pareció la estructuración de la página para listar y gestionar tus autos en venta?
+- ¿Crees que los pasos para subir fotos y especificaciones del auto son claros y fáciles de seguir?
+- ¿Hay algo que cambiarías para que el proceso de listado de autos sea más rápido o simple?
+- ¿Qué tan útil te parecen las herramientas para mejorar la visibilidad de tus autos (por ejemplo, destacar un anuncio)?
+- ¿Cuáles son los puntos positivos y negativos que destacas de la página?
+- ¿Confías en el sistema para captar compradores potenciales? ¿Por qué?
+
+### Segmento Objetivo 3: Talleres Mecánicos
+
+#### Preguntas Generales
+- ¿Cuál es su nombre?
+- ¿Cuál es su sexo?
+- ¿Cuántos años tiene?
+- ¿Cuál es su ocupación?
+- ¿Cuántos años lleva trabajando en el rubro automotriz?
+
+#### Preguntas Específicas
+- Según lo visto, ¿qué te pareció la estructuración de la página para acceder y registrar las inspecciones de los autos?
+- ¿Consideras que las herramientas de carga de datos son claras y fáciles de usar?
+- ¿Hay alguna sección que te haya parecido complicada o que requiera una capacitación adicional?
+- ¿Cómo evaluarías la confiabilidad de la plataforma en cuanto a seguridad y privacidad de los datos ingresados?
+- ¿Cuáles son los puntos positivos y negativos que destacas de la aplicación?
+- ¿Te sientes cómodo/a recomendando esta página a otros talleres y clientes? ¿Por qué?
+
 ### 6.3.2. Registro de Entrevistas.
+
+En esta subsección se presenta un resumen detallado de las entrevistas realizadas, incluyendo las respuestas de los participantes, puntos clave observados y comentarios obtenidos durante las sesiones de validación. Estos registros proporcionan una base sólida para llevar a cabo un análisis profundo y mejorar el producto.
+
+## Segmento Objetivo 1: Compradores de Autos de Segunda Mano
+
+**Entrevistado #1: Gabriel Martel**
+
+- **Nombre:** Gabriel Martel  
+- **Sexo:** Masculino  
+- **Edad:** 24 años  
+- **Ocupación:** Estudiante  
+- **Enlace del video completo de las entrevistas:** [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114851_upc_edu_pe/ESsGiH2lXEFMofBRTbj8MMsBmmRiMvGANFghatGlMzFqSw?e=IocPoG&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  
+
+### Resumen de la entrevista:
+Gabriel, estudiante universitario que en su tiempo libre compra y vende autos, comentó que su primera impresión de la página web fue que es muy intuitiva, aunque le hubiera gustado que estuviera completamente terminada, ya que tiene una buena estructura. También sugiere agregar medidas de seguridad a la información mostrada sobre los autos.
+
+<img src="../assets/validate-interview/interview-1.png" alt="Interview 1"/>
+
+<br/>
+
+**Entrevistado(a) #2: Anatoly Noriega**
+- **Sexo:** Masculino  
+- **Edad:** 22 años  
+- **Ocupación:** Estudiante  
+- **Enlace del video completo de las entrevistas:** [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114851_upc_edu_pe/ESsGiH2lXEFMofBRTbj8MMsBmmRiMvGANFghatGlMzFqSw?e=M6Y5FD&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  
+
+### Resumen de la entrevista:
+Anatoly, ingeniero de software que revisa constantemente vehículos para futuras compras, expresó que le agradaron la estructura y el diseño de la plataforma, destacando especialmente las opciones del menú para redirigir a distintas páginas y la forma en que se muestran los autos y su información. Considera confiable la información de los autos, aunque le preocupa la sección de pagos, que encontró confusa y difícil de entender, y señaló que el estilo en la sección de perfil pierde coherencia con el resto del diseño. Sugiere añadir un botón para traducir la página a otros idiomas. Concluyó que usaría la plataforma, ya que la información es transparente y el diseño es atractivo para el usuario.
+
+<img src="../assets/validate-interview/interview-2.png" alt="Interview 2"/>
+
+## Segmento Objetivo 2: Vendedores de Autos de Segunda Mano
+
+**Entrevistado(a) #1: Mijael Yen**
+
+- **Sexo:** Masculino  
+- **Edad:** 22 años  
+- **Ocupación:** Estudiante  
+- **Enlace del video completo de las entrevistas:** [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114851_upc_edu_pe/ESsGiH2lXEFMofBRTbj8MMsBmmRiMvGANFghatGlMzFqSw?e=kNq5dz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  
+
+### Resumen de la entrevista:
+Mijael comenta que la estructura de la plataforma es adecuada y cuenta con lo necesario para realizar sus publicaciones y vender autos. Sugiere que en la sección del perfil se incluya un texto que diga “Mi perfil” y que los textos de esta sección sean más grandes para mayor comodidad. También destaca que la plataforma es intuitiva, pero recomienda que la opción de "logout" esté incluida dentro del perfil. Por último, menciona que el botón para guardar datos en el perfil sea más específico, como “guardar cambios,” y que en ciertos campos de información, como el de teléfono, solo se permita ingresar números.
+
+<img src="../assets/validate-interview/interview-3.png" alt="Interview 3"/>
+
+**Entrevistado(a) #2: Jefrey Sanchez**
+
+- **Sexo:** Masculino  
+- **Edad:** 22 años  
+- **Ocupación:** Estudiante  
+- **Enlace del video completo de las entrevistas:** [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114851_upc_edu_pe/ESsGiH2lXEFMofBRTbj8MMsBmmRiMvGANFghatGlMzFqSw?e=7TtH8B&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  
+
+### Resumen de la entrevista:
+Jeffrey actualmente trabaja, pero en su tiempo libre se dedica a la venta de autos. Mencionó que le pareció muy llamativo que la información se muestre de manera clara sin necesidad de entrar en cada tarjeta, y destacó que el diseño en general es muy atractivo. Comentó también que toda la navegación es intuitiva y clara. Como sugerencia, indicó que sería útil agregar un filtro para descartar los autos que no se buscan, facilitando así encontrar el auto deseado. En general, expresó que su experiencia ha sido muy positiva.
+
+<img src="../assets/validate-interview/interview-4.png" alt="Interview 4"/>
+
+## Segmento Objetivo 2: Talleres Mecánicos
+
+**Entrevistado(a) #1: Maomed Chocce**
+
+- **Sexo:** Masculino  
+- **Edad:** 29 años  
+- **Ocupación:** Mecánico  
+- **Enlace del video completo de las entrevistas:** [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114851_upc_edu_pe/ESsGiH2lXEFMofBRTbj8MMsBmmRiMvGANFghatGlMzFqSw?e=pZ4QLS&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)  
+
+### Resumen de la entrevista:
+Maomed mencionó que la estructura de la página es intuitiva, aunque sugiere añadir un menú desplegable para acceder a las secciones importantes de forma rápida. Respecto a las herramientas de carga de datos, considera que son claras y fáciles de usar, pero sería útil incluir ejemplos o instrucciones breves junto a cada campo. En cuanto a la sección de reportes, la encontró un poco confusa y recomendó añadir un tutorial o videos explicativos para facilitar su uso. Percibe la plataforma como segura, aunque cree que un ícono o mensaje informando sobre las medidas de seguridad implementadas aumentaría la confianza del usuario. Destacó como puntos positivos el diseño limpio, la facilidad de navegación y el acceso rápido a las funciones principales, pero señaló la falta de instrucciones claras en algunas secciones y la necesidad de una sección de preguntas frecuentes (FAQ) para resolver dudas comunes. Finalmente, expresó que recomendaría la plataforma a otros talleres y clientes, aunque algunos aspectos podrían mejorarse para optimizar la experiencia de usuario.
+
+<img src="../assets/validate-interview/interview-5.png" alt="Interview 5"/>
+
+**Entrevistado(a) #2: Roberto García**
+
+- **Sexo:** Masculino  
+- **Edad:** 22 años  
+- **Ocupación:** Estudiante  
+- **Enlace del video completo de las entrevistas:** [Link](https://upcedupe-my.sharepoint.com/personal/u202114851_upc_edu_pe/_layouts/15/stream.aspx?id=%2Fpersonal%2Fu202114851%5Fupc%5Fedu%5Fpe%2FDocuments%2FEntrevistasV2%2Emp4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0&ga=1&referrer=StreamWebApp%2EWeb&referrerScenario=AddressBarCopied%2Eview%2Efdf50710%2De2c5%2D4293%2D97a0%2D63b9860131df)  
+
+### Resumen de la entrevista:
+Roberto es un estudiante universitario que ayuda a su papá, el cual tiene un taller mecánico, en el trabajo cuando tiene tiempo libre. Nos comenta que la página le parece muy intuitiva y atractiva para el usuario. En general, no tuvo problemas para guiarse al momento de usarla y recomendó su uso a amigos y familiares debido a la seguridad que ofrece.
+
+<img src="../assets/validate-interview/interview-6.png" alt="Interview 6"/>
+
 ### 6.3.3. Evaluacionessegún heurísticas.
+
+Aquí se explican las evaluaciones realizadas utilizando principios heurísticos de usabilidad. Se analizan los resultados obtenidos y se identifican áreas de mejora en la interfaz y la funcionalidad de la aplicación, con el fin de optimizar la experiencia del usuario y asegurar la eficacia del producto.
+
+**UX Heuristics & Principles Evaluation Usability - Inclusive Design - Information Architecture**
+
+**Carrera:** Ingeniería de Software
+**Curso:** Desarrollo de Aplicaciones Open Source
+**Sección:** WX51
+**Profesores:** Alberto Wilmer Sanchez Seña
+**Cliente(s):** Maomed Alexander Chocce Cruces, Roberto García, Jefrey Sanchez, Mijael Yen, Anatoly Noriega y Gabriel Martel
+
+**Site o App a Evaluar:** Car2Go
+
+**Tareas a Evaluar:**
+**Escala de Severidad:**
+Los errores serán puntiados tomando en cuenta la siguiente escala de severidad
+
+| Nivel | Descripción |
+|-------|-------------|
+|   1   | Problema superficial: puede ser fácilmente superado por el usuario ó ocurre con muy poco frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo. |
+|   2   | Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja de cara resolverlo al siguiente release. |
+|   3   | Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolverlos. Es importante que sean corregidos y se les debe asignar una prioridad alta. |
+|   4   | Problema muy grave: un error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo que sea corregido antes del lanzamiento. |
+
+**Tabla Resumen:**
+
+| # | Problema | Escala de Severidad | Heurística/Principio violada(o) |
+|---|----------|---------------------|---------------------|
+| 1 | Incluir un texto que diga "Mi perfil" y aumentar el tamaño de los textos para mayor comodidad. | 2 | No cumplir con un diseño visual atractivo podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios. |
+| 2 | Integrar la opción de "logout" dentro del perfil y especificar el botón de guardar como “guardar cambios”. | 2 | No cumplir con un diseño visual atractivo podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios. |
+| 3 | Mejorar la coherencia del estilo en la sección de perfil. | 2 | No cumplir con un diseño visual atractivo podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios. |
+| 4 | Implementar un botón para traducir la página a otros idiomas. | 2 | Inclusive Design: No capturar efectivamente las percepciones de los clientes al entrar podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios, al no asegurar una retroalimentación inicial inclusiva y adecuada desde el inicio de la interacción con el producto. |
+| 5 | Aclarar la sección de pagos, que fue considerada confusa por algunos usuarios. | 2 | INo cumplir con un diseño visual atractivo podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios. |
+
+----
+<br>
+
+**Descripción del Problemas:**
+
+- **Problema #1:** Incluir un texto que diga "Mi perfil" y aumentar el tamaño de los textos para mayor comodidad.
+- **Severidad:** 2
+- **Heurística/Principio violado(a):** No cumplir con un diseño visual atractivo podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios.
+- **Recomendación:** Añadir un texto "Mi perfil", aumentar el tamaño de los textos para mayor comodidad.
+
+---
+
+- **Problema #2:** Integrar la opción de "logout" dentro del perfil y especificar el botón de guardar como “guardar cambios”.
+- **Severidad:** 2
+- **Heurística/Principio violada(o):** No cumplir con un diseño visual atractivo podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios.
+- **Recomendación:** Asegurarse de que la opción de "logout" esté claramente disponible y cambiar el diseño del botón para que se más fácil de entender.
+
+---
+
+- **Problema #3:** Mejorar la coherencia del estilo en la sección de perfil.
+- **Severidad:** 2
+- **Heurística/Principio violado(a):** No cumplir con un diseño visual atractivo podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios.
+- **Recomendación:** Mantener la coherencia del estilo en todas las secciones, especialmente en el perfil de usuario.
+
+---
+
+- **Problema #4:** Implementar un botón para traducir la página a otros idiomas.
+- **Severidad:** 2
+- **Heurística/Principio violado(a):** Inclusive Design: No capturar efectivamente las percepciones de los clientes al entrar podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios, al no asegurar una retroalimentación inicial inclusiva y adecuada desde el inicio de la interacción con el producto.
+- **Recomendación:** Implementar un botón de traducción para facilitar el acceso a usuarios que hablan diferentes idiomas.
+
+---
+
+- **Problema #5:** Aclarar la sección de pagos, que fue considerada confusa por algunos usuarios.
+- **Severidad:** 2
+- **Heurística/Principio violado(a):** No cumplir con un diseño visual atractivo podría violar el principio de proporcionar experiencias comparables y equitativas para todos los usuarios.
+- **Recomendación:** Simplificar y aclarar la sección de pagos para que sea más comprensible.
+
 ## 6.4. Auditoría de Experiencias de Usuario.
 ### 6.4.1. Auditoría realizada.
 #### 6.4.1.1. Información del grupo auditado.
