@@ -2638,7 +2638,7 @@ Jeffrey actualmente trabaja, pero en su tiempo libre se dedica a la venta de aut
 
 <img src="../assets/validate-interview/interview-4.png" alt="Interview 4"/>
 
-## Segmento Objetivo 2: Talleres Mecánicos
+## Segmento Objetivo 3: Talleres Mecánicos
 
 **Entrevistado(a) #1: Maomed Chocce**
 
