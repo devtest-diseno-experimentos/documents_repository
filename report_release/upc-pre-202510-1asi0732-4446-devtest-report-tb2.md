@@ -2430,9 +2430,35 @@ desplegada, las evaluaciones ejecutadas, se centran en el rendimiento principal 
 nuestra Landing Page, accesibilidad y uso, a continuación se muestran mejores
 detalles.
 
-
 <img src="../assets/core-system-tests/core-system-tests.png" alt="Test landing page"/>
 
+## 6.2. Static testing & Verification
+### 6.2.1. Static Code Analysis
+
+Esta sección se enfoca en los métodos de prueba estática y verificación del código, garantizando que el software cumpla con los estándares de calidad y seguridad antes de ser ejecutado. Estos métodos permiten identificar errores desde las primeras etapas del ciclo de desarrollo.
+
+El análisis estático de código consiste en examinar el código fuente sin ejecutarlo, utilizando herramientas automáticas y revisiones manuales. Este enfoque facilita la detección de fallos, vulnerabilidades de seguridad y áreas de mejora en el código, lo cual contribuye a mejorar la calidad general del software y a reducir los costos de corrección en fases posteriores del desarrollo.
+
+<img src="../assets/static-code/static-code.webp" alt="Static Code"/>
+
+
+#### 6.2.1.1. Coding standard & Code conventions.
+#### 6.2.1.2. Code Quality & Code Security.
+### 6.2.2. Static Code Analysis
+## 6.3. Validation Interviews.
+### 6.3.1. Diseño de Entrevistas.
+### 6.3.2. Registro de Entrevistas.
+### 6.3.3. Evaluacionessegún heurísticas.
+## 6.4. Auditoría de Experiencias de Usuario.
+### 6.4.1. Auditoría realizada.
+#### 6.4.1.1. Información del grupo auditado.
+#### 6.4.1.2. Cronograma de auditoría realizada.
+#### 6.4.1.3. Contenido de auditoría realizada.
+### 6.4.2. Auditoría recibida.
+#### 6.4.2.1. Información del grupo auditor.
+#### 6.4.2.2. Cronograma de auditoría recibida.
+#### 6.4.2.3. Contenido de auditoría recibida.
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
 ---
 
 # Capítulo VII: DevOps Practices
@@ -2580,7 +2606,7 @@ Los componentes principales que forman parte del pipeline de despliegue del fron
 
 ## 7.4 Continuous Monitoring
 
-### 7.4.1 Continuous Monitoring
+### 7.4.1 Tools and Practices
 
 Para garantizar un monitoreo constante y efectivo en nuestra aplicación, se emplearán diversas herramientas y enfoques, entre los cuales se incluyen los siguientes:
 
@@ -3024,23 +3050,6 @@ El siguiente Product Backlog prioriza las User Stories experimentales y de mejor
 | 5         | TBU-03        | Notificaciones de Cambios Importantes  | Enviar notificaciones automáticas sobre novedades y cambios relevantes.                             | 2            |
 | 6         | TBU-06        | Feedback sobre Proceso de Reserva      | Habilitar feedback post-reserva para compradores.                                                   | 2            |
 | 7         | TBU-07        | Reporte Mensual de Uso                 | Automatizar generación y envío de reportes mensuales de uso y recomendaciones.                      | 2            |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ## VII. Bibliografía
