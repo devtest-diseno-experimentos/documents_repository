@@ -2712,7 +2712,7 @@ Captura de pantalla de la reunión con el Team Leader del Grupo 2.
 
 #### 6.4.1.2. Cronograma de auditoría realizada.
 
-La auditoría se realizó el 12 de junio de 2025, donde se evaluó el funcionamiento completo de la aplicación, abarcando su navegación y usabilidad para cada uno de los roles definidos. La sesión se llevó a cabo a través de la plataforma Discord y tuvo una duración de aproximadamente una hora. Todos los hallazgos fueron analizados junto con el equipo auditado antes de ser registrados de manera formal.
+La auditoría se realizó el 20 de junio de 2025, donde se evaluó el funcionamiento completo de la aplicación, abarcando su navegación y usabilidad para cada uno de los roles definidos. La sesión se llevó a cabo a través de la plataforma Discord y tuvo una duración de aproximadamente una hora. Todos los hallazgos fueron analizados junto con el equipo auditado antes de ser registrados de manera formal.
 
 #### 6.4.1.3. Contenido de auditoría realizada.
 
@@ -2756,11 +2756,48 @@ Captura de pantalla de la reunión con el Team Leader del Grupo 2.
 
 #### 6.4.2.2. Cronograma de auditoría recibida.
 
-La auditoría tuvo lugar el 20 de junio de 2025 e incluyó una revisión exhaustiva de todas las pantallas de la aplicación PeaceApp, realizando una navegación completa por la misma. La reunión se llevó a cabo a través de Discord y tuvo una duración aproximada de una hora. Los hallazgos obtenidos durante la auditoría fueron discutidos en conjunto antes de ser formalmente registrados.
+La auditoría tuvo lugar el 12 de junio de 2025 e incluyó una revisión exhaustiva de todas las pantallas de la aplicación PeaceApp, realizando una navegación completa por la misma. La reunión se llevó a cabo a través de Discord y tuvo una duración aproximada de una hora. Los hallazgos obtenidos durante la auditoría fueron discutidos en conjunto antes de ser formalmente registrados.
 
 #### 6.4.2.3. Contenido de auditoría recibida.
+
+**Hallazgo 1:**
+
+<img src="../assets/auditoria/auditoria-5.jpeg" alt="Auditoria-5"/>
+
+**Sugerencia:** Agregar un botón de ícono flecha para retroceder de página.
+
+**Hallazgo 2:**
+
+<img src="../assets/auditoria/auditoria-6.jpeg" alt="Auditoria-6"/>
+
+**Sugerencia:** Al finalizar la oferta, debe redireccionar a la página de inicio.
+
+**Hallazgo 3:**
+
+<img src="../assets/auditoria/auditoria-7.jpeg" alt="Auditoria-7"/>
+
+**Sugerencia:** No valida vendedor y auto cuando registra una nueva oferta, se puede enviar una oferta reiteradas veces a pesar de ya tener registrada una oferta al mismo vendedor y auto.
+
+**Hallazgo 4:**
+
+<img src="../assets/auditoria/auditoria-8.jpeg" alt="Auditoria-8"/>
+
+**Sugerencia:** No carga los vehiculos revisados dado un específico mecánico.
+
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos.
----
+
+Con base en los comentarios obtenidos durante la auditoría, se han definido las siguientes acciones correctivas para mejorar la calidad y experiencia de usuario de Car2go:
+
+**Mejoras en la navegación y funcionalidad:**
+
+* **Agregar botón de retroceso:** Se implementó un botón con ícono de flecha para permitir a los usuarios retroceder fácilmente a la página anterior, mejorando la navegación en la aplicación.
+
+* **Redirección al finalizar la oferta:** Se ajustó la funcionalidad para que, al finalizar la creación de una oferta, el usuario sea redirigido automáticamente a la página de inicio, simplificando el flujo de uso.
+
+* **Validación de vendedor y auto al registrar oferta:** Se corrigió el sistema de validación para asegurar que no se puedan registrar múltiples ofertas para el mismo vendedor y auto. Ahora, la plataforma verifica la existencia de ofertas anteriores antes de permitir un nuevo registro.
+
+* **Carga de vehículos revisados por mecánico:** Se solucionó el problema de carga de vehículos revisados por un mecánico específico, asegurando que la aplicación muestre correctamente todos los vehículos correspondientes al mecánico seleccionado.
+
 
 # Capítulo VII: DevOps Practices
 
