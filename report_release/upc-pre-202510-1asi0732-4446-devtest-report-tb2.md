@@ -2454,7 +2454,23 @@ Las normas y convenciones de codificación son pautas que los programadores debe
 <img src="../assets/coding-standar/clean-code.avif" alt="Clean code"/>
 
 #### 6.2.1.2. Code Quality & Code Security.
+
+La calidad del código y la seguridad son esenciales para crear software confiable, ya que aseguran su estabilidad, facilidad de mantenimiento y protección contra vulnerabilidades. Un código bien estructurado mejora la comprensión y la colaboración, mientras que la seguridad protege los datos y previene ataques. Enfocarse en ambos aspectos desde el inicio del desarrollo previene problemas futuros, garantizando un software más eficiente y seguro.
+
+- **Calidad del Código**:
+La calidad se debe evaluar usando métricas como la cobertura de pruebas y la complejidad ciclomática. Se sugiere emplear herramientas como SonarQube para monitorear continuamente la calidad del código y verificar que cumpla con los estándares requeridos. SonarQube proporciona un análisis detallado, identificando problemas y ofreciendo recomendaciones para mejorar el código.
+
+- **Seguridad del Código**:
+Es fundamental detectar y prevenir vulnerabilidades comunes como inyecciones SQL y XSS a través de una revisión exhaustiva del código. Implementar buenas prácticas de seguridad en la codificación y validar correctamente las entradas del usuario son pasos esenciales para proteger el software. Para apoyar la calidad y la seguridad, se utilizará SonarLint, una herramienta complementaria que permite realizar análisis en tiempo real mientras se escribe el código. SonarLint se integra con los IDEs más populares, como IntelliJ IDEA, Eclipse y Visual Studio, ayudando a los desarrolladores a identificar problemas de calidad y seguridad al momento de codificar, ofreciendo recomendaciones para solucionarlos. Esto fomenta una cultura de mejora continua y calidad desde el inicio del desarrollo, garantizando que los problemas se aborden antes de pasar a las etapas de revisión y pruebas.
+
+<img src="../assets/code-quality/sonarlint.png" alt="Sonarlint"/>
+
+Con el enfoque en calidad y seguridad, utilizaremos SonarLint, una herramienta complementaria que permite realizar análisis de código en tiempo real mientras se desarrolla. SonarLint se integra con los IDEs más populares, como IntelliJ IDEA, Eclipse y Visual Studio. Esta herramienta ayuda a los desarrolladores a identificar problemas de calidad y seguridad a medida que escriben código, ofreciendo recomendaciones inmediatas para corregirlos. Esto fomenta una cultura de calidad y mejora continua desde el inicio, asegurando que los problemas se resuelvan antes de llegar a las fases de revisión y prueba.
+
 ### 6.2.2. Static Code Analysis
+
+
+
 ## 6.3. Validation Interviews.
 ### 6.3.1. Diseño de Entrevistas.
 ### 6.3.2. Registro de Entrevistas.
