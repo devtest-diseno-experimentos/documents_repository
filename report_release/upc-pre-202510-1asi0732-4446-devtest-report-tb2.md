@@ -3390,6 +3390,14 @@ El siguiente Product Backlog prioriza las User Stories experimentales y de mejor
 | 7         | TBU-07        | Reporte Mensual de Uso                 | Automatizar generación y envío de reportes mensuales de uso y recomendaciones.                      | 2            |
 
 
+# VI. Conclusiones y recomendaciones
+## Conclusiones
+
+- El análisis realizado por el equipo confirmó que la industria de venta de autos enfrenta desafíos importantes relacionados con la seguridad y la confianza en las transacciones. Sin embargo, también identificó oportunidades significativas, reflejadas en un aumento en el número de ventas en los últimos años. En respuesta a esta situación, Car2Go ofrece una solución efectiva mediante una plataforma innovadora para la compra y venta de autos usados, respaldada por la garantía de calidad y seguridad proporcionada por centros motrices certificados.
+  <br><br>
+- El diseño de Car2Go se desarrolló con el objetivo de ofrecer una experiencia de usuario superior y establecer una clara diferenciación respecto a la competencia. Los estilos seleccionados, junto con una organización cuidadosa de la información, no solo aportan coherencia visual, sino que también facilitan la navegación y el acceso a las funcionalidades más relevantes para los usuarios.
+
+
 ## VII. Bibliografía
 
 - Dittrich, J. (s.f.). A Beginner's Guide to Finding User Needs. Recuperado de
