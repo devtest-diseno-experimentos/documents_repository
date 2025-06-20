@@ -108,6 +108,37 @@
       <td>Todo el equipo</td>
       <td>Revisión final, integración de pruebas y validación del informe para entrega.</td>
     </tr>
+    <tr>
+      <td rowspan="6">TB2</td>
+      <td>12/05/2025</td>
+      <td>Rodrigo Alejandro Aguilar Castillo</td>
+      <td>Desarrolló las condiciones experimentales, calculó las escalas necesarias y estableció los objetivos y métricas clave para el rendimiento del sistema.</td>
+    </tr>
+    <tr>
+      <td>12/05/2025</td>
+      <td>Jean Franco Joel Barrionuevo Reto</td>
+      <td>Desarrolló hipótesis, definió métricas y avanzó en la redacción de conclusiones y recopilación de bibliografía.</td>
+    </tr>
+    <tr>
+      <td>13/05/2025</td>
+      <td>Mathias Tsuneo Kunimoto Watanabe</td>
+      <td>Desarrolló los componentes del pipeline de software, incluyendo monitoreo, alertas y notificaciones, asegurando el rendimiento y la fiabilidad del sistema.</td>
+    </tr>
+    <tr>
+      <td>13/05/2025</td>
+      <td>Italo D'alessandro Luna Capuñay</td>
+      <td>Desarrolló un plan de seguimiento de datos, redactó historias de usuario y creó un backlog de producto priorizado.</td>
+    </tr>
+    <tr>
+      <td>14/05/2025</td>
+      <td>Augusto Jose Pin Matallana</td>
+      <td>Desarrolló la recopilación de información clave, formuló preguntas experimentales y creó un backlog con preguntas y brechas de conocimiento.</td>
+    </tr>
+    <tr>
+      <td>14/05/2025</td>
+      <td>Todo el equipo</td>
+      <td>Revisión final, evaluar rendimiento</td>
+    </tr>
   </tbody>
 </table>
 
