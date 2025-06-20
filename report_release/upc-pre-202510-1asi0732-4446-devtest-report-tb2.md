@@ -2441,8 +2441,18 @@ El análisis estático de código consiste en examinar el código fuente sin eje
 
 <img src="../assets/static-code/static-code.webp" alt="Static Code"/>
 
-
 #### 6.2.1.1. Coding standard & Code conventions.
+
+Las normas y convenciones de codificación son pautas que los programadores deben seguir para asegurar que el código sea comprensible, fácil de mantener y consistente. A continuación, se destacan algunos principios importantes:
+
+- Domain-Driven Design (DDD): Se debe utilizar un lenguaje común que refleje los términos del negocio. El sistema debe dividirse en contextos definidos (bounded contexts) y manejar adecuadamente las entidades y objetos de valor. Además, la lógica de negocio debe organizarse a través de servicios de dominio y repositorios, promoviendo una estructura más coherente y alineada con los objetivos del negocio.
+
+<img src="../assets/coding-standar/ddd.jpg" alt="Domain Driven Design"/>
+
+- Clean Code: Es importante usar nombres significativos y fáciles de entender para variables, funciones y clases. Las funciones deben ser breves y concentrarse en una única tarea, eliminando código innecesario y evitando comentarios redundantes. Este enfoque facilita la comprensión y colaboración entre los desarrolladores.
+
+<img src="../assets/coding-standar/clean-code.avif" alt="Clean code"/>
+
 #### 6.2.1.2. Code Quality & Code Security.
 ### 6.2.2. Static Code Analysis
 ## 6.3. Validation Interviews.
