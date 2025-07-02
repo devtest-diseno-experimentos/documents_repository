@@ -359,7 +359,7 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 [8.3. Experimentation](#83-experimentation)  
 [8.3.1. To-Be User Stories](#831-to-be-user-stories)  
 [8.3.2. To-Be Product Backlog](#832-to-be-product-backlog)  
-<!-- [8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)  
+[8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle](#833-pipeline-supported-experiment-driven-to-be-software-platform-lifecycle)  
 [8.3.3.1. To-Be Sprint Backlogs](#8331-to-be-sprint-backlogs)  
 [8.3.3.2. Implemented To-Be Landing Page Evidence](#8332-implemented-to-be-landing-page-evidence)  
 [8.3.3.3. Implemented To-Be Frontend-Web Application Evidence](#8333-implemented-to-be-frontend-web-application-evidence)  
@@ -375,7 +375,7 @@ En ambos casos se puede observar el incremento de modificaciones y revisiones en
 [8.5. Continuous Learning](#85-continuous-learning)  
 [8.5.1. Shareback Session Artifacts: Learning Workflow](#851-shareback-session-artifacts-learning-workflow)  
 [8.6. To-Be Software Platform Pre-launch](#86-to-be-software-platform-pre-launch)  
-[8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)   -->
+[8.6.1. About-the-Product Intro Video](#861-about-the-product-intro-video)
 
 ## Conclusiones
 
@@ -3435,8 +3435,42 @@ El siguiente Product Backlog prioriza las User Stories experimentales y de mejor
 | 6         | TBU-06        | Feedback sobre Proceso de Reserva      | Habilitar feedback post-reserva para compradores.                                                   | 2            |
 | 7         | TBU-07        | Reporte Mensual de Uso                 | Automatizar generación y envío de reportes mensuales de uso y recomendaciones.                      | 2            |
 
+### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
+#### 8.3.3.1. To-Be Sprint Backlogs
+
+#### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+#### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
+#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+#### 8.3.3.6. Team Collaboration Insights
+
+### 8.3.4. To-Be Validation Interviews
+
+#### 8.3.4.1. Diseño de Entrevistas
+
+#### 8.3.4.2. Registro de Entrevistas
+
+## 8.4. Experiment Aftermath & Analysis
+
+### 8.4.1. Analysis and Interpretation of Results
+
+### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+## 8.5. Continuous Learning
+
+### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+## 8.6. To-Be Software Platform Pre-launch
+
+### 8.6.1. About-the-Product Intro Video
 
 # VI. Conclusiones y recomendaciones
+
 ## Conclusiones
 
 - El análisis realizado por el equipo confirmó que la industria de venta de autos enfrenta desafíos importantes relacionados con la seguridad y la confianza en las transacciones. Sin embargo, también identificó oportunidades significativas, reflejadas en un aumento en el número de ventas en los últimos años. En respuesta a esta situación, Car2Go ofrece una solución efectiva mediante una plataforma innovadora para la compra y venta de autos usados, respaldada por la garantía de calidad y seguridad proporcionada por centros motrices certificados.
