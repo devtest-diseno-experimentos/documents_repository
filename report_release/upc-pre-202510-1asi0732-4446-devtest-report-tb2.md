@@ -3363,13 +3363,6 @@ Se analizarán los puntos donde los compradores interrumpen el proceso de búsqu
 - Tasa de Conversión de Funciones Premium:
 Se medirá el porcentaje de vendedores que optan por funciones como “publicación destacada” o “auto verificado” y cómo estas influyen en su tasa de venta. Esto permitirá evaluar si las funciones pagadas aportan valor y cómo deben evolucionar.
 
-
-
-
-
-
-
-
 ### 8.2.7. Web and Mobile Tracking Plan
 
 Para Car2Go, nuestro objetivo es optimizar y monitorear tanto la aplicación web como la móvil, facilitando la reserva y uso eficiente de vehículos compartidos, así como potenciando la participación y satisfacción de los usuarios. A medida que avanzamos hacia la etapa final del proyecto, estableceremos un plan de seguimiento exhaustivo que nos permitirá evaluar de manera efectiva las mejoras implementadas en la plataforma.
@@ -3450,10 +3443,154 @@ El siguiente Product Backlog prioriza las User Stories experimentales y de mejor
 #### 8.3.3.6. Team Collaboration Insights
 
 ### 8.3.4. To-Be Validation Interviews
+En esta sección se detalla el proceso de validación mediante entrevistas con usuarios y expertos. Estas entrevistas son cruciales para evaluar la usabilidad, funcionalidad y eficacia de la aplicación Car2Go, garantizando que cumple con las necesidades y expectativas de nuestros segmentos de mercado.
 
 #### 8.3.4.1. Diseño de Entrevistas
+Se decribe la metodología utilizada para diseñar las entrevistas de validación, incluyendo la selección de participantes, la formulación de preguntas y el enfoque adaptaddo para obtener información relevante y precisa sobre la experiencia del usuario con la aplicación Car2Go.
+
+**Segmento Objetivo 1: Compradores de Autos de Segunda Mano:** <br>
+- **Preguntas Generales**
+  - ¿Cuál es su nombre?
+  - ¿Cuál es su sexo?
+  - ¿Cuántos años tiene?
+  - ¿Cuál es su ocupación?
+  - ¿Qué tan frecuentemente considera comprar un auto?
+        <br>
+- **Preguntas Específicas**
+  - Según lo visto, ¿qué te pareció la estructuración de la página en términos de búsqueda y visualización de autos?
+  - ¿Consideras que la información proporcionada sobre los autos es suficiente y confiable? ¿Qué le agregarías?
+  - ¿Hubo algo que te pareció confuso o difícil de entender?
+  - ¿Cuáles son los puntos positivos y negativos que destacas de la página?
+  - ¿Te sentirías seguro/a de comprar un auto usando esta página? ¿Por qué?
+  
+**Segmento Objetivo 2: Vendedores de Autos de Segunda Mano:** <br>
+- **Preguntas Generales**
+  - ¿Cuál es su nombre?
+  - ¿Cuál es su sexo?
+  - ¿Cuántos años tiene?
+  - ¿Cuál es su ocupación?
+  - ¿Con qué frecuencia pones autos en venta?
+        <br>
+- **Preguntas Específicas**
+  - Según lo visto, ¿qué te pareció la estructuración de la página para listar y gestionar tus autos en venta?
+  - ¿Crees que los pasos para subir fotos y especificaciones del auto son claros y fáciles de seguir?
+  - ¿Hay algo que cambiarías para que el proceso de listado de autos sea más rápido o simple?
+  - ¿Qué tan útil te parecen las herramientas para mejorar la visibilidad de tus autos (por ejemplo, destacar un anuncio)?
+  - ¿Cuáles son los puntos positivos y negativos que destacas de la página?
+  - ¿Confías en el sistema para captar compradores potenciales? ¿Por qué?
+
+**Segmento Objetivo 3: Talleres Mecánicos:** <br>
+- **Preguntas Generales**
+  - ¿Cuál es su nombre?
+  - ¿Cuál es su sexo?
+  - ¿Cuántos años tiene?
+  - ¿Cuál es su ocupación?
+  - ¿Cuántos años lleva trabajando en el rubro automotriz?
+        <br>
+- **Preguntas Específicas**
+  - Según lo visto, ¿qué te pareció la estructuración de la página para acceder y registrar las inspecciones de los autos?
+  - ¿Consideras que las herramientas de carga de datos son claras y fáciles de usar?
+  - ¿Hay alguna sección que te haya parecido complicada o que requiera una capacitación adicional?
+  - ¿Cómo evaluarías la confiabilidad de la plataforma en cuanto a seguridad y privacidad de los datos ingresados?
+  - ¿Cuáles son los puntos positivos y negativos que destacas de la aplicación?
+  - ¿Te sientes cómodo/a recomendando esta página a otros talleres y clientes? ¿Por qué?
 
 #### 8.3.4.2. Registro de Entrevistas
+
+Esta subsección presenta un registro detallado de las entrevistas realizadas, documentando las respuestas de los participantes, las observaciones clave y los comentarios obtenidos durante las sesiones de validación. Estos registros proporcionan una base sólida para el análisis y la mejora del producto.
+
+**Segmento Objetivo 1: Compradores de Autos de Segunda Mano**
+-------------------------------------------
+**Entrevistado(a) #1:** Gabriel Martel<br>
+**Sexo:** Masculino<br>
+**Edad:** 24 años<br>
+**Ocupación:** Estudiante<br>
+**Enlace del video completo de las entrevistas:** <br>
+[Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114851_upc_edu_pe/ESsGiH2lXEFMofBRTbj8MMsBmmRiMvGANFghatGlMzFqSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ACVtah)
+<br>
+
+**Resumen de la entrevista:** <br>
+Gabriel, estudiante universitario que en su tiempo libre compra y vende autos, comentó que su primera impresión de la página web fue que es muy intuitiva, aunque le hubiera gustado que estuviera completamente terminada, ya que tiene una buena estructura. También sugiere agregar medidas de seguridad a la información mostrada sobre los autos.
+<br><br>
+
+<img src="../assets/validation/validacion_gabriel.png" alt="validation interview">  
+
+**Entrevistado(a) #2:** Anatoly Noriega<br>
+**Sexo:** Masculino<br>
+**Edad:** 22 años<br>
+**Ocupación:** Estudiante<br>
+**Enlace del video completo de las entrevistas:** <br>
+[Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114851_upc_edu_pe/ESsGiH2lXEFMofBRTbj8MMsBmmRiMvGANFghatGlMzFqSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ACVtah)
+<br>
+
+**Resumen de la entrevista:** <br>
+Anatoly, ingeniero de software que revisa constantemente vehículos para futuras compras, expresó que le agradaron la estructura y el diseño de la plataforma, destacando especialmente las opciones del menú para redirigir a distintas páginas y la forma en que se muestran los autos y su información. Considera confiable la información de los autos, aunque le preocupa la sección de pagos, que encontró confusa y difícil de entender, y señaló que el estilo en la sección de perfil pierde coherencia con el resto del diseño. Sugiere añadir un botón para traducir la página a otros idiomas. Concluyó que usaría la plataforma, ya que la información es transparente y el diseño es atractivo para el usuario.
+<br><br>
+
+<img src="../assets/validation/validacion_anatoly.png" alt="validation interview">  
+
+
+**Segmento Objetivo 2: Vendedores de Autos de Segunda Mano**
+-------------------------------------------
+**Entrevistado(a) #1:** Mijael Yen<br>
+**Sexo:** Masculino<br>
+**Edad:** 22 años<br>
+**Ocupación:** Estudiante<br>
+**Enlace del video completo de las entrevistas:** <br>
+[Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114851_upc_edu_pe/ESsGiH2lXEFMofBRTbj8MMsBmmRiMvGANFghatGlMzFqSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ACVtah)
+<br>
+
+**Resumen de la entrevista:**
+Mijael comenta que la estructura de la plataforma es adecuada y cuenta con lo necesario para realizar sus publicaciones y vender autos. Sugiere que en la sección del perfil se incluya un texto que diga “Mi perfil” y que los textos de esta sección sean más grandes para mayor comodidad. También destaca que la plataforma es intuitiva, pero recomienda que la opción de "logout" esté incluida dentro del perfil. Por último, menciona que el botón para guardar datos en el perfil sea más específico, como “guardar cambios,” y que en ciertos campos de información, como el de teléfono, solo se permita ingresar números.
+<br><br>
+
+<img src="../assets/validation/validacion_mijael.png" alt="validation interview">  
+
+
+**Entrevistado(a) #2:** Jefrey Sanchez<br>
+**Sexo:** Masculino<br>
+**Edad:** 22 años<br>
+**Ocupación:** Estudiante<br>
+**Enlace del video completo de las entrevistas:** <br>
+[Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114851_upc_edu_pe/ESsGiH2lXEFMofBRTbj8MMsBmmRiMvGANFghatGlMzFqSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ACVtah)
+<br>
+
+**Resumen de la entrevista:** <br>
+Jeffrey actualmente trabaja, pero en su tiempo libre se dedica a la venta de autos. Mencionó que le pareció muy llamativo que la información se muestre de manera clara sin necesidad de entrar en cada tarjeta, y destacó que el diseño en general es muy atractivo. Comentó también que toda la navegación es intuitiva y clara. Como sugerencia, indicó que sería útil agregar un filtro para descartar los autos que no se buscan, facilitando así encontrar el auto deseado. En general, expresó que su experiencia ha sido muy positiva.
+<br><br>
+
+<img src="../assets/validation/validacion_jefrey.png" alt="validation interview">  
+
+**Segmento Objetivo 2: Talleres Mecánicos**
+-------------------------------------------
+**Entrevistado(a) #1:** Maomed Chocce<br>
+**Sexo:** Masculino<br>
+**Edad:** 29 años<br>
+**Ocupación:** Mecánico<br>
+**Enlace del video completo de las entrevistas:** <br>
+[Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114851_upc_edu_pe/ESsGiH2lXEFMofBRTbj8MMsBmmRiMvGANFghatGlMzFqSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ACVtah)
+<br>
+
+**Resumen de la entrevista:**
+Maomed mencionó que la estructura de la página es intuitiva, aunque sugiere añadir un menú desplegable para acceder a las secciones importantes de forma rápida. Respecto a las herramientas de carga de datos, considera que son claras y fáciles de usar, pero sería útil incluir ejemplos o instrucciones breves junto a cada campo. En cuanto a la sección de reportes, la encontró un poco confusa y recomendó añadir un tutorial o videos explicativos para facilitar su uso. Percibe la plataforma como segura, aunque cree que un ícono o mensaje informando sobre las medidas de seguridad implementadas aumentaría la confianza del usuario. Destacó como puntos positivos el diseño limpio, la facilidad de navegación y el acceso rápido a las funciones principales, pero señaló la falta de instrucciones claras en algunas secciones y la necesidad de una sección de preguntas frecuentes (FAQ) para resolver dudas comunes. Finalmente, expresó que recomendaría la plataforma a otros talleres y clientes, aunque algunos aspectos podrían mejorarse para optimizar la experiencia de usuario.
+<br><br>
+
+<img src="../assets/validation/validacion_maomed.png" alt="validation interview">  
+
+
+**Entrevistado(a) #2:** Roberto García<br>
+**Sexo:** Masculino<br>
+**Edad:** 22 años<br>
+**Ocupación:** Estudiante<br>
+**Enlace del video completo de las entrevistas:** <br>
+[Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114851_upc_edu_pe/ESsGiH2lXEFMofBRTbj8MMsBmmRiMvGANFghatGlMzFqSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ACVtah)
+<br>
+
+**Resumen de la entrevista:** <br>
+Roberto es un estudiante universitario que ayuda a su papá, el cual tiene un taller mecánica, en el trabajo cuando tiene tiempo libre. Nos comenta que la página le parece muy intuitiva y atractiva para el usuario. En general no tuvo problemas para poder guiarse al momento de usarlo y que recomendaría su uso a amigos como familiares debido a la seguridad que tiene.
+<br><br>
+
+<img src="../assets/validation/validacion_roberto.png" alt="validation interview">  
 
 ## 8.4. Experiment Aftermath & Analysis
 
@@ -3468,6 +3605,10 @@ El siguiente Product Backlog prioriza las User Stories experimentales y de mejor
 ## 8.6. To-Be Software Platform Pre-launch
 
 ### 8.6.1. About-the-Product Intro Video
+
+En esta sección se presenta un video explicatiovo sobre la aplicación Car2Go. El video destaca las principales características y beneficios del producto, demostrando cómo satisface las necesidad de los clientes. Este recurso visual es esencial para comunicar de manera efectiva el valor de la apliación a potenciales usuarios e inversores.
+
+Link: [About-The-Product](https://youtu.be/QHxKoa7xo-E)
 
 # VI. Conclusiones y recomendaciones
 
