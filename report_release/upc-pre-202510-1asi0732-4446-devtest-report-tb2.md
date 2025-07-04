@@ -3660,7 +3660,31 @@ Las siguientes preguntas del backlog anterior se consideran respondidas o valida
 
 ## 8.5. Continuous Learning
 
+En Car2Go, entendemos que el aprendizaje es un ciclo continuo y no un evento único. Cada experimento, sin importar su resultado, es una oportunidad para obtener conocimiento valioso sobre nuestros usuarios y nuestro producto. Para capitalizar estas oportunidades, hemos establecido un proceso formal para compartir, discutir y actuar sobre los hallazgos.
+
 ### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+El pilar de nuestro aprendizaje organizativo es el "Learning Workflow", un proceso estructurado que asegura que los datos de un experimento se transformen en conocimiento compartido y acciones estratégicas. Este flujo culmina en una "Shareback Session" (Sesión de Socialización), de la cual se generan artefactos permanentes.
+
+A continuación, se describen los artefactos y el flujo que seguimos tras finalizar el exitoso experimento de "Verificación Mecánica".
+
+**1. Artefactos de la Sesión de Socialización (Shareback Session Artifacts)**
+
+* **Presentación de Resultados y Aprendizajes:** Se creó una presentación detallada que resume el experimento de principio a fin. Este documento es el artefacto principal de comunicación.
+    * **Título:** "Resultados y Aprendizajes: Experimento de Verificación Mecánica en Car2Go".
+    * **Contenido:** La presentación incluye la hipótesis original, las métricas clave monitoreadas, los resultados cuantitativos y cualitativos (Sección 8.4.1), y el backlog repriorizado como consecuencia directa de los hallazgos (Sección 8.4.2).
+
+**2. Flujo de Trabajo de Aprendizaje (Learning Workflow)**
+
+* **Paso 1: Análisis y Síntesis:** El equipo central del experimento (Product Manager, Lead Developer, UX Designer) analiza los datos brutos, identifica los patrones clave y sintetiza los aprendizajes principales.
+
+* **Paso 2: Creación de Artefactos:** Con los aprendizajes claros, el equipo prepara la presentación de resultados. El objetivo es crear una narrativa clara que cuente la historia del experimento: qué creíamos, qué hicimos, qué pasó y qué significa para nosotros.
+
+* **Paso 3: Sesión de Socialización (Shareback):** Se convoca a todas las partes interesadas (desarrollo, marketing, dirección) a una reunión de 45 minutos. Durante la sesión, se presentan los hallazgos, se fomenta un espacio para preguntas y se debate sobre las implicaciones de los resultados.
+
+* **Paso 4: Actualización y Acción:** Inmediatamente después de la sesión, se actualiza formalmente el "Question Backlog". Este paso es crucial, ya que traduce la discusión en un plan de acción concreto y visible para todos.
+
+* **Paso 5: Diseminación y Archivo:** Finalmente, los artefactos (la presentación y la grabación) se envían a todo el equipo por correo electrónico y se archivan en nuestra base de conocimiento central (ej. Confluence, Notion) bajo la sección "Historial de Experimentos", asegurando que el conocimiento sea fácil de encontrar en el futuro.
 
 ## 8.6. To-Be Software Platform Pre-launch
 
