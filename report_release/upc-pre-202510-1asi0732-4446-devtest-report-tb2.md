@@ -70,7 +70,7 @@
     <tr>
       <td>27/04/2025</td>
       <td>Augusto Jose Pin Matallana</td>
-      <td>Elaboración del análisis competitivo y propuestas de solución en base al Needfinding.</td>
+      <td>Elaboración del análisis competitivo y propuestas de solución basadas en el Needfinding.</td>
     </tr>
     <tr>
       <td>28/04/2025</td>
@@ -2164,63 +2164,64 @@ A continuación, se describe el proceso por el cual organizamos, gestionamos y c
 ### 5.1.1. Software Development Environment Configuration
 #### Requirements Management
 
-- Trello: Es una herramienta utilizada para gestionar el flujo de trabajo de proyectos principalmente enfocado en marcos de trabajos ágiles. Será empleado para visualizar y actualizar el estado actual de las tareas e historias de usuario  pertenecientes al sprint a desarrollar.
+- **Trello**: Herramienta para gestionar flujos de trabajo en proyectos ágiles. Permite visualizar y actualizar el estado de tareas e historias de usuario del sprint actual.
   - Ruta de referencia: https://trello.com/es
 
 #### Product UX/UI Design
 
-- Figma: Plataforma de elaboración de prototipos y edición gráfica, principalmente utilizado para el diseño digital. En el caso del proyecto, será utilizado para el prototipado de la aplicación y sus versiones de Desktop y Mobile Web Browser.
+- **Figma**: Plataforma de prototipado y edición gráfica para diseño digital. Se emplea para crear prototipos de la aplicación en versiones Desktop y Mobile Web Browser.
     - Ruta de referencia: https://www.figma.com/login
 
-- Lucidchart: Aplicación para diagramar flujos. Será empleado para el diseño de wireflows, user-flows y el diagrama de clases asociado a la aplicación.
+- **Lucidchart**: Aplicación para diagramación de flujos. Se utiliza para diseñar wireflows, user-flows y diagramas de clases de la aplicación.
   - Ruta de referencia: https://www.lucidchart.com/
 
 #### Software Development
 
-- Visual Studio Code: Entorno de desarrollo integrado elegido para la elaboración y compilación del código por motivos de dominio por parte de los integrantes del equipo de trabajo. Utilizar este IDE supone de valor para el desarrollo del proyecto puesto que incluye la posibilidad de agregar extensiones de utilidad, soporte de edición de texto en múltiples lenguajes de programación, disponibilidade en múltiples sistemas operativos, entre otros beneficios.
+- **Visual Studio Code**: IDE seleccionado para desarrollo y compilación del código debido al dominio del equipo. Incluye extensiones útiles, soporte para múltiples lenguajes de programación y disponibilidad multiplataforma.
     - Ruta de referencia: https://code.visualstudio.com/
 
-- HTML5: HyperText Markup Language, o por sus siglas HTML, es un lenguaje de etiquetado para páginas web. Será empleado en el desarrollo del proyecto para la presentación del contenido en la aplicación.
+- **HTML5**: Lenguaje de etiquetado para páginas web. Define la estructura y presentación del contenido en la aplicación.
     - Ruta de referencia: https://www.w3schools.com/html/html5_syntax.asp
 
-- CSS: Cascading Style Sheets es un lenguaje que maneja el diseño y presentación de las páginas web, el cual va de la mano con HTML.
+- **CSS**: Lenguaje para diseño y presentación de páginas web, complementa HTML en la definición de estilos.
     - Ruta de referencia: https://google.github.io/styleguide/htmlcssguide.html
 
-- Bootstrap: Framework CSS que permitirá crear componentes web de manera rápida y eficiente. Bootstrap se utilizará para la creación de la interfaz responsiva, asegurando que la plataforma funcione correctamente en distintos dispositivos.
+- **Bootstrap**: Framework CSS para crear componentes web eficientes. Facilita el desarrollo de interfaces responsivas que funcionan correctamente en diversos dispositivos.
      - Ruta de referencia: https://getbootstrap.com/
 
-- Next.js: Este framework sustentado en React es utilizado para optimizar el desarrollo del frontend. Next.js proporciona funcionalidades como el renderizado del lado del servidor (SSR), rutas dinámicas, y la generación estática de sitios (SSG), lo cual mejora la experiencia del usuario y el SEO de la página.
+- **Next.js**: Framework basado en React para optimizar el desarrollo frontend. Proporciona renderizado del lado del servidor (SSR), rutas dinámicas y generación estática de sitios (SSG), mejorando la experiencia del usuario y el SEO.
     - Ruta de referencia: https://nextjs.org/
 
 #### Software Deployment
 
-- Git: Una herramienta de control de versiones que facilita el registro y la gestión de las distintas versiones del programa. Su propósito es mantener un historial de cambios y simplificar la corrección de errores. Los integrantes del equipo accederán a través de la línea de comandos en sus sistemas locales.
+- **Git**: Herramienta de control de versiones que facilita el registro y gestión de las diferentes versiones del programa. Mantiene un historial de cambios y simplifica la corrección de errores. El equipo accede mediante línea de comandos en sistemas locales.
      - Ruta de referencia: https://git-scm.com/
 
 #### Software Documentation and Project Management
 
-- Github: Una plataforma en la nube que hospedará los repositorios de código del proyecto. Permitirá la colaboración en tiempo real y la revisión de contribuciones de cada miembro del equipo. Los integrantes del equipo podrán acceder a través de sus navegadores web.
+- **GitHub**: Plataforma en la nube que hospeda los repositorios de código del proyecto. Permite colaboración en tiempo real y revisión de contribuciones de cada miembro del equipo a través de navegadores web.
     - Ruta de referencia: https://github.com/
 
-### 5.1.2. Source Code Management.
-El proyecto seguirá las convenciones del flujo de trabajo establecido por el modelo GitFlow para el control de versiones, empleando GitHub como plataforma y sistema de control de versiones. A continuación, se describirá la implementación de GitFlow como un flujo de trabajo para el control de versiones, junto con el enlace del Landing Page.
+### 5.1.2. Source Code Management
 
-**Repositorio de GitHub:**
-- Enlace para acceder a la [organización](https://github.com/devtest-diseno-experimentos)
-- Enlace para acceder al repositorio de la [landing page](https://github.com/devtest-diseno-experimentos/Landing-page)
-- Enlace para acceder al repositorio del [informe](https://github.com/devtest-diseno-experimentos/documents_repository)
+El proyecto implementa las convenciones del modelo GitFlow para control de versiones, utilizando GitHub como plataforma principal. Se detalla la implementación de GitFlow como flujo de trabajo junto con los enlaces de repositorio.
+
+**Repositorios de GitHub:**
+- [Organización](https://github.com/devtest-diseno-experimentos)
+- [Landing page](https://github.com/devtest-diseno-experimentos/Landing-page)
+- [Informe del proyecto](https://github.com/devtest-diseno-experimentos/documents_repository)
 
 **Flujo de trabajo GitFlow**
 
 <img src="../assets/git-flow/flow.png" alt="diagram"   width=""/>
 
-El flujo de trabajo a ser implementado para el desarrollo del proyecto se basará en el modelo propuesto por Vincent Driessen en "A successful Git branching model".
+El flujo de trabajo implementado se basa en el modelo propuesto por Vincent Driessen en "A successful Git branching model".
 
-Gitflow es un modelo de ramificación para Git que se centra en la organización de las ramas de un proyecto de software. El modelo de Gitflow define una serie de ramas estándar y reglas para su uso, lo que facilita la colaboración y la gestión del código en un equipo de desarrollo. En UniRider, utilizamos el modelo de Gitflow para organizar y gestionar las ramas de nuestro proyecto, lo que nos permite trabajar de forma eficiente y colaborativa en el desarrollo de nuestra aplicación web.
+GitFlow organiza las ramas del proyecto mediante estándares y reglas específicas, facilitando la colaboración y gestión del código en el equipo de desarrollo. En Car2Go, este modelo permite trabajo eficiente y colaborativo en el desarrollo de la aplicación web.
 
-La rama **main** es la rama principal de nuestro proyecto, que contiene la versión estables, operativas y listas para implementar de UniRider. Estas variantes han sido previamente evaluadas y se ha verificado la total funcionalidad de estas tras su implementación. Emplearemos etiquetas para identificar cada variante estable y lista para implementar, lo que nos permitirá tener un seguimiento preciso de las variantes y simplificar la administración de futuras actualizaciones.
+La rama **main** contiene versiones estables, operativas y listas para producción de Car2Go. Estas versiones han sido evaluadas y verificadas funcionalmente tras su implementación. Se utilizan etiquetas para identificar cada versión estable, permitiendo seguimiento preciso y simplificando la administración de actualizaciones futuras.
 
-La rama **develop** es la rama de desarrollo de nuestro proyecto, que contiene la versión en desarrollo de UniRider que aún no han sido sometidas a pruebas, aunque están completadas al 100% y contienen todas las características que se esperan hasta ese momento. Este canal se emplea para cargar la versión y llevar a cabo pruebas finales con el fin de corregir cualquier inconveniente antes de la publicación final en la rama main.
+La rama **develop** contiene versiones en desarrollo de Car2Go que han sido completadas al 100% pero aún no han sido probadas exhaustivamente. Esta rama se emplea para realizar pruebas finales y corregir inconvenientes antes de la publicación en la rama main.
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
@@ -2250,17 +2251,18 @@ Para asegurar la coherencia y mantenibilidad del código en **Car2Go**, se segui
 
 <img src="../assets/deployment/landing-deploy.png" alt="landing"   width=""/>
 
-Para desplegar la landing page es necesario contar con una serie de requisitos, entre ellos, es necesario contar con una cuenta personal, una organización y un repositorio al cual cargar los documentos. A partir de lo anterior, es posible comenzar el despliegue de la landing page. A continuación se enuncian los pasos a seguir:
+El despliegue de la landing page requiere una cuenta personal, organización y repositorio para cargar los documentos. Los pasos para el despliegue son:
 
-1. Crear una carpeta llamada "docs" para alojar la Landing Page.
-2. Asegurarse de que los archivos sigan las nomenclaturas "index.html", para la landing page; "input.css" y "output.css" para poder utilizar Tailwind y una carpeta llamada "img" que contenga las imágenes.
-3. Cargar los archivos al repositorio mediante un commit.
-4. Dirigirse a **Settings > Pages** y seleccionar el branch correspondiente, en nuestro caso es el "main".
-5. Especificar la carpeta "docs" como la fuente de la página.
-6. Esperar a que GitHub realice las comprobaciones necesarias. Una vez culminado el proceso, se obtendrá un enlace que llevará al Landing Page desplegado.
-Link de la landing page desplegada: [Car2Go](https://devtest-diseno-experimentos.github.io/Landing-page/)
+1. Crear carpeta "docs" para alojar la Landing Page
+2. Configurar archivos con nomenclaturas correctas: "index.html" para la landing page, "input.css" y "output.css" para Tailwind, y carpeta "img" para imágenes
+3. Cargar archivos al repositorio mediante commit
+4. Acceder a **Settings > Pages** y seleccionar branch "main"
+5. Especificar carpeta "docs" como fuente de la página
+6. Esperar validaciones de GitHub para obtener el enlace del Landing Page
 
-###  5.2. Product Implementation & Deployment.
+Enlace de la landing page: [Car2Go](https://devtest-diseno-experimentos.github.io/Landing-page/)
+
+## 5.2. Product Implementation & Deployment
 
 ### 5.2.1. Sprint Backlogs
 
@@ -2410,50 +2412,45 @@ Se evidencia el video demostrando el prototipo pensado para PeaceApp, el cual co
 
 ### 6.1.1. Core Entities Unit Tests  
 
-A continuación haremos la elaboración de los tests a nuestra Landing Page, considerando nuestra secciones más importantes las cuales son las siguientes:
+Se desarrollaron tests para la Landing Page, enfocándose en las secciones principales:
 
 - Home
 - Services
 - Plans 
 
-La herramienta a utilizar será Selenium IDE para poder desarrollar los tests en la Landing Page.
+Se utiliza Selenium IDE para desarrollar los tests de la Landing Page.
 
 <img src="../assets/core-entities/landing-page.png" alt="Core Entities"/>
 
+### 6.1.2. Core Integration Tests
 
-### 6.1.2. Core Integration Tests  
-###  Landing Page test
+#### Landing Page Test
 
-Se realizó un test automatizado utilizando Selenium IDE para verificar el correcto funcionamiento de la landing page. El objetivo del test fue asegurarse de que los elementos clave de la página, como el título principal y los botones de acción, se cargaran correctamente y fueran interactivos, garantizando una experiencia de usuario óptima.
+Test automatizado con Selenium IDE para verificar el funcionamiento correcto de la landing page. Valida que elementos clave como título principal y botones de acción se carguen correctamente y sean interactivos, garantizando experiencia de usuario óptima.
 
 <img src="../assets/tests/TestLandingPage.png" alt="Test landing page"/>
 
----
+#### Mobile Test
 
-### Mobile test
-
-Se realizó un test automatizado utilizando Selenium WebDriver para verificar el correcto funcionamiento de la aplicación mobile. El objetivo del test fue asegurarse de que los elementos clave de la página, login y los botones de acción, se cargaran correctamente y fueran interactivos, garantizando una experiencia de usuario óptima.
+Test automatizado con Selenium WebDriver para verificar el funcionamiento de la aplicación móvil. Valida elementos clave como login y botones de acción, asegurando carga correcta e interactividad para experiencia de usuario óptima.
 
 <img src="../assets/tests/Mobile.png" alt="Test Mobile"/>
 
---- 
+#### Seller CRUD
 
-### Seller CRUD
-Se realizó un test automatizado para verificar el funcionamiento del CRUD del vendedor, asegurando que el proceso de crear, leer, actualizar y eliminar los registros de los vehículos se realice correctamente. El test abarcó la funcionalidad de un vendedor que sube sus carros, editando la información y eliminando entradas, todo esto con el objetivo de garantizar que la plataforma maneje los datos de manera eficiente y sin errores.
+Test automatizado para verificar el CRUD del vendedor, validando procesos de crear, leer, actualizar y eliminar registros de vehículos. Garantiza que la plataforma maneje datos eficientemente sin errores.
 
 ![SELLER CRUD](../assets/tests/Seller-crud.jpg)
 
----
+#### Buyer CRUD
 
-###  Buyer CRUD
-Se realizó un test automatizado para validar el correcto funcionamiento del CRUD del comprador, asegurando que los usuarios puedan registrar, visualizar, actualizar y eliminar su información sin inconvenientes. Este test garantizó que los compradores puedan interactuar con la plataforma de forma fluida, facilitando procesos como la gestión de sus datos personales y preferencias de compra.
+Test automatizado para validar el CRUD del comprador, asegurando registro, visualización, actualización y eliminación de información sin inconvenientes. Facilita procesos como gestión de datos personales y preferencias de compra.
 
 ![BUYER CRUD](../assets/tests/Buyer-crud.jpg)
 
----
+#### Mechanic CRUD
 
-### Mechanic CRUD
-Se realizó un test automatizado para verificar el funcionamiento del CRUD del mecánico, asegurando que los mecánicos puedan registrar, actualizar, visualizar y eliminar sus datos de manera eficiente. Este test validó que la plataforma permita a los mecánicos gestionar su información correctamente, facilitando la administración de sus servicios y disponibilidad.
+Test automatizado para verificar el CRUD del mecánico, validando registro, actualización, visualización y eliminación de datos eficientemente. Facilita gestión de información, servicios y disponibilidad.
 
 ![MECHANIC CRUD](../assets/tests/Mechanic-crud.jpg)
 
@@ -2501,21 +2498,19 @@ Las normas y convenciones de codificación son pautas que los programadores debe
 
 #### 6.2.1.2. Code Quality & Code Security.
 
-La calidad del código y la seguridad son esenciales para crear software confiable, ya que aseguran su estabilidad, facilidad de mantenimiento y protección contra vulnerabilidades. Un código bien estructurado mejora la comprensión y la colaboración, mientras que la seguridad protege los datos y previene ataques. Enfocarse en ambos aspectos desde el inicio del desarrollo previene problemas futuros, garantizando un software más eficiente y seguro.
+La calidad del código y la seguridad son esenciales para crear software confiable, asegurando estabilidad, facilidad de mantenimiento y protección contra vulnerabilidades. Un código bien estructurado mejora la comprensión y colaboración, mientras que la seguridad protege datos y previene ataques.
 
-- **Calidad del Código**:
-La calidad se debe evaluar usando métricas como la cobertura de pruebas y la complejidad ciclomática. Se sugiere emplear herramientas como SonarQube para monitorear continuamente la calidad del código y verificar que cumpla con los estándares requeridos. SonarQube proporciona un análisis detallado, identificando problemas y ofreciendo recomendaciones para mejorar el código.
+**Calidad del Código:**
+Se evalúa usando métricas como cobertura de pruebas y complejidad ciclomática. Se emplea SonarQube para monitorear continuamente la calidad del código y verificar cumplimiento de estándares. SonarQube proporciona análisis detallado, identificando problemas y ofreciendo recomendaciones de mejora.
 
-- **Seguridad del Código**:
-Es fundamental detectar y prevenir vulnerabilidades comunes como inyecciones SQL y XSS a través de una revisión exhaustiva del código. Implementar buenas prácticas de seguridad en la codificación y validar correctamente las entradas del usuario son pasos esenciales para proteger el software. Para apoyar la calidad y la seguridad, se utilizará SonarLint, una herramienta complementaria que permite realizar análisis en tiempo real mientras se escribe el código. SonarLint se integra con los IDEs más populares, como IntelliJ IDEA, Eclipse y Visual Studio, ayudando a los desarrolladores a identificar problemas de calidad y seguridad al momento de codificar, ofreciendo recomendaciones para solucionarlos. Esto fomenta una cultura de mejora continua y calidad desde el inicio del desarrollo, garantizando que los problemas se aborden antes de pasar a las etapas de revisión y pruebas.
+**Seguridad del Código:**
+Es fundamental detectar y prevenir vulnerabilidades comunes como inyecciones SQL y XSS mediante revisión exhaustiva del código. Implementar buenas prácticas de seguridad y validar correctamente entradas del usuario son pasos esenciales. SonarLint permite análisis en tiempo real durante la escritura de código, integrándose con IDEs populares como IntelliJ IDEA, Eclipse y Visual Studio. Ayuda a identificar problemas de calidad y seguridad al momento de codificar, ofreciendo recomendaciones inmediatas.
 
 <img src="../assets/code-quality/sonarlint.png" alt="Sonarlint"/>
 
-Con el enfoque en calidad y seguridad, utilizaremos SonarLint, una herramienta complementaria que permite realizar análisis de código en tiempo real mientras se desarrolla. SonarLint se integra con los IDEs más populares, como IntelliJ IDEA, Eclipse y Visual Studio. Esta herramienta ayuda a los desarrolladores a identificar problemas de calidad y seguridad a medida que escriben código, ofreciendo recomendaciones inmediatas para corregirlos. Esto fomenta una cultura de calidad y mejora continua desde el inicio, asegurando que los problemas se resuelvan antes de llegar a las fases de revisión y prueba.
-
 ### 6.2.2. Static Code Analysis
 
-Con el fin de garantizar la calidad del código y detectar posibles fallos antes de su ejecución, se ha integrado SonarQube para realizar un análisis estático. Esta herramienta proporciona un enfoque detallado para identificar deficiencias en la calidad del código, como vulnerabilidades de seguridad, errores potenciales y malas prácticas en la programación. Además, SonarQube permite monitorear continuamente el estado del código a lo largo del ciclo de desarrollo, lo que facilita la corrección temprana de problemas y mejora la confiabilidad del software. Este enfoque proactivo contribuye a mantener altos estándares de calidad y reduce el costo de las correcciones durante las etapas finales del desarrollo.
+Para garantizar calidad del código y detectar fallos antes de ejecución, se integra SonarQube para análisis estático. Esta herramienta identifica deficiencias como vulnerabilidades de seguridad, errores potenciales y malas prácticas. SonarQube permite monitoreo continuo del estado del código durante el ciclo de desarrollo, facilitando corrección temprana de problemas y mejorando confiabilidad del software.
 
 <img src="../assets/code-analytics/sonarqube.png" alt="Sonarqube"/>
 
@@ -2850,15 +2845,13 @@ Con base en los comentarios obtenidos durante la auditoría, se han definido las
 ## 7.1. Continuous Integration
 
 ### 7.1.1. Tools and Practices  
-<p style="text-align: justify;">
-  En el desarrollo y pruebas de software, utilizamos herramientas y metodologías que nos permiten asegurar la calidad del código y la eficiencia del equipo. Aplicamos enfoques como <strong>TDD</strong> (Desarrollo Orientado por Pruebas) y <strong>BDD</strong> (Desarrollo Orientado por Comportamiento), lo que nos permite garantizar que nuestras soluciones cumplan con los requerimientos del cliente y mantengan altos estándares técnicos. Para ello, contamos con diversas herramientas que nos apoyan desde la escritura del código hasta la ejecución de pruebas y la automatización de tareas.
-</p>
 
+En el desarrollo y pruebas de software utilizamos herramientas y metodologías que aseguran la calidad del código y eficiencia del equipo. Aplicamos enfoques como **TDD** (Desarrollo Orientado por Pruebas) y **BDD** (Desarrollo Orientado por Comportamiento), garantizando que las soluciones cumplan con los requerimientos del cliente y mantengan altos estándares técnicos.
 
 | Herramienta | Tipo                        | Descripción                                                                 | Propósito                                                                 |
 |-------------|-----------------------------|------------------------------------------------------------------------------|---------------------------------------------------------------------------|
-| JUnit       | Herramienta para pruebas (TDD) | Programa que permite probar pequeñas partes de aplicaciones en Java.        | Facilita la creación y ejecución de pruebas unitarias.                   |
-| Mockito     | Herramienta de simulaciones (TDD) | Permite crear versiones simuladas de componentes.                           | Imitar comportamientos de objetos externos para pruebas más controladas. |
+| JUnit       | Herramienta para pruebas (TDD) | Framework que permite probar componentes individuales de aplicaciones Java.        | Facilita la creación y ejecución de pruebas unitarias.                   |
+| Mockito     | Herramienta de simulaciones (TDD) | Framework para crear objetos simulados de componentes.                           | Simula comportamientos de objetos externos para pruebas controladas. |
 
 
 ### 7.1.2. Build & Test Suite Pipeline Components
@@ -2880,26 +2873,27 @@ Con base en los comentarios obtenidos durante la auditoría, se han definido las
 ![alt text](../assets/tests/integral2.png)
 ## 7.2. Continuous Delivery
 
-Su objetivo es el de automatizar la integración y pruebas del código, manteniendo todo listo para un despliegue cuando sea necesario.
+Automatiza la integración y pruebas del código, manteniendo todo listo para despliegue cuando sea necesario.
 
 ### 7.2.1. Tools and Practices
 
-- **Tools:**
+**Herramientas:**
 
-  - **Git y GitHub:** Se utilizó Git como sistema de control de versiones, y GitHub como plataforma de hospedaje del repositorio. Esto permitió una gestión eficiente del código, colaboración en equipo y control de cambios mediante pull requests.
+- **Git y GitHub:** Sistema de control de versiones y plataforma de hospedaje del repositorio. Permite gestión eficiente del código, colaboración en equipo y control de cambios mediante pull requests.
 
-  - **Azure DevOps:** Se utilizó para definir y ejecutar pipelines de integración continua y entrega continua (CI/CD). Esto permitió automatizar pruebas, builds y despliegues, asegurando un flujo de trabajo confiable desde el desarrollo hasta producción.
+- **Azure DevOps:** Define y ejecuta pipelines de integración continua y entrega continua (CI/CD). Automatiza pruebas, builds y despliegues, asegurando flujo de trabajo confiable desde desarrollo hasta producción.
 
-  - **Trello:** Se usa para gestionar el proceso de aprobación del despliegue. Puedes configurar un sistema donde, después de la validación del pipeline, un administrador o gerente de proyecto debe revisar y aprobar el despliegue a producción.
+- **Trello:** Gestiona el proceso de aprobación del despliegue. Configura un sistema donde, después de la validación del pipeline, un administrador debe revisar y aprobar el despliegue a producción.
 
-- **Practices (Prácticas):**
+**Prácticas:**
 
-  - **Estrategia de Ramas:** Se trabajó con una rama principal (main) y ramas separadas para cada funcionalidad (feature). Las ramas eran revisadas y luego fusionadas mediante pull requests, asegurando calidad del código y reducción de errores.
+- **Estrategia de Ramas:** Trabajo con rama principal (main) y ramas separadas para cada funcionalidad (feature). Las ramas se revisan y fusionan mediante pull requests, asegurando calidad del código y reducción de errores.
 
-  - **Integración Continua (CI):** Las pruebas automatizadas se ejecutaban automáticamente al hacer push a cualquier rama o al generar un pull request, asegurando que el nuevo código no rompiera funcionalidades existentes.
-  - **Aprobación Manual:** Antes de hacer el despliegue en producción, el pipeline puede requerir que un responsable del proyecto revise los resultados de las pruebas y apruebe el despliegue. Esto reduce el riesgo de lanzar código no deseado en producción.
+- **Integración Continua (CI):** Pruebas automatizadas se ejecutan automáticamente al hacer push a cualquier rama o al generar pull request, asegurando que el nuevo código no rompa funcionalidades existentes.
 
-  - **Rollback Manual:** Aunque el pipeline puede estar configurado para realizar rollbacks automáticos en caso de errores graves, en Continuous Delivery, los rollbacks suelen ser manuales y controlados por el equipo de operaciones o desarrollo.
+- **Aprobación Manual:** Antes del despliegue en producción, el pipeline requiere que un responsable del proyecto revise los resultados de las pruebas y apruebe el despliegue, reduciendo el riesgo de lanzar código no deseado.
+
+- **Rollback Manual:** Aunque el pipeline puede estar configurado para rollbacks automáticos en caso de errores graves, en Continuous Delivery los rollbacks suelen ser manuales y controlados por el equipo de operaciones o desarrollo.
 
 ### 7.2.2. Stages Deployment Pipeline Components  
 
@@ -3050,46 +3044,46 @@ Al ser este un proyecto reciente en el ámbito universitario, Car2Go no cuenta c
 
 Hemos establecido acuerdos estratégicos con talleres mecánicos, lo cual es un pilar fundamental para la integración de servicios adicionales que potenciarán la propuesta de valor de Car2Go, como inspecciones de vehículos o verificaciones de estado, aunque los detalles operativos y de monetización asociados a estas alianzas aún están en fase de definición. Es importante destacar que, hasta el momento, no hemos procedido con el registro de la marca "Car2Go" ni con otras formas de propiedad intelectual, siendo este un paso contemplado para etapas futuras del proyecto.
 
-### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims.
+### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
 
-- Assumptions:
+**Assumptions:**
 
-  - Los vendedores de autos de segunda mano están dispuestos a pagar por funciones avanzadas que aumenten la visibilidad de sus anuncios.
-  - Existe una demanda suficiente de compradores que buscan autos de segunda mano a través de plataformas digitales.
-  - Los usuarios confían en realizar transacciones de alto valor (como la compra de un auto) a través de una plataforma en línea que facilita el contacto directo entre partes.
-  - El sistema de confirmación de pago por captura de pantalla de transferencia bancaria será percibido como seguro y confiable por ambas partes.
-  - Los compradores y vendedores están dispuestos a pagar una comisión por la facilitación de la transacción, ya que valora la seguridad y eficiencia de la plataforma.
+- Los vendedores están dispuestos a pagar por funciones avanzadas que aumenten la visibilidad de sus anuncios
+- Existe demanda suficiente de compradores que buscan autos usados a través de plataformas digitales
+- Los usuarios confían en realizar transacciones de alto valor mediante una plataforma que facilita el contacto directo entre partes
+- El sistema de confirmación de pago por captura de pantalla será percibido como seguro y confiable
+- Compradores y vendedores están dispuestos a pagar comisión por la facilitación de transacciones
 
-- Knowledge Gaps:
+**Knowledge Gaps:**
 
-  - ¿Cuál es el precio óptimo para los diferentes planes de suscripción para vendedores que maximice la conversión sin ahuyentar a los usuarios?
-  - ¿Qué porcentaje de comisión por transacción es aceptable para compradores y vendedores en el mercado de autos de segunda mano?
-  - ¿Cuáles son las características de personalización más valoradas por los usuarios que realmente mejoran la experiencia de compra/venta?
-  - ¿Cuál es la objeción principal de los usuarios al comprar/vender autos de segunda mano en línea?
-  - ¿Cómo podemos verificar la autenticidad y el estado de los vehículos listados sin una inspección física directa por parte de Car2Go?
+- ¿Cuál es el precio óptimo para los planes de suscripción que maximice la conversión?
+- ¿Qué porcentaje de comisión por transacción es aceptable para ambas partes?
+- ¿Cuáles son las características de personalización más valoradas por los usuarios?
+- ¿Cuál es la objeción principal al comprar/vender autos usados en línea?
+- ¿Cómo verificar autenticidad y estado de vehículos sin inspección física directa?
 
-- Ideas:
+**Ideas:**
 
-  - Integrar un sistema de verificación de antecedentes de vehículos (historial de accidentes, kilometraje) a través de un tercero.
-  - Desarrollar una función de "ofertas y contraofertas" en tiempo real dentro de la plataforma.
-  - Crear un sistema de mensajería interno con plantillas predefinidas para facilitar la comunicación.
-  - Ofrecer servicios adicionales a través de alianzas (ej. inspecciones mecánicas).
-  - Implementar un sistema de reseñas y calificaciones para vendedores y compradores.
+- Integrar sistema de verificación de antecedentes de vehículos a través de terceros
+- Desarrollar función de "ofertas y contraofertas" en tiempo real
+- Crear sistema de mensajería interno con plantillas predefinidas
+- Ofrecer servicios adicionales mediante alianzas (inspecciones mecánicas)
+- Implementar sistema de reseñas y calificaciones para vendedores y compradores
 
-- Claims:
+**Claims:**
 
-  - Car2Go reducirá el tiempo promedio para vender un auto de segunda mano en un 30% en comparación con métodos tradicionales.
-  - Lograremos una tasa de conversión del 10% de visitantes a publicaciones de autos destacadas en el primer año.
-  - Nuestro sistema de seguridad y seguimiento de transacciones minimizará el riesgo de fraude en un 90% en comparación con las transacciones directas entre particulares.
-  - Alcanzaremos una base de 5,000 vendedores activos en los primeros 18 meses.
+- Car2Go reducirá el tiempo promedio para vender un auto usado en 30% comparado con métodos tradicionales
+- Lograremos tasa de conversión del 10% de visitantes a publicaciones destacadas en el primer año
+- Nuestro sistema minimizará el riesgo de fraude en 90% comparado con transacciones directas
+- Alcanzaremos base de 5,000 vendedores activos en los primeros 18 meses
 
-### 8.1.3. Experiment-Ready Questions.
+### 8.1.3. Experiment-Ready Questions
 
-- ¿Estarán dispuestos los vendedores de autos de segunda mano a pagar una suscripción mensual de $X para destacar sus anuncios y acceder a análisis de marketing?
-- ¿Consideran los compradores y vendedores de autos de segunda mano que una comisión del Y% por transacción es justa y justificable por la seguridad y conveniencia de la plataforma?
-- ¿Es el sistema de confirmación de pago mediante captura de pantalla de transferencia bancaria percibido como lo suficientemente seguro para transacciones de alto valor entre usuarios no conocidos?
-- ¿Cuál es la característica más crítica que haría que un comprador eligiera Car2Go sobre otras plataformas para buscar un auto de segunda mano?
-- ¿Cuál es la principal barrera o temor que tienen los usuarios al comprar o vender un auto de segunda mano a un particular en línea?
+- ¿Estarán dispuestos los vendedores a pagar una suscripción mensual de $X para destacar anuncios y acceder a análisis de marketing?
+- ¿Consideran compradores y vendedores que una comisión del Y% por transacción es justa por la seguridad y conveniencia de la plataforma?
+- ¿Es el sistema de confirmación de pago mediante captura de pantalla percibido como suficientemente seguro para transacciones de alto valor?
+- ¿Cuál es la característica más crítica que haría que un comprador eligiera Car2Go sobre otras plataformas?
+- ¿Cuál es la principal barrera o temor al comprar o vender un auto usado en línea?
 
 ### 8.1.4. Question Backlog. 
 
