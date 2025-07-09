@@ -2164,7 +2164,7 @@ A continuación, se describe el proceso por el cual organizamos, gestionamos y c
 ### 5.1.1. Software Development Environment Configuration
 #### Requirements Management
 
-- Trello: Es una herramienta utilizada para gestionar el flujo de trabajo de proyectos principalmente basados en marcos de trabajos ágiles. Será empleado para visualizar y actualizar el estado actual de las tareas e historias de usuario  pertenecientes al sprint a desarrollar.
+- Trello: Es una herramienta utilizada para gestionar el flujo de trabajo de proyectos principalmente enfocado en marcos de trabajos ágiles. Será empleado para visualizar y actualizar el estado actual de las tareas e historias de usuario  pertenecientes al sprint a desarrollar.
   - Ruta de referencia: https://trello.com/es
 
 #### Product UX/UI Design
@@ -2189,7 +2189,7 @@ A continuación, se describe el proceso por el cual organizamos, gestionamos y c
 - Bootstrap: Framework CSS que permitirá crear componentes web de manera rápida y eficiente. Bootstrap se utilizará para la creación de la interfaz responsiva, asegurando que la plataforma funcione correctamente en distintos dispositivos.
      - Ruta de referencia: https://getbootstrap.com/
 
-- Next.js: Este framework basado en React es utilizado para optimizar el desarrollo del frontend. Next.js proporciona funcionalidades como el renderizado del lado del servidor (SSR), rutas dinámicas, y la generación estática de sitios (SSG), lo cual mejora la experiencia del usuario y el SEO de la página.
+- Next.js: Este framework sustentado en React es utilizado para optimizar el desarrollo del frontend. Next.js proporciona funcionalidades como el renderizado del lado del servidor (SSR), rutas dinámicas, y la generación estática de sitios (SSG), lo cual mejora la experiencia del usuario y el SEO de la página.
     - Ruta de referencia: https://nextjs.org/
 
 #### Software Deployment
@@ -2974,7 +2974,7 @@ A continuación, se describen los componentes utilizados en el pipeline de despl
 
 #### Componentes del Pipeline del Frontend (Firebase para Angular)
 
-Los componentes principales que forman parte del pipeline de despliegue del frontend basado en Angular y Firebase son:
+Los componentes principales que forman parte del pipeline de despliegue del frontend hecho en Angular y Firebase son:
 
 - **Azure DevOps Pipelines / GitHub Actions**: Herramientas para automatizar el proceso de build, test y despliegue del frontend.
 - **Repositorio Git (Azure Repos / GitHub)**: Código fuente del proyecto Angular, incluyendo configuraciones, componentes y archivos estáticos.
@@ -3394,11 +3394,12 @@ Después de la implementación inicial, se establecerá un proceso continuo de s
 
 - **Evaluación y Ajustes:**
   - **Informes Periódicos:** Se generarán informes mensuales que resuman los hallazgos del seguimiento, incluyendo recomendaciones para ajustes y mejoras.
-  - **Iteración Basada en Datos:** Se realizarán ajustes en la plataforma basados en los datos recopilados y en el feedback de los usuarios, asegurando que Car2Go evolucione para satisfacer mejor las necesidades de sus usuarios.
+  - **Iteración Basada en Datos:** Se realizarán ajustes en la plataforma acorde a los datos recopilados y en el feedback de los usuarios, asegurando que Car2Go evolucione para satisfacer mejor las necesidades de sus usuarios.
 
 Este enfoque asegurará que Car2Go continúe evolucionando en función de los datos y permita tomar decisiones informadas para mejorar la experiencia de los usuarios en
 
 ## 8.3. Experimentation
+
 ### 8.3.1. To-Be User Stories
 
 A continuación se presentan las User Stories propuestas para la siguiente etapa de experimentación y mejora de Car2Go, enfocadas en la validación de nuevas funcionalidades, optimización de la experiencia y medición de impacto:
@@ -3416,21 +3417,73 @@ A continuación se presentan las User Stories propuestas para la siguiente etapa
 ---
 ### 8.3.2. To-Be Product Backlog
 
-El siguiente Product Backlog prioriza las User Stories experimentales y de mejora continua para la siguiente iteración de Car2Go:
+El siguiente Product Backlog prioriza las User Stories experimentales y de mejora continua para la siguiente iteración de Car2Go, basado en los resultados de los experimentos realizados y siguiendo criterios INVEST (Independent, Negotiable, Valuable, Estimable, Small, Testable).
 
-| Prioridad | User Story ID | Título                                 | Descripción breve                                                                                   | Story Points |
-|-----------|---------------|----------------------------------------|-----------------------------------------------------------------------------------------------------|--------------|
-| 1         | TBU-01        | Seguimiento de Interacciones Clave     | Implementar tracking de eventos clave en web y mobile.                                              | 5            |
-| 2         | TBU-02        | Encuestas de Satisfacción In-App       | Desplegar encuestas rápidas tras uso de nuevas funciones.                                           | 3            |
-| 3         | TBU-04        | Segmentación de Métricas por Rol       | Permitir filtrar métricas por tipo de usuario en el dashboard de administración.                    | 3            |
-| 4         | TBU-05        | Visualización de Métricas Personales   | Crear sección "Mi Actividad" para usuarios finales.                                                 | 3            |
-| 5         | TBU-03        | Notificaciones de Cambios Importantes  | Enviar notificaciones automáticas sobre novedades y cambios relevantes.                             | 2            |
-| 6         | TBU-06        | Feedback sobre Proceso de Reserva      | Habilitar feedback post-reserva para compradores.                                                   | 2            |
-| 7         | TBU-07        | Reporte Mensual de Uso                 | Automatizar generación y envío de reportes mensuales de uso y recomendaciones.                      | 2            |
+**Criterios de Priorización Experimental:**
+- Resultados de experimentos A/B previos
+- Impacto en métricas clave (conversión, retención, satisfacción)
+- Valor de negocio validado
+- Feedback de usuarios obtenido en entrevistas
+
+#### Definition of Done (DoD) General:
+- Funcionalidad implementada y probada en todas las plataformas (web/mobile)
+- Tests unitarios y de integración con cobertura mínima del 80%
+- Documentación técnica actualizada
+- Métricas de seguimiento implementadas
+- Validación con al menos 3 usuarios del segmento objetivo
+- Code review aprobado por al menos 2 desarrolladores
+- Deploy en ambiente de staging exitoso
+
+| Prioridad | User Story ID | Título                                 | Descripción completa                                                                                 | Story Points | Criterios DoD Específicos | Justificación Experimental |
+|-----------|---------------|----------------------------------------|------------------------------------------------------------------------------------------------------|--------------|---------------------------|----------------------------|
+| 1         | TBU-01        | Función de "Destacar Anuncio" Premium | **Como** vendedor de autos, **quiero** poder destacar mi anuncio pagando una tarifa adicional, **para** que mi vehículo tenga mayor visibilidad y se venda más rápido. | 8 | - Pasarela de pago integrada y funcional<br>- Sistema de destacado visual implementado<br>- Métricas de conversión activadas<br>- A/B test configurado para medir efectividad | Experimento previo muestra 30% de usuarios dispuestos a pagar por destacar. Alto impacto en revenue. |
+| 2         | TBU-02        | Filtros Avanzados de Búsqueda         | **Como** comprador de autos, **quiero** filtrar vehículos por marca, año, kilometraje y precio, **para** encontrar rápidamente autos que se ajusten a mis necesidades específicas. | 5 | - Filtros por marca, año, kilometraje, precio implementados<br>- Búsqueda en tiempo real funcional<br>- Persistencia de filtros en sesión<br>- Métricas de uso de filtros activadas | 40% de usuarios que usan filtros concretan conversación con vendedor. Mejora significativa en UX. |
+| 3         | TBU-03        | Sistema de Confirmación de Pago Seguro | **Como** comprador, **quiero** un sistema de confirmación de transferencia con captura de comprobante, **para** sentirme seguro al realizar pagos a vendedores desconocidos. | 8 | - Upload de comprobantes funcional<br>- Validación automática de transferencias<br>- Notificaciones automáticas a vendedor<br>- Encuesta de seguridad post-transacción | Reduce inseguridad en pagos del 65% al 25%. Crítico para conversión final. |
+| 4         | TBU-04        | Seguimiento de Interacciones Clave     | **Como** administrador del sistema, **quiero** trackear eventos clave de usuarios, **para** optimizar la experiencia basada en datos comportamentales reales. | 5 | - Google Analytics 4 configurado<br>- Eventos personalizados implementados<br>- Dashboard de métricas funcional<br> | Base para futuros experimentos. Necesario para toma de decisiones data-driven. |
+| 5         | TBU-05        | Encuestas de Satisfacción In-App       | **Como** usuario de Car2Go, **quiero** poder calificar mi experiencia después de usar nuevas funciones, **para** ayudar a mejorar la plataforma. | 3 | - Modal de encuesta no intrusivo<br>- Integración con herramienta de encuestas<br> | Complementa datos cuantitativos con feedback cualitativo. Mejora continua del producto. |
+| 6         | TBU-06        | Notificaciones Push Inteligentes       | **Como** usuario registrado, **quiero** recibir notificaciones relevantes sobre vehículos de mi interés, **para** no perder oportunidades de compra importantes. | 5 | - Segmentación por preferencias<br>- Notificaciones push configuradas<br>- Métricas de apertura y conversión | Mejora retención y engagement. Personalización aumenta relevancia. |
+| 7         | TBU-07        | Dashboard de Métricas para Vendedores  | **Como** vendedor, **quiero** ver estadísticas de mis publicaciones (vistas, contactos, conversiones), **para** optimizar mis estrategias de venta. | 3 | - Datos en tiempo real<br>- Comparativas temporales<br> | Empodera a vendedores con datos. Mejora calidad de publicaciones.
 
 ### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
 
 #### 8.3.3.1. To-Be Sprint Backlogs
+
+El siguiente Sprint Backlog está diseñado para el Sprint del desarrollo experimental de Car2Go, enfocado en implementar las funcionalidades de mayor prioridad basadas en los resultados de experimentos previos.
+
+**Sprint Goal:** Implementar funcionalidades premium validadas experimentalmente para aumentar conversión y revenue.
+
+**Sprint Duration:** 2 semanas (10 días laborables)
+
+**Team Capacity:** 40 story points
+
+#### Sprint Backlog - Funcionalidades Experimentales Prioritarias
+
+| Task ID | User Story | Task Description | Assigned To | Estimate (Hours) | Status | DoD Checklist | Experimental Validation |
+|---------|------------|------------------|-------------|------------------|--------|---------------|------------------------|
+| T3-01   | TBU-01 (Destacar Anuncio Premium) | Diseñar interfaz de usuario para opción "Destacar Anuncio" | Mathias Kunimoto | 8 | To Do | - Mockups aprobados por UX<br>- Validación con 3 vendedores<br>- Responsive design verificado | Basado en 30% interés en A/B test previo |
+| T3-02   | TBU-01 (Destacar Anuncio Premium) | Implementar lógica de backend para destacado de anuncios | Rodrigo Aguilar | 12 | To Do | - Endpoints REST funcionales<br>- Tests unitarios escritos<br>- Documentación API actualizada | Funcionalidad con mayor ROI validado |
+| T3-03   | TBU-01 (Destacar Anuncio Premium) | Integrar pasarela de pago para función premium | Italo Luna | 16 | To Do | - Manejo de errores implementado<br>- Logs de transacciones activos | Monetización directa del producto |
+| T3-04   | TBU-02 (Filtros Avanzados) | Desarrollar componente de filtros en frontend web | Jean Franco Barrionuevo | 10 | To Do | - Filtros por marca, año, precio, km<br>- Búsqueda en tiempo real<br>- Persistencia de filtros | 40% usuarios mejoran conversión con filtros |
+| T3-05   | TBU-02 (Filtros Avanzados) | Implementar API de búsqueda avanzada en backend | Augusto Pin | 8 | To Do | - Queries optimizadas<br>- Índices de base de datos<br>- Paginación implementada | Mejora significativa en UX validada |
+| T3-06   | TBU-03 (Sistema Pago Seguro) | Crear interfaz de upload de comprobantes de pago | Mathias Kunimoto | 6 | To Do | - Upload múltiple de archivos<br>- Validación de formatos<br>- Preview de imágenes | Reduce inseguridad del 65% al 25% |
+| T3-07   | TBU-04 (Tracking de Eventos) | Configurar Google Analytics 4 y eventos personalizados | Rodrigo Aguilar | 4 | To Do | - Eventos críticos trackeados<br>- Dashboard básico funcional | Base para futuros experimentos |
+| T3-08   | TBU-01 (Destacar Anuncio Premium) | Testing A/B de nueva función premium | All Team | 6 | To Do | - 50% usuarios ven opción premium<br>- Métricas de conversión activadas<br>- Análisis estadístico realizado | Validación experimental en curso |
+
+#### Sprint - Daily Planning & Experimental Focus
+
+**Day 1-2:** Setup inicial de infraestructura para experimentos
+**Day 3-5:** Desarrollo de funcionalidades core (Destacar Anuncio, Filtros)
+**Day 6-8:** Implementación de pagos y seguridad
+**Day 9-10:** Testing, despliegue y configuración de experimentos
+
+#### Definition of Done - Sprint Level
+
+- Todas las user stories completadas cumplen DoD individual
+- Tests de integración pasando al 100%
+- Deploy exitoso en ambiente de staging
+- Experimentos A/B configurados y funcionando
+- Métricas de seguimiento implementadas y validadas
+- Documentación de experimentos actualizada
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
 
