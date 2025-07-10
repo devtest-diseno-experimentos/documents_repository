@@ -139,6 +139,37 @@
       <td>Todo el equipo</td>
       <td>Revisión final, evaluar rendimiento</td>
     </tr>
+    <tr>
+      <td rowspan="6">TF1</td>
+      <td>01/07/2025</td>
+      <td>Rodrigo Alejandro Aguilar Castillo</td>
+      <td>Desarrollo de To-Be User Stories y análisis de resultados experimentales.</td>
+    </tr>
+    <tr>
+      <td>02/07/2025</td>
+      <td>Jean Franco Joel Barrionuevo Reto</td>
+      <td>Creación del To-Be Product Backlog y priorización basada en hipótesis validadas.</td>
+    </tr>
+    <tr>
+      <td>03/07/2025</td>
+      <td>Mathias Tsuneo Kunimoto Watanabe</td>
+      <td>Implementación del Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle.</td>
+    </tr>
+    <tr>
+      <td>04/07/2025</td>
+      <td>Italo D'alessandro Luna Capuñay</td>
+      <td>Diseño y registro de entrevistas para validación de resultados.</td>
+    </tr>
+    <tr>
+      <td>05/07/2025</td>
+      <td>Augusto Jose Pin Matallana</td>
+      <td>Re-scored y re-priorización del Question Backlog basado en análisis de resultados.</td>
+    </tr>
+    <tr>
+      <td>06/07/2025</td>
+      <td>Todo el equipo</td>
+      <td>Corrección de estilo y ortografía, integración de secciones, y preparación del informe final.</td>
+    </tr>
   </tbody>
 </table>
 
