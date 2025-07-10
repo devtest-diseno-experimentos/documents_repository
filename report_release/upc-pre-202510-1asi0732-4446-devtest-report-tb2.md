@@ -231,6 +231,21 @@ Se muestran evidencias de los commits realizados en la entrega de la TB2 en el i
 [Registro de los commits donde se realizaron la mayor cantidad]
 
 En ambos casos se puede observar el incremento de modificaciones y revisiones en la primera semana de mayo.
+
+### TF1
+
+Para la entrega del TF1 se han realizado los cambios necesarios para lograr los objetivos propuestos de la entrega. En esta entrega fue importante la comunicación porque debiamos implementar las nuevas funcionalidades necesarias para nuestra apliación.
+
+Se muestran evidencias de los commits realizados en la entrega de la TF1 en el informe
+
+## Backend
+<img src="../assets/evidence/evidence-backend/backend.jpeg" alt="evidence backend">
+
+## Mobile  
+<img src="../assets/evidence/evidencia-mobile/mobile.jpeg" alt="evidence mobile">   
+[Registro de los commits donde se realizaron la mayor cantidad]
+
+En ambos casos se puede observar el incremento de modificaciones y revisiones en la primera semana de mayo.
 ---
 
 # Contenido
@@ -3511,6 +3526,9 @@ El siguiente Sprint Backlog está diseñado para el Sprint del desarrollo experi
 - Documentación de experimentos actualizada
 
 #### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+<img src="../assets/evidence/evidence-landing/landing-1.jpeg" alt="evidence landing"> 
+<img src="../assets/evidence/evidence-landing/landing-2.jpeg" alt="evidence landing">
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 
