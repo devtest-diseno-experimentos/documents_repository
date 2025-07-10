@@ -3559,6 +3559,8 @@ El siguiente Sprint Backlog está diseñado para el Sprint del desarrollo experi
 
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
+<img src="../assets/evidence/ evidence-rest/rest-1.jpeg" alt="evidence swagger">  
+
 #### 8.3.3.6. Team Collaboration Insights
 
 ## Backend
