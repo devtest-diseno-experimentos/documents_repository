@@ -3514,11 +3514,40 @@ El siguiente Sprint Backlog está diseñado para el Sprint del desarrollo experi
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 
+<img src="../assets/evidence/evidence-web/web-1.jpeg" alt="evidence web">  
+<img src="../assets/evidence/evidence-web/web-2.jpeg" alt="evidence web">  
+<img src="../assets/evidence/evidence-web/web-3.jpeg" alt="evidence web">  
+<img src="../assets/evidence/evidence-web/web-4.jpeg" alt="evidence web">  
+<img src="../assets/evidence/evidence-web/web-5.jpeg" alt="evidence web">  
+<img src="../assets/evidence/evidence-web/web-6.jpeg" alt="evidence web">  
+<img src="../assets/evidence/evidence-web/web-7.jpeg" alt="evidence web">  
+<img src="../assets/evidence/evidence-web/web-8.jpeg" alt="evidence web">  
+<img src="../assets/evidence/evidence-web/web-9.jpeg" alt="evidence web">  
+<img src="../assets/evidence/evidence-web/web-10.jpeg" alt="evidence web">  
+
+
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
+<img src="../assets/evidence/evidence-mobile/mobile-1.jpeg" alt="evidence mobile">  
+<img src="../assets/evidence/evidence-mobile/mobile-2.jpeg" alt="evidence mobile">  
+<img src="../assets/evidence/evidence-mobile/mobile-3.jpeg" alt="evidence mobile">  
+<img src="../assets/evidence/evidence-mobile/mobile-4.jpeg" alt="evidence mobile">  
+<img src="../assets/evidence/evidence-mobile/mobile-5.jpeg" alt="evidence mobile">  
+<img src="../assets/evidence/evidence-mobile/mobile-6.jpeg" alt="evidence mobile">
+<img src="../assets/evidence/evidence-mobile/mobile-7.jpeg" alt="evidence mobile">  
+<img src="../assets/evidence/evidence-mobile/mobile-8.jpeg" alt="evidence mobile">  
+<img src="../assets/evidence/evidence-mobile/mobile-9.jpeg" alt="evidence mobile">  
+<img src="../assets/evidence/evidence-mobile/mobile-10.jpeg" alt="evidence mobile">  
 
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
 #### 8.3.3.6. Team Collaboration Insights
+
+## Backend
+<img src="../assets/evidence/evidence-backend/backend.jpeg" alt="evidence backend">
+
+## Mobile  
+<img src="../assets/evidence/evidencia-mobile/mobile.jpeg" alt="evidence mobile"> 
 
 ### 8.3.4. To-Be Validation Interviews
 En esta sección se detalla el proceso de validación mediante entrevistas con usuarios y expertos. Estas entrevistas son cruciales para evaluar la usabilidad, funcionalidad y eficacia de la aplicación Car2Go, garantizando que cumple con las necesidades y expectativas de nuestros segmentos de mercado.
@@ -3828,9 +3857,11 @@ Link: [About-The-Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210
   <br><br>
 * Exposición TB1: [Link](https://youtu.be/Zb57q8cjGd0?si=k1vKumN4gezw2Lyq)
 * Exposicion TB2: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114851_upc_edu_pe/EU3C5Ale3ipDk2jD7nrlmQQBDTs2EBhWG9qFHJ4d1wSIBA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=JsW3ez)
+* Exposicion TF1: [Link]()
 * Trello: [Link](https://trello.com/invite/b/672593151a102b5df4062300/ATTIee8d366a57b61466153105a6f5824169062AAAF0/sprint-3)
 * Entrevistas: [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114851_upc_edu_pe/ESsGiH2lXEFMofBRTbj8MMsBmmRiMvGANFghatGlMzFqSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ACVtah)
 * [About-The-Product](https://youtu.be/QHxKoa7xo-E)
+* [About-The-Team](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202210148_upc_edu_pe/EccEHWDBQX9JgrQGXQoNZD8BUNiWPnQfNTRrpgYYZJhOFQ?e=2GHhaq&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 * [Swagger](https://car2go-platform-hpdzhtb8ekceg9gd.canadacentral-01.azurewebsites.net/swagger-ui/index.html)
 
 
